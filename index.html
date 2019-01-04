@@ -1,1 +1,112 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragalia Lost SIMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="echarts.common.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script>
+        let chart = echarts.init(document.getElementById('container'));
+        let option = {
+            title: {
+                text: '',
+                left: 'center',
+                top: '3%',
+            },
+            legend: {
+                data: ['个人DPS', '团队DPS'],
+                orient: 'vertical',
+                right: '15%',
+                bottom: '30%',
+            },
+            grid: {
+                containLabel: true,
+            },
+            xAxis: {},
+            yAxis: {
+                data: [],
+            },
+            series: [{
+                    name: '个人DPS',
+                    type: 'bar',
+                    stack: 'total_dps',
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'insideRight',
+                        },
+                    },
+                    data: [],
+                },
+                {
+                    name: '团队DPS',
+                    type: 'bar',
+                    stack: 'total_dps',
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'right',
+                            formatter: params => {
+                                let total = 0;
+                                option.series.forEach(serie => {
+                                    total += serie.data[params.dataIndex];
+                                });
+                                return total;
+                            },
+                        },
+                    },
+                    data: [],
+                },
+            ]
+        }
+
+        function setData(title, data) {
+            option.title.text = title;
+            data.forEach(character => {
+                character.total_dps = character.total_dps || character.solo_dps;
+            });
+            data.sort((character1, character2) => {
+                if (character1.solo_dps > character2.solo_dps) {
+                    return 1;
+                }
+                if (character1.solo_dps < character2.solo_dps) {
+                    return -1;
+                }
+                return character1.total_dps >= character2.total_dps ? 1 : -1;
+            });
+            let names = [];
+            let solo_dps = [];
+            let team_dps = [];
+            data.forEach(character => {
+                names.push(character.name);
+                solo_dps.push(character.solo_dps);
+                team_dps.push(character.total_dps ? (character.total_dps - character.solo_dps) : 0);
+            });
+            option.yAxis.data = names;
+            option.series[0].data = solo_dps;
+            option.series[1].data = team_dps;
+            chart.setOption(option);
+        }
+    </script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
