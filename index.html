@@ -88,7 +88,7 @@
                 containLabel: true,
                 left: '5%',
                 right: '5%',
-                top: '5%',
+                top: '10%',
                 bottom: '5%',
             },
             dataZoom: [{
@@ -189,6 +189,7 @@
             let csv = Papa.parse(text, {
                 header: true,
                 skipEmptyLines: true,
+                dynamicTyping: true,
             });
             setData(csv.data);
         });
