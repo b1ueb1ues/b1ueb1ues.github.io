@@ -41,33 +41,33 @@
         <h1>Dragalia Lost DPS simulation (180s)</h1>
     </div>
     <div id="filter">
-        <strong>过滤条件：</strong>
-        <span>星级</span>
+        <strong>过滤条件_filter：</strong>
+        <span>星级_rarity</span>
         <select id="star" name="星级">
             <option></option>
-            <option>5星</option>
-            <option>4星</option>
-            <option>3星</option>
+            <option value='5星'>5</option>
+            <option value='4星'>4</option>
+            <option value='3星'>3</option>
         </select>
-        <span>属性</span>
+        <span>属性_element</span>
         <select id="element" name="属性">
             <option></option>
-            <option>火</option>
-            <option>水</option>
-            <option>风</option>
-            <option>暗</option>
-            <option>光</option>
+            <option value='火'>火_flame</option>
+            <option value='水'>水_water</option>
+            <option value='风'>风_wind</option>
+            <option value='光'>光_light</option>
+            <option value='暗'>暗_shadow</option>
         </select>
-        <span>职业</span>
+        <span>职业_school</span>
         <select id="job" name="职业">
             <option></option>
-            <option>剑</option>
-            <option>刀</option>
-            <option>匕</option>
-            <option>枪</option>
-            <option>斧</option>
-            <option>弓</option>
-            <option>法</option>
+            <option value='剑'>剑_sword</option>
+            <option value='刀'>刀_blade</option>
+            <option value='匕'>匕_dagger</option>
+            <option value='斧'>斧_axe</option>
+            <option value='枪'>枪_lance</option>
+            <option value='弓'>弓_bow</option>
+            <option value='法'>法_wand</option>
         </select>
     </div>
     <div id="container"></div>
@@ -81,7 +81,7 @@
         });
         let option = {
             legend: {
-                data: ['个人DPS', '团队DPS'],
+                data: ['solo DPS', 'team_buff DPS'],
                 top: '2%',
             },
             grid: {
