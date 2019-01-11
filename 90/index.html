@@ -38,11 +38,10 @@
 
 <body>
     <div id="header">
-        <h1>Dragalia Lost DPS simulation (90s)</h1>
-        <a href="readme.html">readme</a><br>
-        <a href="index60.html">60s version</a>
-        <a href="index90.html">90s version</a>
-        <a href="index.html">180s version</a>
+        <h1>Dragalia Lost DPS simulation (60s)</h1>
+        <a href="/readme.html">readme</a> <br>
+        <a href="/60/index.html">60s version</a>
+        <a href="/index.html">180s version</a>
     </div>
     <br>
     <div id="filter">
@@ -205,7 +204,7 @@
             chart.setOption(option);
         }
 
-        fetch('data90.csv').then(response => response.text()).then(text => {
+        fetch('data.csv').then(response => response.text()).then(text => {
             let csv = Papa.parse(text, {
                 header: true,
                 skipEmptyLines: true,
