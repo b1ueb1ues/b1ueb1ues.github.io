@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragalia Lost SIMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="echarts.common.min.js"></script>
+    <script type="text/javascript" src="papaparse.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #header,
+        #filter {
+            text-align: center;
+        }
+
+        select {
+            width: 50px;
+        }
+
+        #container {
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Dragalia Lost DPS simulation (90s)</h1>
+        <a href="readme.html">readme</a><br>
+        <a href="index60.html">60s version</a>
+        <a href="index90.html">90s version</a>
+        <a href="index.html">180s version</a>
+    </div>
+    <br>
+    <div id="filter">
+        <strong>过滤条件_filter：</strong>
+        <span>星级_rarity</span>
+        <select id="star" name="星级">
+            <option></option>
+            <option value='5星'>5</option>
+            <option value='4星'>4</option>
+            <option value='3星'>3</option>
+        </select>
+        <span>属性_element</span>
+        <select id="element" name="属性">
+            <option></option>
+            <option value='火'>火_flame</option>
+            <option value='水'>水_water</option>
+            <option value='风'>风_wind</option>
+            <option value='光'>光_light</option>
+            <option value='暗'>暗_shadow</option>
+        </select>
+        <span>职业_school</span>
+        <select id="job" name="职业">
+            <option></option>
+            <option value='剑'>剑_sword</option>
+            <option value='刀'>刀_blade</option>
+            <option value='匕'>匕_dagger</option>
+            <option value='斧'>斧_axe</option>
+            <option value='枪'>枪_lance</option>
+            <option value='弓'>弓_bow</option>
+            <option value='法'>法_wand</option>
+        </select>
+    </div>
+    <div id="container"></div>
+    <script>
+        let chart = echarts.init(document.getElementById('container'));
+        let startFilter = document.getElementById('star');
+        let elementFilter = document.getElementById('element');
+        let jobFilter = document.getElementById('job');
+        document.querySelectorAll('select').forEach(select => {
+            select.addEventListener('change', update);
+        });
+
+        var itemStyle = {
+            normal: {
+            },
+            emphasis: {
+                barBorderWidth: 1,
+                shadowBlur: 10,
+                shadowOffsetX: 0,
+                shadowOffsetY: 0,
+                shadowColor: 'rgba(0,0,0,0.5)'
+            }
+        };
+
+        let option = {
+            legend: {
+                data: ['solo DPS', 'team_buff DPS'],
+                top: '2%',
+            },
+            grid: {
+                containLabel: true,
+                left: '5%',
+                right: '5%',
+                top: '10%',
+                bottom: '5%',
+            },
+            dataZoom: [{
+                type: 'slider',
+                right: '5%',
+                yAxisIndex: [0],
+                maxValueSpan: 20,
+                showDetail: false,
+            }, ],
+            xAxis: {},
+            yAxis: {
+                data: [],
+            },
+            series: [{
+                    name: 'solo DPS',
+                    type: 'bar',
+                    stack: 'total_dps',
+                    itemStyle: itemStyle,
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'insideRight',
+                        },
+                    },
+                    data: [],
+                },
+                {
+                    name: 'team_buff DPS',
+                    type: 'bar',
+                    stack: 'total_dps',
+                    itemStyle: itemStyle,
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'right',
+                            formatter: params => {
+                                let total = 0;
+                                option.series.forEach(serie => {
+                                    total += parseInt(serie.data[params.dataIndex]);
+                                });
+                                return total;
+                            },
+                        },
+                    },
+                    data: [],
+                },
+            ]
+        }
+        let characters = [];
+
+        function setData(data) {
+            data.forEach(character => {
+                character.total_dps = character.total_dps || character.solo_dps;
+            });
+            data.sort((character1, character2) => {
+                if (character1.solo_dps > character2.solo_dps) {
+                    return 1;
+                }
+                if (character1.solo_dps < character2.solo_dps) {
+                    return -1;
+                }
+                return character1.total_dps >= character2.total_dps ? 1 : -1;
+            });
+            characters = data;
+            update();
+        }
+
+        function update() {
+            let filtered = characters.filter(character => {
+                if (startFilter.value && startFilter.value != character.star) {
+                    return false;
+                }
+                if (elementFilter.value && elementFilter.value != character.element) {
+                    return false;
+                }
+                if (jobFilter.value && jobFilter.value != character.job) {
+                    return false;
+                }
+                return true;
+            });
+            let names = [];
+            let solo_dps = [];
+            let team_dps = [];
+            filtered.forEach(character => {
+                names.push(character.name + '（' + character.star + character.element + character.job + '）' +
+                    character.comment);
+                solo_dps.push(character.solo_dps);
+                team_dps.push(character.total_dps ? (character.total_dps - character.solo_dps) : 0);
+            });
+            option.yAxis.data = names;
+            option.series[0].data = solo_dps;
+            option.series[1].data = team_dps;
+            let slider = option.dataZoom[0];
+            slider.endValue = filtered.length - 1;
+            slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
+            chart.setOption(option);
+        }
+
+        fetch('data90.csv').then(response => response.text()).then(text => {
+            let csv = Papa.parse(text, {
+                header: true,
+                skipEmptyLines: true,
+                dynamicTyping: true,
+            });
+            setData(csv.data);
+        });
+    </script>
+</body>
+
+</html>
