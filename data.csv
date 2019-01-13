@@ -8,13 +8,13 @@ Raemond,3星,光,剑,;(str: 2788),1610,1610
 Rodrigo,3星,暗,剑,hp70;(str: 2668),1751,1751
 Xander,5星,水,剑,;(str: 2634),1850,1850
 Zardin,3星,水,剑,hp100;(str: 2440),1845,1845
-Addis,4星,风,刀,;(1750~2113) (str: 2960),2010,2010
-Addis,4星,风,刀,;(1947~2394) with 20% skill haste(str: 2960),2247,2247
-Addis,4星,风,刀,;(1765~2216) use shapeshift bug(str: 2960),2102,2102
+Addis,4星,风,刀,;(1768~2203) (str: 2960),2076,2076
+Addis,4星,风,刀,;(2051~2564) with 20% skill haste(str: 2960),2380,2380
+Addis,4星,风,刀,;(1903~2372) use shapeshift bug(str: 2960),2227,2227
 Aoi,3星,火,刀,;(str: 2812),1657,1657
 Celliera,4星,水,刀,hp70;(str: 2552),1564,1564
 H_Edward,3星,光,刀,hp100;(str: 2790),1460,1460
-Ieyasu,5星,暗,刀,hp70;(1652~2231) (str: 2972),2025,2025
+Ieyasu,5星,暗,刀,hp70;(1773~2417) (str: 2972),2172,2172
 Jurota,3星,水,刀,;(str: 2793),1429,1429
 Melody,3星,风,刀,hp100;(str: 2811),1410,2206
 Mikoto,5星,火,刀,hp70;(str: 2928),2085,2085
@@ -28,65 +28,6 @@ Lily,5星,水,法,hp100;(str: 2688),1667,1667
 Lucretia,5星,光,法,;(str: 2964),1576,1576
 Maribelle,5星,风,法,hp100;(str: 2860),1763,1845
 Nicolas,3星,风,法,;(str: 2740),1453,1453
-Sinoa,4星,火,法,hp100;(1012~1237)(0.00~0.22) (str: 2718),1124,1509
+Sinoa,4星,火,法,hp100;(1028~1267)(0.02~0.24) (str: 2718),1122,1502
 Xania,3星,火,法,;(str: 2691),1577,1577
 D_Cleo,5星,水,匕,hp70;(str: 2515),1507,1710
-Ezelith,5星,火,匕,;(1298~1342)(0.00~0.03) (str: 2764),1317,1364
-Ezelith,5星,火,匕,;(1319~1385)(0.01~0.05) maintain 15hits passive(str: 2764),1349,1463
-Francesca,3星,风,匕,;(str: 2707),1349,1373
-Irfan,3星,光,匕,;(str: 2664),1286,1286
-Luther,4星,水,匕,15hits;(str: 2483),1428,1452
-Melsa,4星,火,匕,15hits;(str: 2680),1401,1401
-Orion,4星,暗,匕,15hits;(str: 2734),1403,1403
-Orsem,4星,水,匕,hp70 & 15hits;(str: 2531),1489,1489
-Renelle,3星,火,匕,15hits;(str: 2662),1405,1405
-Vida,3星,暗,匕,;(str: 2662),1279,1279
-Vice,3星,暗,匕,;(str: 2662),1369,1369
-Erik,3星,暗,斧,;do not use weapon skill and fs(str: 2798),1634,1634
-Johanna,3星,风,斧,;(str: 2784),1834,1834
-Julietta,5星,光,斧,;do not use weapon skill and fs(str: 2848),1599,1599
-Karina,4星,水,斧,;(str: 2588),1877,1877
-Linus,3星,光,斧,;do not use weapon skill(str: 2739),1599,1599
-Pietro,3星,水,斧,;do not use fs(str: 2782),1593,1593
-Ranzal,4星,风,斧,;do not use fs(str: 2803),1632,1632
-Rex,3星,水,斧,;(str: 2884),1831,1831
-Sazanka,4星,暗,斧,;(1567~2040) do not use weapon skill(str: 2782),1875,1875
-Vanessa,4星,火,斧,;do not use weapon skill(str: 2873),1782,1782
-Aeleen,4星,风,枪,;do not use fs(str: 2752),1321,1321
-Alain,3星,火,枪,;(str: 2683),1455,1455
-Botan,4星,暗,枪,;(1594~1913) (str: 2705),1817,2080
-Cibella,3星,水,枪,;(str: 2622),1072,1072
-Elisanne,4星,水,枪,;do not use fs(str: 2694),1239,2307
-H_Elisanne,5星,光,枪,;(str: 2888),1707,1998
-H_Elisanne,5星,光,枪,;do not use s2(str: 2888),1664,2012
-Malka,3星,光,枪,;do not use fs(str: 2776),1541,1745
-Pia,4星,风,枪,;do not use fs(str: 2696),1238,1238
-Ryozen,4星,光,枪,;(str: 2796),1277,1277
-Xainfried,5星,水,枪,;(str: 2784),1297,1638
-Zace,3星,暗,枪,;do not use fs(str: 2782),1554,1554
-D_Nefaria,4星,水,弓,;(str: 2728),1179,1179
-D_Nefaria,4星,水,弓,;spawn c1+fs(str: 2728),1213,1213
-Eleonora,4星,风,弓,;(str: 2758),1259,1259
-Eleonora,4星,风,弓,;spawn c1+fs(str: 2758),1341,1341
-Elias,4星,光,弓,;(str: 2636),1152,1152
-Elias,4星,光,弓,;spawn c1+fs(str: 2636),1246,1246
-Hawk,5星,风,弓,;(str: 2795),1156,1156
-Hawk,5星,风,弓,;spawn c1+fs(str: 2795),1189,1189
-Joe,3星,火,弓,;(str: 2632),1340,1340
-Joe,3星,火,弓,;spawn c1+fs(str: 2632),1426,1426
-Louise,5星,风,弓,;(str: 2740),1405,1405
-Louise,5星,风,弓,;spawn c1+fs(str: 2740),1404,1404
-Luca,4星,光,弓,hp100;(str: 2686),1375,1375
-Luca,4星,光,弓,hp100;spawn c1+fs(str: 2686),1446,1446
-Malora,3星,光,弓,;(str: 2667),1322,1387
-Malora,3星,光,弓,;spawn c1+fs(str: 2667),1431,1495
-Nefaria,5星,暗,弓,;(str: 2729),1213,1213
-Nefaria,5星,暗,弓,;spawn c1+fs(str: 2729),1244,1244
-Philia,3星,风,弓,hp100;(str: 2681),1325,1325
-Philia,3星,风,弓,hp100;spawn c1+fs(str: 2681),1393,1393
-Rawn,4星,光,弓,;(str: 2740),1272,1272
-Rawn,4星,光,弓,;spawn c1+fs(str: 2740),1370,1370
-Waike,3星,水,弓,;(str: 2630),1248,1528
-Waike,3星,水,弓,;spawn c1+fs(str: 2630),1331,1611
-G_Sarisse,5星,火,弓,;c4+fs(str: 2720),1859,2010
-G_Sarisse,5星,火,弓,;(str: 2720),1752,1904
