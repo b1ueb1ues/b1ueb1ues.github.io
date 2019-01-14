@@ -49,3 +49,9 @@ add addis with 20% skill haste, in which case he can do 2 s1 in one s2, (s2 c2 s
 
 ## skill frame
 [github/b1ueb1ues](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
+
+## Author
+b1ueb1ues, tiara, luciferz2012
+
+## Acknowledgement
+Totakeke, Shark3143
