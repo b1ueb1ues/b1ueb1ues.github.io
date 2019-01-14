@@ -2,6 +2,8 @@
 
 
 ## changelog
+count team wide energy as team dps
+
 add g_sarris
 
 add addis with 20% skill haste, in which case he can do 2 s1 in one s2, (s2 c2 s1 c5 fs(fail) c4 s1 /or/ s2 c2 s1 c5 fs(succ) c3 s1)
