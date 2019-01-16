@@ -2,6 +2,8 @@
 
 
 ## changelog
+add new charactor
+
 count team wide energy as team dps
 
 add g_sarris
