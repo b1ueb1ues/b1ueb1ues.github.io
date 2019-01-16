@@ -84,6 +84,10 @@
         document.querySelectorAll('select').forEach(select => {
             select.addEventListener('change', update);
         });
+        var advIcons = {
+            'i1': './pic/1.png',
+            'Addis':'./pic/1.png',
+        };
 
         var itemStyle = {
             normal: {
@@ -97,6 +101,7 @@
             }
         };
 
+        var describe = {'Mikoto':'!'};
         let option = {
             legend: {
                 data: ['solo DPS', 'team_buff DPS'],
@@ -116,8 +121,29 @@
                 maxValueSpan: 20,
                 showDetail: false,
             }, ],
-            xAxis: {},
+            xAxis: { },
             yAxis: {
+                axisLabel: {
+                    formatter: function(value){
+                        return '{value|' + describe[value] + '}{' + value + '| }';
+                        //return '{value|' + value + '}{' + value + '| }';
+                    },
+                    margin: 0,
+                    rich: {
+                        value: {
+                            lineHeight: 0,
+                            align: 'center'
+                        },
+                       // Mikoto: {
+                       //     lineHeight: 0,
+                       //     height: 30,
+                       //     align: 'center',
+                       //     backgroundColor:{
+                       //         image: advIcons.i1
+                       //     }
+                       // },
+                    },
+                },
                 data: [],
             },
             series: [{
@@ -190,13 +216,36 @@
             let names = [];
             let solo_dps = [];
             let team_dps = [];
+            let rich = {
+                value: {
+                    lineHeight: 0,
+                    align: 'center'
+                },
+            };
+            //let axisLabel = {
+            //    formatter: function(value){
+            //            return '{' + value + '| }{value|' + value + '}';
+            //    },
+            //};
             filtered.forEach(character => {
-                names.push(character.name + '（' + character.star + character.element + character.job + '）' +
-                    character.comment);
+                //names.push(character.name + '（' + character.star + character.element + character.job + '）' + character.comment);
+                describe[character.name] = character.name + '（' + character.star + character.element + character.job + '）' + character.comment;
+                advIcons[character.name] = './pic/'+character.name
+                names.push(character.name);
                 solo_dps.push(character.solo_dps);
                 team_dps.push(character.total_dps ? (character.total_dps - character.solo_dps) : 0);
+                rich[character.name] = {
+                    lineHeight: 0,
+                    height: 25,
+                    align: 'center',
+                    backgroundColor:{
+                        image: advIcons[character.name]
+                    }
+                };
             });
+
             option.yAxis.data = names;
+            option.yAxis.axisLabel.rich = rich;
             option.series[0].data = solo_dps;
             option.series[1].data = team_dps;
             let slider = option.dataZoom[0];
