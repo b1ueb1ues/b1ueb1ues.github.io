@@ -5,9 +5,9 @@ let jobFilter = document.getElementById('job');
 document.querySelectorAll('select').forEach(select => {
     select.addEventListener('change', update);
 });
-var advIcons = {
-    'default': '/pic/1.png',
-};
+//var advIcons = {
+//    'default': '/pic/1.png',
+//};
 
 var itemStyle = {
     normal: {
