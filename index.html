@@ -85,8 +85,7 @@
             select.addEventListener('change', update);
         });
         var advIcons = {
-            'i1': './pic/1.png',
-            'Addis':'./pic/1.png',
+            'default': './pic/1.png',
         };
 
         var itemStyle = {
@@ -102,6 +101,7 @@
         };
 
         var describe = {'Mikoto':'!'};
+        var plain_name = {'!':'Mikoto'};
         let option = {
             legend: {
                 data: ['solo DPS', 'team_buff DPS'],
@@ -118,30 +118,22 @@
                 type: 'slider',
                 right: '5%',
                 yAxisIndex: [0],
-                maxValueSpan: 20,
+                maxValueSpan: 15,
                 showDetail: false,
             }, ],
-            xAxis: { },
+            xAxis: { 
+            },
             yAxis: {
+                axisTick: {
+                    alignWithLabel: true
+                },
                 axisLabel: {
                     formatter: function(value){
-                        return '{value|' + describe[value] + '}{' + value + '| }';
+                        return '{value|' + value + '}{' + plain_name[value] + '| }';
                         //return '{value|' + value + '}{' + value + '| }';
                     },
                     margin: 0,
                     rich: {
-                        value: {
-                            lineHeight: 0,
-                            align: 'center'
-                        },
-                       // Mikoto: {
-                       //     lineHeight: 0,
-                       //     height: 30,
-                       //     align: 'center',
-                       //     backgroundColor:{
-                       //         image: advIcons.i1
-                       //     }
-                       // },
                     },
                 },
                 data: [],
@@ -149,6 +141,7 @@
             series: [{
                     name: 'solo DPS',
                     type: 'bar',
+                    //barWidth : 30,
                     stack: 'total_dps',
                     itemStyle: itemStyle,
                     label: {
@@ -162,6 +155,7 @@
                 {
                     name: 'team_buff DPS',
                     type: 'bar',
+                    //barWidth : 30,
                     stack: 'total_dps',
                     itemStyle: itemStyle,
                     label: {
@@ -214,6 +208,7 @@
                 return true;
             });
             let names = [];
+            let describes = [];
             let solo_dps = [];
             let team_dps = [];
             let rich = {
@@ -222,21 +217,17 @@
                     align: 'center'
                 },
             };
-            //let axisLabel = {
-            //    formatter: function(value){
-            //            return '{' + value + '| }{value|' + value + '}';
-            //    },
-            //};
             filtered.forEach(character => {
-                //names.push(character.name + '（' + character.star + character.element + character.job + '）' + character.comment);
-                describe[character.name] = character.name + '（' + character.star + character.element + character.job + '）' + character.comment;
-                advIcons[character.name] = './pic/'+character.name
-                names.push(character.name);
+                describe = character.name + '（' + character.star + character.element + character.job + '）' + character.comment;
+                plain_name[describe] = character.name
+                advIcons[character.name] = './pic/'+character.name+'.png'
+                //names.push(describe);
+                describes.push(describe);
                 solo_dps.push(character.solo_dps);
                 team_dps.push(character.total_dps ? (character.total_dps - character.solo_dps) : 0);
                 rich[character.name] = {
                     lineHeight: 0,
-                    height: 25,
+                    height: 35,
                     align: 'center',
                     backgroundColor:{
                         image: advIcons[character.name]
@@ -244,7 +235,7 @@
                 };
             });
 
-            option.yAxis.data = names;
+            option.yAxis.data = describes;
             option.yAxis.axisLabel.rich = rich;
             option.series[0].data = solo_dps;
             option.series[1].data = team_dps;
