@@ -25,7 +25,7 @@ var describe = {'Mikoto':'!'};
 var plain_name = {'!':'Mikoto'};
 let option = {
     legend: {
-        data: ['solo DPS', 'team_buff DPS'],
+        data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s'],
         top: '2%',
     },
     grid: {
@@ -62,7 +62,7 @@ let option = {
         data: [],
     },
     series: [{
-            name: 'solo DPS',
+            name: 'DPS',
             type: 'bar',
             //barWidth : 30,
             animation: false,
@@ -77,7 +77,51 @@ let option = {
             data: [],
         },
         {
-            name: 'team_buff DPS',
+            name: 'Buff/s',
+            type: 'bar',
+            //barWidth : 30,
+            animation: false,
+            stack: 'total_dps',
+            itemStyle: itemStyle,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'right',
+                    formatter: params => {
+                        let total = 0;
+                        option.series.forEach(serie => {
+                            total += parseInt(serie.data[params.dataIndex]);
+                        });
+                        return total;
+                    },
+                },
+            },
+            data: [],
+        },
+        {
+            name: 'conditional DPS',
+            type: 'bar',
+            //barWidth : 30,
+            animation: false,
+            stack: 'total_dps',
+            itemStyle: itemStyle,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'right',
+                    formatter: params => {
+                        let total = 0;
+                        option.series.forEach(serie => {
+                            total += parseInt(serie.data[params.dataIndex]);
+                        });
+                        return total;
+                    },
+                },
+            },
+            data: [],
+        },
+        {
+            name: 'conditional Buff/s',
             type: 'bar',
             //barWidth : 30,
             animation: false,
@@ -104,7 +148,8 @@ let characters = [];
 
 function setData(data) {
     data.forEach(character => {
-        character.total_dps = character.total_dps || character.solo_dps;
+        //character.total_dps = character.total_dps || character.solo_dps;
+        character.total_dps = character.solo_dps+character.team_bps+character.c_solo_dps+character.c_team_bps;
     });
     if (0){
         data.sort((character1, character2) => {
@@ -147,7 +192,9 @@ function update() {
     let names = [];
     let describes = [];
     let solo_dps = [];
-    let team_dps = [];
+    let team_bps = [];
+    let c_solo_dps = [];
+    let c_team_bps = [];
     let rich = {
         value: {
             lineHeight: 0,
@@ -161,7 +208,10 @@ function update() {
         //names.push(describe);
         describes.push(describe);
         solo_dps.push(character.solo_dps);
-        team_dps.push(character.total_dps ? (character.total_dps - character.solo_dps) : 0);
+        team_bps.push(character.team_bps);
+        //team_bps.push(character.c_solo_dps);
+        c_solo_dps.push(character.c_solo_dps);
+        c_team_bps.push(character.c_team_bps);
         rich[character.name] = {
             lineHeight: 0,
             height: 35,
@@ -175,7 +225,9 @@ function update() {
     option.yAxis.data = describes;
     option.yAxis.axisLabel.rich = rich;
     option.series[0].data = solo_dps;
-    option.series[1].data = team_dps;
+    option.series[1].data = team_bps;
+    option.series[2].data = c_solo_dps;
+    option.series[3].data = c_team_bps;
     let slider = option.dataZoom[0];
     slider.endValue = filtered.length - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
