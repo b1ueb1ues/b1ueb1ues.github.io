@@ -34,23 +34,25 @@ add addis with 20% skill haste, in which case he can do 2 s1 in one s2, (s2 c2 s
 
 ## Not take into consideration: 
 #### (means that you should add some score yourself to unit have that kind of abilities)
-- co-abilities
+- Ex-skills(Co-abilities)
 - Shapeshift
 - Dragon's Law
-- Phraeganoth/physian/Demon Bane
-- Last Offense 
+- Phraeganoth/Physian/Demon Bane
 - Slayer's Strength/Striker's Strength
 
-## Conditional boost that the simulation assumed as 100% uptime : 
-#### (means that you should reduce some score to unit have that kind of abilities by your own opinion)
-- Flurry Strength 
-- Full HP = Strengt
-- HP 70% = Strength
+## Conditional dps is reference to :
+#### (means that you should reduce this part of dps to unit have that kind of abilities by your own opinion)
+- Full HP = Strength/Crit
+- HP 70% = Strength/Crit
+- Flurry Strength/Crit
+- Flurry Debilitator
 - 30 Hits = Energy Level Up
-- One type of Affliction can proc 3 times in one battle. (Since you can't proc any affliction to High dragon)
+- Affliction and damage boost from affliction. One type of Affliction can proc 3 times in one simulation. (You can't proc any affliction to High Dragon Trial)
+- Trigger Last Offense at simulation start
 
 ## special mechanics
-- Condider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 2500 damage for each into team dps.
+- Consider other teammember have a total of 3500 dps.
+- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 2500 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. Min and Max DPS is list after his name.
 
 ## skill frame
