@@ -1,10 +1,9 @@
-name,star,element,job,comment,solo_dps,total_dps
-Addis,4星,风,刀,;(1821~2203) (str: 2960),2073,2073
-Addis,4星,风,刀,;(2014~2564) with 20% skill haste(str: 2960),2376,2376
-Addis,4星,风,刀,;(1752~2300) use shapeshift bug(str: 2960),2113,2113
-Ieyasu,5星,暗,刀,hp70;(1751~2417) (str: 2972),2167,2167
-Sinoa,4星,火,法,hp100;(1010~1252)(0.00~0.23) (str: 2718),1122,1504
-Ezelith,5星,火,匕,;(1297~1347)(0.00~0.03) (str: 2764),1317,1364
-Ezelith,5星,火,匕,;(1319~1388)(0.02~0.06) maintain 15hits passive(str: 2764),1349,1464
-Sazanka,4星,暗,斧,;(1594~2194) do not use weapon skill(str: 2782),1987,1987
-Botan,4星,暗,枪,;(1641~2053) (str: 2705),1935,2198
+name,star,element,job,comment,solo_dps,team_bps,c_solo_dps,c_team_bps
+Addis,4星,风,刀,<afflic>;(1818~2203) (1748~2172)  (str: 2960),2043,0,31,0
+Addis,4星,风,刀,<>;(2001~2555) with 20% skill haste (str: 2960),2363,0,0,0
+Addis,4星,风,刀,<>;(1722~2300) use shapeshift bug (str: 2960),2117,0,0,0
+Ieyasu,5星,暗,刀,<hp70>;(1787~2417) (1628~2238)  (str: 2972),2001,0,157,0
+Sinoa,4星,火,法,<hp100>;(1010~1292)(0.00~0.27) (944~1173)(0.01~0.24)  (str: 2718),1039,385,83,0
+Ezelith,5星,火,匕,<hp70>;(1322~1394)(0.02~0.06) (1298~1346)(0.00~0.03)  (str: 2764),1317,47,32,67
+Sazanka,4星,暗,斧,<>;(1630~2194) do not use weapon skill (str: 2782),1986,0,0,0
+Botan,4星,暗,枪,<>;(1667~2053)  (str: 2705),1938,262,0,0
