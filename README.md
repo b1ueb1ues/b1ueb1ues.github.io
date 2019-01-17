@@ -48,7 +48,7 @@ add addis with 20% skill haste, in which case he can do 2 s1 in one s2, (s2 c2 s
 - One type of Affliction can proc 3 times in one battle. (Since you can't proc any affliction to High dragon)
 
 ## special mechanics
-- Not take energies into teamwide DPS
+- Condider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 2500 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. Min and Max DPS is list after his name.
 
 ## skill frame
