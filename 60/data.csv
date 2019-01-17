@@ -86,8 +86,8 @@ Philia,3星,风,弓,<hp100 & afflic>;paralysis 3 times (str: 2681),1184,0,119,0
 Philia,3星,风,弓,<hp100 & afflic>;paralysis 3 times & spawn c1+fs (str: 2681),1280,0,125,0
 Rawn,4星,光,弓,; (str: 2740),1257,0,0,0
 Rawn,4星,光,弓,;spawn c1+fs (str: 2740),1256,0,0,0
-Waike,3星,水,弓,;bog 3 times (str: 2630),1317,559,0,0
-Waike,3星,水,弓,;bog 3 times& spawn c1+fs (str: 2630),1361,559,0,0
+Waike,3星,水,弓,<bog>;bog 3 times (str: 2630),1155,0,161,559
+Waike,3星,水,弓,<bog>;bog 3 times& spawn c1+fs (str: 2630),1154,0,206,559
 G_Sarisse,5星,火,弓,;c4+fs (str: 2720),1660,151,0,0
 G_Sarisse,5星,火,弓,; (str: 2720),1550,151,0,0
 Annelie,5星,光,枪,<hp70>;do s1s1s2s1 loop (str: 2888),1531,33,221,0
