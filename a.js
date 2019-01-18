@@ -23,7 +23,7 @@ var itemStyle = {
 
 var describe = {'Mikoto':'!'};
 var plain_name = {'!':'Mikoto'};
-var option = {
+let option = {
     legend: {
         data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s'],
         top: '2%',
@@ -175,19 +175,20 @@ let characters = [];
 function setData(data) {
     data.forEach(character => {
         //character.total_dps = character.total_dps || character.solo_dps;
-        character.total_dps = 0;
-        if(option.legend.selected['DPS']){
-             character.total_dps += character.solo_dps
-        }
-        if(option.legend.selected['Buff/s']){
-             character.total_dps += character.team_bps
-        }
-        if(option.legend.selected['conditional DPS']){
-             character.total_dps += character.c_solo_dps
-        }
-        if(option.legend.selected['conditional Buff/s']){
-             character.total_dps += character.c_team_bps
-        }
+        //character.total_dps = 0;
+        //if(option.legend.selected['DPS']){
+        //     character.total_dps += character.solo_dps
+        //}
+        //if(option.legend.selected['Buff/s']){
+        //     character.total_dps += character.team_bps
+        //}
+        //if(option.legend.selected['conditional DPS']){
+        //     character.total_dps += character.c_solo_dps
+        //}
+        //if(option.legend.selected['conditional Buff/s']){
+        //     character.total_dps += character.c_team_bps
+        //}
+        character.total_dps = character.solo_dps+character.team_bps+character.c_solo_dps+character.c_team_bps;
     });
     if (0){
         data.sort((character1, character2) => {
