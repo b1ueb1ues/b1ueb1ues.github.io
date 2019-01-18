@@ -21,6 +21,7 @@ Celliera,4星,水,刀,<hp70>; (str: 2552),1482,0,81,0
 H_Edward,3星,光,刀,<hp100>; (str: 2790),1374,0,85,0
 Jurota,3星,水,刀,<>; (str: 2793),1429,0,0,0
 Melody,3星,风,刀,<hp100>; (str: 2811),1339,795,71,0
+Melody,3星,风,刀,<hp100>;not to use s2 (str: 2811),1272,880,67,0
 Mikoto,5星,火,刀,<hp70>; (str: 2928),1962,0,123,0
 Musashi,4星,风,刀,<afflic & last offense>;poison 3 times (str: 2945),1664,0,74,0
 Taro,3星,暗,刀,<>; (str: 2857),1481,0,0,0
@@ -48,7 +49,7 @@ Johanna,3星,风,斧,<>; (str: 2784),1834,0,0,0
 Julietta,5星,光,斧,<>;do not use weapon skill and fs (str: 2848),1599,0,0,0
 Karina,4星,水,斧,<>; (str: 2588),1877,0,0,0
 Linus,3星,光,斧,<>;do not use weapon skill (str: 2739),1599,0,0,0
-Pietro,3星,水,斧,<>;do not use fs (str: 2782),1593,0,0,0
+Pietro,3星,水,斧,<>;do not use fs (str: 2782),1613,0,0,0
 Ranzal,4星,风,斧,<>;do not use fs (str: 2803),1632,0,0,0
 Rex,3星,水,斧,<>; (str: 2884),1831,0,0,0
 Vanessa,4星,火,斧,<last offense>;do not use weapon skill (str: 2873),1817,78,37,0
@@ -88,8 +89,8 @@ Rawn,4星,光,弓,<>; (str: 2740),1272,0,0,0
 Rawn,4星,光,弓,<>;spawn c1+fs (str: 2740),1370,0,0,0
 Waike,3星,水,弓,<>;bog 3 times (str: 2630),1248,279,0,0
 Waike,3星,水,弓,<>;bog 3 times& spawn c1+fs (str: 2630),1331,279,0,0
-G_Sarisse,5星,火,弓,<>;c4+fs (str: 2720),1859,151,0,0
-G_Sarisse,5星,火,弓,<>; (str: 2720),1752,151,0,0
+G_Sarisse,5星,火,弓,<never lose combos>;c4+fs (str: 2720),1346,151,513,0
+G_Sarisse,5星,火,弓,<never lose combos>; (str: 2720),1274,151,478,0
 Annelie,5星,光,枪,<hp70>;do s1s1s2s1 loop (str: 2888),1708,55,271,0
 Marty,3星,火,剑,<>; (str: 2648),1548,0,0,0
 Fritz,4星,光,匕,<>; (str: 2740),1386,80,0,0
