@@ -217,6 +217,7 @@ function update() {
     let team_bps = [];
     let c_solo_dps = [];
     let c_team_bps = [];
+    let _sum = [];
     let rich = {
         value: {
             lineHeight: 0,
@@ -234,6 +235,7 @@ function update() {
         //team_bps.push(character.c_solo_dps);
         c_solo_dps.push(character.c_solo_dps);
         c_team_bps.push(character.c_team_bps);
+        _sum.push(0)
         rich[character.name] = {
             lineHeight: 0,
             height: 35,
@@ -250,6 +252,7 @@ function update() {
     option.series[1].data = team_bps;
     option.series[2].data = c_solo_dps;
     option.series[3].data = c_team_bps;
+    option.series[4].data = _sum;
     let slider = option.dataZoom[0];
     slider.endValue = filtered.length - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
