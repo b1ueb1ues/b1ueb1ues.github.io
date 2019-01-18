@@ -156,7 +156,11 @@ var option = {
                     formatter: params => {
                         let total = 0;
                         option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
+                                if(serie.name!='sum'){
+                                        if(option.legend.selected[serie.name]){
+                                            total += parseInt(serie.data[params.dataIndex]);
+                                        }
+                                }
                         });
                         return total;
                     },
