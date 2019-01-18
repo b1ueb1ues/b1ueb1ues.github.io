@@ -129,6 +129,28 @@ let option = {
             itemStyle: itemStyle,
             label: {
                 normal: {
+                    show: false,
+                    position: 'right',
+                    formatter: params => {
+                        let total = 0;
+                        option.series.forEach(serie => {
+                            total += parseInt(serie.data[params.dataIndex]);
+                        });
+                        return total;
+                    },
+                },
+            },
+            data: [],
+        },
+        {
+            name: 'sum',
+            type: 'bar',
+            //barWidth : 30,
+            animation: false,
+            stack: 'total_dps',
+            itemStyle: itemStyle,
+            label: {
+                normal: {
                     show: true,
                     position: 'right',
                     formatter: params => {
