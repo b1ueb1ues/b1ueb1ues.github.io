@@ -89,7 +89,6 @@ var option = {
                     position: 'right',
                     formatter: params => {
                         let total = 0;
-                        console.log(option)
                         option.series.forEach(serie => {
                             total += parseInt(serie.data[params.dataIndex]);
                         });
@@ -156,12 +155,9 @@ var option = {
                     position: 'right',
                     formatter: params => {
                         let total = 0;
+                        console.log(option)
                         option.series.forEach(serie => {
-                                if(serie.name!='sum'){
-                                        if(option.legend.selected[serie.name]){
-                                            total += parseInt(serie.data[params.dataIndex]);
-                                        }
-                                }
+                            total += parseInt(serie.data[params.dataIndex]);
                         });
                         return total;
                     },
