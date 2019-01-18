@@ -89,6 +89,7 @@ var option = {
                     position: 'right',
                     formatter: params => {
                         let total = 0;
+                        console.log(option)
                         option.series.forEach(serie => {
                             total += parseInt(serie.data[params.dataIndex]);
                         });
