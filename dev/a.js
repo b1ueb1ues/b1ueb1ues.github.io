@@ -25,7 +25,7 @@ var describe = {'Mikoto':'!'};
 var plain_name = {'!':'Mikoto'};
 var option = {
     legend: {
-        data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s'],
+        data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s','test'],
         top: '2%',
     },
     grid: {
@@ -61,130 +61,87 @@ var option = {
         },
         data: [],
     },
-    series: [{
-            name: 'DPS',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'insideRight',
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'Buff/s',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: false,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'conditional DPS',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: false,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'conditional Buff/s',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'sum',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        console.log(option)
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
+    series: [
+       // {
+       //     name: 'DPS',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'total_dps',
+       //     itemStyle: itemStyle,
+       //     label: {
+       //         normal: {
+       //             show: true,
+       //             position: 'insideRight',
+       //         },
+       //     },
+       //     data: [],
+       // },
+       // {
+       //     name: 'Buff/s',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'total_dps',
+       //     itemStyle: itemStyle,
+       //     data: [],
+       // },
+       // {
+       //     name: 'conditional DPS',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'total_dps',
+       //     itemStyle: itemStyle,
+       //     data: [],
+       // },
+       // {
+       //     name: 'conditional Buff/s',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'total_dps',
+       //     itemStyle: itemStyle,
+       //     data: [],
+       // },
+       // {
+       //     name: 'sum',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'total_dps',
+       //     itemStyle: itemStyle,
+       //     label: {
+       //         normal: {
+       //             show: true,
+       //             position: 'right',
+       //             formatter: params => {
+       //                 let total = 0;
+       //                 console.log(option)
+       //                 option.series.forEach(serie => {
+       //                     total += parseInt(serie.data[params.dataIndex]);
+       //                 });
+       //                 return total;
+       //             },
+       //         },
+       //     },
+       //     data: [],
+       // },
+       // {
+       //     name: 'test',
+       //     type: 'bar',
+       //     //barWidth : 30,
+       //     animation: false,
+       //     stack: 'condition',
+       //     itemStyle: itemStyle,
+       //     data: [0,0,0,0,0,0,0,0,0,0,0,0],
+       // },
     ]
 }
 let characters = [];
 
 function setData(data) {
     data.forEach(character => {
-        //character.total_dps = character.total_dps || character.solo_dps;
-        //character.total_dps = 0;
-        //if(option.legend.selected['DPS']){
-        //     character.total_dps += character.solo_dps
-        //}
-        //if(option.legend.selected['Buff/s']){
-        //     character.total_dps += character.team_bps
-        //}
-        //if(option.legend.selected['conditional DPS']){
-        //     character.total_dps += character.c_solo_dps
-        //}
-        //if(option.legend.selected['conditional Buff/s']){
-        //     character.total_dps += character.c_team_bps
-        //}
         character.total_dps = character.solo_dps+character.team_bps+character.c_solo_dps+character.c_team_bps;
     });
     if (0){
@@ -209,7 +166,6 @@ function setData(data) {
         });
     }
     characters = data;
-    update();
 }
 
 function update() {
@@ -227,11 +183,14 @@ function update() {
     });
     let names = [];
     let describes = [];
-    let solo_dps = [];
-    let team_bps = [];
-    let c_solo_dps = [];
-    let c_team_bps = [];
+    let data = {};
+    let c_data = {};
     let _sum = [];
+
+    //let solo_dps = [];
+    //let team_bps = [];
+    //let c_solo_dps = [];
+    //let c_team_bps = [];
     let rich = {
         value: {
             lineHeight: 0,
@@ -239,18 +198,50 @@ function update() {
         },
     };
     filtered.forEach(character => {
-        describe = character.name + '（' + character.star + character.element + character.job + '）' + character.comment;
-        plain_name[describe] = character.name
-        advIcons[character.name] = picfolder+character.name+'.png'
-        //names.push(describe);
+        var if_c = 0;
+        if(character.name.slice(0,3)=='_c_'){
+            name = character.name.slice(3);
+            if_c = 1;
+        }
+        else{
+            name = character.name;
+        }
+        describe = name + '（' + character.star + character.element + character.job + '）' + character.comment;
         describes.push(describe);
-        solo_dps.push(character.solo_dps);
-        team_bps.push(character.team_bps);
-        //team_bps.push(character.c_solo_dps);
-        c_solo_dps.push(character.c_solo_dps);
-        c_team_bps.push(character.c_team_bps);
-        _sum.push(0)
-        rich[character.name] = {
+        plain_name[describe] = name;
+        advIcons[name] = picfolder+name+'.png';
+
+        for(var key in character){
+            if(!if_c){
+                if(data[key]){
+                    data[key].push(character[key]);
+                }else{
+                    data[key] = [character[key]];
+                }
+            }
+        }
+
+        for(var key in character){
+            if(if_c){
+                if(c_data[key]){
+                    c_data[key].push(character[key]);
+                }else{
+                    c_data[key] = [character[key]];
+                }
+            }
+        }
+        var tmp_data = {};
+        var idx = 0;
+        for(var c in data.name){
+            if(c in c_data.name){
+                console.log(c);
+            }
+            idx+=1;
+        }
+
+
+        _sum.push(0);
+        rich[name] = {
             lineHeight: 0,
             height: 35,
             //align: 'center',
@@ -262,11 +253,33 @@ function update() {
 
     option.yAxis.data = describes;
     option.yAxis.axisLabel.rich = rich;
-    option.series[0].data = solo_dps;
-    option.series[1].data = team_bps;
-    option.series[2].data = c_solo_dps;
-    option.series[3].data = c_team_bps;
-    option.series[4].data = _sum;
+
+    var idx = 0;
+    for(var key in c_data){
+        option.series[idx] = {};
+        option.series[idx].name = key.slice(3,);
+        option.series[idx].type = 'bar';
+        option.series[idx].animation = false;
+        //option.series[idx].barWidth = 30;
+        option.series[idx].stack = 'c_data';
+        option.series[idx].itemStyle = itemStyle;
+        option.series[idx].data = c_data[key];
+        idx += 2;
+    }
+    var idx = 1;
+    for(var key in data){
+        option.series[idx] = {};
+        option.series[idx].name = key;
+        option.series[idx].type = 'bar';
+        option.series[idx].animation = false;
+        //option.series[idx].barWidth = 30;
+        option.series[idx].stack = 'data';
+        option.series[idx].itemStyle = itemStyle;
+        option.series[idx].data = data[key];
+        option.series[idx].barGap = 0;
+        idx += 2;
+    }
+
     let slider = option.dataZoom[0];
     slider.endValue = filtered.length - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
@@ -280,4 +293,5 @@ fetch('data.csv').then(response => response.text()).then(text => {
         dynamicTyping: true,
     });
     setData(csv.data);
+    update();
 });

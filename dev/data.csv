@@ -1,5 +1,6 @@
-name,star,element,job,comment,solo_dps,team_bps,c_solo_dps,c_team_bps
+name,star,element,job,comment,dps,bps,energy,team_energy,bleed
 Addis,4星,风,刀,<afflic>;(1654~2151) (1595~2089)  (str: 2960),1966,0,60,0
+_c_Addis,4星,风,刀,<afflic>;(1654~2151) (1595~2089)  (str: 2960),1966,0,60,0
 Addis,4星,风,刀,;(1704~2351) with 20% skill haste (str: 2960),2218,0,0,0
 Addis,4星,风,刀,;(1712~2244) use shapeshift bug (str: 2960),2079,0,0,0
 Ieyasu,5星,暗,刀,<hp70>;(1643~2302) (1447~2131)  (str: 2972),1935,0,152,0
@@ -56,6 +57,7 @@ Vanessa,4星,火,斧,<last offense>;do not use weapon skill (str: 2873),1804,70,
 Aeleen,4星,风,枪,<>;do not use fs (str: 2752),1297,0,0,0
 Alain,3星,火,枪,<>; (str: 2683),1417,0,0,0
 Cibella,3星,水,枪,<>; (str: 2622),1051,0,0,0
+_c_Cibella,3星,水,枪,<>; (str: 2622),1051,0,0,0
 Elisanne,4星,水,枪,<>;do not use fs (str: 2694),1214,980,0,0
 H_Elisanne,5星,光,枪,<>; (str: 2888),1669,262,0,0
 H_Elisanne,5星,光,枪,<>;do not use s2 (str: 2888),1709,322,0,0
