@@ -28,6 +28,7 @@ var option = {
         data: [],
         top: '2%',
     },
+    tooltip:{},
     grid: {
         containLabel: true,
         left: '5%',
@@ -35,13 +36,13 @@ var option = {
         top: '10%',
         bottom: '5%',
     },
-    dataZoom: [{
-        type: 'slider',
-        right: '5%',
-        yAxisIndex: [0],
-        maxValueSpan: 15,
-        showDetail: false,
-    }, ],
+    //dataZoom: [{
+    //    type: 'slider',
+    //    right: '5%',
+    //    yAxisIndex: [0],
+    //    maxValueSpan: 15,
+    //    showDetail: false,
+    //}, ],
     xAxis: { 
     },
     yAxis: {
@@ -59,9 +60,26 @@ var option = {
             rich: {
             },
         },
-        data: [],
+        //data: [],
+    },
+    dataset:{
+        //dimensions: [],
+        source: [
+            {'advdps': 'Addis', 'x': 43.3, 's': 85.8, 'b': 93.7},
+            {'advdps': 'b', 'x': 83.1, 's': 73.4, 'b': 55.1},
+            {'advdps': 'c', 'x': 86.4, 's': 65.2, 'b': 82.5},
+            {'advdps': 'd', 'x': 72.4, 's': 53.9, 'b': 39.1}
+        ],
     },
     series: [
+       // {type:'bar',name:'1',stack:'1',encode:{x:'x',y:'advdps'}},
+       // {type:'bar',name:'1',stack:'2',encode:{x:'x',y:'advdps'}},
+       // {type:'bar',name:'2',stack:'1',encode:{x:'s',y:'advdps'}},
+       // {type:'bar',name:'2',stack:'2',encode:{x:'s',y:'advdps'}},
+       // {type:'bar',name:'3',stack:'1',encode:{x:'b',y:'advdps'}},
+       // {type:'bar',name:'3',stack:'2',encode:{x:'b',y:'advdps'}},
+       // {type:'bar',name:'4',stack:'1',encode:{x:'c',y:'advdps'}},
+       // {type:'bar',name:'4',stack:'2',encode:{x:'c',y:'advdps'}},
        // {
        //     name: 'DPS',
        //     type: 'bar',
@@ -141,19 +159,22 @@ var option = {
 let characters = [];
 
 function setData(data) {
-    //data.forEach(character => {
-    //    character.total_dps = character.dps;
-    //});
+    data.forEach(character => {
+        character.name = character[0];
+        character.star = character[1];
+        character.element = character[2];
+        character.job = character[3];
+        delete(character[0]);
+        delete(character[1]);
+        delete(character[2]);
+        delete(character[3]);
+    });
     if (1){
         data.sort((character1, character2) => {
-            if(character1.name.slice(0,3) == '_c_'){
-                console.log(character1.name);
-                return -1;
-            }
-            if (character1.dps > character2.dps) {
+            if (character1.x > character2.x) {
                 return 1;
             }
-            if (character1.dps <= character2.dps) {
+            if (character1.x <= character2.x) {
                 return -1;
             }
         });
@@ -171,7 +192,7 @@ function setData(data) {
     characters = data;
 }
 
-function update() {
+function update2() {
     let filtered = characters.filter(character => {
         //if(character.name.slice(0,3) == '_c_'){
         //    return false;
@@ -208,7 +229,6 @@ function update() {
         data[key] = [];
         c_data[key] = [];
         tmp_data[key] = [];
-        console.log(key);
     }
     filtered.forEach(character => {
         var if_c = 0;
@@ -265,8 +285,6 @@ function update() {
         idx += 1;
     }
     c_data = tmp_data;
-    console.log(data);
-    console.log(c_data);
 
     option.yAxis.data = describes;
     option.yAxis.axisLabel.rich = rich;
@@ -297,7 +315,6 @@ function update() {
         option.series[idx].barGap = -0.05;
         idx += 2;
     }
-    console.log(option.series);
 
     let slider = option.dataZoom[0];
     slider.endValue = describes.length - 1;
@@ -307,10 +324,112 @@ function update() {
 
 fetch('data.csv').then(response => response.text()).then(text => {
     let csv = Papa.parse(text, {
-        header: true,
+        //header: true,
         skipEmptyLines: true,
         dynamicTyping: true,
     });
+
     setData(csv.data);
     update();
 });
+
+
+var _dimensions = {};
+function update() {
+    let filtered = characters.filter(character => {
+        if (startFilter.value && startFilter.value != character.star) {
+            return false;
+        }
+        if (elementFilter.value && elementFilter.value != character.element) {
+            return false;
+        }
+        if (jobFilter.value && jobFilter.value != character.job) {
+            return false;
+        }
+        return true;
+    });
+    var o_data = filtered;
+    var c_data = [];
+    var datasrc = {};
+    var a = [];
+    var sp_slash = '\\'.charCodeAt()+128;
+    var sp_cap = ':'.charCodeAt()+128;
+    sp_slash = String.fromCharCode(sp_slash);
+    sp_cap = String.fromCharCode(sp_cap);
+    for(var i in o_data){
+        l = o_data[i];
+        var line = {};
+        if(l.name.slice(0,3)=='_c_'){c_data.push(l);continue;}
+        for(var j in l){
+            unit = l[j];
+            if(!unit){continue;}
+            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
+            if(unit.search(':')!=-1){
+                a = unit.split(':',2);
+                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
+                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
+                line[a[0]] = a[1];
+                line['_c_'+a[0]] = 0;
+                _dimensions[a[0]] = 1;
+            }else{
+                //unit = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
+                //line[j] = unit;
+            }
+        }
+        line.advdps = l.name;
+        datasrc[l.name] = line;
+    }
+    console.log(c_data);
+    for(var i in c_data){
+        l = c_data[i];
+        var line = {};
+        for(var j in l){
+            unit = l[j];
+            if(!unit){continue;}
+            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
+            if(unit.search(':')!=-1){
+                a = unit.split(':',2);
+                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
+                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
+                line['_c_'+a[0]] = a[1];
+            }
+        }
+        name = l.name.slice(3);
+        line.advdps = name;
+        for(var i in line){
+            datasrc[name][i] = line[i];
+        }
+    }
+
+    for(var i in _dimensions){
+        for(var l in datasrc){
+            if(!datasrc[l][i]){
+                datasrc[l][i] = null;
+                datasrc[l]['_c_'+i] = null;
+            }
+        }
+    }
+
+    option.dataset.source = []
+    for(var i in datasrc){
+        option.dataset.source.push(datasrc[i]);
+    }
+
+    option.series = [];
+    console.log(_dimensions);
+
+    for(var i in _dimensions){
+        s1 = {type:'bar',name:i,stack:'dps',encode:{x:i,y:'advdps'}};
+        s2 = {type:'bar',name:i,stack:'c_dps',encode:{x:'_c_'+i,y:'advdps'}};
+        s1.animation = false;
+        s1.itemStyle = itemStyle;
+        s1.barGap = 0;
+        s2.animation = false;
+        s2.itemStyle = itemStyle;
+        s2.barGap = 0;
+        option.series.push(s1);
+        option.series.push(s2);
+    }
+    console.log(option);
+    chart.setOption(option);
+}
