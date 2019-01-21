@@ -1,7 +1,7 @@
 let chart = echarts.init(document.getElementById('container'));
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
-let jobFilter = document.getElementById('job');
+let weaponFilter = document.getElementById('weapon');
 document.querySelectorAll('select').forEach(select => {
     select.addEventListener('change', update);
 });
@@ -53,7 +53,7 @@ var option = {
             interval: 0,
             formatter: function(value){
                 a = adv_data[value];
-                label = a.name + '(' + a.star + a.element + a.job + ')' ;
+                label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
                 comment = a.comment;
                 stre = '(str: ' + a.stre + ')';
                 return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
@@ -87,7 +87,7 @@ function setData(data) {
         character.name      = character[0];
         character.star      = character[1];
         character.element   = character[2];
-        character.job       = character[3];
+        character.weapon    = character[3];
         character.stre      = character[4];
         character.condition = character[5];
         character.comment   = character[6];
@@ -117,7 +117,7 @@ function setData(data) {
 
 
 function create_describe(name, l){
-    return name + '(' + l.star + l.element + l.job + ')' + l.comment;
+    return name + '(' + l.star + l.element + l.weapon + ')' + l.comment;
 }
 
 var _dimensions = {};
@@ -132,7 +132,7 @@ function update() {
         if (elementFilter.value && elementFilter.value != character.element) {
             return false;
         }
-        if (jobFilter.value && jobFilter.value != character.job) {
+        if (weaponFilter.value && weaponFilter.value != character.weapon) {
             return false;
         }
         return true;
