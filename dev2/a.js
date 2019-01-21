@@ -1,5 +1,5 @@
 let chart = echarts.init(document.getElementById('container'));
-let startFilter = document.getElementById('star');
+let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
 let jobFilter = document.getElementById('job');
 document.querySelectorAll('select').forEach(select => {
@@ -21,8 +21,7 @@ var itemStyle = {
     }
 };
 
-var describe = {'Mikoto':'!'};
-var plain_name = {'!':'Mikoto'};
+var adv_data = {};
 var option = {
     legend: {
         data: [],
@@ -36,13 +35,13 @@ var option = {
         top: '10%',
         bottom: '5%',
     },
-    //dataZoom: [{
-    //    type: 'slider',
-    //    right: '5%',
-    //    yAxisIndex: [0],
-    //    maxValueSpan: 15,
-    //    showDetail: false,
-    //}, ],
+    dataZoom: [{
+        type: 'slider',
+        right: '5%',
+        yAxisIndex: [0],
+        maxValueSpan: 15,
+        showDetail: false,
+    }, ],
     xAxis: { 
     },
     yAxis: {
@@ -53,7 +52,11 @@ var option = {
         axisLabel: {
             interval: 0,
             formatter: function(value){
-                return '{value|' + value + '}{' + plain_name[value] + '| }';
+                a = adv_data[value];
+                label = a.name + '(' + a.star + a.element + a.job + ')' ;
+                comment = a.comment;
+                stre = '(str: ' + a.stre + ')';
+                return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
                 //return '{value|' + value + '}{' + value + '| }';
             },
             margin: 5,
@@ -72,272 +75,58 @@ var option = {
         ],
     },
     series: [
-       // {type:'bar',name:'1',stack:'1',encode:{x:'x',y:'advdps'}},
-       // {type:'bar',name:'1',stack:'2',encode:{x:'x',y:'advdps'}},
-       // {type:'bar',name:'2',stack:'1',encode:{x:'s',y:'advdps'}},
-       // {type:'bar',name:'2',stack:'2',encode:{x:'s',y:'advdps'}},
-       // {type:'bar',name:'3',stack:'1',encode:{x:'b',y:'advdps'}},
-       // {type:'bar',name:'3',stack:'2',encode:{x:'b',y:'advdps'}},
-       // {type:'bar',name:'4',stack:'1',encode:{x:'c',y:'advdps'}},
-       // {type:'bar',name:'4',stack:'2',encode:{x:'c',y:'advdps'}},
-       // {
-       //     name: 'DPS',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'total_dps',
-       //     itemStyle: itemStyle,
-       //     label: {
-       //         normal: {
-       //             show: true,
-       //             position: 'insideRight',
-       //         },
-       //     },
-       //     data: [],
-       // },
-       // {
-       //     name: 'Buff/s',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'total_dps',
-       //     itemStyle: itemStyle,
-       //     data: [],
-       // },
-       // {
-       //     name: 'conditional DPS',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'total_dps',
-       //     itemStyle: itemStyle,
-       //     data: [],
-       // },
-       // {
-       //     name: 'conditional Buff/s',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'total_dps',
-       //     itemStyle: itemStyle,
-       //     data: [],
-       // },
-       // {
-       //     name: 'sum',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'total_dps',
-       //     itemStyle: itemStyle,
-       //     label: {
-       //         normal: {
-       //             show: true,
-       //             position: 'right',
-       //             formatter: params => {
-       //                 let total = 0;
-       //                 console.log(option)
-       //                 option.series.forEach(serie => {
-       //                     total += parseInt(serie.data[params.dataIndex]);
-       //                 });
-       //                 return total;
-       //             },
-       //         },
-       //     },
-       //     data: [],
-       // },
-       // {
-       //     name: 'test',
-       //     type: 'bar',
-       //     //barWidth : 30,
-       //     animation: false,
-       //     stack: 'condition',
-       //     itemStyle: itemStyle,
-       //     data: [0,0,0,0,0,0,0,0,0,0,0,0],
-       // },
     ]
 }
 let characters = [];
 
 function setData(data) {
-    data.forEach(character => {
-        character.name = character[0];
-        character.star = character[1];
-        character.element = character[2];
-        character.job = character[3];
+    tmpdata = [];
+    for(var i in data){
+        if(data[i][0]=='name'){ continue; }
+        character = data[i]
+        character.name      = character[0];
+        character.star      = character[1];
+        character.element   = character[2];
+        character.job       = character[3];
+        character.stre      = character[4];
+        character.condition = character[5];
+        character.comment   = character[6];
+        character.dps       = character[7];
         delete(character[0]);
         delete(character[1]);
         delete(character[2]);
         delete(character[3]);
-    });
-    if (1){
-        data.sort((character1, character2) => {
-            if (character1.x > character2.x) {
-                return 1;
-            }
-            if (character1.x <= character2.x) {
-                return -1;
-            }
-        });
-    }else{
-        data.sort((character1, character2) => {
-            if (character1.total_dps > character2.total_dps) {
-                return 1;
-            }
-            if (character1.total_dps < character2.total_dps) {
-                return -1;
-            }
-            return character1.solo_dps >= character2.solo_dps ? 1 : -1;
-        });
+        delete(character[4]);
+        delete(character[5]);
+        delete(character[6]);
+        delete(character[7]);
+        tmpdata.push(character);
     }
-    characters = data;
+
+    tmpdata.sort((character1, character2) => {
+        if (character1.dps > character2.dps) {
+            return 1;
+        }
+        if (character1.dps <= character2.dps) {
+            return -1;
+        }
+    });
+    characters = tmpdata;
 }
 
-function update2() {
-    let filtered = characters.filter(character => {
-        //if(character.name.slice(0,3) == '_c_'){
-        //    return false;
-        //}
-        if (startFilter.value && startFilter.value != character.star) {
-            return false;
-        }
-        if (elementFilter.value && elementFilter.value != character.element) {
-            return false;
-        }
-        if (jobFilter.value && jobFilter.value != character.job) {
-            return false;
-        }
-        return true;
-    });
-    let names = [];
-    let describes = [];
-    let data = {};
-    let c_data = {};
-    var tmp_data = {};
-    let _sum = [];
 
-    //let solo_dps = [];
-    //let team_bps = [];
-    //let c_solo_dps = [];
-    //let c_team_bps = [];
-    let rich = {
-        value: {
-            lineHeight: 0,
-            //align: 'center'
-        },
-    };
-    for(var key in characters[0]){
-        data[key] = [];
-        c_data[key] = [];
-        tmp_data[key] = [];
-    }
-    filtered.forEach(character => {
-        var if_c = 0;
-        if(character.name.slice(0,3)=='_c_'){
-            if_c = 1;
-        }
-        if(if_c){
-            name = character.name.slice(3);
-            for(var key in character){
-                c_data[key].push(character[key]);
-            }
-        }else{ //!_c_
-            name = character.name;
-            describe = name + '（' + character.star + character.element + character.job + '）' + character.comment;
-            describes.push(describe);
-            plain_name[describe] = name;
-            advIcons[name] = picfolder+name+'.png';
-            for(var key in character){
-                data[key].push(character[key]);
-            }
-            _sum.push(0);
-            rich[name] = {
-                lineHeight: 0,
-                height: 35,
-                //align: 'center',
-                backgroundColor:{
-                    image: advIcons[character.name]
-                }
-            };
-        }
-    });
 
-    idx = 0;
-    for(var c in data.name){
-        n = data.name[c];
-        found = -1;
-        loc = 0;
-        for(var c in c_data.name){
-            describe = c_data.name[c].slice(3) + '（' + c_data.star[c] + c_data.element[c] + c_data.job[c] + '）' + c_data.comment[c];
-            if(describe == describes[idx]){
-                found = loc;
-            }
-            loc += 1;
-        }
-        if(found>=0){
-            for(var k in c_data){
-                tmp_data[k].push(c_data[k][found]);
-            }
-        }else{
-            for(var k in data){
-                tmp_data[k].push(null);
-            }
-        }
-        idx += 1;
-    }
-    c_data = tmp_data;
-
-    option.yAxis.data = describes;
-    option.yAxis.axisLabel.rich = rich;
-
-    var idx = 0;
-    for(var key in data){
-        option.series[idx] = {};
-        option.series[idx].name = key;
-        option.series[idx].type = 'bar';
-        option.series[idx].animation = false;
-        //option.series[idx].barWidth = 30;
-        option.series[idx].stack = 'data';
-        option.series[idx].itemStyle = itemStyle;
-        option.series[idx].data = data[key];
-        option.series[idx].barGap = 0;
-        idx += 2;
-    }
-    var idx = 1;
-    for(var key in c_data){
-        option.series[idx] = {};
-        option.series[idx].name = key;
-        option.series[idx].type = 'bar';
-        option.series[idx].animation = false;
-        //option.series[idx].barWidth = 30;
-        option.series[idx].stack = 'c_data';
-        option.series[idx].itemStyle = itemStyle;
-        option.series[idx].data = c_data[key];
-        option.series[idx].barGap = -0.05;
-        idx += 2;
-    }
-
-    let slider = option.dataZoom[0];
-    slider.endValue = describes.length - 1;
-    slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
-    chart.setOption(option);
+function create_describe(name, l){
+    return name + '(' + l.star + l.element + l.job + ')' + l.comment;
 }
-
-fetch('data.csv').then(response => response.text()).then(text => {
-    let csv = Papa.parse(text, {
-        //header: true,
-        skipEmptyLines: true,
-        dynamicTyping: true,
-    });
-
-    setData(csv.data);
-    update();
-});
-
 
 var _dimensions = {};
+var datasrc = {};
+var o_data = [];
+var c_data = [];
 function update() {
     let filtered = characters.filter(character => {
-        if (startFilter.value && startFilter.value != character.star) {
+        if (starFilter.value && starFilter.value != character.star) {
             return false;
         }
         if (elementFilter.value && elementFilter.value != character.element) {
@@ -348,21 +137,31 @@ function update() {
         }
         return true;
     });
-    var o_data = filtered;
-    var c_data = [];
-    var datasrc = {};
+    o_data = filtered;
+    datasrc = {};
+    c_data = [];
     var a = [];
     var sp_slash = '\\'.charCodeAt()+128;
     var sp_cap = ':'.charCodeAt()+128;
+    var describe = '';
+    var rich = {
+        value: {
+            lineHeight: 25,
+            //align: 'center'
+        },
+    };
     sp_slash = String.fromCharCode(sp_slash);
     sp_cap = String.fromCharCode(sp_cap);
+    console.log(o_data);
     for(var i in o_data){
+        console.log(o_data[i]);
         l = o_data[i];
         var line = {};
         if(l.name.slice(0,3)=='_c_'){c_data.push(l);continue;}
         for(var j in l){
             unit = l[j];
             if(!unit){continue;}
+            if(typeof(unit)!='string'){continue;}
             unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
             if(unit.search(':')!=-1){
                 a = unit.split(':',2);
@@ -372,12 +171,25 @@ function update() {
                 line['_c_'+a[0]] = 0;
                 _dimensions[a[0]] = 1;
             }else{
-                //unit = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
-                //line[j] = unit;
+                o_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
             }
         }
-        line.advdps = l.name;
-        datasrc[l.name] = line;
+        name = l.name;
+        describe = create_describe(name, l);
+        line.advdps = describe;
+        console.log(l);
+        datasrc[describe] = line;
+
+        adv_data[describe] = l;
+        advIcons[name] = picfolder+name+'.png';
+        rich[l.name] = {
+            lineHeight: 0,
+            height: 35,
+            //align: 'center',
+            backgroundColor:{
+                image: advIcons[name]
+            }
+        };
     }
     console.log(c_data);
     for(var i in c_data){
@@ -386,20 +198,30 @@ function update() {
         for(var j in l){
             unit = l[j];
             if(!unit){continue;}
+            if(typeof(unit)!='string'){continue;}
             unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
             if(unit.search(':')!=-1){
                 a = unit.split(':',2);
                 a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
                 a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
                 line['_c_'+a[0]] = a[1];
+            }else{
+                c_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
             }
         }
         name = l.name.slice(3);
-        line.advdps = name;
+        describe = create_describe(name, l);
+        line.advdps = describe;
         for(var i in line){
-            datasrc[name][i] = line[i];
+            datasrc[describe][i] = line[i];
         }
     }
+    //console.log(o_data);
+    //for(var i in o_data){
+    //    for(var j in o_data[i]){
+    //        console.log(o_data[i][j])
+    //    }
+    //}
 
     for(var i in _dimensions){
         for(var l in datasrc){
@@ -426,10 +248,30 @@ function update() {
         s1.barGap = 0;
         s2.animation = false;
         s2.itemStyle = itemStyle;
-        s2.barGap = 0;
+        s2.barGap = 0.05;
         option.series.push(s1);
         option.series.push(s2);
     }
+
+    option.yAxis.axisLabel.rich = rich;
+
+    var slider = option.dataZoom[0];
+    len = Object.keys(datasrc).length;
+    slider.endValue = len - 1;
+    slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
+
     console.log(option);
     chart.setOption(option);
 }
+
+fetch('data.csv').then(response => response.text()).then(text => {
+    let csv = Papa.parse(text, {
+        //header: true,
+        skipEmptyLines: true,
+        dynamicTyping: true,
+    });
+
+    setData(csv.data);
+    update();
+});
+
