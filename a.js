@@ -23,7 +23,7 @@ var itemStyle = {
 
 var describe = {'Mikoto':'!'};
 var plain_name = {'!':'Mikoto'};
-let option = {
+var option = {
     legend: {
         data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s'],
         top: '2%',
@@ -142,6 +142,28 @@ let option = {
             },
             data: [],
         },
+        {
+            name: 'sum',
+            type: 'bar',
+            //barWidth : 30,
+            animation: false,
+            stack: 'total_dps',
+            itemStyle: itemStyle,
+            label: {
+                normal: {
+                    show: true,
+                    position: 'right',
+                    formatter: params => {
+                        let total = 0;
+                        option.series.forEach(serie => {
+                            total += parseInt(serie.data[params.dataIndex]);
+                        });
+                        return total;
+                    },
+                },
+            },
+            data: [],
+        },
     ]
 }
 let characters = [];
@@ -149,6 +171,19 @@ let characters = [];
 function setData(data) {
     data.forEach(character => {
         //character.total_dps = character.total_dps || character.solo_dps;
+        //character.total_dps = 0;
+        //if(option.legend.selected['DPS']){
+        //     character.total_dps += character.solo_dps
+        //}
+        //if(option.legend.selected['Buff/s']){
+        //     character.total_dps += character.team_bps
+        //}
+        //if(option.legend.selected['conditional DPS']){
+        //     character.total_dps += character.c_solo_dps
+        //}
+        //if(option.legend.selected['conditional Buff/s']){
+        //     character.total_dps += character.c_team_bps
+        //}
         character.total_dps = character.solo_dps+character.team_bps+character.c_solo_dps+character.c_team_bps;
     });
     if (0){
@@ -195,6 +230,7 @@ function update() {
     let team_bps = [];
     let c_solo_dps = [];
     let c_team_bps = [];
+    let _sum = [];
     let rich = {
         value: {
             lineHeight: 0,
@@ -212,6 +248,7 @@ function update() {
         //team_bps.push(character.c_solo_dps);
         c_solo_dps.push(character.c_solo_dps);
         c_team_bps.push(character.c_team_bps);
+        _sum.push(0)
         rich[character.name] = {
             lineHeight: 0,
             height: 35,
@@ -228,6 +265,7 @@ function update() {
     option.series[1].data = team_bps;
     option.series[2].data = c_solo_dps;
     option.series[3].data = c_team_bps;
+    option.series[4].data = _sum;
     let slider = option.dataZoom[0];
     slider.endValue = filtered.length - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
