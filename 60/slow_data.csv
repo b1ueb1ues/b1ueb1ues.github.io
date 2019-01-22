@@ -1,12 +1,12 @@
 name,star,element,weapon,str,condition,comment,dps
-Addis,4星,风,刀,2960, ,,1916,attack:814,force_strike:0,skill_1:551,skill_2:0,skill_3:284,s1_poison:92,bleed:174
-Addis,4星,风,刀,2960, ,with 20% skill haste,2049,attack:758,force_strike:0,skill_1:581,skill_2:0,skill_3:245,s1_poison:28,bleed:435
-Addis,4星,风,刀,2960, ,use shapeshift bug,1996,attack:727,force_strike:0,skill_1:590,skill_2:0,skill_3:245,bleed:432
-Ieyasu,5星,暗,刀,2972,<hp70>,,1928,attack:683,force_strike:0,skill_1:596,skill_2:0,skill_3:127,bleed:520
-_c_Ieyasu,5星,暗,刀,2972,!<hp70>,,1771,attack:632,force_strike:0,skill_1:552,skill_2:0,skill_3:117,bleed:469
+Addis,4星,风,刀,2960, ,,1921,attack:815,force_strike:0,skill_1:551,skill_2:0,skill_3:284,team_buff:0,s1_poison:92,bleed:177
+Addis,4星,风,刀,2960, ,with 20% skill haste,2048,attack:758,force_strike:0,skill_1:581,skill_2:0,skill_3:245,team_buff:0,s1_poison:28,bleed:434
+Addis,4星,风,刀,2960, ,use shapeshift bug,2004,attack:727,force_strike:0,skill_1:590,skill_2:0,skill_3:245,team_buff:0,bleed:440
+Ieyasu,5星,暗,刀,2972,<hp70>,,1933,attack:683,force_strike:0,skill_1:596,skill_2:0,skill_3:127,team_buff:0,bleed:525
+_c_Ieyasu,5星,暗,刀,2972,!<hp70>,,1781,attack:632,force_strike:0,skill_1:552,skill_2:0,skill_3:117,team_buff:0,bleed:479
 Sinoa,4星,火,法,2718,<hp100>,,1462,attack:822,force_strike:0,skill_1:0,skill_2:321,skill_3:0,team_buff:318
 _c_Sinoa,4星,火,法,2718,!<hp100>,,1376,attack:760,force_strike:0,skill_1:0,skill_2:297,skill_3:0,team_buff:318
-Ezelith,5星,火,匕,2764,<hp70>,,1407,attack:578,force_strike:62,skill_1:574,skill_2:0,skill_3:104,team_buff:87
-_c_Ezelith,5星,火,匕,2764,!<hp70>,,1332,attack:571,force_strike:62,skill_1:558,skill_2:0,skill_3:104,team_buff:36
-Sazanka,4星,暗,斧,2782, ,do not use weapon skill,1795,attack:722,force_strike:95,skill_1:527,skill_2:0,skill_3:0,s2fs:15,bleed:434
+Ezelith,5星,火,匕,2764,<hp70>,,1408,attack:578,force_strike:62,skill_1:574,skill_2:0,skill_3:104,team_buff:88
+_c_Ezelith,5星,火,匕,2764,!<hp70>,,1331,attack:571,force_strike:62,skill_1:558,skill_2:0,skill_3:104,team_buff:35
+Sazanka,4星,暗,斧,2782, ,do not use weapon skill,1795,attack:722,force_strike:95,skill_1:527,skill_2:0,skill_3:0,team_buff:0,s2fs:15,bleed:434
 Botan,4星,暗,枪,2705, ,,2108,attack:600,force_strike:0,skill_1:565,skill_2:0,skill_3:210,team_buff:262,bleed:469
