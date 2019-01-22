@@ -39,7 +39,7 @@ var option = {
         type: 'slider',
         right: '5%',
         yAxisIndex: [0],
-        maxValueSpan: 15,
+        maxValueSpan: 10,
         showDetail: false,
     }, ],
     xAxis: { 
@@ -54,10 +54,17 @@ var option = {
             formatter: function(value){
                 a = adv_data[value];
                 label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
-                comment = a.comment;
                 stre = '(str: ' + a.stre + ')';
-                return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
-                //return '{value|' + value + '}{' + value + '| }';
+                condition = ''
+                comment = ''
+                if(a.comment){
+                    comment = a.comment;
+                }
+                if(a.condition){
+                    condition = a.condition
+                }
+            //    return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
+                return '{value|' + label + stre + condition + comment + '}{' + a.name + '| }';
             },
             margin: 5,
             rich: {
@@ -168,7 +175,8 @@ function update() {
                 a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
                 a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
                 line[a[0]] = a[1];
-                line['_c_'+a[0]] = 0;
+                //line['_c_'+a[0]] = 0;
+                line['_c_'+a[0]] = a[1];
                 _dimensions[a[0]] = 1;
             }else{
                 o_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
@@ -191,8 +199,6 @@ function update() {
         };
     }
 
-    console.log(c_data);
-    console.log(datasrc[describe]);
     for(var i in c_data){
         l = c_data[i];
         line = {};
@@ -216,17 +222,30 @@ function update() {
         }
         name = l.name.slice(3);
         describe = create_describe(name, l);
-        console.log(datasrc[describe]);
-        if(line!={}){
-            for(var i in datasrc[describe]){
-                if(i!='advdps' && i.slice(0,3)!='_c_'){
-                    datasrc[describe]['_c_'+i] = datasrc[describe][i];
-                    datasrc[describe][i] = 0;
-                }
+        //if(line!={}){
+        //    for(var i in datasrc[describe]){
+        //        if(i!='advdps' && i.slice(0,3)!='_c_'){
+        //            datasrc[describe]['_c_'+i] = datasrc[describe][i];
+        //            datasrc[describe][i] = 0;
+        //        }
+        //    }
+        //}
+        //for(var i in line){
+        //    datasrc[describe][i] = line[i];
+        //}
+        for(var i in datasrc[describe]){
+            if(i.slice(0,3) == '_c_'){
+                datasrc[describe][i] = 0;
             }
         }
         for(var i in line){
-            datasrc[describe][i] = line[i];
+            datasrc[describe]['_c_'+i] = line[i];
+        }
+        if(!datasrc[describe].condition){
+            datasrc[describe].condition = l.condition
+        }
+        if(!adv_data[describe].condition){
+            adv_data[describe].condition = l.condition;
         }
     }
 
@@ -254,9 +273,11 @@ function update() {
         s1.animation = false;
         s1.itemStyle = itemStyle;
         s1.barGap = 0;
+        //s1.barWidth = 30;
         s2.animation = false;
         s2.itemStyle = itemStyle;
-        s2.barGap = 0.05;
+        s2.barGap = -0.05;
+        //s1.barWidth = 30;
         option.series.push(s1);
         option.series.push(s2);
     }
