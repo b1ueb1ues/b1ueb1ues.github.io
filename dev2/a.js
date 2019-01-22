@@ -63,10 +63,8 @@ var option = {
             rich: {
             },
         },
-        //data: [],
     },
     dataset:{
-        //dimensions: [],
         source: [
             {'advdps': 'Addis', 'x': 43.3, 's': 85.8, 'b': 93.7},
             {'advdps': 'b', 'x': 83.1, 's': 73.4, 'b': 55.1},
@@ -141,6 +139,8 @@ function update() {
     datasrc = {};
     c_data = [];
     var a = [];
+    var lines = {};
+    var line = {};
     var sp_slash = '\\'.charCodeAt()+128;
     var sp_cap = ':'.charCodeAt()+128;
     var describe = '';
@@ -154,9 +154,9 @@ function update() {
     sp_cap = String.fromCharCode(sp_cap);
     console.log(o_data);
     for(var i in o_data){
-        console.log(o_data[i]);
         l = o_data[i];
-        var line = {};
+        lines[i] = {};
+        line = lines[i];
         if(l.name.slice(0,3)=='_c_'){c_data.push(l);continue;}
         for(var j in l){
             unit = l[j];
@@ -177,7 +177,6 @@ function update() {
         name = l.name;
         describe = create_describe(name, l);
         line.advdps = describe;
-        console.log(l);
         datasrc[describe] = line;
 
         adv_data[describe] = l;
@@ -191,42 +190,52 @@ function update() {
             }
         };
     }
+
     console.log(c_data);
+    console.log(datasrc[describe]);
     for(var i in c_data){
         l = c_data[i];
-        var line = {};
+        line = {};
         for(var j in l){
             unit = l[j];
             if(!unit){continue;}
             if(typeof(unit)!='string'){continue;}
+            if(unit.slice(0,3)=='_c_'){continue;}
+            if(unit=='advdps'){continue;}
             unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
             if(unit.search(':')!=-1){
                 a = unit.split(':',2);
                 a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
                 a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
-                line['_c_'+a[0]] = a[1];
+                //line['_c_'+a[0]] = a[1];
+                line[a[0]] = a[1];
+                _dimensions[a[0]] = 1;
             }else{
                 c_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
             }
         }
         name = l.name.slice(3);
         describe = create_describe(name, l);
-        line.advdps = describe;
+        console.log(datasrc[describe]);
+        if(line!={}){
+            for(var i in datasrc[describe]){
+                if(i!='advdps' && i.slice(0,3)!='_c_'){
+                    datasrc[describe]['_c_'+i] = datasrc[describe][i];
+                    datasrc[describe][i] = 0;
+                }
+            }
+        }
         for(var i in line){
             datasrc[describe][i] = line[i];
         }
     }
-    //console.log(o_data);
-    //for(var i in o_data){
-    //    for(var j in o_data[i]){
-    //        console.log(o_data[i][j])
-    //    }
-    //}
 
     for(var i in _dimensions){
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
+            }
+            if(!datasrc[l]['_c_'+i]){
                 datasrc[l]['_c_'+i] = null;
             }
         }
@@ -238,7 +247,6 @@ function update() {
     }
 
     option.series = [];
-    console.log(_dimensions);
 
     for(var i in _dimensions){
         s1 = {type:'bar',name:i,stack:'dps',encode:{x:i,y:'advdps'}};
