@@ -345,7 +345,6 @@ function update() {
                 position: 'right',
                 formatter: params => {
                     a = adv_data[params.name];
-                    console.log(a.dps);
                     return a.dps;
                 },
             },
