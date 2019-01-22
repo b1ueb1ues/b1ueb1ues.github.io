@@ -24,10 +24,55 @@ var itemStyle = {
 var adv_data = {};
 var option = {
     legend: {
-        data: [],
-        top: '2%',
+        //data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff'],
+        data:[],
+        selectedMode:false,
+        top: '5%',
     },
-    tooltip:{},
+    tooltip: {
+        //trigger: 'axis',
+        axisPointer: {
+            type: 'shadow',
+        },
+        formatter: function(value){
+            r = adv_data[value.name].name;
+            if(value.data.condition){
+                if(value.seriesIndex%2==0){
+                    r+=' &lt;'+value.data.condition.slice(2,-1)+'&gt;';
+                }
+            }
+            r += '<br>';
+
+            sname = value.seriesName;
+            if(value.seriesIndex%2==0){
+                for(var i in value.data){
+                    v = value.data[i];
+                    if(v){
+                        if(v==0)continue;
+                        if(i.slice(0,3)=='_c_')continue;
+                        if(i == 'advdps')continue;
+                        if(i == 'total')continue;
+                        if(i == 'condition')continue;
+                        if(i == sname)r+='->';
+                        r += i+': '+v+'<br>';
+                    }
+                }
+            }
+            if(value.seriesIndex%2==1){
+                for(var i in value.data){
+                    v = value.data[i];
+                    if(v){
+                        if(v==0)continue;
+                        if(i.slice(0,3)!='_c_')continue;
+                        if(i == '_c_'+sname)r+='->';
+                        r += i.slice(3) +': '+v+'<br>';
+                    }
+                }
+            }
+            v = value.data[i];
+            return r;
+        }
+    },
     grid: {
         containLabel: true,
         left: '5%',
@@ -38,8 +83,9 @@ var option = {
     dataZoom: [{
         type: 'slider',
         right: '5%',
+        top:'15%',
         yAxisIndex: [0],
-        maxValueSpan: 10,
+        maxValueSpan: 12,
         showDetail: false,
     }, ],
     xAxis: { 
@@ -125,6 +171,7 @@ function create_describe(name, l){
     return name + '(' + l.star + l.element + l.weapon + ')' + l.comment;
 }
 
+//var _dimensions = {__1:1,__2:2};
 var _dimensions = {};
 var datasrc = {};
 var o_data = [];
@@ -185,9 +232,11 @@ function update() {
         name = l.name;
         describe = create_describe(name, l);
         line.advdps = describe;
+        line.total = 1;
         datasrc[describe] = line;
 
         adv_data[describe] = l;
+        //adv_data['_c_'+describe] = l;
         advIcons[name] = picfolder+name+'.png';
         rich[l.name] = {
             lineHeight: 0,
@@ -244,13 +293,15 @@ function update() {
         if(!datasrc[describe].condition){
             datasrc[describe].condition = l.condition
         }
+        adv_data['_c_'+describe] = l;
         if(!adv_data[describe].condition){
             adv_data[describe].condition = l.condition;
         }
     }
 
     for(var i in _dimensions){
-        option.legend.data.push(i);
+        if(i.slice(0,2)!='__')
+            option.legend.data.push(i);
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
@@ -282,6 +333,45 @@ function update() {
         option.series.push(s1);
         option.series.push(s2);
     }
+    
+    t1 = {
+        type:'bar',
+        name:'total',
+        stack:'dps',
+        encode:{x:'total',y:'advdps'},
+        label: {
+            normal: {
+                show: true,
+                position: 'right',
+                formatter: params => {
+                    a = adv_data[params.name];
+                    console.log(a.dps);
+                    return a.dps;
+                },
+            },
+        },
+    }
+    t2 = {
+        type:'bar',
+        name:'total',
+        stack:'c_dps',
+        encode:{x:'total',y:'advdps'},
+        label: {
+            normal: {
+                show: true,
+                position: 'right',
+                formatter: params => {
+                    a = adv_data['_c_'+params.name];
+                    if(a)
+                        return a.dps;
+                    return '';
+                },
+            },
+        },
+    }
+    option.series.push(t1);
+    option.series.push(t2);
+
 
     option.yAxis.axisLabel.rich = rich;
 
