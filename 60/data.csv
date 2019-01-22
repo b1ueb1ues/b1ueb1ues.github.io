@@ -1,15 +1,15 @@
 name,star,element,weapon,str,condition,comment,dps
-Addis,4星,风,刀,2960, ,,1918,attack:815,force_strike:0,skill_1:551,skill_2:0,skill_3:284,s1_poison:92,bleed:175
-Addis,4星,风,刀,2960, ,with 20% skill haste,2050,attack:759,force_strike:0,skill_1:581,skill_2:0,skill_3:245,s1_poison:28,bleed:434
-Addis,4星,风,刀,2960, ,use shapeshift bug,1994,attack:727,force_strike:0,skill_1:590,skill_2:0,skill_3:245,bleed:430
-Ieyasu,5星,暗,刀,2972,<hp70>,,1924,attack:683,force_strike:0,skill_1:596,skill_2:0,skill_3:127,bleed:516
-_c_Ieyasu,5星,暗,刀,2972,!<hp70>,,1783,attack:632,force_strike:0,skill_1:552,skill_2:0,skill_3:118,bleed:480
+Addis,4星,风,刀,2960, ,,1916,attack:814,force_strike:0,skill_1:551,skill_2:0,skill_3:284,s1_poison:92,bleed:174
+Addis,4星,风,刀,2960, ,with 20% skill haste,2049,attack:758,force_strike:0,skill_1:581,skill_2:0,skill_3:245,s1_poison:28,bleed:435
+Addis,4星,风,刀,2960, ,use shapeshift bug,1996,attack:727,force_strike:0,skill_1:590,skill_2:0,skill_3:245,bleed:432
+Ieyasu,5星,暗,刀,2972,<hp70>,,1928,attack:683,force_strike:0,skill_1:596,skill_2:0,skill_3:127,bleed:520
+_c_Ieyasu,5星,暗,刀,2972,!<hp70>,,1771,attack:632,force_strike:0,skill_1:552,skill_2:0,skill_3:117,bleed:469
 Sinoa,4星,火,法,2718,<hp100>,,1462,attack:822,force_strike:0,skill_1:0,skill_2:321,skill_3:0,team_buff:318
 _c_Sinoa,4星,火,法,2718,!<hp100>,,1376,attack:760,force_strike:0,skill_1:0,skill_2:297,skill_3:0,team_buff:318
-Ezelith,5星,火,匕,2764,<hp70>,,1406,attack:578,force_strike:62,skill_1:573,skill_2:0,skill_3:104,team_buff:86
-_c_Ezelith,5星,火,匕,2764,!<hp70>,,1330,attack:571,force_strike:62,skill_1:557,skill_2:0,skill_3:104,team_buff:35
+Ezelith,5星,火,匕,2764,<hp70>,,1407,attack:578,force_strike:62,skill_1:574,skill_2:0,skill_3:104,team_buff:87
+_c_Ezelith,5星,火,匕,2764,!<hp70>,,1332,attack:571,force_strike:62,skill_1:558,skill_2:0,skill_3:104,team_buff:36
 Sazanka,4星,暗,斧,2782, ,do not use weapon skill,1795,attack:722,force_strike:95,skill_1:527,skill_2:0,skill_3:0,s2fs:15,bleed:434
-Botan,4星,暗,枪,2705, ,,2108,attack:600,force_strike:0,skill_1:565,skill_2:0,skill_3:210,bleed:469,team_buff:262
+Botan,4星,暗,枪,2705, ,,2108,attack:600,force_strike:0,skill_1:565,skill_2:0,skill_3:210,team_buff:262,bleed:469
 Berserker,4星,暗,剑,2644,<last offense>,,1511,attack:599,force_strike:274,skill_1:636,skill_2:0,skill_3:0
 _c_Berserker,4星,暗,剑,2644,!<last offense>,,1377,attack:543,force_strike:249,skill_1:584,skill_2:0,skill_3:0
 Euden,4星,火,剑,2764, ,,1637,attack:453,force_strike:199,skill_1:539,skill_2:194,skill_3:171,team_buff:80
@@ -43,15 +43,15 @@ D_Xander,4星,水,法,2676, ,,1580,attack:737,force_strike:0,skill_1:600,skill_2
 Kleimann,4星,暗,法,2720, ,,1455,attack:591,force_strike:100,skill_1:569,skill_2:193,skill_3:0
 Lily,5星,水,法,2688,<hp100>,,1701,attack:597,force_strike:0,skill_1:476,skill_2:359,skill_3:267
 _c_Lily,5星,水,法,2688,!<hp100>,,1542,attack:541,force_strike:0,skill_1:432,skill_2:326,skill_3:242
-Lucretia,5星,光,法,2964, ,,1628,attack:774,force_strike:0,skill_1:472,skill_2:0,skill_3:153,s3_energized:61,team_energy:166
+Lucretia,5星,光,法,2964, ,,1628,attack:774,force_strike:0,skill_1:472,skill_2:0,skill_3:153,team_energy:166,s3_energized:61
 Maribelle,5星,风,法,2860,<hp100>,,1931,attack:635,force_strike:0,skill_1:802,skill_2:416,skill_3:0,team_buff:77
 _c_Maribelle,5星,风,法,2860,!<hp100>,,1635,attack:635,force_strike:0,skill_1:607,skill_2:315,skill_3:0,team_buff:77
 Nicolas,3星,风,法,2740, ,,1367,attack:675,force_strike:0,skill_1:449,skill_2:242,skill_3:0
 Xania,3星,火,法,2691, ,,1582,attack:691,force_strike:0,skill_1:614,skill_2:276,skill_3:0
-D_Cleo,5星,水,匕,2515,<hp70 & always connect hits>,s1 in lvl3 (buggy),1663,attack:675,force_strike:87,skill_1:335,skill_2:294,skill_3:0,s2_energized:50,team_buff:152,team_energy:66
+D_Cleo,5星,水,匕,2515,<hp70 & always connect hits>,s1 in lvl3 (buggy),1663,attack:675,force_strike:87,skill_1:335,skill_2:294,skill_3:0,team_buff:152,team_energy:66,s2_energized:50
 _c_D_Cleo,5星,水,匕,2515,!<hp70 & always connect hits>,s1 in lvl3 (buggy),1498,attack:620,force_strike:80,skill_1:307,skill_2:270,skill_3:0,team_buff:152,team_energy:66
-D_Cleo,5星,水,匕,2515,<hp70 & always connect hits>,use s1 in lvl2,1911,attack:672,force_strike:72,skill_1:556,skill_2:176,skill_3:0,s1_energized:91,team_buff:242,team_energy:100
-_c_D_Cleo,5星,水,匕,2515,!<hp70 & always connect hits>,use s1 in lvl2,1742,attack:616,force_strike:66,skill_1:510,skill_2:162,skill_3:0,s1_energized:43,team_buff:242,team_energy:100
+D_Cleo,5星,水,匕,2515,<hp70 & always connect hits>,use s1 in lvl2,1911,attack:672,force_strike:72,skill_1:556,skill_2:176,skill_3:0,team_buff:242,team_energy:100,s1_energized:91
+_c_D_Cleo,5星,水,匕,2515,!<hp70 & always connect hits>,use s1 in lvl2,1742,attack:616,force_strike:66,skill_1:510,skill_2:162,skill_3:0,team_buff:242,team_energy:100,s1_energized:43
 Francesca,3星,风,匕,2707, ,,1344,attack:536,force_strike:73,skill_1:404,skill_2:114,skill_3:198,team_buff:17
 Irfan,3星,光,匕,2664, ,,1273,attack:595,force_strike:59,skill_1:450,skill_2:168,skill_3:0
 Luther,4星,水,匕,2483,<hit15>,,1473,attack:645,force_strike:66,skill_1:555,skill_2:188,skill_3:0,team_buff:17
@@ -124,7 +124,7 @@ G_Sarisse,5星,火,弓,2720,<never lose combos>,c4+fs,1812,attack:469,force_stri
 _c_G_Sarisse,5星,火,弓,2720,!<never lose combos>,c4+fs,1403,attack:434,force_strike:253,skill_1:564,skill_2:0,skill_3:0,team_buff:151
 G_Sarisse,5星,火,弓,2720,<never lose combos>,,1702,attack:653,force_strike:0,skill_1:897,skill_2:0,skill_3:0,team_buff:151
 _c_G_Sarisse,5星,火,弓,2720,!<never lose combos>,,1328,attack:613,force_strike:0,skill_1:564,skill_2:0,skill_3:0,team_buff:151
-Annelie,5星,光,枪,2888,<hp70>,do s1s1s2s1 loop,1785,attack:618,force_strike:66,skill_1:649,skill_2:112,skill_3:249,s1_p3_energized:55,team_energy:33
-_c_Annelie,5星,光,枪,2888,!<hp70>,do s1s1s2s1 loop,1564,attack:618,force_strike:66,skill_1:507,skill_2:87,skill_3:195,s1_p3_energized:55,team_energy:33
+Annelie,5星,光,枪,2888,<hp70>,do s1s1s2s1 loop,1785,attack:618,force_strike:66,skill_1:649,skill_2:112,skill_3:249,team_energy:33,s1_p3_energized:55
+_c_Annelie,5星,光,枪,2888,!<hp70>,do s1s1s2s1 loop,1564,attack:618,force_strike:66,skill_1:507,skill_2:87,skill_3:195,team_energy:33,s1_p3_energized:55
 Marty,3星,火,剑,2648, ,,1543,attack:497,force_strike:223,skill_1:582,skill_2:0,skill_3:240
-Fritz,4星,光,匕,2740, ,,1443,attack:670,force_strike:73,skill_1:532,skill_2:0,skill_3:0,s2fs:90,team_buff:75
+Fritz,4星,光,匕,2740, ,,1443,attack:670,force_strike:73,skill_1:532,skill_2:0,skill_3:0,team_buff:75,s2fs:90
