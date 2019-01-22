@@ -1,7 +1,7 @@
 let chart = echarts.init(document.getElementById('container'));
-let startFilter = document.getElementById('star');
+let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
-let jobFilter = document.getElementById('job');
+let weaponFilter = document.getElementById('weapon');
 document.querySelectorAll('select').forEach(select => {
     select.addEventListener('change', update);
 });
@@ -21,13 +21,13 @@ var itemStyle = {
     }
 };
 
-var describe = {'Mikoto':'!'};
-var plain_name = {'!':'Mikoto'};
+var adv_data = {};
 var option = {
     legend: {
-        data: ['DPS', 'Buff/s', 'conditional DPS','conditional Buff/s'],
+        data: [],
         top: '2%',
     },
+    tooltip:{},
     grid: {
         containLabel: true,
         left: '5%',
@@ -52,231 +52,234 @@ var option = {
         axisLabel: {
             interval: 0,
             formatter: function(value){
-                return '{value|' + value + '}{' + plain_name[value] + '| }';
+                a = adv_data[value];
+                label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
+                comment = a.comment;
+                stre = '(str: ' + a.stre + ')';
+                return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
                 //return '{value|' + value + '}{' + value + '| }';
             },
             margin: 5,
             rich: {
             },
         },
-        data: [],
     },
-    series: [{
-            name: 'DPS',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'insideRight',
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'Buff/s',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: false,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'conditional DPS',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: false,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'conditional Buff/s',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
-        {
-            name: 'sum',
-            type: 'bar',
-            //barWidth : 30,
-            animation: false,
-            stack: 'total_dps',
-            itemStyle: itemStyle,
-            label: {
-                normal: {
-                    show: true,
-                    position: 'right',
-                    formatter: params => {
-                        let total = 0;
-                        option.series.forEach(serie => {
-                            total += parseInt(serie.data[params.dataIndex]);
-                        });
-                        return total;
-                    },
-                },
-            },
-            data: [],
-        },
+    dataset:{
+        source: [
+            {'advdps': 'Addis', 'x': 43.3, 's': 85.8, 'b': 93.7},
+            {'advdps': 'b', 'x': 83.1, 's': 73.4, 'b': 55.1},
+            {'advdps': 'c', 'x': 86.4, 's': 65.2, 'b': 82.5},
+            {'advdps': 'd', 'x': 72.4, 's': 53.9, 'b': 39.1}
+        ],
+    },
+    series: [
     ]
 }
 let characters = [];
 
 function setData(data) {
-    data.forEach(character => {
-        //character.total_dps = character.total_dps || character.solo_dps;
-        //character.total_dps = 0;
-        //if(option.legend.selected['DPS']){
-        //     character.total_dps += character.solo_dps
-        //}
-        //if(option.legend.selected['Buff/s']){
-        //     character.total_dps += character.team_bps
-        //}
-        //if(option.legend.selected['conditional DPS']){
-        //     character.total_dps += character.c_solo_dps
-        //}
-        //if(option.legend.selected['conditional Buff/s']){
-        //     character.total_dps += character.c_team_bps
-        //}
-        character.total_dps = character.solo_dps+character.team_bps+character.c_solo_dps+character.c_team_bps;
-    });
-    if (0){
-        data.sort((character1, character2) => {
-            if (character1.solo_dps > character2.solo_dps) {
-                return 1;
-            }
-            if (character1.solo_dps < character2.solo_dps) {
-                return -1;
-            }
-            return character1.total_dps >= character2.total_dps ? 1 : -1;
-        });
-    }else{
-        data.sort((character1, character2) => {
-            if (character1.total_dps > character2.total_dps) {
-                return 1;
-            }
-            if (character1.total_dps < character2.total_dps) {
-                return -1;
-            }
-            return character1.solo_dps >= character2.solo_dps ? 1 : -1;
-        });
+    tmpdata = [];
+    for(var i in data){
+        if(data[i][0]=='name'){ continue; }
+        character = data[i]
+        character.name      = character[0];
+        character.star      = character[1];
+        character.element   = character[2];
+        character.weapon    = character[3];
+        character.stre      = character[4];
+        character.condition = character[5];
+        character.comment   = character[6];
+        character.dps       = character[7];
+        delete(character[0]);
+        delete(character[1]);
+        delete(character[2]);
+        delete(character[3]);
+        delete(character[4]);
+        delete(character[5]);
+        delete(character[6]);
+        delete(character[7]);
+        tmpdata.push(character);
     }
-    characters = data;
-    update();
+
+    tmpdata.sort((character1, character2) => {
+        if (character1.dps > character2.dps) {
+            return 1;
+        }
+        if (character1.dps <= character2.dps) {
+            return -1;
+        }
+    });
+    characters = tmpdata;
 }
 
+
+
+function create_describe(name, l){
+    return name + '(' + l.star + l.element + l.weapon + ')' + l.comment;
+}
+
+var _dimensions = {};
+var datasrc = {};
+var o_data = [];
+var c_data = [];
 function update() {
     let filtered = characters.filter(character => {
-        if (startFilter.value && startFilter.value != character.star) {
+        if (starFilter.value && starFilter.value != character.star) {
             return false;
         }
         if (elementFilter.value && elementFilter.value != character.element) {
             return false;
         }
-        if (jobFilter.value && jobFilter.value != character.job) {
+        if (weaponFilter.value && weaponFilter.value != character.weapon) {
             return false;
         }
         return true;
     });
-    let names = [];
-    let describes = [];
-    let solo_dps = [];
-    let team_bps = [];
-    let c_solo_dps = [];
-    let c_team_bps = [];
-    let _sum = [];
-    let rich = {
+    o_data = filtered;
+    datasrc = {};
+    c_data = [];
+    var a = [];
+    var lines = {};
+    var line = {};
+    var sp_slash = '\\'.charCodeAt()+128;
+    var sp_cap = ':'.charCodeAt()+128;
+    var describe = '';
+    var rich = {
         value: {
-            lineHeight: 0,
+            lineHeight: 25,
             //align: 'center'
         },
     };
-    filtered.forEach(character => {
-        describe = character.name + '（' + character.star + character.element + character.job + '）' + character.comment;
-        plain_name[describe] = character.name
-        advIcons[character.name] = picfolder+character.name+'.png'
-        //names.push(describe);
-        describes.push(describe);
-        solo_dps.push(character.solo_dps);
-        team_bps.push(character.team_bps);
-        //team_bps.push(character.c_solo_dps);
-        c_solo_dps.push(character.c_solo_dps);
-        c_team_bps.push(character.c_team_bps);
-        _sum.push(0)
-        rich[character.name] = {
+    sp_slash = String.fromCharCode(sp_slash);
+    sp_cap = String.fromCharCode(sp_cap);
+    console.log(o_data);
+    for(var i in o_data){
+        l = o_data[i];
+        lines[i] = {};
+        line = lines[i];
+        if(l.name.slice(0,3)=='_c_'){c_data.push(l);continue;}
+        for(var j in l){
+            unit = l[j];
+            if(!unit){continue;}
+            if(typeof(unit)!='string'){continue;}
+            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
+            if(unit.search(':')!=-1){
+                a = unit.split(':',2);
+                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
+                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
+                line[a[0]] = a[1];
+                line['_c_'+a[0]] = 0;
+                _dimensions[a[0]] = 1;
+            }else{
+                o_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
+            }
+        }
+        name = l.name;
+        describe = create_describe(name, l);
+        line.advdps = describe;
+        datasrc[describe] = line;
+
+        adv_data[describe] = l;
+        advIcons[name] = picfolder+name+'.png';
+        rich[l.name] = {
             lineHeight: 0,
             height: 35,
             //align: 'center',
             backgroundColor:{
-                image: advIcons[character.name]
+                image: advIcons[name]
             }
         };
-    });
+    }
 
-    option.yAxis.data = describes;
+    console.log(c_data);
+    console.log(datasrc[describe]);
+    for(var i in c_data){
+        l = c_data[i];
+        line = {};
+        for(var j in l){
+            unit = l[j];
+            if(!unit){continue;}
+            if(typeof(unit)!='string'){continue;}
+            if(unit.slice(0,3)=='_c_'){continue;}
+            if(unit=='advdps'){continue;}
+            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
+            if(unit.search(':')!=-1){
+                a = unit.split(':',2);
+                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
+                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
+                //line['_c_'+a[0]] = a[1];
+                line[a[0]] = a[1];
+                _dimensions[a[0]] = 1;
+            }else{
+                c_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
+            }
+        }
+        name = l.name.slice(3);
+        describe = create_describe(name, l);
+        console.log(datasrc[describe]);
+        if(line!={}){
+            for(var i in datasrc[describe]){
+                if(i!='advdps' && i.slice(0,3)!='_c_'){
+                    datasrc[describe]['_c_'+i] = datasrc[describe][i];
+                    datasrc[describe][i] = 0;
+                }
+            }
+        }
+        for(var i in line){
+            datasrc[describe][i] = line[i];
+        }
+    }
+
+    for(var i in _dimensions){
+        for(var l in datasrc){
+            if(!datasrc[l][i]){
+                datasrc[l][i] = null;
+            }
+            if(!datasrc[l]['_c_'+i]){
+                datasrc[l]['_c_'+i] = null;
+            }
+        }
+    }
+
+    option.dataset.source = []
+    for(var i in datasrc){
+        option.dataset.source.push(datasrc[i]);
+    }
+
+    option.series = [];
+
+    for(var i in _dimensions){
+        s1 = {type:'bar',name:i,stack:'dps',encode:{x:i,y:'advdps'}};
+        s2 = {type:'bar',name:i,stack:'c_dps',encode:{x:'_c_'+i,y:'advdps'}};
+        s1.animation = false;
+        s1.itemStyle = itemStyle;
+        s1.barGap = 0;
+        s2.animation = false;
+        s2.itemStyle = itemStyle;
+        s2.barGap = 0.05;
+        option.series.push(s1);
+        option.series.push(s2);
+    }
+
     option.yAxis.axisLabel.rich = rich;
-    option.series[0].data = solo_dps;
-    option.series[1].data = team_bps;
-    option.series[2].data = c_solo_dps;
-    option.series[3].data = c_team_bps;
-    option.series[4].data = _sum;
-    let slider = option.dataZoom[0];
-    slider.endValue = filtered.length - 1;
+
+    var slider = option.dataZoom[0];
+    len = Object.keys(datasrc).length;
+    slider.endValue = len - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
+
+    console.log(option);
     chart.setOption(option);
 }
 
 fetch('data.csv').then(response => response.text()).then(text => {
     let csv = Papa.parse(text, {
-        header: true,
+        //header: true,
         skipEmptyLines: true,
         dynamicTyping: true,
     });
+
     setData(csv.data);
+    update();
 });
+
