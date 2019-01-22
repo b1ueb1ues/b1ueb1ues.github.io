@@ -32,7 +32,7 @@ var option = {
         containLabel: true,
         left: '5%',
         right: '5%',
-        top: '10%',
+        top: '15%',
         bottom: '5%',
     },
     dataZoom: [{
@@ -191,7 +191,7 @@ function update() {
         advIcons[name] = picfolder+name+'.png';
         rich[l.name] = {
             lineHeight: 0,
-            height: 35,
+            height: 40,
             //align: 'center',
             backgroundColor:{
                 image: advIcons[name]
@@ -250,6 +250,7 @@ function update() {
     }
 
     for(var i in _dimensions){
+        option.legend.data.push(i);
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
