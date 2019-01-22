@@ -77,15 +77,15 @@ var option = {
         containLabel: true,
         left: '5%',
         right: '5%',
-        top: '15%',
+        top: '5%',
         bottom: '5%',
     },
     dataZoom: [{
         type: 'slider',
         right: '5%',
-        top:'15%',
+        top:'5%',
         yAxisIndex: [0],
-        maxValueSpan: 12,
+        maxValueSpan: 15,
         showDetail: false,
     }, ],
     xAxis: { 
@@ -208,12 +208,12 @@ function update() {
     sp_cap = String.fromCharCode(sp_cap);
     console.log(o_data);
     for(var i in o_data){
-        l = o_data[i];
+        var adv = o_data[i];
         lines[i] = {};
         line = lines[i];
-        if(l.name.slice(0,3)=='_c_'){c_data.push(l);continue;}
-        for(var j in l){
-            unit = l[j];
+        if(adv.name.slice(0,3)=='_c_'){c_data.push(adv);continue;}
+        for(var j in adv){
+            unit = adv[j];
             if(!unit){continue;}
             if(typeof(unit)!='string'){continue;}
             unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
@@ -229,16 +229,17 @@ function update() {
                 o_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
             }
         }
-        name = l.name;
-        describe = create_describe(name, l);
+        name = adv.name;
+        describe = create_describe(name, adv);
         line.advdps = describe;
         line.total = 1;
         datasrc[describe] = line;
+        adv.ds = line;
 
-        adv_data[describe] = l;
-        //adv_data['_c_'+describe] = l;
+        adv_data[describe] = adv;
+        //adv_data['_c_'+describe] = adv;
         advIcons[name] = picfolder+name+'.png';
-        rich[l.name] = {
+        rich[adv.name] = {
             lineHeight: 0,
             height: 40,
             //align: 'center',
@@ -249,10 +250,10 @@ function update() {
     }
 
     for(var i in c_data){
-        l = c_data[i];
+        var adv = c_data[i];
         line = {};
-        for(var j in l){
-            unit = l[j];
+        for(var j in adv){
+            unit = adv[j];
             if(!unit){continue;}
             if(typeof(unit)!='string'){continue;}
             if(unit.slice(0,3)=='_c_'){continue;}
@@ -269,8 +270,8 @@ function update() {
                 c_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
             }
         }
-        name = l.name.slice(3);
-        describe = create_describe(name, l);
+        name = adv.name.slice(3);
+        describe = create_describe(name, adv);
         //if(line!={}){
         //    for(var i in datasrc[describe]){
         //        if(i!='advdps' && i.slice(0,3)!='_c_'){
@@ -291,17 +292,18 @@ function update() {
             datasrc[describe]['_c_'+i] = line[i];
         }
         if(!datasrc[describe].condition){
-            datasrc[describe].condition = l.condition
+            datasrc[describe].condition = adv.condition
         }
-        adv_data['_c_'+describe] = l;
+        adv_data['_c_'+describe] = adv;
         if(!adv_data[describe].condition){
-            adv_data[describe].condition = l.condition;
+            adv_data[describe].condition = adv.condition;
         }
     }
 
     for(var i in _dimensions){
-        if(i.slice(0,2)!='__')
-            option.legend.data.push(i);
+        if(i.slice(0,2)!='__'){
+            //option.legend.data.push(i);
+        }
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
