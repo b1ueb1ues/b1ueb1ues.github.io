@@ -24,10 +24,10 @@ var itemStyle = {
 var adv_data = {};
 var option = {
     legend: {
-        //data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff'],
-        data:[],
+        data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff'],
+        //data:[],
         selectedMode:false,
-        top: '5%',
+        top: '0%',
     },
     tooltip: {
         //trigger: 'axis',
