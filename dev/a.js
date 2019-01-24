@@ -332,6 +332,8 @@ function update() {
         name:'attack',
         stack:'dps',
         encode:{x:'attack',y:'advdps'},
+        animation:false,
+        itemStyle:itemStyle,
         label: {
             normal: {
                 show: true,
@@ -348,6 +350,8 @@ function update() {
         name:'attack',
         stack:'c_dps',
         encode:{x:'_c_attack',y:'advdps'},
+        animation:false,
+        itemStyle:itemStyle,
     }
     option.series.push(t1);
     option.series.push(t2);
@@ -374,6 +378,8 @@ function update() {
         name:'_rightlabel',
         stack:'dps',
         encode:{x:'_rightlabel',y:'advdps'},
+        animation:false,
+        itemStyle:itemStyle,
         label: {
             normal: {
                 show: true,
@@ -390,6 +396,8 @@ function update() {
         name:'_rightlabel',
         stack:'c_dps',
         encode:{x:'_rightlabel',y:'advdps'},
+        animation:false,
+        itemStyle:itemStyle,
         label: {
             normal: {
                 show: true,
