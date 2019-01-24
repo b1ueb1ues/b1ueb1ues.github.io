@@ -21,7 +21,7 @@ var itemStyle = {
     }
 };
 
-var adv_data = {};
+var describe2adv = {};
 var option = {
     legend: {
         data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff'],
@@ -35,10 +35,11 @@ var option = {
             type: 'shadow',
         },
         formatter: function(value){
-            r = adv_data[value.name].name;
-            if(value.data.condition){
+            adv = describe2adv[value.data.advdps];
+            r = adv.name
+            if(adv.condition && adv.condition!=' '){
                 if(value.seriesIndex%2==0){
-                    r+=' &lt;'+value.data.condition.slice(2,-1)+'&gt;';
+                    r+=' &lt;'+adv.condition.slice(1,-1)+'&gt;';
                 }
             }
             r += '<br>';
@@ -51,8 +52,7 @@ var option = {
                         if(v==0)continue;
                         if(i.slice(0,3)=='_c_')continue;
                         if(i == 'advdps')continue;
-                        if(i == 'total')continue;
-                        if(i == 'condition')continue;
+                        if(i == '_total')continue;
                         if(i == sname)r+='->';
                         r += i+': '+v+'<br>';
                     }
@@ -98,7 +98,7 @@ var option = {
         axisLabel: {
             interval: 0,
             formatter: function(value){
-                a = adv_data[value];
+                a = describe2adv[value];
                 label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
                 stre = '(str: ' + a.stre + ')';
                 condition = ''
@@ -131,7 +131,11 @@ var option = {
 let characters = [];
 
 function setData(data) {
-    tmpdata = [];
+    var tmpdata = [];
+    var sp_slash = '\\'.charCodeAt()+128;
+    var sp_cap = ':'.charCodeAt()+128;
+    sp_slash = String.fromCharCode(sp_slash);
+    sp_cap = String.fromCharCode(sp_cap);
     for(var i in data){
         if(data[i][0]=='name'){ continue; }
         character = data[i]
@@ -143,14 +147,26 @@ function setData(data) {
         character.condition = character[5];
         character.comment   = character[6];
         character.dps       = character[7];
+        var j = 8;
+        character.details = {}
+        while(1){
+            if(j>=character.length) break;
+            unit = character[j];
+            if(!unit){continue;}
+            if(typeof(unit)!='string'){continue;}
+            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
+            if(unit.search(':')!=-1){
+                a = unit.split(':',2);
+                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
+                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
+                character.details[a[0]] = parseInt(a[1]);
+            }
+            j+=1;
+        }
+        while(j-=1){
+            delete(character[j]);
+        }
         delete(character[0]);
-        delete(character[1]);
-        delete(character[2]);
-        delete(character[3]);
-        delete(character[4]);
-        delete(character[5]);
-        delete(character[6]);
-        delete(character[7]);
         tmpdata.push(character);
     }
 
@@ -165,10 +181,38 @@ function setData(data) {
     characters = tmpdata;
 }
 
+function sortData(data) {
+    console.log('sort');
+    op = chart.getOption();
+    lg = op.legend[0].selected;
+    console.log(lg);
+    var filtered = {};
+    for(var i in lg){
+        filtered[i] = !lg[i]
+    }
+    for(var a in characters){
+        var dps = 0;
+        for(var i in characters[a].details){
+            if(filtered[i]){
+            }else{
+                dps += characters[a].details[i]
+            }
+        }
+        characters[a].dps = dps;
+    }
+    characters.sort((adv1 , adv2) => {
+        if (adv1.dps > adv2.dps) {
+            return 1;
+        }
+        if (adv1.dps <= adv2.dps) {
+            return -1;
+        }
+    });
+}
 
 
-function create_describe(name, l){
-    return name + '(' + l.star + l.element + l.weapon + ')' + l.comment;
+function create_describe(name, adv){
+    return name + '(' + adv.star + adv.element + adv.weapon + ')' + adv.comment;
 }
 
 //var _dimensions = {__1:1,__2:2};
@@ -191,7 +235,7 @@ function update() {
     });
     o_data = filtered;
     datasrc = {};
-    c_data = [];
+    c_data = {};
     var a = [];
     var lines = {};
     var line = {};
@@ -211,33 +255,18 @@ function update() {
         var adv = o_data[i];
         lines[i] = {};
         line = lines[i];
-        if(adv.name.slice(0,3)=='_c_'){c_data.push(adv);continue;}
-        for(var j in adv){
-            unit = adv[j];
-            if(!unit){continue;}
-            if(typeof(unit)!='string'){continue;}
-            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
-            if(unit.search(':')!=-1){
-                a = unit.split(':',2);
-                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
-                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
-                line[a[0]] = a[1];
-                //line['_c_'+a[0]] = 0;
-                line['_c_'+a[0]] = a[1];
-                _dimensions[a[0]] = 1;
-            }else{
-                o_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
-            }
+        if(adv.name.slice(0,3)=='_c_'){c_data[i]=adv;continue;}
+        for(var j in adv.details){
+            line[j] = adv.details[j];
+            line['_c_'+j] = adv.details[j]
+            _dimensions[j] = 1;
         }
         name = adv.name;
         describe = create_describe(name, adv);
         line.advdps = describe;
-        line.total = 1;
+        line._total = 1;
         datasrc[describe] = line;
-        adv.ds = line;
-
-        adv_data[describe] = adv;
-        //adv_data['_c_'+describe] = adv;
+        describe2adv[describe] = adv;
         advIcons[name] = picfolder+name+'.png';
         rich[adv.name] = {
             lineHeight: 0,
@@ -251,59 +280,37 @@ function update() {
 
     for(var i in c_data){
         var adv = c_data[i];
-        line = {};
-        for(var j in adv){
-            unit = adv[j];
-            if(!unit){continue;}
-            if(typeof(unit)!='string'){continue;}
-            if(unit.slice(0,3)=='_c_'){continue;}
-            if(unit=='advdps'){continue;}
-            unit = unit.replace('\\\\',sp_slash).replace('\\:',sp_cap);
-            if(unit.search(':')!=-1){
-                a = unit.split(':',2);
-                a[0] = a[0].replace(sp_cap, ':').replace(sp_slash, '\\');
-                a[1] = a[1].replace(sp_cap, ':').replace(sp_slash, '\\');
-                //line['_c_'+a[0]] = a[1];
-                line[a[0]] = a[1];
-                _dimensions[a[0]] = 1;
-            }else{
-                c_data[i][j] = unit.replace(sp_cap, ':').replace(sp_slash, '\\');
-            }
+        line = lines[i];
+        for(var j in adv.details){
+            line[j] = adv.details[j]
+            _dimensions[j] = 1;
         }
         name = adv.name.slice(3);
         describe = create_describe(name, adv);
-        //if(line!={}){
-        //    for(var i in datasrc[describe]){
-        //        if(i!='advdps' && i.slice(0,3)!='_c_'){
-        //            datasrc[describe]['_c_'+i] = datasrc[describe][i];
-        //            datasrc[describe][i] = 0;
-        //        }
-        //    }
-        //}
-        //for(var i in line){
-        //    datasrc[describe][i] = line[i];
-        //}
+
+        // clean _c_ 
         for(var i in datasrc[describe]){
             if(i.slice(0,3) == '_c_'){
                 datasrc[describe][i] = 0;
             }
         }
+        // set _c_
         for(var i in line){
             datasrc[describe]['_c_'+i] = line[i];
         }
-        if(!datasrc[describe].condition){
-            datasrc[describe].condition = adv.condition
-        }
-        adv_data['_c_'+describe] = adv;
-        if(!adv_data[describe].condition){
-            adv_data[describe].condition = adv.condition;
-        }
+        describe2adv['_c_'+describe] = adv;
+        //if(!datasrc[describe].condition){
+        //    datasrc[describe].condition = adv.condition
+        //}
+        //if(!describe2adv[describe].condition){
+        //    describe2adv[describe].condition = adv.condition;
+        //}
     }
 
     for(var i in _dimensions){
-        if(i.slice(0,2)!='__'){
-            //option.legend.data.push(i);
-        }
+        //if(i.slice(0,2)!='__'){
+        //    option.legend.data.push(i);
+        //}
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
@@ -338,15 +345,15 @@ function update() {
     
     t1 = {
         type:'bar',
-        name:'total',
+        name:'_total',
         stack:'dps',
-        encode:{x:'total',y:'advdps'},
+        encode:{x:'_total',y:'advdps'},
         label: {
             normal: {
                 show: true,
                 position: 'right',
                 formatter: params => {
-                    a = adv_data[params.name];
+                    a = describe2adv[params.name];
                     return a.dps;
                 },
             },
@@ -354,15 +361,15 @@ function update() {
     }
     t2 = {
         type:'bar',
-        name:'total',
+        name:'_total',
         stack:'c_dps',
-        encode:{x:'total',y:'advdps'},
+        encode:{x:'_total',y:'advdps'},
         label: {
             normal: {
                 show: true,
                 position: 'right',
                 formatter: params => {
-                    a = adv_data['_c_'+params.name];
+                    a = describe2adv['_c_'+params.name];
                     if(a)
                         return a.dps;
                     return '';
@@ -396,3 +403,7 @@ fetch('data.csv').then(response => response.text()).then(text => {
     update();
 });
 
+chart.on('legendselectchanged', function () {
+    sortData();
+    update();
+});
