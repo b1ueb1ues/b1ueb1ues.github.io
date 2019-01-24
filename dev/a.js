@@ -52,7 +52,7 @@ var option = {
                         if(v==0)continue;
                         if(i.slice(0,3)=='_c_')continue;
                         if(i == 'advdps')continue;
-                        if(i == '_total')continue;
+                        if(i == '_rightlabel')continue;
                         if(i == sname)r+='->';
                         r += i+': '+v+'<br>';
                     }
@@ -106,10 +106,10 @@ var option = {
                 if(a.comment){
                     comment = a.comment;
                 }
-                if(a.condition){
-                    condition = a.condition
-                }
-            //    return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
+                //if(a.condition){
+                //    condition = a.condition
+                //}
+                //return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
                 return '{value|' + label + stre + condition + comment + '}{' + a.name + '| }';
             },
             margin: 5,
@@ -264,7 +264,7 @@ function update() {
         name = adv.name;
         describe = create_describe(name, adv);
         line.advdps = describe;
-        line._total = 1;
+        line._rightlabel = 1;
         datasrc[describe] = line;
         describe2adv[describe] = adv;
         advIcons[name] = picfolder+name+'.png';
@@ -327,8 +327,34 @@ function update() {
     }
 
     option.series = [];
+    t1 = {
+        type:'bar',
+        name:'attack',
+        stack:'dps',
+        encode:{x:'attack',y:'advdps'},
+        label: {
+            normal: {
+                show: true,
+                position: 'insideLeft',
+                formatter: params => {
+                    a = describe2adv[params.name];
+                    return a.condition;
+                },
+            },
+        },
+    }
+    t2 = {
+        type:'bar',
+        name:'attack',
+        stack:'c_dps',
+        encode:{x:'_c_attack',y:'advdps'},
+    }
+    option.series.push(t1);
+    option.series.push(t2);
 
     for(var i in _dimensions){
+        if(i == 'attack'){continue;}
+        if(i == '_c_attack'){continue;}
         s1 = {type:'bar',name:i,stack:'dps',encode:{x:i,y:'advdps'}};
         s2 = {type:'bar',name:i,stack:'c_dps',encode:{x:'_c_'+i,y:'advdps'}};
         s1.animation = false;
@@ -345,9 +371,9 @@ function update() {
     
     t1 = {
         type:'bar',
-        name:'_total',
+        name:'_rightlabel',
         stack:'dps',
-        encode:{x:'_total',y:'advdps'},
+        encode:{x:'_rightlabel',y:'advdps'},
         label: {
             normal: {
                 show: true,
@@ -361,9 +387,9 @@ function update() {
     }
     t2 = {
         type:'bar',
-        name:'_total',
+        name:'_rightlabel',
         stack:'c_dps',
-        encode:{x:'_total',y:'advdps'},
+        encode:{x:'_rightlabel',y:'advdps'},
         label: {
             normal: {
                 show: true,
