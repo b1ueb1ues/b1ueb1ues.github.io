@@ -87,6 +87,7 @@ var option = {
         yAxisIndex: [0],
         maxValueSpan: 15,
         showDetail: false,
+        showDataShadow:false,
     }, ],
     xAxis: { 
     },
