@@ -53,6 +53,7 @@ var option = {
                         if(i.slice(0,3)=='_c_')continue;
                         if(i == 'advdps')continue;
                         if(i == '_rightlabel')continue;
+                        if(i == '__slider')continue;
                         if(i == sname)r+='->';
                         r += i+': '+v+'<br>';
                     }
@@ -87,6 +88,7 @@ var option = {
         yAxisIndex: [0],
         maxValueSpan: 15,
         showDetail: false,
+        showDataShadow:false,
     }, ],
     xAxis: { 
     },
@@ -195,7 +197,7 @@ function sortData(data) {
         for(var i in characters[a].details){
             if(filtered[i]){
             }else{
-                dps += characters[a].details[i]
+                dps += characters[a].details[i];
             }
         }
         characters[a].dps = dps;
@@ -266,6 +268,7 @@ function update() {
         line.advdps = describe;
         line._rightlabel = 1;
         datasrc[describe] = line;
+        datasrc[describe].__slider = adv.dps;
         describe2adv[describe] = adv;
         advIcons[name] = picfolder+name+'.png';
         rich[adv.name] = {
@@ -327,6 +330,22 @@ function update() {
     }
 
     option.series = [];
+    //s0 = {type:'bar',name:'slider',stack:'slider',encode:{x:'__slider',y:'advdps'}};
+    //s0.show = false;
+    //s0.animation = false;
+    //s0.barWidth = 0.01;
+    //s0.label = {
+    //    normal: {
+    //        show: true,
+    //        position: 'insideLeft',
+    //        formatter: params => {
+    //            a = describe2adv[params.name];
+    //            return a.condition;
+    //        },
+    //    },
+    //}
+    //option.series.push(s0);
+    //option.dataZoom[0].showDataShadow='__slider';
     t1 = {
         type:'bar',
         name:'attack',
@@ -359,6 +378,7 @@ function update() {
     for(var i in _dimensions){
         if(i == 'attack'){continue;}
         if(i == '_c_attack'){continue;}
+        if(i == '__slider'){continue;}
         s1 = {type:'bar',name:i,stack:'dps',encode:{x:i,y:'advdps'}};
         s2 = {type:'bar',name:i,stack:'c_dps',encode:{x:'_c_'+i,y:'advdps'}};
         s1.animation = false;
@@ -368,7 +388,7 @@ function update() {
         s2.animation = false;
         s2.itemStyle = itemStyle;
         s2.barGap = -0.05;
-        //s1.barWidth = 30;
+        //s2.barWidth = 30;
         option.series.push(s1);
         option.series.push(s2);
     }
