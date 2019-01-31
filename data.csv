@@ -28,8 +28,8 @@ _c_H_Edward,3星,光,刀,2843,!<hp100>,,1401,attack:643,force_strike:0,skill_1:5
 Jurota,3星,水,刀,2793, ,,1429,attack:755,force_strike:0,skill_1:674,skill_2:0,skill_3:0,team_buff:0
 Melody,3星,风,刀,2811,<hp100>,,2206,attack:875,force_strike:0,skill_1:0,skill_2:335,skill_3:199,team_buff:795
 _c_Melody,3星,风,刀,2811,!<hp100>,,2135,attack:831,force_strike:0,skill_1:0,skill_2:318,skill_3:189,team_buff:795
-Mikoto,5星,火,刀,2928,<hp70>,,2085,attack:1018,force_strike:0,skill_1:741,skill_2:0,skill_3:325,team_buff:0
-_c_Mikoto,5星,火,刀,2928,!<hp70>,,1962,attack:958,force_strike:0,skill_1:697,skill_2:0,skill_3:306,team_buff:0
+Mikoto,5星,火,刀,2928,<hp70 & connect s1>,,2085,attack:1018,force_strike:0,skill_1:741,skill_2:0,skill_3:325,team_buff:0
+_c_Mikoto,5星,火,刀,2928,!<hp70 & connect s1>,,1878,attack:968,force_strike:0,skill_1:601,skill_2:0,skill_3:308,team_buff:0
 Musashi,4星,风,刀,2945,<last offense>,poison 3 times,1747,attack:781,force_strike:0,skill_1:667,skill_2:0,skill_3:257,team_buff:0,s1_poison:41
 _c_Musashi,4星,风,刀,2945,!<last offense>,poison 3 times,1694,attack:753,force_strike:0,skill_1:654,skill_2:0,skill_3:257,team_buff:0,s1_poison:29
 Taro,3星,暗,刀,2857, ,,1481,attack:583,force_strike:0,skill_1:491,skill_2:220,skill_3:185,team_buff:0
@@ -116,3 +116,11 @@ Annelie,5星,光,枪,2942,<hp70 & energy>,do s1s1s2s1 loop,2073,attack:596,force
 _c_Annelie,5星,光,枪,2942,!<hp70 & energy>,do s1s1s2s1 loop,1529,attack:563,force_strike:60,skill_1:524,skill_2:149,skill_3:232,team_buff:0
 Marty,3星,火,剑,2648, ,,1548,attack:499,force_strike:202,skill_1:606,skill_2:0,skill_3:240,team_buff:0
 Fritz,4星,光,匕,2792, ,,1493,attack:673,force_strike:75,skill_1:543,skill_2:0,skill_3:0,team_buff:80,s2fs:119
+Linyou,5星,风,斧,2726,<hp70>,new WP & new dragon,2220,attack:943,force_strike:0,skill_1:901,skill_2:0,skill_3:289,team_buff:0,s1_powerup:85
+_c_Linyou,5星,风,斧,2726,!<hp70>,new WP & new dragon,2010,attack:854,force_strike:0,skill_1:816,skill_2:0,skill_3:262,team_buff:0,s1_powerup:77
+Kuhai,4星,风,剑,2796,<hp70>,don't use s2 ever,1479,attack:545,force_strike:250,skill_1:683,skill_2:0,skill_3:0,team_buff:0
+_c_Kuhai,4星,风,剑,2796,!<hp70>,don't use s2 ever,1463,attack:539,force_strike:248,skill_1:675,skill_2:0,skill_3:0,team_buff:0
+Kuhai,4星,风,剑,2796,<hp70>,use s2,1389,attack:402,force_strike:9,skill_1:536,skill_2:0,skill_3:0,team_buff:0,fs_alt:441
+_c_Kuhai,4星,风,剑,2796,!<hp70>,use s2,1360,attack:395,force_strike:9,skill_1:524,skill_2:0,skill_3:0,team_buff:0,fs_alt:431
+Xiaolei,3星,光,法,2844, ,,1840,attack:756,force_strike:0,skill_1:686,skill_2:0,skill_3:243,team_buff:154
+Sufang,4星,风,匕,2777, ,,1598,attack:615,force_strike:68,skill_1:622,skill_2:0,skill_3:290,team_buff:0
