@@ -3,6 +3,8 @@
 
 ## changelog
 
+fix linyou's normal s1 7hits -> 6hits
+
 add new charactors
 
 
