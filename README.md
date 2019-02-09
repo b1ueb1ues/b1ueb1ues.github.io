@@ -3,6 +3,8 @@
 
 ## changelog
 
+introduce wand user's c5+fs\_failed
+
 fix linyou's normal s1 7hits -> 6hits
 
 add new charactors
