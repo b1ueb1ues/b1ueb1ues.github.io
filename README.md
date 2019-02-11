@@ -2,6 +2,13 @@
 
 
 ## changelog
+Xander not using weapon skill don't lose any DPS, so you can save it for iframe some attack, and get more OD cutting!  
+
+change Xander to 2+fs.
+
+Xander with WP"together we stand" gained 10 stacks of attack buff can reach 3000+dps (but I will not put it in this chart)
+
+fix nefaria's s1 7hits -> 8hits
 
 introduce wand user's c5+fs\_failed
 
