@@ -3,6 +3,8 @@
 
 ## changelog
 
+rm Longlong Linyou because it's too close to RR+Zephyr
+
 rm superpowered xander (follow buggy v\_orion
 
 ----------------
