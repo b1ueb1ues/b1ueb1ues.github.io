@@ -2,6 +2,8 @@
 
 
 ## changelog
+length new charasters' frame 
+
 add new characters (assumed frame)
 
 Xander not using weapon skill don't lose any DPS, so you can save it for iframe some attack, and get more OD cutting!  
