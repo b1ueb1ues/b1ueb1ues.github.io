@@ -49,8 +49,8 @@ Nicolas,3星,风,法,2740, ,,1511,attack:698,force_strike:0,skill_1:569,skill_2:
 Xania,3星,火,法,2691, ,,1665,attack:709,force_strike:0,skill_1:648,skill_2:307,skill_3:0,team_buff:0
 D_Cleo,5星,水,匕,2515,<hp70 & energy & always connect hits>,s1 in lvl3 (buggy),1782,attack:688,force_strike:79,skill_1:385,skill_2:286,skill_3:0,team_buff:203,team_energy:72,s1_energized:38,s2_energized:28
 _c_D_Cleo,5星,水,匕,2515,!<hp70 & energy & always connect hits>,s1 in lvl3 (buggy),1525,attack:631,force_strike:73,skill_1:354,skill_2:262,skill_3:0,team_buff:203
-D_Cleo,5星,水,匕,2515,<hp70 & energy & always connect hits>,use s1 in lvl2,1939,attack:665,force_strike:72,skill_1:516,skill_2:241,skill_3:0,team_buff:272,team_energy:94,s1_energized:75
-_c_D_Cleo,5星,水,匕,2515,!<hp70 & energy & always connect hits>,use s1 in lvl2,1646,attack:610,force_strike:66,skill_1:474,skill_2:221,skill_3:0,team_buff:272
+D_Cleo,5星,水,匕,2477,<hp70 & energy & always connect hits>,use s1 in lvl2,1915,attack:655,force_strike:71,skill_1:508,skill_2:237,skill_3:0,team_buff:272,team_energy:94,s1_energized:74
+_c_D_Cleo,5星,水,匕,2477,!<hp70 & energy & always connect hits>,use s1 in lvl2,1625,attack:601,force_strike:65,skill_1:467,skill_2:218,skill_3:0,team_buff:272
 Francesca,3星,风,匕,2707, ,,1373,attack:520,force_strike:73,skill_1:405,skill_2:152,skill_3:198,team_buff:23
 Irfan,3星,光,匕,2712, ,,1309,attack:589,force_strike:68,skill_1:480,skill_2:171,skill_3:0,team_buff:0
 Luther,4星,水,匕,2483,<hit15>,,1452,attack:617,force_strike:66,skill_1:556,skill_2:188,skill_3:0,team_buff:24
@@ -126,3 +126,7 @@ Kuhai,4星,风,剑,2796,<hp70>,no s2,1479,attack:545,force_strike:250,skill_1:68
 _c_Kuhai,4星,风,剑,2796,!<hp70>,no s2,1463,attack:539,force_strike:248,skill_1:675,skill_2:0,skill_3:0,team_buff:0
 Xiaolei,3星,光,法,2844, ,,1889,attack:769,force_strike:0,skill_1:722,skill_2:0,skill_3:243,team_buff:154
 Sufang,4星,风,匕,2777, ,,1442,attack:615,force_strike:68,skill_1:466,skill_2:0,skill_3:290,team_buff:0
+V_Ezelith,4星,火,弓,2670,<never lose combos & c4+fs>,,1458,attack:432,force_strike:183,skill_1:427,skill_2:200,skill_3:0,team_buff:153,s1_energized:34,s2_burn:26
+_c_V_Ezelith,4星,火,弓,2670,!<never lose combos & c4+fs>,,1396,attack:557,force_strike:0,skill_1:427,skill_2:228,skill_3:0,team_buff:155,s2_burn:26
+V_Orion,3星,火,剑,2750,<Valiant Crown>,,1578,attack:551,force_strike:243,skill_1:512,skill_2:0,skill_3:252,team_buff:0,s2_burn:18
+_c_V_Orion,3星,火,剑,2750,!<Valiant Crown>,,1499,attack:524,force_strike:216,skill_1:490,skill_2:0,skill_3:249,team_buff:0,s2_burn:18
