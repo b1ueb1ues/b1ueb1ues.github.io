@@ -3,6 +3,10 @@
 
 ## changelog
 
+rm superpowered xander (follow buggy v\_orion
+
+----------------
+
 oh they fix v\_orion just now
 
 ----------------------
