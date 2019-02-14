@@ -2,6 +2,11 @@
 
 
 ## changelog
+add v_orion in HMS
+add superpowerd xander
+
+---------------------------
+
 length new charasters' frame 
 
 add new characters (assumed frame)
