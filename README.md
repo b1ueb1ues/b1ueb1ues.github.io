@@ -2,6 +2,7 @@
 
 
 ## changelog
+add fire facility
 
 rm Longlong Linyou because it's too close to RR+Zephyr
 
