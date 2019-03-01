@@ -13,7 +13,7 @@ _c_Berserker,4星,暗,剑,2644,!<last offense>,,1377,attack:543,force_strike:249
 Euden,4星,火,剑,2795, ,,1654,attack:458,force_strike:201,skill_1:545,skill_2:196,skill_3:173,team_buff:80
 Karl,4星,火,剑,2800,<hp70>,,1838,attack:579,force_strike:228,skill_1:563,skill_2:0,skill_3:204,team_buff:262
 _c_Karl,4星,火,剑,2800,!<hp70>,,1763,attack:551,force_strike:217,skill_1:536,skill_2:0,skill_3:194,team_buff:262
-Naveed,5星,火,剑,2888, ,,1417,attack:460,force_strike:155,skill_1:538,skill_2:0,skill_3:262,team_buff:0
+Naveed,5星,火,剑,2888, ,,1424,attack:470,force_strike:126,skill_1:565,skill_2:0,skill_3:262,team_buff:0
 Raemond,3星,光,剑,2840, ,,1688,attack:551,force_strike:201,skill_1:508,skill_2:255,skill_3:171,team_buff:0
 Rodrigo,3星,暗,剑,2668,<hp70>,,1766,attack:637,force_strike:245,skill_1:630,skill_2:252,skill_3:0,team_buff:0
 _c_Rodrigo,3星,暗,剑,2668,!<hp70>,,1682,attack:607,force_strike:234,skill_1:600,skill_2:240,skill_3:0,team_buff:0
@@ -93,8 +93,8 @@ Eleonora,4星,风,弓,2758,<c4+fs>,poison by s1 3 times,1452,attack:412,force_st
 _c_Eleonora,4星,风,弓,2758,!<c4+fs>,poison by s1 3 times,1296,attack:578,force_strike:0,skill_1:415,skill_2:222,skill_3:0,team_buff:0,s1_poison:80
 Elias,4星,光,弓,2683,<last offense & c4+fs & no s2>,,1365,attack:446,force_strike:257,skill_1:474,skill_2:0,skill_3:186,team_buff:0
 _c_Elias,4星,光,弓,2683,!<last offense & c4+fs & no s2>,,1094,attack:562,force_strike:0,skill_1:439,skill_2:0,skill_3:93,team_buff:0
-Hawk,5星,风,弓,2795,<c4+fs>,boost dmg from stun 3 times,1520,attack:474,force_strike:271,skill_1:275,skill_2:0,skill_3:0,team_buff:0,s1hitstun:468,s2fs:31
-_c_Hawk,5星,风,弓,2795,!<c4+fs>,boost dmg from stun 3 times,1437,attack:694,force_strike:0,skill_1:275,skill_2:0,skill_3:0,team_buff:0,s1hitstun:468
+Hawk,5星,风,弓,2795,<c4+fs>,boost dmg from stun 3 times,1735,attack:492,force_strike:275,skill_1:475,skill_2:0,skill_3:0,team_buff:0,s1hitstun:468,s2fs:25
+_c_Hawk,5星,风,弓,2795,!<c4+fs>,boost dmg from stun 3 times,1730,attack:660,force_strike:0,skill_1:602,skill_2:0,skill_3:0,team_buff:0,s1hitstun:468
 Joe,3星,火,弓,2660,<c4+fs>,burn 3 times,1431,attack:442,force_strike:258,skill_1:472,skill_2:206,skill_3:0,team_buff:0,s2_burn:52
 _c_Joe,3星,火,弓,2660,!<c4+fs>,burn 3 times,1358,attack:626,force_strike:0,skill_1:472,skill_2:206,skill_3:0,team_buff:0,s2_burn:52
 Louise,5星,风,弓,2740, ,poison 3 times & no fs,1475,attack:602,force_strike:0,skill_1:465,skill_2:185,skill_3:0,team_buff:0,s2hitpoison:128,s1_poison:92
@@ -102,8 +102,8 @@ Luca,4星,光,弓,2734,<hp100 & c4+fs>,paralysis 3 times,1441,attack:429,force_s
 _c_Luca,4星,光,弓,2734,!<hp100 & c4+fs>,paralysis 3 times,1269,attack:551,force_strike:0,skill_1:386,skill_2:155,skill_3:95,team_buff:0,s1_paralysis:79
 Malora,3星,光,弓,2713,<spawn c1+fs>,,1360,attack:173,force_strike:494,skill_1:409,skill_2:136,skill_3:97,team_buff:48
 _c_Malora,3星,光,弓,2713,!<spawn c1+fs>,,1359,attack:586,force_strike:0,skill_1:490,skill_2:136,skill_3:97,team_buff:48
-Nefaria,5星,暗,弓,2729,<c4+fs>,boost dmg from blind 3 times,1432,attack:396,force_strike:238,skill_1:424,skill_2:0,skill_3:94,team_buff:0,s2fs:24,s1hitblind:254
-_c_Nefaria,5星,暗,弓,2729,!<c4+fs>,boost dmg from blind 3 times,1433,attack:564,force_strike:0,skill_1:424,skill_2:0,skill_3:189,team_buff:0,s1hitblind:254
+Nefaria,5星,暗,弓,2729,<c4+fs>,boost dmg from blind 3 times,1519,attack:443,force_strike:262,skill_1:449,skill_2:0,skill_3:94,team_buff:0,s2fs:24,s1hitblind:244
+_c_Nefaria,5星,暗,弓,2729,!<c4+fs>,boost dmg from blind 3 times,1531,attack:621,force_strike:0,skill_1:475,skill_2:0,skill_3:189,team_buff:0,s1hitblind:244
 Philia,3星,风,弓,2681,<hp100 & c4+fs>,paralysis 3 times,1402,attack:449,force_strike:252,skill_1:424,skill_2:220,skill_3:0,team_buff:0,s2_paralysis:56
 _c_Philia,3星,风,弓,2681,!<hp100 & c4+fs>,paralysis 3 times,1237,attack:577,force_strike:0,skill_1:476,skill_2:131,skill_3:0,team_buff:0,s2_paralysis:53
 Rawn,4星,光,弓,2792,<c1+fs>,,1280,attack:171,force_strike:467,skill_1:394,skill_2:150,skill_3:97,team_buff:0
@@ -128,8 +128,8 @@ V_Ezelith,4星,火,弓,2699,<never lose combos & c4+fs>,,1499,attack:427,force_s
 _c_V_Ezelith,4星,火,弓,2699,!<never lose combos & c4+fs>,,1401,attack:549,force_strike:0,skill_1:419,skill_2:231,skill_3:0,team_buff:120,s2_burn:81
 V_Orion,3星,火,剑,2779,<Valiant Crown>,,1689,attack:556,force_strike:244,skill_1:535,skill_2:0,skill_3:279,team_buff:0,s2_burn:73
 _c_V_Orion,3星,火,剑,2779,!<Valiant Crown>,,1573,attack:526,force_strike:225,skill_1:495,skill_2:0,skill_3:252,team_buff:0,s2_burn:73
-Albert,5星,光,剑,2961,<3s1 in one s2>,,2083,attack:467,force_strike:345,skill_1:679,skill_2:0,skill_3:0,team_buff:0,s1_s2boost:408,s1_paralyze:94,fs_alt:88
-_c_Albert,5星,光,剑,2961,!<3s1 in one s2>,,2093,attack:475,force_strike:287,skill_1:679,skill_2:0,skill_3:0,team_buff:0,s1_s2boost:408,fs_alt:147,s1_paralyze:94
+Albert,5星,光,剑,2961,<3s1 in one s2>,,2064,attack:548,force_strike:224,skill_1:565,skill_2:0,skill_3:179,team_buff:0,s1_s2boost:394,s1_paralyze:90,fs_alt:61
+_c_Albert,5星,光,剑,2961,!<3s1 in one s2>,,2092,attack:441,force_strike:299,skill_1:565,skill_2:0,skill_3:193,team_buff:0,s1_s2boost:394,fs_alt:107,s1_paralyze:90
 Odetta,4星,光,剑,2923,<hp70 & buff all team>,,2119,attack:629,force_strike:273,skill_1:609,skill_2:0,skill_3:220,team_buff:386
 _c_Odetta,4星,光,剑,2923,!<hp70 & buff all team>,,1715,attack:592,force_strike:257,skill_1:573,skill_2:0,skill_3:207,team_buff:84
 Jakob,3星,水,枪,2622,<bog>,bog 3 times,2238,attack:708,force_strike:113,skill_1:576,skill_2:0,skill_3:0,team_buff:840

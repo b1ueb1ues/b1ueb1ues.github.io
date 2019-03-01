@@ -2,6 +2,8 @@
 
 
 ## changelog
+buff nefaria, hawk, naveed
+
 add new characters
 
 
