@@ -2,10 +2,11 @@
 
 
 ## changelog
+make albert performance worse in little hitbox
+
 buff nefaria, hawk, naveed
 
 add new characters
-
 
 add fire facility
 
