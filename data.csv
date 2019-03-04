@@ -93,8 +93,8 @@ Eleonora,4星,风,弓,2758,<c4+fs>,poison by s1 3 times,1368,attack:404,force_st
 _c_Eleonora,4星,风,弓,2758,!<c4+fs>,poison by s1 3 times,1264,attack:576,force_strike:0,skill_1:463,skill_2:197,skill_3:0,team_buff:0,s1_poison:26
 Elias,4星,光,弓,2683,<last offense & c4+fs & no s2>,,1345,attack:407,force_strike:242,skill_1:509,skill_2:0,skill_3:186,team_buff:0
 _c_Elias,4星,光,弓,2683,!<last offense & c4+fs & no s2>,,1173,attack:550,force_strike:0,skill_1:497,skill_2:0,skill_3:124,team_buff:0
-Hawk,5星,风,弓,2795,<c4+fs>,boost dmg from stun 3 times,1424,attack:446,force_strike:261,skill_1:520,skill_2:0,skill_3:0,team_buff:0,s1hitstun:156,s2fs:40
-_c_Hawk,5星,风,弓,2795,!<c4+fs>,boost dmg from stun 3 times,1368,attack:645,force_strike:0,skill_1:567,skill_2:0,skill_3:0,team_buff:0,s1hitstun:156
+Hawk,5星,风,弓,2795,<c4+fs & stun 20s(3 s1 boosted)>,,1426,attack:448,force_strike:261,skill_1:520,skill_2:0,skill_3:0,team_buff:0,s1hitstun:156,s2fs:40
+_c_Hawk,5星,风,弓,2795,!<c4+fs & stun 20s(3 s1 boosted)>,,1176,attack:625,force_strike:0,skill_1:550,skill_2:0,skill_3:0,team_buff:0
 Joe,3星,火,弓,2660,<c4+fs>,burn 3 times,1442,attack:447,force_strike:261,skill_1:506,skill_2:209,skill_3:0,team_buff:0,s2_burn:17
 _c_Joe,3星,火,弓,2660,!<c4+fs>,burn 3 times,1359,attack:629,force_strike:0,skill_1:502,skill_2:209,skill_3:0,team_buff:0,s2_burn:17
 Louise,5星,风,弓,2740, ,poison 3 times & no fs,1412,attack:589,force_strike:0,skill_1:501,skill_2:247,skill_3:0,team_buff:0,s2hitpoison:42,s1_poison:30
@@ -102,8 +102,8 @@ Luca,4星,光,弓,2734,<hp100 & c4+fs>,paralysis 3 times,1478,attack:405,force_s
 _c_Luca,4星,光,弓,2734,!<hp100 & c4+fs>,paralysis 3 times,1299,attack:526,force_strike:0,skill_1:412,skill_2:207,skill_3:126,team_buff:0,s1_paralysis:26
 Malora,3星,光,弓,2713,<spawn c1+fs>,,1519,attack:167,force_strike:476,skill_1:465,skill_2:182,skill_3:164,team_buff:63
 _c_Malora,3星,光,弓,2713,!<spawn c1+fs>,,1410,attack:568,force_strike:0,skill_1:465,skill_2:182,skill_3:129,team_buff:64
-Nefaria,5星,暗,弓,2729,<c4+fs>,boost dmg from blind 3 times,1338,attack:401,force_strike:232,skill_1:461,skill_2:0,skill_3:126,team_buff:0,s2fs:35,s1hitblind:81
-_c_Nefaria,5星,暗,弓,2729,!<c4+fs>,boost dmg from blind 3 times,1305,attack:568,force_strike:0,skill_1:497,skill_2:0,skill_3:158,team_buff:0,s1hitblind:81
+Nefaria,5星,暗,弓,2729,<c4+fs & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,1319,attack:401,force_strike:232,skill_1:461,skill_2:0,skill_3:126,team_buff:0,s2fs:35,s1hitblind:62
+_c_Nefaria,5星,暗,弓,2729,!<c4+fs & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,1188,attack:549,force_strike:0,skill_1:480,skill_2:0,skill_3:158,team_buff:0
 Philia,3星,风,弓,2681,<hp100 & c4+fs>,paralysis 3 times,1417,attack:437,force_strike:253,skill_1:483,skill_2:224,skill_3:0,team_buff:0,s2_paralysis:18
 _c_Philia,3星,风,弓,2681,!<hp100 & c4+fs>,paralysis 3 times,1251,attack:577,force_strike:0,skill_1:480,skill_2:174,skill_3:0,team_buff:0,s2_paralysis:17
 Rawn,4星,光,弓,2792,<c1+fs>,,1395,attack:159,force_strike:453,skill_1:420,skill_2:200,skill_3:161,team_buff:0
