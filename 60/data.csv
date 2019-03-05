@@ -10,13 +10,13 @@ Sazanka,4星,暗,斧,2782, ,do not use weapon skill,1795,attack:722,force_strike
 Botan,4星,暗,枪,2705, ,,2108,attack:600,force_strike:0,skill_1:565,skill_2:0,skill_3:210,team_buff:262,bleed:469
 Berserker,4星,暗,剑,2644,<last offense>,,1511,attack:599,force_strike:274,skill_1:636,skill_2:0,skill_3:0,team_buff:0
 _c_Berserker,4星,暗,剑,2644,!<last offense>,,1377,attack:543,force_strike:249,skill_1:584,skill_2:0,skill_3:0,team_buff:0
-Euden,4星,火,剑,2795, ,,1654,attack:458,force_strike:201,skill_1:545,skill_2:196,skill_3:173,team_buff:80
-Karl,4星,火,剑,2800,<hp70>,,1838,attack:579,force_strike:228,skill_1:563,skill_2:0,skill_3:204,team_buff:262
-_c_Karl,4星,火,剑,2800,!<hp70>,,1763,attack:551,force_strike:217,skill_1:536,skill_2:0,skill_3:194,team_buff:262
+Euden,4星,火,剑,2795, ,,1674,attack:459,force_strike:210,skill_1:548,skill_2:196,skill_3:177,team_buff:82
+Karl,4星,火,剑,2800,<hp70>,,1837,attack:549,force_strike:252,skill_1:563,skill_2:0,skill_3:204,team_buff:266
+_c_Karl,4星,火,剑,2800,!<hp70>,,1762,attack:523,force_strike:240,skill_1:536,skill_2:0,skill_3:194,team_buff:266
 Naveed,5星,火,剑,2888, ,,1424,attack:470,force_strike:126,skill_1:565,skill_2:0,skill_3:262,team_buff:0
-Raemond,3星,光,剑,2840, ,,1688,attack:551,force_strike:201,skill_1:508,skill_2:255,skill_3:171,team_buff:0
-Rodrigo,3星,暗,剑,2668,<hp70>,,1766,attack:637,force_strike:245,skill_1:630,skill_2:252,skill_3:0,team_buff:0
-_c_Rodrigo,3星,暗,剑,2668,!<hp70>,,1682,attack:607,force_strike:234,skill_1:600,skill_2:240,skill_3:0,team_buff:0
+Raemond,3星,光,剑,2840, ,,1695,attack:520,force_strike:239,skill_1:508,skill_2:255,skill_3:171,team_buff:0
+Rodrigo,3星,暗,剑,2668,<hp70>,,1759,attack:630,force_strike:245,skill_1:630,skill_2:252,skill_3:0,team_buff:0
+_c_Rodrigo,3星,暗,剑,2668,!<hp70>,,1675,attack:600,force_strike:234,skill_1:600,skill_2:240,skill_3:0,team_buff:0
 Xander,5星,水,剑,2634, ,c2+fs,1883,attack:434,force_strike:483,skill_1:541,skill_2:244,skill_3:180,team_buff:0
 Zardin,3星,水,剑,2440,<hp100>,,1823,attack:584,force_strike:269,skill_1:591,skill_2:199,skill_3:178,team_buff:0
 _c_Zardin,3星,水,剑,2440,!<hp100>,,1705,attack:547,force_strike:251,skill_1:552,skill_2:186,skill_3:167,team_buff:0
@@ -114,7 +114,7 @@ G_Sarisse,5星,火,弓,2752,<never lose combos & c4+fs>,,1831,attack:475,force_s
 _c_G_Sarisse,5星,火,弓,2752,!<never lose combos & c4+fs>,,1342,attack:620,force_strike:0,skill_1:570,skill_2:0,skill_3:0,team_buff:151
 Annelie,5星,光,枪,2942,<hp70 & energy>,do s1s1s2s1 loop,1818,attack:630,force_strike:67,skill_1:661,skill_2:114,skill_3:254,team_buff:0,team_energy:33,s1_p3_energized:56
 _c_Annelie,5星,光,枪,2942,!<hp70 & energy>,do s1s1s2s1 loop,1439,attack:610,force_strike:64,skill_1:475,skill_2:89,skill_3:198,team_buff:0
-Marty,3星,火,剑,2675, ,,1559,attack:502,force_strike:225,skill_1:588,skill_2:0,skill_3:242,team_buff:0
+Marty,3星,火,剑,2675, ,,1576,attack:510,force_strike:234,skill_1:588,skill_2:0,skill_3:242,team_buff:0
 Fritz,4星,光,匕,2792, ,,1468,attack:683,force_strike:75,skill_1:542,skill_2:0,skill_3:0,team_buff:75,s2fs:91
 Linyou,5星,风,斧,3008,<hp70>,RR+Zephyr,2121,attack:892,force_strike:0,skill_1:797,skill_2:0,skill_3:298,team_buff:0,s1_powerup:132
 _c_Linyou,5星,风,斧,3008,!<hp70>,RR+Zephyr,1913,attack:805,force_strike:0,skill_1:718,skill_2:0,skill_3:269,team_buff:0,s1_powerup:119
@@ -130,7 +130,7 @@ V_Orion,3星,火,剑,2779,<Valiant Crown>,,1689,attack:556,force_strike:244,skil
 _c_V_Orion,3星,火,剑,2779,!<Valiant Crown>,,1573,attack:526,force_strike:225,skill_1:495,skill_2:0,skill_3:252,team_buff:0,s2_burn:73
 Albert,5星,光,剑,2961,<3s1 in one s2 & huge hitbox>,,2330,attack:466,force_strike:299,skill_1:669,skill_2:0,skill_3:89,team_buff:0,s1_s2boost:591,s1_paralyze:90,fs_alt:122
 _c_Albert,5星,光,剑,2961,!<3s1 in one s2 & huge hitbox>,,1869,attack:515,force_strike:284,skill_1:565,skill_2:0,skill_3:193,team_buff:0,s1_s2boost:311
-Odetta,4星,光,剑,2923,<hp70 & buff all team>,,2018,attack:615,force_strike:252,skill_1:528,skill_2:0,skill_3:220,team_buff:401
-_c_Odetta,4星,光,剑,2923,!<hp70 & buff all team>,,1600,attack:579,force_strike:237,skill_1:497,skill_2:0,skill_3:207,team_buff:78
+Odetta,4星,光,剑,2923,<hp70 & buff all team>,,2103,attack:601,force_strike:275,skill_1:602,skill_2:0,skill_3:220,team_buff:403
+_c_Odetta,4星,光,剑,2923,!<hp70 & buff all team>,,1680,attack:565,force_strike:259,skill_1:566,skill_2:0,skill_3:207,team_buff:81
 Jakob,3星,水,枪,2622,<bog>,bog 3 times,2238,attack:708,force_strike:113,skill_1:576,skill_2:0,skill_3:0,team_buff:840
 _c_Jakob,3星,水,枪,2622,!<bog>,bog 3 times,1172,attack:567,force_strike:80,skill_1:523,skill_2:0,skill_3:0,team_buff:0
