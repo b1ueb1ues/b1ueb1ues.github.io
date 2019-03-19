@@ -1,12 +1,13 @@
 name,star,element,weapon,str,condition,comment,dps
-Addis,4星,风,刀,2960, ,,2073,attack:809,force_strike:0,skill_1:621,skill_2:0,skill_3:275,team_buff:0,s1_poison:30,bleed:336
-Ieyasu,5星,暗,刀,3030,<hp70>,,2199,attack:671,force_strike:0,skill_1:608,skill_2:0,skill_3:235,team_buff:0,bleed:683
-_c_Ieyasu,5星,暗,刀,3030,!<hp70>,,2040,attack:621,force_strike:0,skill_1:563,skill_2:0,skill_3:219,team_buff:0,bleed:636
+Addis,4星,风,刀,2960, ,,2078,attack:810,force_strike:0,skill_1:621,skill_2:0,skill_3:275,team_buff:0,s1_poison:30,bleed:340
+Ieyasu,5星,暗,刀,3030,<hp70>,,2201,attack:671,force_strike:0,skill_1:608,skill_2:0,skill_3:236,team_buff:0,bleed:685
+_c_Ieyasu,5星,暗,刀,3030,!<hp70>,,2043,attack:621,force_strike:0,skill_1:563,skill_2:0,skill_3:219,team_buff:0,bleed:638
 Sinoa,4星,火,法,2748,<hp100>,,1648,attack:909,force_strike:0,skill_1:0,skill_2:327,skill_3:0,team_buff:410
 _c_Sinoa,4星,火,法,2748,!<hp100>,,1555,attack:841,force_strike:0,skill_1:0,skill_2:303,skill_3:0,team_buff:410
-Ezelith,5星,火,匕,2795,<hp70>,,1477,attack:551,force_strike:65,skill_1:553,skill_2:0,skill_3:194,team_buff:113
-_c_Ezelith,5星,火,匕,2795,!<hp70>,,1377,attack:542,force_strike:63,skill_1:535,skill_2:0,skill_3:189,team_buff:46
-Sazanka,4星,暗,斧,2835, ,do not use weapon skill,2025,attack:734,force_strike:86,skill_1:608,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:577
+Ezelith,5星,火,匕,2795,<hp70>,,1478,attack:551,force_strike:65,skill_1:553,skill_2:0,skill_3:194,team_buff:114
+_c_Ezelith,5星,火,匕,2795,!<hp70>,,1378,attack:542,force_strike:63,skill_1:536,skill_2:0,skill_3:189,team_buff:46
+Sazanka,4星,暗,斧,2835,<sleep>,do not use weapon skill,2052,attack:746,force_strike:87,skill_1:616,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:583
+_c_Sazanka,4星,暗,斧,2835,!<sleep>,do not use weapon skill,2025,attack:734,force_strike:86,skill_1:608,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:577
 Botan,4星,暗,枪,2753, ,,2232,attack:610,force_strike:0,skill_1:550,skill_2:0,skill_3:214,team_buff:262,bleed:595
 Berserker,4星,暗,剑,2694,<last offense>,,1448,attack:572,force_strike:262,skill_1:613,skill_2:0,skill_3:0,team_buff:0
 _c_Berserker,4星,暗,剑,2694,!<last offense>,,1403,attack:553,force_strike:254,skill_1:595,skill_2:0,skill_3:0,team_buff:0
@@ -28,8 +29,8 @@ _c_H_Edward,3星,光,刀,2843,!<hp100>,,1401,attack:643,force_strike:0,skill_1:5
 Jurota,3星,水,刀,2793, ,,1429,attack:755,force_strike:0,skill_1:674,skill_2:0,skill_3:0,team_buff:0
 Melody,3星,风,刀,2811,<hp100>,,2206,attack:875,force_strike:0,skill_1:0,skill_2:335,skill_3:199,team_buff:795
 _c_Melody,3星,风,刀,2811,!<hp100>,,2135,attack:831,force_strike:0,skill_1:0,skill_2:318,skill_3:189,team_buff:795
-Mikoto,5星,火,刀,2960,<hp70 & connect s1>,,2108,attack:1030,force_strike:0,skill_1:749,skill_2:0,skill_3:328,team_buff:0
-_c_Mikoto,5星,火,刀,2960,!<hp70 & connect s1>,,1898,attack:979,force_strike:0,skill_1:608,skill_2:0,skill_3:311,team_buff:0
+Mikoto,5星,火,刀,2960,<hp70 & connect s1>,,2096,attack:1018,force_strike:0,skill_1:749,skill_2:0,skill_3:328,team_buff:0
+_c_Mikoto,5星,火,刀,2960,!<hp70 & connect s1>,,1941,attack:1022,force_strike:0,skill_1:608,skill_2:0,skill_3:311,team_buff:0
 Musashi,4星,风,刀,2945,<last offense>,poison 3 times,1747,attack:781,force_strike:0,skill_1:667,skill_2:0,skill_3:257,team_buff:0,s1_poison:41
 _c_Musashi,4星,风,刀,2945,!<last offense>,poison 3 times,1694,attack:753,force_strike:0,skill_1:654,skill_2:0,skill_3:257,team_buff:0,s1_poison:29
 Taro,3星,暗,刀,2910, ,,1509,attack:594,force_strike:0,skill_1:500,skill_2:224,skill_3:189,team_buff:0
