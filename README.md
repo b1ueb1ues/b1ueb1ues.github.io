@@ -15,8 +15,20 @@
 - Have all facilities in level 30, so wind/water/light unit have more str than flame/shadow
 - No dracolith, no fafnir statue.
 - Equiped level100 str 60% dragon except water unit, which use "Dragonyule Jeanne". if you don't have "Dragonyule Jeanne", water unit will lose about 4% DPS.
-- Equiped MUB level100 "Resounding Rendition". Since WP is additive with Dragon, 15% str provide less than 10% damage.
 - Equiped MUB 5star element weapon
+
+## WP
+- Most common used WP set is RR+LC
+- Will leave comment if the WP set is not default.
+
+### first WP
+- Equiped MUB level100 "Resounding Rendition". Since WP is additive with Dragon, 15% str provide less than 10% damage.
+
+### second WP
+- Equiped MUB level80 "Fresh Perspective" for sword user.
+- Equiped MUB level100 "Kung Fu Masters" for axe user.
+- Equiped MUB level100 "Levin's Champion" for others.
+
 
 ## commen combo chain the simulation use:
 - sword: c3+fs, c2+fs(for Xander and Albert)

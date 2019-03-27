@@ -1,11 +1,16 @@
 name,star,element,weapon,str,condition,comment,dps
-Addis,4星,风,刀,2960, ,,2076,attack:810,force_strike:0,skill_1:621,skill_2:0,skill_3:275,team_buff:0,s1_poison:30,bleed:338
-Ieyasu,5星,暗,刀,3016,<hp70>,,2196,attack:668,force_strike:0,skill_1:605,skill_2:0,skill_3:234,team_buff:0,bleed:687
-_c_Ieyasu,5星,暗,刀,3016,!<hp70>,,2027,attack:618,force_strike:0,skill_1:560,skill_2:0,skill_3:217,team_buff:0,bleed:630
-Sinoa,4星,火,法,2748,<hp100>,,1648,attack:909,force_strike:0,skill_1:0,skill_2:327,skill_3:0,team_buff:410
-_c_Sinoa,4星,火,法,2748,!<hp100>,,1555,attack:841,force_strike:0,skill_1:0,skill_2:303,skill_3:0,team_buff:410
-Ezelith,5星,火,匕,2795,<hp70>,,1481,attack:551,force_strike:65,skill_1:554,skill_2:0,skill_3:194,team_buff:115
-_c_Ezelith,5星,火,匕,2795,!<hp70>,,1378,attack:542,force_strike:63,skill_1:535,skill_2:0,skill_3:189,team_buff:46
-Sazanka,4星,暗,斧,2820,<sleep>,do not use weapon skill,2042,attack:742,force_strike:86,skill_1:612,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:580
-_c_Sazanka,4星,暗,斧,2820,!<sleep>,do not use weapon skill,2015,attack:730,force_strike:85,skill_1:605,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:574
-Botan,4星,暗,枪,2739, ,,2222,attack:607,force_strike:0,skill_1:547,skill_2:0,skill_3:212,team_buff:262,bleed:592
+ex_dagger,co,-,ability, , ,crit,350,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
+ex_blade,co,-,ability, , ,strength,500,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
+ex_wand,co,-,ability, , ,skilldamage,450,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
+Addis,4星,风,刀,3062,<hp70>,,2302,attack:899,force_strike:0,skill_1:689,skill_2:0,skill_3:305,team_buff:0,s1_poison:34,bleed:374
+_c_Addis,4星,风,刀,3062,!<hp70>,,2068,attack:807,force_strike:0,skill_1:618,skill_2:0,skill_3:274,team_buff:0,s1_poison:30,bleed:337
+Ieyasu,5星,暗,刀,3118,<hp70>,,2478,attack:755,force_strike:0,skill_1:684,skill_2:0,skill_3:266,team_buff:0,bleed:772
+_c_Ieyasu,5星,暗,刀,3118,!<hp70>,,2018,attack:614,force_strike:0,skill_1:557,skill_2:0,skill_3:218,team_buff:0,bleed:628
+Sinoa,4星,火,法,2851,<hp70 & hp100>,,1792,attack:1015,force_strike:0,skill_1:0,skill_2:366,skill_3:0,team_buff:410
+_c_Sinoa,4星,火,法,2851,!<hp70 & hp100>,,1562,attack:846,force_strike:0,skill_1:0,skill_2:305,skill_3:0,team_buff:410
+Ezelith,5星,火,匕,2897,<hp70>,,1630,attack:613,force_strike:72,skill_1:615,skill_2:0,skill_3:215,team_buff:113
+_c_Ezelith,5星,火,匕,2897,!<hp70>,,1375,attack:541,force_strike:63,skill_1:534,skill_2:0,skill_3:188,team_buff:46
+Sazanka,4星,暗,斧,2923,<hp70 & sleep>,do not use weapon skill,2390,attack:830,force_strike:97,skill_1:739,skill_2:0,skill_3:0,team_buff:0,s2fs:22,bleed:701
+_c_Sazanka,4星,暗,斧,2923,!<hp70 & sleep>,do not use weapon skill,2273,attack:786,force_strike:92,skill_1:704,skill_2:0,skill_3:0,team_buff:0,s2fs:21,bleed:668
+Botan,4星,暗,枪,2841,<hp70>,,2443,attack:676,force_strike:0,skill_1:609,skill_2:0,skill_3:237,team_buff:262,bleed:658
+_c_Botan,4星,暗,枪,2841,!<hp70>,,2219,attack:606,force_strike:0,skill_1:546,skill_2:0,skill_3:212,team_buff:262,bleed:591
