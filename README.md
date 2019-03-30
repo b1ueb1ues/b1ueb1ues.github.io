@@ -28,6 +28,7 @@
 - Equiped MUB level80 "Fresh Perspective" for sword user.
 - Equiped MUB level100 "Kung Fu Masters" for axe user.
 - Equiped MUB level100 "Levin's Champion" for others.
+- Equiped MUB level100 "The Prince of Dragonyule" for water characters.
 - Equiped MUB plain resist WP for 3\* character.
 
 
