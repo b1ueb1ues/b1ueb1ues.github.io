@@ -12,8 +12,7 @@
 ## stat
 - Level 80, circle node(50/50) adventurer.
 - Dojo(30/30) altar(30/30) 
-- Have all facilities in level 30, so wind/water/light unit have more str than flame/shadow
-- No dracolith, no fafnir statue.
+- Have all facilities (include limited) (except dracolith and fafnir) in level 30.
 - Equiped level100 str 60% dragon except water unit, which use "Dragonyule Jeanne". if you don't have "Dragonyule Jeanne", water unit will lose about 4% DPS.
 - Equiped MUB 5star element weapon
 
