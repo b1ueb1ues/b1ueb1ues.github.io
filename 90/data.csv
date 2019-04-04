@@ -33,8 +33,8 @@ Celliera,4星,水,刀,2689,<hp70 & hit15>,,1802,attack:945,force_strike:0,skill_
 _c_Celliera,4星,水,刀,2689,!<hp70 & hit15>,,1542,attack:809,force_strike:0,skill_1:733,skill_2:0,skill_3:0,team_buff:0
 H_Edward,3星,光,刀,2926,<hp70 & hp100>,,1643,attack:754,force_strike:0,skill_1:645,skill_2:243,skill_3:0,team_buff:0
 _c_H_Edward,3星,光,刀,2926,!<hp70 & hp100>,,1388,attack:637,force_strike:0,skill_1:544,skill_2:205,skill_3:0,team_buff:0
-Jurota,3星,水,刀,2666,<hp70 & hit15>,,1854,attack:980,force_strike:0,skill_1:873,skill_2:0,skill_3:0,team_buff:0
-_c_Jurota,3星,水,刀,2666,!<hp70 & hit15>,,1674,attack:885,force_strike:0,skill_1:788,skill_2:0,skill_3:0,team_buff:0
+Jurota,3星,水,刀,2666,<hp70>,reach 100 resist with Saintly Delivery,1750,attack:892,force_strike:0,skill_1:858,skill_2:0,skill_3:0,team_buff:0
+_c_Jurota,3星,水,刀,2666,!<hp70>,reach 100 resist with Saintly Delivery,1689,attack:860,force_strike:0,skill_1:828,skill_2:0,skill_3:0,team_buff:0
 Melody,3星,风,刀,2913,<hp70 & hp100>,RR+15%buff_time & no s2,2304,attack:1050,force_strike:0,skill_1:0,skill_2:0,skill_3:310,team_buff:944
 _c_Melody,3星,风,刀,2913,!<hp70 & hp100>,RR+15%buff_time & no s2,2185,attack:957,force_strike:0,skill_1:0,skill_2:0,skill_3:283,team_buff:944
 Mikoto,5星,火,刀,3062,<connect s1 & hp70>,,2222,attack:1139,force_strike:0,skill_1:769,skill_2:0,skill_3:313,team_buff:0
@@ -59,8 +59,8 @@ Maribelle,5星,风,法,2963,<hp70 & hp100>,,2124,attack:728,force_strike:0,skill
 _c_Maribelle,5星,风,法,2963,!<hp70 & hp100>,,1629,attack:654,force_strike:0,skill_1:613,skill_2:279,skill_3:0,team_buff:83
 Nicolas,3星,风,法,2843,<hp70>,,1632,attack:791,force_strike:0,skill_1:600,skill_2:240,skill_3:0,team_buff:0
 _c_Nicolas,3星,风,法,2843,!<hp70>,,1464,attack:710,force_strike:0,skill_1:538,skill_2:215,skill_3:0,team_buff:0
-Xania,3星,火,法,2824,<hp70>,,1836,attack:798,force_strike:0,skill_1:691,skill_2:345,skill_3:0,team_buff:0
-_c_Xania,3星,火,法,2824,!<hp70>,,1647,attack:716,force_strike:0,skill_1:620,skill_2:310,skill_3:0,team_buff:0
+Xania,3星,火,法,2824,<hp70>,reach 100 resist with Saintly Delivery,1778,attack:744,force_strike:0,skill_1:689,skill_2:344,skill_3:0,team_buff:0
+_c_Xania,3星,火,法,2824,!<hp70>,reach 100 resist with Saintly Delivery,1707,attack:714,force_strike:0,skill_1:662,skill_2:330,skill_3:0,team_buff:0
 D_Cleo,5星,水,匕,2652,<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,2076,attack:813,force_strike:100,skill_1:505,skill_2:299,skill_3:0,team_buff:203,team_energy:77,s1_energized:36,s2_energized:39
 _c_D_Cleo,5星,水,匕,2652,!<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,1629,attack:675,force_strike:83,skill_1:418,skill_2:248,skill_3:0,team_buff:203
 Francesca,3星,风,匕,2809,<hp70>,,1532,attack:589,force_strike:75,skill_1:451,skill_2:169,skill_3:220,team_buff:24
@@ -77,12 +77,12 @@ Orsem,4星,水,匕,2669,<hp70 & hit15>,,1743,attack:760,force_strike:74,skill_1:
 _c_Orsem,4星,水,匕,2669,!<hp70 & hit15>,,1427,attack:622,force_strike:61,skill_1:556,skill_2:186,skill_3:0,team_buff:0
 Renelle,3星,火,匕,2792,<hp70 & hit15>,,1616,attack:643,force_strike:61,skill_1:476,skill_2:178,skill_3:232,team_buff:24
 _c_Renelle,3星,火,匕,2792,!<hp70 & hit15>,,1374,attack:545,force_strike:52,skill_1:403,skill_2:151,skill_3:197,team_buff:24
-Vida,3星,暗,匕,2798,<hp70>,,1469,attack:641,force_strike:86,skill_1:497,skill_2:0,skill_3:216,team_buff:0,s2fs:27
-_c_Vida,3星,暗,匕,2798,!<hp70>,,1319,attack:576,force_strike:77,skill_1:446,skill_2:0,skill_3:194,team_buff:0,s2fs:24
-Vice,3星,暗,匕,2798,<hp70>,,1522,attack:605,force_strike:59,skill_1:459,skill_2:174,skill_3:223,team_buff:0
-_c_Vice,3星,暗,匕,2798,!<hp70>,,1366,attack:543,force_strike:53,skill_1:412,skill_2:156,skill_3:200,team_buff:0
-Erik,3星,暗,斧,2939,<hp70>,do not use weapon skill,1953,attack:814,force_strike:138,skill_1:689,skill_2:310,skill_3:0,team_buff:0
-_c_Erik,3星,暗,斧,2939,!<hp70>,do not use weapon skill,1917,attack:799,force_strike:135,skill_1:677,skill_2:304,skill_3:0,team_buff:0
+Vida,3星,暗,匕,2798,<hp70>,unsuitable resist,1469,attack:641,force_strike:86,skill_1:497,skill_2:0,skill_3:216,team_buff:0,s2fs:27
+_c_Vida,3星,暗,匕,2798,!<hp70>,unsuitable resist,1319,attack:576,force_strike:77,skill_1:446,skill_2:0,skill_3:194,team_buff:0,s2fs:24
+Vice,3星,暗,匕,2798,<hp70>,reach 100 resist with Silke Lends a Hand,1483,attack:564,force_strike:55,skill_1:462,skill_2:175,skill_3:224,team_buff:0
+_c_Vice,3星,暗,匕,2798,!<hp70>,reach 100 resist with Silke Lends a Hand,1424,attack:542,force_strike:53,skill_1:444,skill_2:168,skill_3:215,team_buff:0
+Erik,3星,暗,斧,2939,<hp70>,do not use weapon skill& reach 100 resist with Silke Lends a Hand,1774,attack:753,force_strike:128,skill_1:615,skill_2:277,skill_3:0,team_buff:0
+_c_Erik,3星,暗,斧,2939,!<hp70>,do not use weapon skill& reach 100 resist with Silke Lends a Hand,1738,attack:738,force_strike:125,skill_1:602,skill_2:271,skill_3:0,team_buff:0
 Johanna,3星,风,斧,2886,<hp70>,,2064,attack:795,force_strike:81,skill_1:677,skill_2:304,skill_3:205,team_buff:0
 _c_Johanna,3星,风,斧,2886,!<hp70>,,2025,attack:780,force_strike:79,skill_1:665,skill_2:299,skill_3:201,team_buff:0
 Julietta,5星,光,斧,2984,<hp70>,do not use fs,1877,attack:950,force_strike:0,skill_1:927,skill_2:0,skill_3:0,team_buff:0
@@ -91,8 +91,8 @@ Karina,4星,水,斧,2723,<hp70>,,2274,attack:765,force_strike:73,skill_1:752,ski
 _c_Karina,4星,水,斧,2723,!<hp70>,,2237,attack:752,force_strike:72,skill_1:740,skill_2:350,skill_3:320,team_buff:0
 Linus,3星,光,斧,2868,<hp70>,do not use weapon skill,1841,attack:784,force_strike:80,skill_1:673,skill_2:302,skill_3:0,team_buff:0
 _c_Linus,3星,光,斧,2868,!<hp70>,do not use weapon skill,1807,attack:769,force_strike:79,skill_1:660,skill_2:297,skill_3:0,team_buff:0
-Pietro,3星,水,斧,2652,<hp70>,,1933,attack:873,force_strike:112,skill_1:727,skill_2:0,skill_3:220,team_buff:0
-_c_Pietro,3星,水,斧,2652,!<hp70>,,1897,attack:857,force_strike:110,skill_1:713,skill_2:0,skill_3:215,team_buff:0
+Pietro,3星,水,斧,2652,<hp70>,unsuitable resist,1933,attack:873,force_strike:112,skill_1:727,skill_2:0,skill_3:220,team_buff:0
+_c_Pietro,3星,水,斧,2652,!<hp70>,unsuitable resist,1897,attack:857,force_strike:110,skill_1:713,skill_2:0,skill_3:215,team_buff:0
 Ranzal,4星,风,斧,2905,<hp70>,do not use fs,1819,attack:862,force_strike:0,skill_1:750,skill_2:0,skill_3:206,team_buff:0
 _c_Ranzal,4星,风,斧,2905,!<hp70>,do not use fs,1786,attack:846,force_strike:0,skill_1:736,skill_2:0,skill_3:202,team_buff:0
 Rex,3星,水,斧,2749,<hp70>,,2177,attack:807,force_strike:99,skill_1:725,skill_2:326,skill_3:219,team_buff:0
@@ -101,10 +101,10 @@ Vanessa,4星,火,斧,3008,<hp70 & last offense>,,2314,attack:887,force_strike:15
 _c_Vanessa,4星,火,斧,3008,!<hp70 & last offense>,,2173,attack:820,force_strike:140,skill_1:803,skill_2:341,skill_3:0,team_buff:66
 Aeleen,4星,风,枪,2854,<hp70>,no fs,1444,attack:754,force_strike:0,skill_1:689,skill_2:0,skill_3:0,team_buff:0
 _c_Aeleen,4星,风,枪,2854,!<hp70>,no fs,1296,attack:676,force_strike:0,skill_1:619,skill_2:0,skill_3:0,team_buff:0
-Alain,3星,火,枪,2812,<hp70>,,1633,attack:646,force_strike:35,skill_1:562,skill_2:252,skill_3:136,team_buff:0
-_c_Alain,3星,火,枪,2812,!<hp70>,,1465,attack:580,force_strike:31,skill_1:504,skill_2:227,skill_3:122,team_buff:0
-Cibella,3星,水,枪,2507,<hp70 & hit15>,,1251,attack:747,force_strike:137,skill_1:0,skill_2:366,skill_3:0,team_buff:0
-_c_Cibella,3星,水,枪,2507,!<hp70 & hit15>,,1129,attack:675,force_strike:123,skill_1:0,skill_2:330,skill_3:0,team_buff:0
+Alain,3星,火,枪,2812,<hp70>,reach 100 resist with Saintly Delivery,1593,attack:603,force_strike:33,skill_1:565,skill_2:254,skill_3:136,team_buff:0
+_c_Alain,3星,火,枪,2812,!<hp70>,reach 100 resist with Saintly Delivery,1530,attack:579,force_strike:31,skill_1:543,skill_2:244,skill_3:131,team_buff:0
+Cibella,3星,水,枪,2507,<hp70>,reach 100 resist with Saintly Delivery,1165,attack:680,force_strike:124,skill_1:0,skill_2:359,skill_3:0,team_buff:0
+_c_Cibella,3星,水,枪,2507,!<hp70>,reach 100 resist with Saintly Delivery,1124,attack:656,force_strike:120,skill_1:0,skill_2:347,skill_3:0,team_buff:0
 Elisanne,4星,水,枪,2575,<hp70>,do not use fs & RR+15%buff_time,2415,attack:964,force_strike:0,skill_1:0,skill_2:365,skill_3:0,team_buff:1085
 _c_Elisanne,4星,水,枪,2575,!<hp70>,do not use fs & RR+15%buff_time,2368,attack:930,force_strike:0,skill_1:0,skill_2:352,skill_3:0,team_buff:1085
 H_Elisanne,5星,光,枪,3025,<hp70 & no s2>,,2242,attack:754,force_strike:0,skill_1:839,skill_2:0,skill_3:326,team_buff:322
@@ -127,8 +127,8 @@ Elias,4星,光,弓,2766,<hp70 & last offense & c4+fs & no s2>,,1500,attack:473,f
 _c_Elias,4星,光,弓,2766,!<hp70 & last offense & c4+fs & no s2>,,1139,attack:551,force_strike:0,skill_1:465,skill_2:0,skill_3:123,team_buff:0
 Hawk,5星,风,弓,2897,<c4+fs & hp70 & stun 20s(3 s1 boosted)>,,1763,attack:523,force_strike:300,skill_1:558,skill_2:0,skill_3:0,team_buff:0,s1hitstun:346,s2fs:34
 _c_Hawk,5星,风,弓,2897,!<c4+fs & hp70 & stun 20s(3 s1 boosted)>,,1128,attack:630,force_strike:0,skill_1:497,skill_2:0,skill_3:0,team_buff:0
-Joe,3星,火,弓,2763,<c4+fs & hp70>,burn 3 times,1626,attack:496,force_strike:298,skill_1:533,skill_2:259,skill_3:0,team_buff:0,s2_burn:39
-_c_Joe,3星,火,弓,2763,!<c4+fs & hp70>,burn 3 times,1398,attack:640,force_strike:0,skill_1:531,skill_2:191,skill_3:0,team_buff:0,s2_burn:35
+Joe,3星,火,弓,2763,<c4+fs & hp70>,burn 3 times,1571,attack:461,force_strike:276,skill_1:535,skill_2:259,skill_3:0,team_buff:0,s2_burn:39
+_c_Joe,3星,火,弓,2763,!<c4+fs & hp70>,burn 3 times,1444,attack:634,force_strike:0,skill_1:569,skill_2:203,skill_3:0,team_buff:0,s2_burn:37
 Louise,5星,风,弓,2843,<hp70>,poison 3 times & no fs,1660,attack:658,force_strike:0,skill_1:559,skill_2:278,skill_3:0,team_buff:0,s2hitpoison:95,s1_poison:68
 _c_Louise,5星,风,弓,2843,!<hp70>,poison 3 times & no fs,1498,attack:593,force_strike:0,skill_1:504,skill_2:251,skill_3:0,team_buff:0,s2hitpoison:85,s1_poison:61
 Luca,4星,光,弓,2817,<c4+fs & hp70 & hp100>,paralysis 3 times,1674,attack:448,force_strike:269,skill_1:492,skill_2:248,skill_3:151,team_buff:0,s1_paralysis:63
@@ -147,8 +147,8 @@ G_Sarisse,5星,火,弓,2854,<c4+fs & hp70 & never lose combos>,,2072,attack:527,
 _c_G_Sarisse,5星,火,弓,2854,!<c4+fs & hp70 & never lose combos>,,1341,attack:607,force_strike:0,skill_1:632,skill_2:0,skill_3:0,team_buff:101
 Annelie,5星,光,枪,3025,<hp70 & energy>,do s1s1s2s1 loop,2146,attack:677,force_strike:68,skill_1:804,skill_2:168,skill_3:299,team_buff:0,team_energy:44,s1_p3_energized:83
 _c_Annelie,5星,光,枪,3025,!<hp70 & energy>,do s1s1s2s1 loop,1466,attack:582,force_strike:59,skill_1:509,skill_2:118,skill_3:196,team_buff:0
-Marty,3星,火,剑,2758,<hp70>,,1790,attack:525,force_strike:314,skill_1:710,skill_2:0,skill_3:240,team_buff:0
-_c_Marty,3星,火,剑,2758,!<hp70>,,1719,attack:505,force_strike:302,skill_1:681,skill_2:0,skill_3:230,team_buff:0
+Marty,3星,火,剑,2758,<hp70>,reach 100 resist with Saintly Delivery,1718,attack:525,force_strike:241,skill_1:710,skill_2:0,skill_3:240,team_buff:0
+_c_Marty,3星,火,剑,2758,!<hp70>,reach 100 resist with Saintly Delivery,1649,attack:505,force_strike:232,skill_1:681,skill_2:0,skill_3:230,team_buff:0
 Fritz,4星,光,匕,2875,<hp70>,,1625,attack:741,force_strike:93,skill_1:574,skill_2:0,skill_3:0,team_buff:80,s2fs:135
 _c_Fritz,4星,光,匕,2875,!<hp70>,,1467,attack:665,force_strike:84,skill_1:515,skill_2:0,skill_3:0,team_buff:80,s2fs:121
 Linyou,5星,风,斧,3110,<hp70>,,2425,attack:977,force_strike:0,skill_1:939,skill_2:0,skill_3:351,team_buff:0,s1_powerup:156
