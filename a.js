@@ -139,16 +139,16 @@ function setData(data) {
     sp_slash = String.fromCharCode(sp_slash);
     sp_cap = String.fromCharCode(sp_cap);
     for(var i in data){
-        if(data[i][0]=='name'){ continue; }
+        if(data[i][0]=='dps'){ continue; }
         character = data[i]
-        character.name      = character[0];
-        character.star      = character[1];
-        character.element   = character[2];
-        character.weapon    = character[3];
-        character.stre      = character[4];
-        character.condition = character[5];
-        character.comment   = character[6];
-        character.dps       = character[7];
+        character.dps       = character[0];
+        character.name      = character[1];
+        character.star      = character[2];
+        character.element   = character[3];
+        character.weapon    = character[4];
+        character.stre      = character[5];
+        character.condition = character[6];
+        character.comment   = character[7];
         var j = 8;
         character.details = {}
         while(1){
