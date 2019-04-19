@@ -1,12 +1,12 @@
 name,star,element,weapon,str,condition,comment,dps
-2253,Addis,4星,风,刀,3063,<hp70>,,attack:887,force_strike:0,skill_1:675,skill_2:0,skill_3:305,team_buff:0,s1_poison:68,bleed:316
-2021,_c_Addis,4星,风,刀,3063,!<hp70>,,attack:795,force_strike:0,skill_1:605,skill_2:0,skill_3:273,team_buff:0,s1_poison:61,bleed:284
-2393,Ieyasu,5星,暗,刀,3119,<hp70>,,attack:785,force_strike:0,skill_1:728,skill_2:0,skill_3:206,team_buff:0,bleed:673
-1956,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,,attack:637,force_strike:0,skill_1:592,skill_2:0,skill_3:167,team_buff:0,bleed:558
+2501,Addis,4星,风,刀,3063,<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:886,force_strike:32,skill_1:737,skill_2:0,skill_3:189,team_buff:0,s1_poison:21,bleed:633
+2240,_c_Addis,4星,风,刀,3063,!<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:795,force_strike:29,skill_1:661,skill_2:0,skill_3:169,team_buff:0,s1_poison:19,bleed:564
+2395,Ieyasu,5星,暗,刀,3119,<hp70>,,attack:785,force_strike:0,skill_1:728,skill_2:0,skill_3:206,team_buff:0,bleed:675
+1955,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,,attack:637,force_strike:0,skill_1:592,skill_2:0,skill_3:168,team_buff:0,bleed:557
 1700,Sinoa,4星,火,法,2851,<hp70 & hp100>,,attack:1012,force_strike:0,skill_1:0,skill_2:321,skill_3:0,team_buff:366
 1478,_c_Sinoa,4星,火,法,2851,!<hp70 & hp100>,,attack:843,force_strike:0,skill_1:0,skill_2:268,skill_3:0,team_buff:366
-1546,Ezelith,5星,火,匕,2899,<hp70>,,attack:635,force_strike:78,skill_1:578,skill_2:0,skill_3:156,team_buff:97
-1316,_c_Ezelith,5星,火,匕,2899,!<hp70>,,attack:562,force_strike:69,skill_1:504,skill_2:0,skill_3:140,team_buff:40
+1545,Ezelith,5星,火,匕,2899,<hp70>,,attack:635,force_strike:78,skill_1:578,skill_2:0,skill_3:156,team_buff:96
+1314,_c_Ezelith,5星,火,匕,2899,!<hp70>,,attack:562,force_strike:69,skill_1:503,skill_2:0,skill_3:140,team_buff:38
 2276,Sazanka,4星,暗,斧,2923,<hp70 & sleep>,do not use weapon skill,attack:845,force_strike:96,skill_1:692,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:622
 2174,_c_Sazanka,4星,暗,斧,2923,!<hp70 & sleep>,do not use weapon skill,attack:803,force_strike:92,skill_1:663,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:596
 2388,Botan,4星,暗,枪,2842,<hp70>,,attack:665,force_strike:0,skill_1:609,skill_2:0,skill_3:237,team_buff:262,bleed:614
@@ -163,8 +163,8 @@ name,star,element,weapon,str,condition,comment,dps
 1369,_c_V_Ezelith,4星,火,弓,2802,!<c4+fs & hp70 & never lose combos>,,attack:557,force_strike:0,skill_1:403,skill_2:204,skill_3:0,team_buff:151,s1_burn:53
 1761,V_Orion,3星,火,剑,2883,<VC+RR & hp70>,,attack:572,force_strike:253,skill_1:599,skill_2:0,skill_3:281,team_buff:0,s2_burn:55
 1646,_c_V_Orion,3星,火,剑,2863,!<VC+RR & hp70>,,attack:535,force_strike:289,skill_1:529,skill_2:0,skill_3:239,team_buff:0,s2_burn:52
-2323,Albert,5星,光,剑,3026,<hp70 & 3s1 in on s2 & big hitbox>,,attack:441,force_strike:392,skill_1:690,skill_2:0,skill_3:197,team_buff:0,s1_s2boost:435,s1_paralyze:66,fs_alt:100
-1926,_c_Albert,5星,光,剑,3026,!<hp70 & 3s1 in on s2 & big hitbox>,,attack:477,force_strike:376,skill_1:652,skill_2:0,skill_3:199,team_buff:0,s1_s2boost:219
+2485,Albert,5星,光,剑,3026,<hp70 & 3s1 in on s2 & big hitbox>,,attack:447,force_strike:330,skill_1:672,skill_2:0,skill_3:197,team_buff:0,s1_s2boost:652,s1_paralyze:33,fs_alt:150
+2005,_c_Albert,5星,光,剑,3026,!<hp70 & 3s1 in on s2 & big hitbox>,,attack:501,force_strike:299,skill_1:599,skill_2:0,skill_3:231,team_buff:0,s1_s2boost:373
 2508,Odetta,4星,光,剑,2987,<hp70 & buff all team>,,attack:645,force_strike:385,skill_1:681,skill_2:0,skill_3:324,team_buff:471
 1936,_c_Odetta,4星,光,剑,2987,!<hp70 & buff all team>,,attack:583,force_strike:348,skill_1:615,skill_2:0,skill_3:293,team_buff:95
 2022,Jakob,3星,水,枪,2530,<hp70 & hit15 & bog>,bog 3 times,attack:784,force_strike:115,skill_1:655,skill_2:0,skill_3:0,team_buff:466
@@ -177,3 +177,7 @@ name,star,element,weapon,str,condition,comment,dps
 1331,_c_Laranoa,5星,水,弓,2643,!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:597,force_strike:0,skill_1:733,skill_2:0,skill_3:0,team_buff:0
 1924,Fleur,4星,光,匕,2929,<hp70 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:892,force_strike:114,skill_1:607,skill_2:0,skill_3:0,team_buff:0,s1hitpara:228,s1_para:81
 1332,_c_Fleur,4星,光,匕,2929,!<hp70 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:735,force_strike:93,skill_1:502,skill_2:0,skill_3:0,team_buff:0
+1858,Yue,4星,火,斧,2901,<hp70>,,attack:982,force_strike:94,skill_1:782,skill_2:0,skill_3:0,team_buff:0
+1814,_c_Yue,4星,火,斧,2901,!<hp70>,,attack:958,force_strike:91,skill_1:763,skill_2:0,skill_3:0,team_buff:0
+1860,Sylas,5星,风,枪,2890,<hp70>,don't use fs,attack:880,force_strike:0,skill_1:827,skill_2:0,skill_3:0,team_buff:81,s1_poison:71
+1558,_c_Sylas,5星,风,枪,2890,!<hp70>,don't use fs,attack:730,force_strike:0,skill_1:686,skill_2:0,skill_3:0,team_buff:81,s1_poison:59

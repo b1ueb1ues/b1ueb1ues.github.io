@@ -1,12 +1,12 @@
 name,star,element,weapon,str,condition,comment,dps
-2129,Addis,4星,风,刀,3063,<hp70>,,attack:905,force_strike:0,skill_1:611,skill_2:0,skill_3:315,team_buff:0,s1_poison:102,bleed:194
-1913,_c_Addis,4星,风,刀,3063,!<hp70>,,attack:812,force_strike:0,skill_1:549,skill_2:0,skill_3:283,team_buff:0,s1_poison:92,bleed:176
-2206,Ieyasu,5星,暗,刀,3119,<hp70>,,attack:783,force_strike:0,skill_1:684,skill_2:0,skill_3:146,team_buff:0,bleed:592
-1791,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,,attack:635,force_strike:0,skill_1:556,skill_2:0,skill_3:117,team_buff:0,bleed:481
+2399,Addis,4星,风,刀,3063,<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:899,force_strike:24,skill_1:816,skill_2:0,skill_3:141,team_buff:0,s1_poison:32,bleed:483
+2168,_c_Addis,4星,风,刀,3063,!<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:807,force_strike:21,skill_1:733,skill_2:0,skill_3:127,team_buff:0,s1_poison:29,bleed:448
+2199,Ieyasu,5星,暗,刀,3119,<hp70>,,attack:783,force_strike:0,skill_1:684,skill_2:0,skill_3:146,team_buff:0,bleed:584
+1794,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,,attack:635,force_strike:0,skill_1:557,skill_2:0,skill_3:117,team_buff:0,bleed:484
 1689,Sinoa,4星,火,法,2851,<hp70 & hp100>,,attack:983,force_strike:0,skill_1:0,skill_2:363,skill_3:0,team_buff:342
 1464,_c_Sinoa,4星,火,法,2851,!<hp70 & hp100>,,attack:818,force_strike:0,skill_1:0,skill_2:302,skill_3:0,team_buff:342
-1573,Ezelith,5星,火,匕,2899,<hp70>,,attack:650,force_strike:70,skill_1:646,skill_2:0,skill_3:117,team_buff:88
-1344,_c_Ezelith,5星,火,匕,2899,!<hp70>,,attack:576,force_strike:62,skill_1:563,skill_2:0,skill_3:105,team_buff:36
+1572,Ezelith,5星,火,匕,2899,<hp70>,,attack:650,force_strike:70,skill_1:645,skill_2:0,skill_3:117,team_buff:87
+1343,_c_Ezelith,5星,火,匕,2899,!<hp70>,,attack:576,force_strike:62,skill_1:563,skill_2:0,skill_3:105,team_buff:35
 2174,Sazanka,4星,暗,斧,2923,<hp70 & sleep>,do not use weapon skill,attack:844,force_strike:109,skill_1:658,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:543
 2045,_c_Sazanka,4星,暗,斧,2923,!<hp70 & sleep>,do not use weapon skill,attack:788,force_strike:104,skill_1:621,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:512
 2342,Botan,4星,暗,枪,2842,<hp70>,,attack:676,force_strike:0,skill_1:637,skill_2:0,skill_3:237,team_buff:262,bleed:529
