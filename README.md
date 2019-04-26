@@ -25,7 +25,7 @@
 
 ### second WP
 - Equiped MUB level80 "Fresh Perspective" for sword user.
-- Equiped MUB level100 "Kung Fu Masters" for axe user.
+- Equiped MUB level100 "Kung Fu Masters"+"Flower in the Fray" for axe user.
 - Equiped MUB level100 "Levin's Champion" for others.
 - Equiped MUB level100 "The Prince of Dragonyule" for water characters.
 - Equiped MUB resist WP for 3\* character who can reach 100 resist of stun & blind
@@ -39,6 +39,7 @@
 - lance: c5+fs / c5+fs(failed) (if mentioned that unit don't use fs)
 - bow: plain c5 or c4+fs or c1+fs
 - wand: c5+fs(failed)
+- staff: c5
 
 ## Not take into consideration: 
 #### (means that you should add some score yourself to unit have that kind of abilities)
