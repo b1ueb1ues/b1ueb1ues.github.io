@@ -40,8 +40,8 @@ dps,name,star,element,weapon,str,condition,comment
 1620,_c_Jurota,3星,水,刀,2662,!<hp70>,reach 100 resist with Saintly Delivery,attack:810,force_strike:0,skill_1:810,skill_2:0,skill_3:0,team_buff:0
 2482,Melody,3星,风,刀,2852,<hp70 & hp100>,RR+15%buff_time & no s2,attack:1061,force_strike:0,skill_1:0,skill_2:0,skill_3:373,team_buff:1046
 2339,_c_Melody,3星,风,刀,2852,!<hp70 & hp100>,RR+15%buff_time & no s2,attack:956,force_strike:0,skill_1:0,skill_2:0,skill_3:336,team_buff:1046
-2431,Mikoto,5星,火,刀,3063,<connect s1 & hp70>,,attack:1157,force_strike:0,skill_1:885,skill_2:0,skill_3:388,team_buff:0
-1998,_c_Mikoto,5星,火,刀,3063,!<connect s1 & hp70>,,attack:1032,force_strike:0,skill_1:638,skill_2:0,skill_3:327,team_buff:0
+2431,Mikoto,5星,火,刀,3063,<connect s1 & hp70>,RR+LC,attack:1157,force_strike:0,skill_1:885,skill_2:0,skill_3:388,team_buff:0
+1998,_c_Mikoto,5星,火,刀,3063,!<connect s1 & hp70>,RR+LC,attack:1032,force_strike:0,skill_1:638,skill_2:0,skill_3:327,team_buff:0
 2002,Musashi,4星,风,刀,3038,<hp70 & last offense>,poison 3 times,attack:876,force_strike:0,skill_1:777,skill_2:0,skill_3:300,team_buff:0,s1_poison:48
 1702,_c_Musashi,4星,风,刀,3038,!<hp70 & last offense>,poison 3 times,attack:740,force_strike:0,skill_1:668,skill_2:0,skill_3:263,team_buff:0,s1_poison:30
 1738,Taro,3星,暗,刀,2988,<hp70>,,attack:668,force_strike:0,skill_1:585,skill_2:262,skill_3:221,team_buff:0
