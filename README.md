@@ -17,17 +17,16 @@
 - Equiped MUB 5star element weapon
 
 ## WP
-- Most common used WP set is RR+LC
+- Most common used WP is RR
 - Will leave comment if the WP set is not default.
 
 ### first WP
-- Equiped MUB level100 "Resounding Rendition". Since WP is additive with Dragon, 15% str provide less than 10% damage.
+- Equiped MUB level100 "Resounding Rendition". (Since WP is additive with Dragon, 15% str provide less than 10% damage. And for most character, skill damage is more than half of all damage.)
 
 ### second WP
 - Equiped MUB level80 "Fresh Perspective" for sword user.
-- Equiped MUB level100 "Kung Fu Masters"+"Flower in the Fray" for axe user.
-- Equiped MUB level100 "Levin's Champion" for others.
-- Equiped MUB level100 "The Prince of Dragonyule" for water characters.
+- Equiped MUB level100 "Kung Fu Masters"+ MUB level80 "Flower in the Fray" for axe user.
+- Equiped MUB level100 "Flash of Genius" for wand/bow/dagger characters.
 - Equiped MUB resist WP for 3\* character who can reach 100 resist of stun & blind
 
 
@@ -68,4 +67,4 @@
 b1ueb1ues, tiara, luciferz2012
 
 ## Acknowledgement
-Totakeke, Shark3143
+Totakeke, Shark3143, SanyamBansal, emrysduvent, ZedK, B3GG, 6tennis

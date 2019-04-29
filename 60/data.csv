@@ -1,16 +1,16 @@
 name,star,element,weapon,str,condition,comment,dps
-2501,Addis,4星,风,刀,3063,<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:909,force_strike:24,skill_1:858,skill_2:0,skill_3:149,team_buff:0,s1_poison:34,bleed:525
-2226,_c_Addis,4星,风,刀,3063,!<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:808,force_strike:21,skill_1:762,skill_2:0,skill_3:132,team_buff:0,s1_poison:30,bleed:469
-2293,Ieyasu,5星,暗,刀,3119,<hp70>,,attack:793,force_strike:0,skill_1:720,skill_2:0,skill_3:154,team_buff:0,bleed:625
-1841,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,,attack:635,force_strike:0,skill_1:580,skill_2:0,skill_3:122,team_buff:0,bleed:503
-1718,Sinoa,4星,火,法,2851,<hp70 & hp100>,,attack:993,force_strike:0,skill_1:0,skill_2:381,skill_3:0,team_buff:342
-1478,_c_Sinoa,4星,火,法,2851,!<hp70 & hp100>,,attack:819,force_strike:0,skill_1:0,skill_2:315,skill_3:0,team_buff:342
-1615,Ezelith,5星,火,匕,2899,<hp70>,,attack:657,force_strike:71,skill_1:677,skill_2:0,skill_3:123,team_buff:85
-1372,_c_Ezelith,5星,火,匕,2899,!<hp70>,,attack:577,force_strike:62,skill_1:586,skill_2:0,skill_3:109,team_buff:36
+2524,Addis,4星,风,刀,3052,<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:916,force_strike:24,skill_1:864,skill_2:0,skill_3:150,team_buff:0,s1_poison:34,bleed:534
+2200,_c_Addis,4星,风,刀,3052,!<hp70>,2*s1 in one s2 (pretty easy since his s1 animation can stop s2timer after last patch),attack:802,force_strike:21,skill_1:757,skill_2:0,skill_3:131,team_buff:0,s1_poison:30,bleed:456
+2295,Ieyasu,5星,暗,刀,3119,<hp70>,RR+LC,attack:793,force_strike:0,skill_1:720,skill_2:0,skill_3:154,team_buff:0,bleed:626
+1843,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+LC,attack:635,force_strike:0,skill_1:580,skill_2:0,skill_3:122,team_buff:0,bleed:505
+1766,Sinoa,4星,火,法,2840,<hit15 & hp100 & hp70>,,attack:1028,force_strike:0,skill_1:0,skill_2:394,skill_3:0,team_buff:342
+1462,_c_Sinoa,4星,火,法,2840,!<hit15 & hp100 & hp70>,,attack:809,force_strike:0,skill_1:0,skill_2:310,skill_3:0,team_buff:342
+1689,Ezelith,5星,火,匕,2887,<hp70 & hit15>,,attack:688,force_strike:74,skill_1:710,skill_2:0,skill_3:129,team_buff:86
+1362,_c_Ezelith,5星,火,匕,2887,!<hp70 & hit15>,,attack:573,force_strike:62,skill_1:582,skill_2:0,skill_3:108,team_buff:35
 2244,Sazanka,4星,暗,斧,2904,<sleep>,do not use weapon skill,attack:853,force_strike:110,skill_1:690,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:569
 2151,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:812,force_strike:107,skill_1:664,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:547
-2420,Botan,4星,暗,枪,2842,<hp70>,,attack:683,force_strike:0,skill_1:669,skill_2:0,skill_3:249,team_buff:262,bleed:556
-2179,_c_Botan,4星,暗,枪,2842,!<hp70>,,attack:607,force_strike:0,skill_1:594,skill_2:0,skill_3:221,team_buff:262,bleed:494
+2435,Botan,4星,暗,枪,2830,<hp70>,,attack:687,force_strike:0,skill_1:674,skill_2:0,skill_3:250,team_buff:262,bleed:559
+2166,_c_Botan,4星,暗,枪,2830,!<hp70>,,attack:602,force_strike:0,skill_1:590,skill_2:0,skill_3:219,team_buff:262,bleed:490
 1757,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:619,force_strike:398,skill_1:739,skill_2:0,skill_3:0,team_buff:0
 1552,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:657,skill_2:0,skill_3:0,team_buff:0
 1948,Euden,4星,火,剑,2879,<hp70>,,attack:479,force_strike:308,skill_1:641,skill_2:229,skill_3:207,team_buff:82
@@ -25,161 +25,161 @@ name,star,element,weapon,str,condition,comment,dps
 1877,_c_Rodrigo,3星,暗,剑,2789,!<hp70>,,attack:602,force_strike:328,skill_1:675,skill_2:270,skill_3:0,team_buff:0
 2430,Xander,5星,水,剑,2806,<hp70>,c2+fs & stella show + RR,attack:530,force_strike:787,skill_1:734,skill_2:378,skill_3:0,team_buff:0
 2299,_c_Xander,5星,水,剑,2806,!<hp70>,c2+fs & stella show + RR,attack:501,force_strike:744,skill_1:694,skill_2:357,skill_3:0,team_buff:0
-2205,Zardin,3星,水,剑,2592,<hit15 & hp100 & hp70>,RR+tPoD,attack:692,force_strike:318,skill_1:727,skill_2:245,skill_3:220,team_buff:0
-1853,_c_Zardin,3星,水,剑,2592,!<hit15 & hp100 & hp70>,RR+tPoD,attack:582,force_strike:267,skill_1:611,skill_2:206,skill_3:185,team_buff:0
-1893,Aoi,3星,火,刀,2945,<hp70>,,attack:804,force_strike:0,skill_1:659,skill_2:296,skill_3:132,team_buff:0
-1682,_c_Aoi,3星,火,刀,2945,!<hp70>,,attack:715,force_strike:0,skill_1:585,skill_2:263,skill_3:118,team_buff:0
-1883,Celliera,4星,水,刀,2715,<hp70 & hit15>,,attack:981,force_strike:0,skill_1:901,skill_2:0,skill_3:0,team_buff:0
-1603,_c_Celliera,4星,水,刀,2715,!<hp70 & hit15>,,attack:836,force_strike:0,skill_1:767,skill_2:0,skill_3:0,team_buff:0
-1642,H_Edward,3星,光,刀,2926,<hp70 & hp100>,,attack:772,force_strike:0,skill_1:677,skill_2:192,skill_3:0,team_buff:0
-1373,_c_H_Edward,3星,光,刀,2926,!<hp70 & hp100>,,attack:646,force_strike:0,skill_1:566,skill_2:160,skill_3:0,team_buff:0
+2228,Zardin,3星,水,剑,2595,<hp70 & hp100>,Stellar_Show+RR,attack:652,force_strike:450,skill_1:686,skill_2:231,skill_3:207,team_buff:0
+1971,_c_Zardin,3星,水,剑,2595,!<hp70 & hp100>,Stellar_Show+RR,attack:577,force_strike:398,skill_1:607,skill_2:204,skill_3:183,team_buff:0
+1906,Aoi,3星,火,刀,2934,<hp70>,,attack:810,force_strike:0,skill_1:663,skill_2:298,skill_3:133,team_buff:0
+1671,_c_Aoi,3星,火,刀,2934,!<hp70>,,attack:710,force_strike:0,skill_1:581,skill_2:261,skill_3:117,team_buff:0
+1806,Celliera,4星,水,刀,2717,<hp70>,RR+jewels_of_the_sun,attack:934,force_strike:0,skill_1:872,skill_2:0,skill_3:0,team_buff:0
+1533,_c_Celliera,4星,水,刀,2717,!<hp70>,RR+jewels_of_the_sun,attack:793,force_strike:0,skill_1:739,skill_2:0,skill_3:0,team_buff:0
+1646,H_Edward,3星,光,刀,2915,<hp70 & hp100>,,attack:774,force_strike:0,skill_1:679,skill_2:192,skill_3:0,team_buff:0
+1364,_c_H_Edward,3星,光,刀,2915,!<hp70 & hp100>,,attack:641,force_strike:0,skill_1:563,skill_2:159,skill_3:0,team_buff:0
 1621,Jurota,3星,水,刀,2662,<hp70>,reach 100 resist with Saintly Delivery,attack:856,force_strike:0,skill_1:764,skill_2:0,skill_3:0,team_buff:0
 1546,_c_Jurota,3星,水,刀,2662,!<hp70>,reach 100 resist with Saintly Delivery,attack:816,force_strike:0,skill_1:729,skill_2:0,skill_3:0,team_buff:0
 2270,Melody,3星,风,刀,2852,<hp70 & hp100>,RR+15%buff_time & no s2,attack:1038,force_strike:0,skill_1:0,skill_2:0,skill_3:320,team_buff:912
 2135,_c_Melody,3星,风,刀,2852,!<hp70 & hp100>,RR+15%buff_time & no s2,attack:934,force_strike:0,skill_1:0,skill_2:0,skill_3:288,team_buff:912
 2358,Mikoto,5星,火,刀,3063,<connect s1 & hp70>,,attack:1164,force_strike:0,skill_1:851,skill_2:0,skill_3:343,team_buff:0
 1926,_c_Mikoto,5星,火,刀,3063,!<connect s1 & hp70>,,attack:1007,force_strike:0,skill_1:638,skill_2:0,skill_3:280,team_buff:0
-2126,Musashi,4星,风,刀,3049,<hp70 & last offense>,poison 3 times,attack:952,force_strike:0,skill_1:850,skill_2:0,skill_3:178,team_buff:0,s1_poison:144
-1728,_c_Musashi,4星,风,刀,3049,!<hp70 & last offense>,poison 3 times,attack:762,force_strike:0,skill_1:716,skill_2:0,skill_3:158,team_buff:0,s1_poison:91
-1688,Taro,3星,暗,刀,2999,<hp70>,,attack:683,force_strike:0,skill_1:544,skill_2:195,skill_3:264,team_buff:0
-1500,_c_Taro,3星,暗,刀,2999,!<hp70>,,attack:607,force_strike:0,skill_1:484,skill_2:174,skill_3:234,team_buff:0
-1886,Althemia,3星,暗,法,2783,<hp70 & hp100>,,attack:783,force_strike:0,skill_1:760,skill_2:341,skill_3:0,team_buff:0
-1492,_c_Althemia,3星,暗,法,2783,!<hp70 & hp100>,,attack:696,force_strike:0,skill_1:548,skill_2:246,skill_3:0,team_buff:0
-1949,Amane,4星,光,法,3067,<hp70>,,attack:857,force_strike:0,skill_1:809,skill_2:0,skill_3:283,team_buff:0
-1732,_c_Amane,4星,光,法,3067,!<hp70>,,attack:761,force_strike:0,skill_1:719,skill_2:0,skill_3:251,team_buff:0
-1946,D_Xander,4星,水,法,2844,<hp70 & energy & hit15>,,attack:894,force_strike:0,skill_1:739,skill_2:0,skill_3:170,team_buff:108,team_energy:33
-1730,_c_D_Xander,4星,水,法,2844,!<hp70 & energy & hit15>,,attack:804,force_strike:0,skill_1:664,skill_2:0,skill_3:153,team_buff:108
-1689,Kleimann,4星,暗,法,2862,<hp70>,,attack:674,force_strike:114,skill_1:671,skill_2:228,skill_3:0,team_buff:0
-1501,_c_Kleimann,4星,暗,法,2862,!<hp70>,,attack:599,force_strike:101,skill_1:596,skill_2:203,skill_3:0,team_buff:0
-2123,Lily,5星,水,法,2858,<hit15 & hp100 & hp70>,,attack:763,force_strike:0,skill_1:587,skill_2:443,skill_3:329,team_buff:0
-1729,_c_Lily,5星,水,法,2858,!<hit15 & hp100 & hp70>,,attack:621,force_strike:0,skill_1:478,skill_2:361,skill_3:268,team_buff:0
-1930,Lucretia,5星,光,法,3105,<hp70 & energy>,,attack:919,force_strike:0,skill_1:583,skill_2:0,skill_3:189,team_buff:0,team_energy:166,s3_energized:72
-1419,_c_Lucretia,5星,光,法,3105,!<hp70 & energy>,,attack:782,force_strike:0,skill_1:495,skill_2:0,skill_3:142,team_buff:0
-2212,Maribelle,5星,风,法,2964,<hp70 & hp100>,,attack:714,force_strike:0,skill_1:936,skill_2:481,skill_3:0,team_buff:80
-1678,_c_Maribelle,5星,风,法,2964,!<hp70 & hp100>,,attack:634,force_strike:0,skill_1:636,skill_2:327,skill_3:0,team_buff:80
-1707,Nicolas,3星,风,法,2844,<hp70>,,attack:792,force_strike:0,skill_1:631,skill_2:283,skill_3:0,team_buff:0
-1517,_c_Nicolas,3星,风,法,2844,!<hp70>,,attack:703,force_strike:0,skill_1:560,skill_2:252,skill_3:0,team_buff:0
+2141,Musashi,4星,风,刀,3038,<hp70 & last offense>,poison 3 times,attack:959,force_strike:0,skill_1:856,skill_2:0,skill_3:180,team_buff:0,s1_poison:145
+1717,_c_Musashi,4星,风,刀,3038,!<hp70 & last offense>,poison 3 times,attack:757,force_strike:0,skill_1:711,skill_2:0,skill_3:157,team_buff:0,s1_poison:90
+1700,Taro,3星,暗,刀,2988,<hp70>,,attack:688,force_strike:0,skill_1:548,skill_2:197,skill_3:265,team_buff:0
+1490,_c_Taro,3星,暗,刀,2988,!<hp70>,,attack:603,force_strike:0,skill_1:480,skill_2:172,skill_3:233,team_buff:0
+1975,Althemia,3星,暗,法,2772,<hit15 & hp100 & hp70>,,attack:821,force_strike:0,skill_1:796,skill_2:358,skill_3:0,team_buff:0
+1481,_c_Althemia,3星,暗,法,2772,!<hit15 & hp100 & hp70>,,attack:691,force_strike:0,skill_1:545,skill_2:245,skill_3:0,team_buff:0
+2043,Amane,4星,光,法,3055,<hp70 & hit15>,,attack:898,force_strike:0,skill_1:848,skill_2:0,skill_3:296,team_buff:0
+1720,_c_Amane,4星,光,法,3055,!<hp70 & hit15>,,attack:756,force_strike:0,skill_1:714,skill_2:0,skill_3:249,team_buff:0
+2000,D_Xander,4星,水,法,2835,<hp70 & energy & hit15>,,attack:921,force_strike:0,skill_1:761,skill_2:0,skill_3:175,team_buff:108,team_energy:33
+1665,_c_D_Xander,4星,水,法,2835,!<hp70 & energy & hit15>,,attack:772,force_strike:0,skill_1:638,skill_2:0,skill_3:147,team_buff:108
+1770,Kleimann,4星,暗,法,2850,<hp70 & hit15>,,attack:706,force_strike:120,skill_1:703,skill_2:239,skill_3:0,team_buff:0
+1491,_c_Kleimann,4星,暗,法,2850,!<hp70 & hit15>,,attack:595,force_strike:101,skill_1:592,skill_2:201,skill_3:0,team_buff:0
+2162,Lily,5星,水,法,2849,<hit15 & hp100 & hp70>,,attack:776,force_strike:0,skill_1:598,skill_2:451,skill_3:335,team_buff:0
+1661,_c_Lily,5星,水,法,2849,!<hit15 & hp100 & hp70>,,attack:596,force_strike:0,skill_1:459,skill_2:346,skill_3:257,team_buff:0
+2015,Lucretia,5星,光,法,3094,<hp70 & energy & hit15>,,attack:963,force_strike:0,skill_1:611,skill_2:0,skill_3:198,team_buff:0,team_energy:166,s3_energized:76
+1410,_c_Lucretia,5星,光,法,3094,!<hp70 & energy & hit15>,,attack:777,force_strike:0,skill_1:491,skill_2:0,skill_3:141,team_buff:0
+2314,Maribelle,5星,风,法,2953,<hit15 & hp100 & hp70>,,attack:748,force_strike:0,skill_1:981,skill_2:504,skill_3:0,team_buff:80
+1668,_c_Maribelle,5星,风,法,2953,!<hit15 & hp100 & hp70>,,attack:630,force_strike:0,skill_1:632,skill_2:324,skill_3:0,team_buff:80
+1788,Nicolas,3星,风,法,2832,<hp70 & hit15>,,attack:829,force_strike:0,skill_1:661,skill_2:297,skill_3:0,team_buff:0
+1506,_c_Nicolas,3星,风,法,2832,!<hp70 & hit15>,,attack:699,force_strike:0,skill_1:557,skill_2:250,skill_3:0,team_buff:0
 1784,Xania,3星,火,法,2788,<hp70>,reach 100 resist with Saintly Delivery,attack:752,force_strike:0,skill_1:712,skill_2:320,skill_3:0,team_buff:0
 1691,_c_Xania,3星,火,法,2788,!<hp70>,reach 100 resist with Saintly Delivery,attack:712,force_strike:0,skill_1:674,skill_2:303,skill_3:0,team_buff:0
-1963,D_Cleo,5星,水,匕,2678,<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:802,force_strike:103,skill_1:414,skill_2:363,skill_3:0,team_buff:152,team_energy:66,s2_energized:59
-1542,_c_D_Cleo,5星,水,匕,2678,!<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:662,force_strike:85,skill_1:341,skill_2:300,skill_3:0,team_buff:152
-1543,Francesca,3星,风,匕,2810,<hp70>,,attack:603,force_strike:82,skill_1:473,skill_2:133,skill_3:232,team_buff:18
-1373,_c_Francesca,3星,风,匕,2810,!<hp70>,,attack:536,force_strike:72,skill_1:420,skill_2:118,skill_3:206,team_buff:18
-1476,Irfan,3星,光,匕,2796,<hp70>,,attack:676,force_strike:67,skill_1:532,skill_2:199,skill_3:0,team_buff:0
-1312,_c_Irfan,3星,光,匕,2796,!<hp70>,,attack:601,force_strike:60,skill_1:473,skill_2:177,skill_3:0,team_buff:0
-1797,Luther,4星,水,匕,2644,<hp70 & hit15>,,attack:772,force_strike:79,skill_1:691,skill_2:234,skill_3:0,team_buff:18
-1515,_c_Luther,4星,水,匕,2644,!<hp70 & hit15>,,attack:650,force_strike:67,skill_1:582,skill_2:197,skill_3:0,team_buff:18
-1634,Melsa,4星,火,匕,2810,<hp70 & hit15>,,attack:611,force_strike:66,skill_1:549,skill_2:164,skill_3:242,team_buff:0
-1370,_c_Melsa,4星,火,匕,2810,!<hp70 & hit15>,,attack:512,force_strike:55,skill_1:460,skill_2:137,skill_3:203,team_buff:0
-1647,Orion,4星,暗,匕,2875,<hp70 & hit15>,,attack:622,force_strike:55,skill_1:462,skill_2:255,skill_3:251,team_buff:0
-1362,_c_Orion,4星,暗,匕,2875,!<hp70 & hit15>,,attack:515,force_strike:45,skill_1:382,skill_2:211,skill_3:207,team_buff:0
-1795,Orsem,4星,水,匕,2696,<hp70 & hit15>,,attack:800,force_strike:84,skill_1:727,skill_2:182,skill_3:0,team_buff:0
-1456,_c_Orsem,4星,水,匕,2696,!<hp70 & hit15>,,attack:649,force_strike:68,skill_1:590,skill_2:148,skill_3:0,team_buff:0
-1698,Renelle,3星,火,匕,2792,<hp70 & hit15>,,attack:657,force_strike:66,skill_1:499,skill_2:211,skill_3:244,team_buff:19
-1427,_c_Renelle,3星,火,匕,2792,!<hp70 & hit15>,,attack:551,force_strike:55,skill_1:419,skill_2:177,skill_3:204,team_buff:19
-1457,Vida,3星,暗,匕,2798,<hp70>,unsuitable resist,attack:632,force_strike:97,skill_1:470,skill_2:0,skill_3:227,team_buff:0,s2fs:29
-1295,_c_Vida,3星,暗,匕,2798,!<hp70>,unsuitable resist,attack:562,force_strike:86,skill_1:418,skill_2:0,skill_3:202,team_buff:0,s2fs:25
+1996,D_Cleo,5星,水,匕,2670,<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:817,force_strike:105,skill_1:422,skill_2:370,skill_3:0,team_buff:152,team_energy:66,s2_energized:61
+1486,_c_D_Cleo,5星,水,匕,2670,!<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:635,force_strike:82,skill_1:328,skill_2:288,skill_3:0,team_buff:152
+1616,Francesca,3星,风,匕,2799,<hp70 & hit15>,,attack:631,force_strike:86,skill_1:496,skill_2:140,skill_3:243,team_buff:18
+1364,_c_Francesca,3星,风,匕,2799,!<hp70 & hit15>,,attack:532,force_strike:72,skill_1:417,skill_2:118,skill_3:204,team_buff:18
+1547,Irfan,3星,光,匕,2784,<hp70 & hit15>,,attack:709,force_strike:70,skill_1:558,skill_2:209,skill_3:0,team_buff:0
+1303,_c_Irfan,3星,光,匕,2784,!<hp70 & hit15>,,attack:597,force_strike:59,skill_1:470,skill_2:176,skill_3:0,team_buff:0
+1833,Luther,4星,水,匕,2636,<hp70 & hit15>,,attack:788,force_strike:81,skill_1:705,skill_2:239,skill_3:0,team_buff:18
+1456,_c_Luther,4星,水,匕,2636,!<hp70 & hit15>,,attack:624,force_strike:64,skill_1:558,skill_2:189,skill_3:0,team_buff:18
+1700,Melsa,4星,火,匕,2799,<hp70 & hit15>,,attack:636,force_strike:69,skill_1:571,skill_2:171,skill_3:252,team_buff:0
+1361,_c_Melsa,4星,火,匕,2799,!<hp70 & hit15>,,attack:509,force_strike:55,skill_1:457,skill_2:136,skill_3:201,team_buff:0
+1712,Orion,4星,暗,匕,2863,<hp70 & hit15>,,attack:647,force_strike:57,skill_1:480,skill_2:265,skill_3:261,team_buff:0
+1353,_c_Orion,4星,暗,匕,2863,!<hp70 & hit15>,,attack:511,force_strike:45,skill_1:380,skill_2:210,skill_3:206,team_buff:0
+1822,Orsem,4星,水,匕,2688,<hp70 & hit15>,,attack:812,force_strike:85,skill_1:738,skill_2:185,skill_3:0,team_buff:0
+1398,_c_Orsem,4星,水,匕,2688,!<hp70 & hit15>,,attack:623,force_strike:65,skill_1:566,skill_2:142,skill_3:0,team_buff:0
+1766,Renelle,3星,火,匕,2781,<hp70 & hit15>,,attack:683,force_strike:69,skill_1:520,skill_2:219,skill_3:254,team_buff:19
+1417,_c_Renelle,3星,火,匕,2781,!<hp70 & hit15>,,attack:547,force_strike:55,skill_1:416,skill_2:175,skill_3:203,team_buff:19
+1526,Vida,3星,暗,匕,2787,<hp70 & hit15>,unsuitable resist,attack:662,force_strike:102,skill_1:492,skill_2:0,skill_3:238,team_buff:0,s2fs:30
+1286,_c_Vida,3星,暗,匕,2787,!<hp70 & hit15>,unsuitable resist,attack:558,force_strike:86,skill_1:415,skill_2:0,skill_3:200,team_buff:0,s2fs:25
 1488,Vice,3星,暗,匕,2763,<hp70>,reach 100 resist with Silke Lends a Hand,attack:578,force_strike:59,skill_1:480,skill_2:136,skill_3:233,team_buff:0
 1410,_c_Vice,3星,暗,匕,2763,!<hp70>,reach 100 resist with Silke Lends a Hand,attack:548,force_strike:56,skill_1:455,skill_2:129,skill_3:220,team_buff:0
 1782,Erik,3星,暗,斧,2904,<hp70>,do not use weapon skill& reach 100 resist with Silke Lends a Hand,attack:789,force_strike:130,skill_1:634,skill_2:228,skill_3:0,team_buff:0
 1690,_c_Erik,3星,暗,斧,2904,!<hp70>,do not use weapon skill& reach 100 resist with Silke Lends a Hand,attack:748,force_strike:124,skill_1:601,skill_2:216,skill_3:0,team_buff:0
 2095,Johanna,3星,风,斧,2868, ,,attack:802,force_strike:105,skill_1:666,skill_2:359,skill_3:161,team_buff:0
 1852,Julietta,5星,光,斧,2965, ,do not use fs,attack:953,force_strike:0,skill_1:898,skill_2:0,skill_3:0,team_buff:0
-2405,Karina,4星,水,斧,2732, ,,attack:798,force_strike:57,skill_1:763,skill_2:433,skill_3:352,team_buff:0
+2341,Karina,4星,水,斧,2732, ,,attack:883,force_strike:77,skill_1:916,skill_2:289,skill_3:176,team_buff:0
 1912,Linus,3星,光,斧,2851, ,do not use weapon skill,attack:787,force_strike:105,skill_1:662,skill_2:357,skill_3:0,team_buff:0
 2114,Pietro,3星,水,斧,2660, ,unsuitable resist,attack:937,force_strike:116,skill_1:882,skill_2:0,skill_3:178,team_buff:0
 1799,Ranzal,4星,风,斧,2887, ,do not use fs,attack:899,force_strike:0,skill_1:737,skill_2:0,skill_3:162,team_buff:0
 2166,Rex,3星,水,斧,2759, ,,attack:870,force_strike:116,skill_1:735,skill_2:264,skill_3:178,team_buff:0
 2295,Vanessa,4星,火,斧,2989,<last offense>,,attack:939,force_strike:177,skill_1:845,skill_2:270,skill_3:0,team_buff:61
 2164,_c_Vanessa,4星,火,斧,2989,!<last offense>,,attack:870,force_strike:162,skill_1:799,skill_2:270,skill_3:0,team_buff:61
-1458,Aeleen,4星,风,枪,2855,<hp70>,no fs,attack:766,force_strike:0,skill_1:692,skill_2:0,skill_3:0,team_buff:0
-1296,_c_Aeleen,4星,风,枪,2855,!<hp70>,no fs,attack:680,force_strike:0,skill_1:615,skill_2:0,skill_3:0,team_buff:0
+1468,Aeleen,4星,风,枪,2844,<hp70>,no fs,attack:771,force_strike:0,skill_1:696,skill_2:0,skill_3:0,team_buff:0
+1287,_c_Aeleen,4星,风,枪,2844,!<hp70>,no fs,attack:676,force_strike:0,skill_1:610,skill_2:0,skill_3:0,team_buff:0
 1615,Alain,3星,火,枪,2778,<hp70>,reach 100 resist with Saintly Delivery,attack:598,force_strike:37,skill_1:528,skill_2:237,skill_3:213,team_buff:0
 1530,_c_Alain,3星,火,枪,2778,!<hp70>,reach 100 resist with Saintly Delivery,attack:566,force_strike:35,skill_1:500,skill_2:225,skill_3:202,team_buff:0
 1214,Cibella,3星,水,枪,2499,<hp70>,reach 100 resist with Saintly Delivery,attack:685,force_strike:126,skill_1:0,skill_2:403,skill_3:0,team_buff:0
 1158,_c_Cibella,3星,水,枪,2499,!<hp70>,reach 100 resist with Saintly Delivery,attack:653,force_strike:120,skill_1:0,skill_2:384,skill_3:0,team_buff:0
 2305,Elisanne,4星,水,枪,2545,<hp70>,do not use fs & RR+15%buff_time,attack:958,force_strike:0,skill_1:0,skill_2:335,skill_3:0,team_buff:1011
 2245,_c_Elisanne,4星,水,枪,2545,!<hp70>,do not use fs & RR+15%buff_time,attack:914,force_strike:0,skill_1:0,skill_2:319,skill_3:0,team_buff:1011
-2160,H_Elisanne,5星,光,枪,3025,<hp70 & no s2>,,attack:745,force_strike:0,skill_1:780,skill_2:0,skill_3:340,team_buff:294
-1899,_c_H_Elisanne,5星,光,枪,3025,!<hp70 & no s2>,,attack:595,force_strike:0,skill_1:693,skill_2:249,skill_3:138,team_buff:222
-1892,Malka,3星,光,枪,2909,<hp70>,do not use fs,attack:795,force_strike:0,skill_1:677,skill_2:0,skill_3:243,team_buff:175
-1701,_c_Malka,3星,光,枪,2909,!<hp70>,do not use fs,attack:707,force_strike:0,skill_1:602,skill_2:0,skill_3:216,team_buff:175
-1471,Pia,4星,风,枪,2799,<hp70 & energy>,no fs,attack:726,force_strike:0,skill_1:678,skill_2:0,skill_3:0,team_buff:0,team_energy:66
-1270,_c_Pia,4星,风,枪,2799,!<hp70 & energy>,no fs,attack:667,force_strike:0,skill_1:603,skill_2:0,skill_3:0,team_buff:0
-1410,Ryozen,4星,光,枪,2931,<hp70>,,attack:704,force_strike:100,skill_1:0,skill_2:376,skill_3:229,team_buff:0
-1253,_c_Ryozen,4星,光,枪,2931,!<hp70>,,attack:625,force_strike:89,skill_1:0,skill_2:334,skill_3:204,team_buff:0
-1851,Xainfried,5星,水,枪,2688,<hp70 & hit15>,,attack:726,force_strike:62,skill_1:785,skill_2:0,skill_3:0,team_buff:275
-1691,_c_Xainfried,5星,水,枪,2688,!<hp70 & hit15>,,attack:653,force_strike:56,skill_1:706,skill_2:0,skill_3:0,team_buff:275
-1681,Zace,3星,暗,枪,2923,<hp70>,do not use fs,attack:697,force_strike:0,skill_1:568,skill_2:287,skill_3:128,team_buff:0
-1494,_c_Zace,3星,暗,枪,2923,!<hp70>,do not use fs,attack:619,force_strike:0,skill_1:505,skill_2:255,skill_3:114,team_buff:0
-1442,D_Nefaria,4星,水,弓,2634,<c4+fs & hp70 & hit15>,,attack:497,force_strike:270,skill_1:675,skill_2:0,skill_3:0,team_buff:0
-1238,_c_D_Nefaria,4星,水,弓,2634,!<c4+fs & hp70 & hit15>,,attack:629,force_strike:0,skill_1:609,skill_2:0,skill_3:0,team_buff:0
-1674,Eleonora,4星,风,弓,2861,<c4+fs & hp70>,poison by s1 3 times,attack:464,force_strike:274,skill_1:564,skill_2:276,skill_3:0,team_buff:0,s1_poison:94
-1339,_c_Eleonora,4星,风,弓,2861,!<c4+fs & hp70>,poison by s1 3 times,attack:585,force_strike:0,skill_1:439,skill_2:231,skill_3:0,team_buff:0,s1_poison:83
-1555,Elias,4星,光,弓,2766,<hp70 & energy & last offense & c4+fs & no s2>,,attack:499,force_strike:287,skill_1:551,skill_2:0,skill_3:217,team_buff:0
-1108,_c_Elias,4星,光,弓,2766,!<hp70 & energy & last offense & c4+fs & no s2>,,attack:558,force_strike:0,skill_1:453,skill_2:0,skill_3:96,team_buff:0
-2006,Hawk,5星,风,弓,2898,<c4+fs & hp70 & stun 20s(3 s1 boosted)>,,attack:562,force_strike:310,skill_1:557,skill_2:0,skill_3:0,team_buff:0,s1hitstun:547,s2fs:29
-1187,_c_Hawk,5星,风,弓,2898,!<c4+fs & hp70 & stun 20s(3 s1 boosted)>,,attack:608,force_strike:0,skill_1:579,skill_2:0,skill_3:0,team_buff:0
+2174,H_Elisanne,5星,光,枪,3014,<hp70 & no s2>,,attack:750,force_strike:0,skill_1:786,skill_2:0,skill_3:343,team_buff:294
+1888,_c_H_Elisanne,5星,光,枪,3014,!<hp70 & no s2>,,attack:591,force_strike:0,skill_1:689,skill_2:248,skill_3:137,team_buff:222
+1904,Malka,3星,光,枪,2897,<hp70>,do not use fs,attack:801,force_strike:0,skill_1:682,skill_2:0,skill_3:245,team_buff:175
+1690,_c_Malka,3星,光,枪,2897,!<hp70>,do not use fs,attack:702,force_strike:0,skill_1:598,skill_2:0,skill_3:215,team_buff:175
+1481,Pia,4星,风,枪,2788,<hp70 & energy>,no fs,attack:731,force_strike:0,skill_1:683,skill_2:0,skill_3:0,team_buff:0,team_energy:66
+1261,_c_Pia,4星,风,枪,2788,!<hp70 & energy>,no fs,attack:663,force_strike:0,skill_1:598,skill_2:0,skill_3:0,team_buff:0
+1420,Ryozen,4星,光,枪,2919,<hp70>,,attack:709,force_strike:101,skill_1:0,skill_2:378,skill_3:231,team_buff:0
+1245,_c_Ryozen,4星,光,枪,2919,!<hp70>,,attack:621,force_strike:88,skill_1:0,skill_2:331,skill_3:202,team_buff:0
+1829,Xainfried,5星,水,枪,2679,<hp70>,,attack:716,force_strike:61,skill_1:774,skill_2:0,skill_3:0,team_buff:275
+1635,_c_Xainfried,5星,水,枪,2679,!<hp70>,,attack:627,force_strike:54,skill_1:678,skill_2:0,skill_3:0,team_buff:275
+1693,Zace,3星,暗,枪,2912,<hp70>,do not use fs,attack:702,force_strike:0,skill_1:572,skill_2:289,skill_3:129,team_buff:0
+1484,_c_Zace,3星,暗,枪,2912,!<hp70>,do not use fs,attack:615,force_strike:0,skill_1:501,skill_2:253,skill_3:113,team_buff:0
+1479,D_Nefaria,4星,水,弓,2625,<c4+fs & hp70 & hit15>,,attack:509,force_strike:277,skill_1:691,skill_2:0,skill_3:0,team_buff:0
+1180,_c_D_Nefaria,4星,水,弓,2625,!<c4+fs & hp70 & hit15>,,attack:599,force_strike:0,skill_1:580,skill_2:0,skill_3:0,team_buff:0
+1747,Eleonora,4星,风,弓,2850,<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:485,force_strike:287,skill_1:588,skill_2:287,skill_3:0,team_buff:0,s1_poison:98
+1317,_c_Eleonora,4星,风,弓,2850,!<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:574,force_strike:0,skill_1:430,skill_2:229,skill_3:0,team_buff:0,s1_poison:82
+1629,Elias,4星,光,弓,2755,<hp70 & energy & hit15 & last offense & c4+fs & no s2>,,attack:523,force_strike:301,skill_1:577,skill_2:0,skill_3:227,team_buff:0
+1100,_c_Elias,4星,光,弓,2755,!<hp70 & energy & hit15 & last offense & c4+fs & no s2>,,attack:554,force_strike:0,skill_1:450,skill_2:0,skill_3:95,team_buff:0
+2097,Hawk,5星,风,弓,2887,<c4+fs & hp70 & hit15 & stun 20s(3 s1 boosted)>,,attack:587,force_strike:323,skill_1:581,skill_2:0,skill_3:0,team_buff:0,s1hitstun:573,s2fs:31
+1167,_c_Hawk,5星,风,弓,2887,!<c4+fs & hp70 & hit15 & stun 20s(3 s1 boosted)>,,attack:598,force_strike:0,skill_1:568,skill_2:0,skill_3:0,team_buff:0
 1578,Joe,3星,火,弓,2728,<c4+fs & hp70>,burn 3 times,attack:459,force_strike:268,skill_1:550,skill_2:239,skill_3:0,team_buff:0,s2_burn:61
 1425,_c_Joe,3星,火,弓,2728,!<c4+fs & hp70>,burn 3 times,attack:617,force_strike:0,skill_1:522,skill_2:227,skill_3:0,team_buff:0,s2_burn:58
-1683,Louise,5星,风,弓,2843,<hp70>,poison 3 times & no fs,attack:670,force_strike:0,skill_1:540,skill_2:216,skill_3:0,team_buff:0,s2hitpoison:148,s1_poison:107
-1502,_c_Louise,5星,风,弓,2843,!<hp70>,poison 3 times & no fs,attack:598,force_strike:0,skill_1:482,skill_2:194,skill_3:0,team_buff:0,s2hitpoison:132,s1_poison:95
-1644,Luca,4星,光,弓,2817,<c4+fs & hp70 & hp100>,paralysis 3 times,attack:480,force_strike:264,skill_1:485,skill_2:195,skill_3:119,team_buff:0,s1_paralysis:100
-1287,_c_Luca,4星,光,弓,2817,!<c4+fs & hp70 & hp100>,paralysis 3 times,attack:547,force_strike:0,skill_1:398,skill_2:160,skill_3:98,team_buff:0,s1_paralysis:82
-1544,Malora,3星,光,弓,2798,<spawn c1+fs & hp70>,,attack:194,force_strike:553,skill_1:476,skill_2:158,skill_3:113,team_buff:49
-1379,_c_Malora,3星,光,弓,2798,!<spawn c1+fs & hp70>,,attack:582,force_strike:0,skill_1:506,skill_2:141,skill_3:100,team_buff:49
-1702,Nefaria,5星,暗,弓,2871,<c4+fs & hp70 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:505,force_strike:298,skill_1:533,skill_2:0,skill_3:112,team_buff:0,s2fs:28,s1hitblind:223
-1219,_c_Nefaria,5星,暗,弓,2871,!<c4+fs & hp70 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:572,force_strike:0,skill_1:447,skill_2:0,skill_3:199,team_buff:0
-1616,Philia,3星,风,弓,2785,<c4+fs & hp70 & hp100>,paralysis 3 times,attack:507,force_strike:284,skill_1:498,skill_2:259,skill_3:0,team_buff:0,s2_paralysis:66
-1272,_c_Philia,3星,风,弓,2785,!<c4+fs & hp70 & hp100>,paralysis 3 times,attack:581,force_strike:0,skill_1:499,skill_2:136,skill_3:0,team_buff:0,s2_paralysis:55
-1458,Rawn,4星,光,弓,2876,<hp70 & c1+fs>,,attack:190,force_strike:521,skill_1:458,skill_2:174,skill_3:112,team_buff:0
-1299,_c_Rawn,4星,光,弓,2876,!<hp70 & c1+fs>,,attack:559,force_strike:0,skill_1:407,skill_2:232,skill_3:100,team_buff:0
-2224,Waike,3星,水,弓,2539,<c4+fs & hp70 & hit15 & bog>,bog 3 times,attack:517,force_strike:347,skill_1:592,skill_2:258,skill_3:0,team_buff:507
-1295,_c_Waike,3星,水,弓,2539,!<c4+fs & hp70 & hit15 & bog>,bog 3 times,attack:614,force_strike:0,skill_1:534,skill_2:146,skill_3:0,team_buff:0
-2099,G_Sarisse,5星,火,弓,2854,<c4+fs & hp70 & never lose combos>,,attack:537,force_strike:313,skill_1:1096,skill_2:0,skill_3:0,team_buff:151
-1380,_c_G_Sarisse,5星,火,弓,2854,!<c4+fs & hp70 & never lose combos>,,attack:624,force_strike:0,skill_1:604,skill_2:0,skill_3:0,team_buff:151
-2059,Annelie,5星,光,枪,3025,<hp70 & energy>,do s1s1s2s1 loop,attack:702,force_strike:75,skill_1:760,skill_2:131,skill_3:292,team_buff:0,team_energy:33,s1_p3_energized:63
-1455,_c_Annelie,5星,光,枪,3025,!<hp70 & energy>,do s1s1s2s1 loop,attack:604,force_strike:64,skill_1:489,skill_2:92,skill_3:204,team_buff:0
+1756,Louise,5星,风,弓,2832,<hp70 & hit15>,poison 3 times & no fs,attack:700,force_strike:0,skill_1:563,skill_2:224,skill_3:0,team_buff:0,s2hitpoison:155,s1_poison:112
+1482,_c_Louise,5星,风,弓,2832,!<hp70 & hit15>,poison 3 times & no fs,attack:590,force_strike:0,skill_1:475,skill_2:190,skill_3:0,team_buff:0,s2hitpoison:131,s1_poison:94
+1708,Luca,4星,光,弓,2806,<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:498,force_strike:274,skill_1:504,skill_2:203,skill_3:124,team_buff:0,s1_paralysis:103
+1279,_c_Luca,4星,光,弓,2806,!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:543,force_strike:0,skill_1:396,skill_2:159,skill_3:97,team_buff:0,s1_paralysis:81
+1615,Malora,3星,光,弓,2787,<spawn c1+fs & hp70 & hit15>,,attack:203,force_strike:579,skill_1:498,skill_2:166,skill_3:118,team_buff:49
+1370,_c_Malora,3星,光,弓,2787,!<spawn c1+fs & hp70 & hit15>,,attack:578,force_strike:0,skill_1:502,skill_2:140,skill_3:99,team_buff:49
+1783,Nefaria,5星,暗,弓,2860,<c4+fs & hp70 & hit15 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:529,force_strike:313,skill_1:558,skill_2:0,skill_3:117,team_buff:0,s2fs:29,s1hitblind:234
+1211,_c_Nefaria,5星,暗,弓,2860,!<c4+fs & hp70 & hit15 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:568,force_strike:0,skill_1:444,skill_2:0,skill_3:198,team_buff:0
+1675,Philia,3星,风,弓,2774,<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:526,force_strike:295,skill_1:516,skill_2:268,skill_3:0,team_buff:0,s2_paralysis:68
+1257,_c_Philia,3星,风,弓,2774,!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:573,force_strike:0,skill_1:492,skill_2:135,skill_3:0,team_buff:0,s2_paralysis:54
+1527,Rawn,4星,光,弓,2864,<hp70 & c1+fs & hit15>,,attack:200,force_strike:546,skill_1:480,skill_2:182,skill_3:118,team_buff:0
+1290,_c_Rawn,4星,光,弓,2864,!<hp70 & c1+fs & hit15>,,attack:555,force_strike:0,skill_1:404,skill_2:230,skill_3:99,team_buff:0
+2267,Waike,3星,水,弓,2530,<c4+fs & hp70 & hit15 & bog>,bog 3 times,attack:531,force_strike:356,skill_1:607,skill_2:263,skill_3:0,team_buff:507
+1237,_c_Waike,3星,水,弓,2530,!<c4+fs & hp70 & hit15 & bog>,bog 3 times,attack:586,force_strike:0,skill_1:509,skill_2:140,skill_3:0,team_buff:0
+2172,G_Sarisse,5星,火,弓,2843,<c4+fs & hp70 & never lose combos & hit15>,,attack:559,force_strike:326,skill_1:1134,skill_2:0,skill_3:0,team_buff:151
+1358,_c_G_Sarisse,5星,火,弓,2843,!<c4+fs & hp70 & never lose combos & hit15>,,attack:616,force_strike:0,skill_1:590,skill_2:0,skill_3:0,team_buff:151
+2073,Annelie,5星,光,枪,3014,<hp70 & energy>,do s1s1s2s1 loop,attack:707,force_strike:75,skill_1:765,skill_2:132,skill_3:294,team_buff:0,team_energy:33,s1_p3_energized:63
+1445,_c_Annelie,5星,光,枪,3014,!<hp70 & energy>,do s1s1s2s1 loop,attack:600,force_strike:63,skill_1:486,skill_2:91,skill_3:203,team_buff:0
 1740,Marty,3星,火,剑,2742,<hp70>,reach 100 resist with Saintly Delivery,attack:529,force_strike:243,skill_1:684,skill_2:0,skill_3:282,team_buff:0
 1649,_c_Marty,3星,火,剑,2742,!<hp70>,reach 100 resist with Saintly Delivery,attack:502,force_strike:230,skill_1:648,skill_2:0,skill_3:267,team_buff:0
-1662,Fritz,4星,光,匕,2876,<hp70>,,attack:763,force_strike:83,skill_1:630,skill_2:0,skill_3:0,team_buff:78,s2fs:106
-1486,_c_Fritz,4星,光,匕,2876,!<hp70>,,attack:678,force_strike:74,skill_1:560,skill_2:0,skill_3:0,team_buff:78,s2fs:94
+1738,Fritz,4星,光,匕,2865,<hp70 & hit15>,,attack:799,force_strike:87,skill_1:660,skill_2:0,skill_3:0,team_buff:78,s2fs:111
+1476,_c_Fritz,4星,光,匕,2865,!<hp70 & hit15>,,attack:673,force_strike:74,skill_1:556,skill_2:0,skill_3:0,team_buff:78,s2fs:94
 2444,Linyou,5星,风,斧,3091,<hp70>,2in1 boost s1,attack:1011,force_strike:0,skill_1:996,skill_2:0,skill_3:186,team_buff:0,s1_powerup:249
 2276,_c_Linyou,5星,风,斧,3091,!<hp70>,2in1 boost s1,attack:942,force_strike:0,skill_1:928,skill_2:0,skill_3:173,team_buff:0,s1_powerup:232
 2122,Kuhai,4星,风,剑,2900,<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:481,force_strike:46,skill_1:669,skill_2:0,skill_3:0,team_buff:0,fs_alt:925
 1406,_c_Kuhai,4星,风,剑,2900,!<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:335,force_strike:85,skill_1:513,skill_2:0,skill_3:0,team_buff:0,fs_alt:471
-1996,Xiaolei,3星,光,法,2928,<hp70>,,attack:880,force_strike:0,skill_1:804,skill_2:0,skill_3:173,team_buff:137
-1756,_c_Xiaolei,3星,光,法,2928,!<hp70>,,attack:768,force_strike:0,skill_1:701,skill_2:0,skill_3:148,team_buff:137
-1595,Sufang,4星,风,匕,2880,<hp70>,,attack:691,force_strike:67,skill_1:498,skill_2:0,skill_3:337,team_buff:0
-1417,_c_Sufang,4星,风,匕,2880,!<hp70>,,attack:614,force_strike:60,skill_1:442,skill_2:0,skill_3:300,team_buff:0
-1712,V_Ezelith,4星,火,弓,2802,<c4+fs & hp70 & never lose combos>,,attack:482,force_strike:213,skill_1:493,skill_2:272,skill_3:0,team_buff:118,s1_energized:38,s1_burn:94
-1442,_c_V_Ezelith,4星,火,弓,2802,!<c4+fs & hp70 & never lose combos>,,attack:552,force_strike:0,skill_1:440,skill_2:243,skill_3:0,team_buff:121,s1_burn:84
+2059,Xiaolei,3星,光,法,2917,<hp70 & hit15>,,attack:911,force_strike:0,skill_1:832,skill_2:0,skill_3:177,team_buff:137
+1736,_c_Xiaolei,3星,光,法,2917,!<hp70 & hit15>,,attack:759,force_strike:0,skill_1:693,skill_2:0,skill_3:146,team_buff:137
+1671,Sufang,4星,风,匕,2868,<hp70 & hit15>,,attack:724,force_strike:71,skill_1:521,skill_2:0,skill_3:353,team_buff:0
+1407,_c_Sufang,4星,风,匕,2868,!<hp70 & hit15>,,attack:610,force_strike:59,skill_1:439,skill_2:0,skill_3:298,team_buff:0
+1782,V_Ezelith,4星,火,弓,2791,<c4+fs & hp70 & never lose combos & hit15>,,attack:503,force_strike:223,skill_1:514,skill_2:283,skill_3:0,team_buff:118,s1_energized:40,s1_burn:99
+1424,_c_V_Ezelith,4星,火,弓,2791,!<c4+fs & hp70 & never lose combos & hit15>,,attack:546,force_strike:0,skill_1:434,skill_2:239,skill_3:0,team_buff:121,s1_burn:83
 1906,V_Orion,3星,火,剑,2883,<VC+RR & hp70>,,attack:591,force_strike:259,skill_1:636,skill_2:0,skill_3:332,team_buff:0,s2_burn:86
 1742,_c_V_Orion,3星,火,剑,2863,!<VC+RR & hp70>,,attack:520,force_strike:311,skill_1:549,skill_2:0,skill_3:279,team_buff:0,s2_burn:81
-2566,Albert,5星,光,剑,3026,<hp70 & 3s1 in on s2 & big hitbox>,buffed s2 make his dps lower in specific 180s situation,attack:464,force_strike:440,skill_1:735,skill_2:0,skill_3:173,team_buff:0,s1_s2boost:609,s1_paralyze:35,fs_alt:107
-2073,_c_Albert,5星,光,剑,3026,!<hp70 & 3s1 in on s2 & big hitbox>,buffed s2 make his dps lower in specific 180s situation,attack:509,force_strike:310,skill_1:621,skill_2:0,skill_3:245,team_buff:0,s1_s2boost:387
+2837,Albert,5星,光,剑,3045,<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:511,force_strike:320,skill_1:773,skill_2:0,skill_3:101,team_buff:0,s1_s2boost:893,s1_paralyze:102,fs_alt:133
+2006,_c_Albert,5星,光,剑,3045,!<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:566,force_strike:247,skill_1:606,skill_2:0,skill_3:207,team_buff:0,s1_s2boost:378
 2476,Odetta,4星,光,剑,2987,<hp70 & buff all team>,,attack:662,force_strike:421,skill_1:711,skill_2:0,skill_3:255,team_buff:426
 1921,_c_Odetta,4星,光,剑,2987,!<hp70 & buff all team>,,attack:590,force_strike:375,skill_1:634,skill_2:0,skill_3:228,team_buff:92
-2374,Jakob,3星,水,枪,2530,<hp70 & hit15 & bog>,bog 3 times,attack:836,force_strike:133,skill_1:704,skill_2:0,skill_3:0,team_buff:699
-1305,_c_Jakob,3星,水,枪,2530,!<hp70 & hit15 & bog>,bog 3 times,attack:621,force_strike:88,skill_1:596,skill_2:0,skill_3:0,team_buff:0
+2350,Jakob,3星,水,枪,2521,<hp70 & bog>,bog 3 times,attack:824,force_strike:131,skill_1:694,skill_2:0,skill_3:0,team_buff:699
+1253,_c_Jakob,3星,水,枪,2521,!<hp70 & bog>,bog 3 times,attack:596,force_strike:84,skill_1:572,skill_2:0,skill_3:0,team_buff:0
 2374,Curran,5星,暗,斧,3040,<last offense>,do not use weapon skill and fs,attack:1096,force_strike:0,skill_1:878,skill_2:330,skill_3:0,team_buff:68
 2157,_c_Curran,5星,暗,斧,3040,!<last offense>,do not use weapon skill and fs,attack:960,force_strike:0,skill_1:799,skill_2:330,skill_3:0,team_buff:68
 2484,G_Ranzal,5星,风,剑,2917,<hp70>,,attack:559,force_strike:418,skill_1:732,skill_2:0,skill_3:0,team_buff:0,fs_alt:187,s1_boost:585
 2354,_c_G_Ranzal,5星,风,剑,2917,!<hp70>,,attack:529,force_strike:396,skill_1:693,skill_2:0,skill_3:0,team_buff:0,fs_alt:178,s1_boost:555
-1764,Laranoa,5星,水,弓,2643,<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:562,force_strike:274,skill_1:868,skill_2:0,skill_3:0,team_buff:58
-1327,_c_Laranoa,5星,水,弓,2643,!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:618,force_strike:0,skill_1:708,skill_2:0,skill_3:0,team_buff:0
-2213,Fleur,4星,光,匕,2929,<hp70 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:940,force_strike:120,skill_1:663,skill_2:0,skill_3:0,team_buff:0,s1hitpara:359,s1_para:128
-1354,_c_Fleur,4星,光,匕,2929,!<hp70 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:737,force_strike:93,skill_1:523,skill_2:0,skill_3:0,team_buff:0
+1795,Laranoa,5星,水,弓,2634,<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:573,force_strike:279,skill_1:883,skill_2:0,skill_3:0,team_buff:58
+1267,_c_Laranoa,5星,水,弓,2634,!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:591,force_strike:0,skill_1:675,skill_2:0,skill_3:0,team_buff:0
+2319,Fleur,4星,光,匕,2918,<hp70 & hit15 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:985,force_strike:126,skill_1:695,skill_2:0,skill_3:0,team_buff:0,s1hitpara:377,s1_para:134
+1345,_c_Fleur,4星,光,匕,2918,!<hp70 & hit15 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:732,force_strike:92,skill_1:519,skill_2:0,skill_3:0,team_buff:0
 2012,Yue,4星,火,斧,2882, ,,attack:988,force_strike:101,skill_1:923,skill_2:0,skill_3:0,team_buff:0
-1925,Sylas,5星,风,枪,2890,<hp70>,don't use fs,attack:887,force_strike:0,skill_1:864,skill_2:0,skill_3:0,team_buff:61,s1_poison:112
-1593,_c_Sylas,5星,风,枪,2890,!<hp70>,don't use fs,attack:729,force_strike:0,skill_1:710,skill_2:0,skill_3:0,team_buff:61,s1_poison:92
-1961,Alex,4星,暗,匕,2870,<hp70 & hp100>,not consider bk boost of her s2,attack:646,force_strike:39,skill_1:712,skill_2:186,skill_3:302,team_buff:74
-1524,_c_Alex,4星,暗,匕,2870,!<hp70 & hp100>,not consider bk boost of her s2,attack:574,force_strike:34,skill_1:498,skill_2:130,skill_3:211,team_buff:74
+1927,Sylas,5星,风,枪,2878,<hp70>,don't use fs,attack:888,force_strike:0,skill_1:865,skill_2:0,skill_3:0,team_buff:61,s1_poison:112
+1582,_c_Sylas,5星,风,枪,2878,!<hp70>,don't use fs,attack:724,force_strike:0,skill_1:705,skill_2:0,skill_3:0,team_buff:61,s1_poison:92
+2051,Alex,4星,暗,匕,2859,<hit15 & hp100 & hp70>,not consider bk boost of her s2,attack:677,force_strike:41,skill_1:746,skill_2:194,skill_3:316,team_buff:74
+1514,_c_Alex,4星,暗,匕,2859,!<hit15 & hp100 & hp70>,not consider bk boost of her s2,attack:570,force_strike:34,skill_1:495,skill_2:129,skill_3:210,team_buff:74
 2416,Alfonse,5星,光,剑,2989,<hp70 & last offense>,,attack:677,force_strike:431,skill_1:640,skill_2:430,skill_3:236,team_buff:0
 2150,_c_Alfonse,5星,光,剑,2989,!<hp70 & last offense>,,attack:588,force_strike:377,skill_1:580,skill_2:380,skill_3:223,team_buff:0
 2571,Marth,5星,火,剑,2972,<hp70 & hit15>,,attack:558,force_strike:351,skill_1:733,skill_2:275,skill_3:343,team_buff:309
 2285,_c_Marth,5星,火,剑,2972,!<hp70 & hit15>,,attack:488,force_strike:307,skill_1:640,skill_2:240,skill_3:299,team_buff:309
-2393,Veronica,5星,暗,法,2954,<hp70>,,attack:759,force_strike:67,skill_1:1096,skill_2:337,skill_3:0,team_buff:133
-2507,_c_Veronica,5星,暗,法,2954,!<hp70>,,attack:675,force_strike:60,skill_1:974,skill_2:299,skill_3:0,team_buff:133,s1_crisis:365
-2070,Fjorm,5星,水,枪,2742,<hp70 & hit15>,do not calc damage counter,attack:730,force_strike:0,skill_1:716,skill_2:361,skill_3:0,team_buff:262
-1887,_c_Fjorm,5星,水,枪,2742,!<hp70 & hit15>,do not calc damage counter,attack:656,force_strike:0,skill_1:643,skill_2:324,skill_3:0,team_buff:262
+2502,Veronica,5星,暗,法,2943,<hp70 & hit15>,,attack:796,force_strike:70,skill_1:1148,skill_2:353,skill_3:0,team_buff:133
+2491,_c_Veronica,5星,暗,法,2943,!<hp70 & hit15>,,attack:670,force_strike:59,skill_1:967,skill_2:297,skill_3:0,team_buff:133,s1_crisis:362
+2044,Fjorm,5星,水,枪,2733,<hp70>,do not calc damage counter,attack:720,force_strike:0,skill_1:706,skill_2:356,skill_3:0,team_buff:262
+1822,_c_Fjorm,5星,水,枪,2733,!<hp70>,do not calc damage counter,attack:630,force_strike:0,skill_1:618,skill_2:311,skill_3:0,team_buff:262
