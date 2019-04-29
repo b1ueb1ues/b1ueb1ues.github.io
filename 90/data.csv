@@ -179,7 +179,7 @@ name,star,element,weapon,str,condition,comment,dps
 2119,_c_Alfonse,5星,光,剑,2989,!<hp70 & last offense>,,attack:565,force_strike:362,skill_1:576,skill_2:317,skill_3:298,team_buff:0
 2423,Marth,5星,火,剑,2972,<hp70 & hit15>,,attack:557,force_strike:353,skill_1:650,skill_2:306,skill_3:309,team_buff:245
 2148,_c_Marth,5星,火,剑,2972,!<hp70 & hit15>,,attack:487,force_strike:309,skill_1:568,skill_2:267,skill_3:270,team_buff:245
-2403,Veronica,5星,暗,法,2943,<hp70 & hit15>,,attack:796,force_strike:82,skill_1:1043,skill_2:392,skill_3:0,team_buff:88
-2367,_c_Veronica,5星,暗,法,2943,!<hp70 & hit15>,,attack:670,force_strike:69,skill_1:878,skill_2:330,skill_3:0,team_buff:88,s1_crisis:329
+2794,Veronica,5星,暗,法,2943,<hit15 & hp70~hp71 & hp70>,,attack:796,force_strike:82,skill_1:1043,skill_2:392,skill_3:0,team_buff:88,s1_crisis:391
+2367,_c_Veronica,5星,暗,法,2943,!<hit15 & hp70~hp71 & hp70>,,attack:670,force_strike:69,skill_1:878,skill_2:330,skill_3:0,team_buff:88,s1_crisis:329
 1933,Fjorm,5星,水,枪,2733,<hp70>,do not calc damage counter,attack:691,force_strike:0,skill_1:684,skill_2:381,skill_3:0,team_buff:175
 1713,_c_Fjorm,5星,水,枪,2733,!<hp70>,do not calc damage counter,attack:605,force_strike:0,skill_1:599,skill_2:333,skill_3:0,team_buff:175
