@@ -25,6 +25,7 @@
 
 ### second WP
 - Equiped MUB level80 "Fresh Perspective" for sword user.
+- Equiped MUB level100 "Crystalian Envoy" for blade user.
 - Equiped MUB level100 "Kung Fu Masters"+ MUB level80 "Flower in the Fray" for axe user.
 - Equiped MUB level100 "Flash of Genius" for wand/bow/dagger characters.
 - Equiped MUB resist WP for 3\* character who can reach 100 resist of stun & blind
@@ -44,9 +45,8 @@
 #### (means that you should add some score yourself to unit have that kind of abilities)
 - Ex-skills(Co-abilities)
 - Shapeshift
-- Dragon's Law
 - Phraeganoth/Physian/Demon Bane
-- Slayer's Strength/Striker's Strength
+- Slayer's Strength/Striker's Strength except for special page
 
 ## Conditional dps is reference to :
 #### (means that you should reduce this part of dps to unit have that kind of abilities by your own opinion)
@@ -62,6 +62,9 @@
 - Consider other teammember have a total of 3500 dps.
 - Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 2500 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. 
+- Consider only dragon once at middle of fight for dragon claw.
+- Consider break punisher to have 15% efficiency
+- Consider od punisher to have 35% efficiency
 
 ## Author
 b1ueb1ues, tiara, luciferz2012
