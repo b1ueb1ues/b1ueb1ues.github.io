@@ -11,8 +11,8 @@ name,star,element,weapon,str,condition,comment,dps
 2151,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:812,force_strike:107,skill_1:664,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:547
 2435,Botan,4星,暗,枪,2830,<hp70>,,attack:687,force_strike:0,skill_1:674,skill_2:0,skill_3:250,team_buff:262,bleed:559
 2166,_c_Botan,4星,暗,枪,2830,!<hp70>,,attack:602,force_strike:0,skill_1:590,skill_2:0,skill_3:219,team_buff:262,bleed:490
-1757,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:619,force_strike:398,skill_1:739,skill_2:0,skill_3:0,team_buff:0
-1552,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:657,skill_2:0,skill_3:0,team_buff:0
+1723,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:599,force_strike:384,skill_1:739,skill_2:0,skill_3:0,team_buff:0
+1520,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:525,force_strike:338,skill_1:657,skill_2:0,skill_3:0,team_buff:0
 1948,Euden,4星,火,剑,2879,<hp70>,,attack:479,force_strike:308,skill_1:641,skill_2:229,skill_3:207,team_buff:82
 1850,_c_Euden,4星,火,剑,2879,!<hp70>,,attack:454,force_strike:292,skill_1:608,skill_2:217,skill_3:196,team_buff:82
 2107,Karl,4星,火,剑,2883,<hp70>,,attack:573,force_strike:369,skill_1:658,skill_2:0,skill_3:239,team_buff:266
@@ -156,8 +156,8 @@ name,star,element,weapon,str,condition,comment,dps
 1424,_c_V_Ezelith,4星,火,弓,2791,!<c4+fs & hp70 & never lose combos & hit15>,,attack:546,force_strike:0,skill_1:434,skill_2:239,skill_3:0,team_buff:121,s1_burn:83
 1906,V_Orion,3星,火,剑,2883,<VC+RR & hp70>,,attack:591,force_strike:259,skill_1:636,skill_2:0,skill_3:332,team_buff:0,s2_burn:86
 1742,_c_V_Orion,3星,火,剑,2863,!<VC+RR & hp70>,,attack:520,force_strike:311,skill_1:549,skill_2:0,skill_3:279,team_buff:0,s2_burn:81
-2837,Albert,5星,光,剑,3045,<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:511,force_strike:320,skill_1:773,skill_2:0,skill_3:101,team_buff:0,s1_s2boost:893,s1_paralyze:102,fs_alt:133
-2006,_c_Albert,5星,光,剑,3045,!<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:566,force_strike:247,skill_1:606,skill_2:0,skill_3:207,team_buff:0,s1_s2boost:378
+2837,Albert,5星,光,剑,3045,<hp70 & 4s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:511,force_strike:320,skill_1:773,skill_2:0,skill_3:101,team_buff:0,s1_s2boost:893,s1_paralyze:102,fs_alt:133
+2006,_c_Albert,5星,光,剑,3045,!<hp70 & 4s1 in on s2 & big hitbox>,suitable skill prep; RR+Worthy_Rivals,attack:566,force_strike:247,skill_1:606,skill_2:0,skill_3:207,team_buff:0,s1_s2boost:378
 2476,Odetta,4星,光,剑,2987,<hp70 & buff all team>,,attack:662,force_strike:421,skill_1:711,skill_2:0,skill_3:255,team_buff:426
 1921,_c_Odetta,4星,光,剑,2987,!<hp70 & buff all team>,,attack:590,force_strike:375,skill_1:634,skill_2:0,skill_3:228,team_buff:92
 2350,Jakob,3星,水,枪,2521,<hp70 & bog>,bog 3 times,attack:824,force_strike:131,skill_1:694,skill_2:0,skill_3:0,team_buff:699

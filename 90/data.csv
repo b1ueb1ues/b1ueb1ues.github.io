@@ -11,8 +11,8 @@ name,star,element,weapon,str,condition,comment,dps
 2288,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:827,force_strike:95,skill_1:708,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:637
 2484,Botan,4星,暗,枪,2830,<hp70>,,attack:676,force_strike:0,skill_1:644,skill_2:0,skill_3:250,team_buff:262,bleed:650
 2210,_c_Botan,4星,暗,枪,2830,!<hp70>,,attack:592,force_strike:0,skill_1:564,skill_2:0,skill_3:219,team_buff:262,bleed:570
-1743,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:604,force_strike:388,skill_1:749,skill_2:0,skill_3:0,team_buff:0
-1577,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:681,skill_2:0,skill_3:0,team_buff:0
+1647,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:577,force_strike:371,skill_1:698,skill_2:0,skill_3:0,team_buff:0
+1485,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:518,force_strike:334,skill_1:632,skill_2:0,skill_3:0,team_buff:0
 1926,Euden,4星,火,剑,2879,<hp70>,,attack:474,force_strike:299,skill_1:610,skill_2:254,skill_3:203,team_buff:83
 1829,_c_Euden,4星,火,剑,2879,!<hp70>,,attack:449,force_strike:283,skill_1:578,skill_2:241,skill_3:193,team_buff:83
 2198,Karl,4星,火,剑,2883,<hp70>,,attack:584,force_strike:376,skill_1:674,skill_2:0,skill_3:239,team_buff:323
@@ -156,8 +156,8 @@ name,star,element,weapon,str,condition,comment,dps
 1380,_c_V_Ezelith,4星,火,弓,2791,!<c4+fs & hp70 & never lose combos & hit15>,,attack:550,force_strike:0,skill_1:413,skill_2:209,skill_3:0,team_buff:151,s1_burn:55
 1838,V_Orion,3星,火,剑,2883,<VC+RR & hp70>,,attack:585,force_strike:259,skill_1:636,skill_2:0,skill_3:299,team_buff:0,s2_burn:57
 1699,_c_V_Orion,3星,火,剑,2863,!<VC+RR & hp70>,,attack:535,force_strike:311,skill_1:549,skill_2:0,skill_3:248,team_buff:0,s2_burn:54
-2704,Albert,5星,光,剑,3042,<3s1 in on s2 & big hitbox>,suitable skill prep; Heralds_of_Hinomoto+Chocolatiers,attack:429,force_strike:244,skill_1:741,skill_2:0,skill_3:122,team_buff:0,s1_s2boost:944,s1_paralyze:62,fs_alt:161
-2182,_c_Albert,5星,光,剑,3042,!<3s1 in on s2 & big hitbox>,suitable skill prep; Heralds_of_Hinomoto+Chocolatiers,attack:548,force_strike:167,skill_1:599,skill_2:0,skill_3:264,team_buff:0,s1_s2boost:603
+2704,Albert,5星,光,剑,3042,<4s1 in on s2 & big hitbox>,suitable skill prep; Heralds_of_Hinomoto+Chocolatiers,attack:429,force_strike:244,skill_1:741,skill_2:0,skill_3:122,team_buff:0,s1_s2boost:944,s1_paralyze:62,fs_alt:161
+2182,_c_Albert,5星,光,剑,3042,!<4s1 in on s2 & big hitbox>,suitable skill prep; Heralds_of_Hinomoto+Chocolatiers,attack:548,force_strike:167,skill_1:599,skill_2:0,skill_3:264,team_buff:0,s1_s2boost:603
 2602,Odetta,4星,光,剑,2987,<hp70 & buff all team>,,attack:653,force_strike:421,skill_1:715,skill_2:0,skill_3:341,team_buff:471
 1996,_c_Odetta,4星,光,剑,2987,!<hp70 & buff all team>,,attack:583,force_strike:375,skill_1:638,skill_2:0,skill_3:304,team_buff:95
 2047,Jakob,3星,水,枪,2521,<hp70 & bog>,bog 3 times,attack:784,force_strike:115,skill_1:681,skill_2:0,skill_3:0,team_buff:466

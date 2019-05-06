@@ -14,8 +14,8 @@ dps,name,star,element,weapon,str,condition,comment
 2395,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:810,force_strike:95,skill_1:752,skill_2:0,skill_3:0,team_buff:0,s2fs:23,bleed:714
 2542,Botan,4星,暗,枪,2830,<hp70>,,attack:687,force_strike:0,skill_1:644,skill_2:0,skill_3:250,team_buff:262,bleed:697
 2261,_c_Botan,4星,暗,枪,2830,!<hp70>,,attack:602,force_strike:0,skill_1:564,skill_2:0,skill_3:219,team_buff:262,bleed:611
-1678,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:589,force_strike:379,skill_1:708,skill_2:0,skill_3:0,team_buff:0
-1552,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:657,skill_2:0,skill_3:0,team_buff:0
+1607,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:562,force_strike:361,skill_1:683,skill_2:0,skill_3:0,team_buff:0
+1485,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:518,force_strike:334,skill_1:632,skill_2:0,skill_3:0,team_buff:0
 1961,Euden,4星,火,剑,2879,<hp70>,,attack:468,force_strike:299,skill_1:643,skill_2:254,skill_3:203,team_buff:91
 1864,_c_Euden,4星,火,剑,2879,!<hp70>,,attack:444,force_strike:284,skill_1:609,skill_2:241,skill_3:193,team_buff:91
 2233,Karl,4星,火,剑,2883,<hp70>,,attack:586,force_strike:374,skill_1:648,skill_2:0,skill_3:273,team_buff:349
@@ -159,8 +159,8 @@ dps,name,star,element,weapon,str,condition,comment
 1382,_c_V_Ezelith,4星,火,弓,2791,!<c4+fs & hp70 & never lose combos & hit15>,,attack:541,force_strike:0,skill_1:447,skill_2:209,skill_3:0,team_buff:155,s1_burn:27
 1803,V_Orion,3星,火,剑,2883,<VC+RR & hp70>,,attack:591,force_strike:261,skill_1:616,skill_2:0,skill_3:305,team_buff:0,s2_burn:28
 1682,_c_V_Orion,3星,火,剑,2863,!<VC+RR & hp70>,,attack:524,force_strike:302,skill_1:549,skill_2:0,skill_3:279,team_buff:0,s2_burn:27
-2651,Albert,5星,光,剑,3042,<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Chocolatiers,attack:472,force_strike:295,skill_1:707,skill_2:0,skill_3:161,team_buff:0,s1_s2boost:853,s1_paralyze:32,fs_alt:127
-1995,_c_Albert,5星,光,剑,3042,!<hp70 & 3s1 in on s2 & big hitbox>,suitable skill prep; RR+Chocolatiers,attack:516,force_strike:211,skill_1:584,skill_2:0,skill_3:259,team_buff:0,s1_s2boost:422
+2651,Albert,5星,光,剑,3042,<hp70 & 4s1 in on s2 & big hitbox>,suitable skill prep; RR+Chocolatiers,attack:472,force_strike:295,skill_1:707,skill_2:0,skill_3:161,team_buff:0,s1_s2boost:853,s1_paralyze:32,fs_alt:127
+1995,_c_Albert,5星,光,剑,3042,!<hp70 & 4s1 in on s2 & big hitbox>,suitable skill prep; RR+Chocolatiers,attack:516,force_strike:211,skill_1:584,skill_2:0,skill_3:259,team_buff:0,s1_s2boost:422
 2630,Odetta,4星,光,剑,2987,<hp70 & buff all team>,,attack:651,force_strike:419,skill_1:716,skill_2:0,skill_3:341,team_buff:502
 1995,_c_Odetta,4星,光,剑,2987,!<hp70 & buff all team>,,attack:580,force_strike:373,skill_1:638,skill_2:0,skill_3:304,team_buff:97
 1718,Jakob,3星,水,枪,2521,<hp70 & bog>,bog 3 times,attack:731,force_strike:113,skill_1:640,skill_2:0,skill_3:0,team_buff:233
