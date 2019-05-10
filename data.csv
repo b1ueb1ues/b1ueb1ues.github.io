@@ -167,8 +167,8 @@ dps,name,star,element,weapon,str,condition,comment
 1338,_c_Jakob,3星,水,枪,2573,!<hp70 & bog>,bog 3 times,attack:625,force_strike:93,skill_1:620,skill_2:0,skill_3:0,team_buff:0
 2283,Curran,5星,暗,斧,3040,<last offense>,do not use weapon skill and fs,attack:996,force_strike:0,skill_1:825,skill_2:385,skill_3:0,team_buff:75
 2211,_c_Curran,5星,暗,斧,3040,!<last offense>,do not use weapon skill and fs,attack:951,force_strike:0,skill_1:799,skill_2:385,skill_3:0,team_buff:75
-2388,G_Ranzal,5星,风,剑,2917,<hp70>,,attack:544,force_strike:348,skill_1:691,skill_2:0,skill_3:0,team_buff:0,fs_alt:250,s1_boost:553
-2263,_c_G_Ranzal,5星,风,剑,2917,!<hp70>,,attack:515,force_strike:330,skill_1:655,skill_2:0,skill_3:0,team_buff:0,fs_alt:237,s1_boost:524
+2455,G_Ranzal,5星,风,剑,2917,<hp70>,2+fs when you do not have s2; s2 when 35%<fs_gauge<65%; 3+fs when you have s2; keep every s1 two bar,attack:553,force_strike:302,skill_1:732,skill_2:0,skill_3:0,team_buff:0,fs_alt:281,s1_boost:585
+2327,_c_G_Ranzal,5星,风,剑,2917,!<hp70>,2+fs when you do not have s2; s2 when 35%<fs_gauge<65%; 3+fs when you have s2; keep every s1 two bar,attack:524,force_strike:286,skill_1:693,skill_2:0,skill_3:0,team_buff:0,fs_alt:267,s1_boost:555
 1913,Laranoa,5星,水,弓,2634,<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:560,force_strike:270,skill_1:984,skill_2:0,skill_3:0,team_buff:97
 1311,_c_Laranoa,5星,水,弓,2634,!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:571,force_strike:0,skill_1:740,skill_2:0,skill_3:0,team_buff:0
 1843,Fleur,4星,光,匕,2918,<hp70 & hit15 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:876,force_strike:124,skill_1:671,skill_2:0,skill_3:0,team_buff:0,s1hitpara:125,s1_para:44
