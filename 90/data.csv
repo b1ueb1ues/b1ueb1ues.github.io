@@ -53,7 +53,7 @@ name,star,element,weapon,str,condition,comment,dps
 1530,_c_Kleimann,4星,暗,法,2850,!<hp70 & hit15>,,attack:602,force_strike:94,skill_1:632,skill_2:201,skill_3:0,team_buff:0
 2182,Lily,5星,水,法,2849,<hit15 & hp100 & hp70>,,attack:747,force_strike:0,skill_1:698,skill_2:401,skill_3:335,team_buff:0
 1676,_c_Lily,5星,水,法,2849,!<hit15 & hp100 & hp70>,,attack:574,force_strike:0,skill_1:536,skill_2:308,skill_3:257,team_buff:0
-2149,Lucretia,5星,光,法,3094,<hp70 & energy & hit15>,,attack:981,force_strike:0,skill_1:624,skill_2:0,skill_3:264,team_buff:0,team_energy:177,s3_energized:101
+2038,Lucretia,5星,光,法,3094,<hp70 & energy & hit15>,,attack:981,force_strike:0,skill_1:624,skill_2:0,skill_3:264,team_buff:0,team_energy:66,s3_energized:101
 1465,_c_Lucretia,5星,光,法,3094,!<hp70 & energy & hit15>,,attack:781,force_strike:0,skill_1:495,skill_2:0,skill_3:188,team_buff:0
 2287,Maribelle,5星,风,法,2953,<hit15 & hp100 & hp70>,,attack:771,force_strike:0,skill_1:984,skill_2:448,skill_3:0,team_buff:83
 1656,_c_Maribelle,5星,风,法,2953,!<hit15 & hp100 & hp70>,,attack:650,force_strike:0,skill_1:634,skill_2:288,skill_3:0,team_buff:83
@@ -128,7 +128,7 @@ name,star,element,weapon,str,condition,comment,dps
 1364,_c_Luca,4星,光,弓,2843,!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:533,force_strike:0,skill_1:428,skill_2:215,skill_3:131,team_buff:0,s1_paralysis:55
 1764,Malora,3星,光,弓,2843,<spawn c1+fs & hp70 & hit15>,,attack:201,force_strike:576,skill_1:542,skill_2:226,skill_3:164,team_buff:54
 1420,_c_Malora,3星,光,弓,2843,!<spawn c1+fs & hp70 & hit15>,,attack:581,force_strike:0,skill_1:456,skill_2:190,skill_3:135,team_buff:55
-1723,Nefaria,5星,暗,弓,2860,<c4+fs & hp70 & hit15 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:503,force_strike:287,skill_1:583,skill_2:0,skill_3:157,team_buff:0,s2fs:35,s1hitblind:156
+1833,Nefaria,5星,暗,弓,2860,<c4+fs & hp70 & hit15 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:503,force_strike:287,skill_1:583,skill_2:0,skill_3:157,team_buff:0,s2fs:35,s1hitblind:266
 1240,_c_Nefaria,5星,暗,弓,2860,!<c4+fs & hp70 & hit15 & blind 20s (s1 boosted 3times)>,boost dmg from blind 3 times,attack:568,force_strike:0,skill_1:473,skill_2:0,skill_3:198,team_buff:0
 1697,Philia,3星,风,弓,2829,<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:532,force_strike:302,skill_1:566,skill_2:249,skill_3:0,team_buff:0,s2_paralysis:46
 1312,_c_Philia,3星,风,弓,2829,!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:583,force_strike:0,skill_1:507,skill_2:184,skill_3:0,team_buff:0,s2_paralysis:37
