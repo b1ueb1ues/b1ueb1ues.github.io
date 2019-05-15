@@ -187,5 +187,5 @@ name,star,element,weapon,str,condition,comment,dps
 1579,_c_B_Zardin,5星,光,刀,3053,!<hp70 & energy>,no s2 & RR+Jewels,attack:760,force_strike:0,skill_1:723,skill_2:0,skill_3:0,team_buff:95
 1840,Norwin,4星,暗,弓,2879,<hp70 & hit15>,blind 3 times & c5+fs,attack:497,force_strike:139,skill_1:562,skill_2:264,skill_3:158,team_buff:116,s2hitblind:101
 1568,_c_Norwin,4星,暗,弓,2879,!<hp70 & hit15>,blind 3 times & c5+fs,attack:419,force_strike:117,skill_1:473,skill_2:223,skill_3:133,team_buff:116,s2hitblind:85
-2011,Yachiyo,4星,光,刀,3016,<hp70>,RR+SS,attack:821,force_strike:449,skill_1:677,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:62
-1885,_c_Yachiyo,4星,光,刀,3016,!<hp70>,RR+SS,attack:769,force_strike:421,skill_1:635,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:58
+2211,Yachiyo,4星,光,刀,3016,<hp70 & paralysis*3>,RR+SS,attack:871,force_strike:507,skill_1:755,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:77
+1750,_c_Yachiyo,4星,光,刀,3016,!<hp70 & paralysis*3>,RR+SS,attack:725,force_strike:399,skill_1:610,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:14
