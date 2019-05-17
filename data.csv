@@ -147,8 +147,8 @@ dps,name,star,element,weapon,str,condition,comment
 1705,_c_Marty,3星,火,剑,2794,!<hp70>,reach 100 resist with Saintly Delivery,attack:511,force_strike:235,skill_1:716,skill_2:0,skill_3:242,team_buff:0
 1767,Fritz,4星,光,匕,2865,<hp70 & hit15>,,attack:787,force_strike:88,skill_1:661,skill_2:0,skill_3:0,team_buff:83,s2fs:145
 1501,_c_Fritz,4星,光,匕,2865,!<hp70 & hit15>,,attack:663,force_strike:74,skill_1:557,skill_2:0,skill_3:0,team_buff:83,s2fs:122
-2692,Linyou,5星,风,斧,3091,<hp70>,2in1 boost s1,attack:1017,force_strike:0,skill_1:996,skill_2:0,skill_3:373,team_buff:0,s1_powerup:304
-2507,_c_Linyou,5星,风,斧,3091,!<hp70>,2in1 boost s1,attack:948,force_strike:0,skill_1:928,skill_2:0,skill_3:347,team_buff:0,s1_powerup:283
+2743,Linyou,5星,风,斧,2801,<hp70>,2in1 ; Longlong,attack:1037,force_strike:0,skill_1:1015,skill_2:0,skill_3:380,team_buff:0,s1_powerup:310
+2467,_c_Linyou,5星,风,斧,2801,!<hp70>,2in1 ; Longlong,attack:932,force_strike:0,skill_1:913,skill_2:0,skill_3:342,team_buff:0,s1_powerup:279
 2219,Kuhai,4星,风,剑,2900,<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:460,force_strike:15,skill_1:707,skill_2:0,skill_3:0,team_buff:0,fs_alt:1036
 1398,_c_Kuhai,4星,风,剑,2900,!<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:304,force_strike:75,skill_1:545,skill_2:0,skill_3:0,team_buff:0,fs_alt:471
 2270,Xiaolei,3星,光,法,2975,<hp70 & hit15>,,attack:920,force_strike:0,skill_1:893,skill_2:0,skill_3:301,team_buff:154
@@ -167,8 +167,8 @@ dps,name,star,element,weapon,str,condition,comment
 1338,_c_Jakob,3星,水,枪,2573,!<hp70 & bog>,bog 3 times,attack:625,force_strike:93,skill_1:620,skill_2:0,skill_3:0,team_buff:0
 2283,Curran,5星,暗,斧,3040,<last offense>,do not use weapon skill and fs,attack:996,force_strike:0,skill_1:825,skill_2:385,skill_3:0,team_buff:75
 2211,_c_Curran,5星,暗,斧,3040,!<last offense>,do not use weapon skill and fs,attack:951,force_strike:0,skill_1:799,skill_2:385,skill_3:0,team_buff:75
-2455,G_Ranzal,5星,风,剑,2917,<hp70>,c3+fs; s1(1) s2 s1(2) s1(2) loop,attack:553,force_strike:302,skill_1:732,skill_2:0,skill_3:0,team_buff:0,fs_alt:281,s1_boost:585
-2327,_c_G_Ranzal,5星,风,剑,2917,!<hp70>,c3+fs; s1(1) s2 s1(2) s1(2) loop,attack:524,force_strike:286,skill_1:693,skill_2:0,skill_3:0,team_buff:0,fs_alt:267,s1_boost:555
+2650,G_Ranzal,5星,风,剑,2923,<hp70>,Shining_Overlord+First_Rate_Hospitality ; split 3 alt fs into 2 s1,attack:633,force_strike:248,skill_1:857,skill_2:0,skill_3:0,team_buff:0,fs_alt:224,s1_boost:686
+2524,_c_G_Ranzal,5星,风,剑,2923,!<hp70>,Shining_Overlord+First_Rate_Hospitality ; split 3 alt fs into 2 s1,attack:603,force_strike:236,skill_1:816,skill_2:0,skill_3:0,team_buff:0,fs_alt:213,s1_boost:653
 1913,Laranoa,5星,水,弓,2634,<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:560,force_strike:270,skill_1:984,skill_2:0,skill_3:0,team_buff:97
 1311,_c_Laranoa,5星,水,弓,2634,!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:571,force_strike:0,skill_1:740,skill_2:0,skill_3:0,team_buff:0
 1843,Fleur,4星,光,匕,2918,<hp70 & hit15 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:876,force_strike:124,skill_1:671,skill_2:0,skill_3:0,team_buff:0,s1hitpara:125,s1_para:44
