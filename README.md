@@ -27,7 +27,7 @@
 - Equiped MUB level80 "Fresh Perspective" for sword user.
 - Equiped MUB level100 "Crystalian Envoy" for blade user.
 - Equiped MUB level100 "Kung Fu Masters"+ MUB level80 "Flower in the Fray" for axe user.
-- Equiped MUB level100 "Dragon and Tamer"+ MUB level100 "Levin's Champion" for lance user.
+- Equiped MUB level100 "Crystalian Envoy" for lancer.
 - Equiped MUB level100 "Flash of Genius" for wand/bow/dagger characters.
 - Equiped MUB resist WP for 3\* character who can reach 100 resist of stun & blind
 
