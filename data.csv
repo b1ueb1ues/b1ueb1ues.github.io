@@ -113,8 +113,8 @@ dps,name,star,element,weapon,str,condition,comment
 1322,_c_Ryozen,4星,光,枪,2919,!<hp70>,,attack:591,force_strike:101,skill_1:0,skill_2:359,skill_3:270,team_buff:0
 1971,Xainfried,5星,水,枪,2679,<hp70>,use s1 only to cancel c5 of fs,attack:726,force_strike:77,skill_1:782,skill_2:0,skill_3:0,team_buff:384
 1773,_c_Xainfried,5星,水,枪,2679,!<hp70>,use s1 only to cancel c5 of fs,attack:636,force_strike:67,skill_1:684,skill_2:0,skill_3:0,team_buff:384
-1896,Zace,3星,暗,枪,2972,<hp70>,,attack:583,force_strike:71,skill_1:682,skill_2:295,skill_3:264,team_buff:0
-1662,_c_Zace,3星,暗,枪,2972,!<hp70>,,attack:511,force_strike:62,skill_1:597,skill_2:258,skill_3:231,team_buff:0
+1915,Zace,3星,暗,枪,2983,<hp70>,RR+Jewels,attack:560,force_strike:65,skill_1:704,skill_2:323,skill_3:260,team_buff:0
+1708,_c_Zace,3星,暗,枪,2983,!<hp70>,RR+Jewels,attack:499,force_strike:58,skill_1:628,skill_2:288,skill_3:232,team_buff:0
 1575,D_Nefaria,4星,水,弓,2625,<c4+fs & hp70 & hit15>,,attack:492,force_strike:288,skill_1:794,skill_2:0,skill_3:0,team_buff:0
 1256,_c_D_Nefaria,4星,水,弓,2625,!<c4+fs & hp70 & hit15>,,attack:589,force_strike:0,skill_1:667,skill_2:0,skill_3:0,team_buff:0
 1645,Eleonora,4星,风,弓,2850,<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:476,force_strike:280,skill_1:562,skill_2:292,skill_3:0,team_buff:0,s1_poison:32
@@ -184,8 +184,8 @@ dps,name,star,element,weapon,str,condition,comment
 2249,_c_Marth,5星,火,剑,2972,!<hp70 & hit15>,,attack:498,force_strike:316,skill_1:611,skill_2:267,skill_3:245,team_buff:309
 2463,Veronica,5星,暗,法,2943,<s1 boost by hp80 & hp70 & hit15>,,attack:799,force_strike:94,skill_1:937,skill_2:353,skill_3:0,team_buff:44,s1_crisis:234
 2181,_c_Veronica,5星,暗,法,2943,!<s1 boost by hp80 & hp70 & hit15>,,attack:673,force_strike:79,skill_1:789,skill_2:297,skill_3:0,team_buff:44,s1_crisis:296
-1808,Fjorm,5星,水,枪,2733,<hp70>,do not calc damage counter,attack:564,force_strike:86,skill_1:663,skill_2:406,skill_3:0,team_buff:87
-1593,_c_Fjorm,5星,水,枪,2733,!<hp70>,do not calc damage counter,attack:493,force_strike:75,skill_1:580,skill_2:355,skill_3:0,team_buff:87
+1827,Fjorm,5星,水,枪,2733,<hp70>,do not calc damage counter; DnT+LC,attack:544,force_strike:83,skill_1:689,skill_2:422,skill_3:0,team_buff:87
+1710,_c_Fjorm,5星,水,枪,2733,!<hp70>,do not calc damage counter; DnT+LC,attack:508,force_strike:77,skill_1:643,skill_2:394,skill_3:0,team_buff:87
 1971,B_Zardin,5星,光,刀,3053,<hp70 & energy>,no s2 & RR+Jewels,attack:845,force_strike:0,skill_1:1020,skill_2:0,skill_3:0,team_buff:59,s1_energized:46
 1530,_c_B_Zardin,5星,光,刀,3053,!<hp70 & energy>,no s2 & RR+Jewels,attack:754,force_strike:0,skill_1:717,skill_2:0,skill_3:0,team_buff:59
 1674,Norwin,4星,暗,弓,2879,<hp70 & hit15>,blind 3 times & c5+fs,attack:473,force_strike:133,skill_1:506,skill_2:255,skill_3:197,team_buff:58,s2hitblind:50
