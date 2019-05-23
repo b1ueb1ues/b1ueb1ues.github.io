@@ -1,16 +1,16 @@
 name,star,element,weapon,str,condition,comment,dps
-2505,Addis,4星,风,刀,3052,<hp70>,2in1,attack:915,force_strike:24,skill_1:864,skill_2:0,skill_3:150,team_buff:0,s1_poison:34,bleed:515
-2213,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:803,force_strike:21,skill_1:758,skill_2:0,skill_3:131,team_buff:0,s1_poison:30,bleed:468
-2404,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:753,force_strike:0,skill_1:821,skill_2:0,skill_3:150,team_buff:0,bleed:679
-1945,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:614,force_strike:0,skill_1:669,skill_2:0,skill_3:122,team_buff:0,bleed:539
+2505,Addis,4星,风,刀,3052,<hp70>,2in1,attack:915,force_strike:24,skill_1:864,skill_2:0,skill_3:150,team_buff:0,s1_poison:34,bleed:516
+2213,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:803,force_strike:21,skill_1:757,skill_2:0,skill_3:131,team_buff:0,s1_poison:30,bleed:468
+2397,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:752,force_strike:0,skill_1:821,skill_2:0,skill_3:150,team_buff:0,bleed:671
+1947,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:614,force_strike:0,skill_1:669,skill_2:0,skill_3:122,team_buff:0,bleed:541
 1798,Sinoa,4星,火,法,2840,<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:810,force_strike:201,skill_1:0,skill_2:395,skill_3:0,team_buff:391
 1498,_c_Sinoa,4星,火,法,2840,!<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:637,force_strike:158,skill_1:0,skill_2:311,skill_3:0,team_buff:391
 1692,Ezelith,5星,火,匕,2887,<hp70 & hit15>,,attack:689,force_strike:74,skill_1:711,skill_2:0,skill_3:129,team_buff:88
-1362,_c_Ezelith,5星,火,匕,2887,!<hp70 & hit15>,,attack:573,force_strike:62,skill_1:582,skill_2:0,skill_3:108,team_buff:36
+1360,_c_Ezelith,5星,火,匕,2887,!<hp70 & hit15>,,attack:572,force_strike:62,skill_1:581,skill_2:0,skill_3:108,team_buff:34
 2244,Sazanka,4星,暗,斧,2904,<sleep>,do not use weapon skill,attack:853,force_strike:110,skill_1:690,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:569
 2151,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:812,force_strike:107,skill_1:664,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:547
-2436,Botan,4星,暗,枪,2863,<hp70>,,attack:575,force_strike:73,skill_1:668,skill_2:0,skill_3:253,team_buff:262,bleed:602
-2167,_c_Botan,4星,暗,枪,2863,!<hp70>,,attack:504,force_strike:64,skill_1:585,skill_2:0,skill_3:222,team_buff:262,bleed:528
+2477,Botan,4星,暗,枪,2874,<hp70>,RR+Jewels,attack:540,force_strike:87,skill_1:659,skill_2:0,skill_3:250,team_buff:262,bleed:676
+2238,_c_Botan,4星,暗,枪,2874,!<hp70>,RR+Jewels,attack:482,force_strike:78,skill_1:588,skill_2:0,skill_3:223,team_buff:262,bleed:603
 1757,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:619,force_strike:398,skill_1:739,skill_2:0,skill_3:0,team_buff:0
 1552,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:657,skill_2:0,skill_3:0,team_buff:0
 1972,Euden,4星,火,剑,2915,<hp70>,,attack:485,force_strike:312,skill_1:649,skill_2:232,skill_3:209,team_buff:82
@@ -29,8 +29,8 @@ name,star,element,weapon,str,condition,comment,dps
 2009,_c_Zardin,3星,水,剑,2645,!<hp70 & hp100>,Stellar_Show+RR,attack:588,force_strike:406,skill_1:618,skill_2:208,skill_3:187,team_buff:0
 1945,Aoi,3星,火,刀,2993,<hp70>,,attack:826,force_strike:0,skill_1:677,skill_2:304,skill_3:136,team_buff:0
 1704,_c_Aoi,3星,火,刀,2993,!<hp70>,,attack:724,force_strike:0,skill_1:593,skill_2:267,skill_3:119,team_buff:0
-1831,Celliera,4星,水,刀,2753,<hp70>,RR+jewels_of_the_sun,attack:947,force_strike:0,skill_1:883,skill_2:0,skill_3:0,team_buff:0
-1553,_c_Celliera,4星,水,刀,2753,!<hp70>,RR+jewels_of_the_sun,attack:803,force_strike:0,skill_1:749,skill_2:0,skill_3:0,team_buff:0
+1937,Celliera,4星,水,刀,2753,<hp70>,RR+jewels_of_the_sun,attack:988,force_strike:0,skill_1:949,skill_2:0,skill_3:0,team_buff:0
+1643,_c_Celliera,4星,水,刀,2753,!<hp70>,RR+jewels_of_the_sun,attack:838,force_strike:0,skill_1:805,skill_2:0,skill_3:0,team_buff:0
 1682,H_Edward,3星,光,刀,2978,<hp70 & hp100>,,attack:791,force_strike:0,skill_1:694,skill_2:196,skill_3:0,team_buff:0
 1393,_c_H_Edward,3星,光,刀,2978,!<hp70 & hp100>,,attack:655,force_strike:0,skill_1:575,skill_2:162,skill_3:0,team_buff:0
 1657,Jurota,3星,水,刀,2721,<hp70>,reach 100 resist with Saintly Delivery,attack:875,force_strike:0,skill_1:781,skill_2:0,skill_3:0,team_buff:0
@@ -179,8 +179,8 @@ name,star,element,weapon,str,condition,comment,dps
 2150,_c_Alfonse,5星,光,剑,2989,!<hp70 & last offense>,,attack:588,force_strike:377,skill_1:580,skill_2:380,skill_3:223,team_buff:0
 2571,Marth,5星,火,剑,2972,<hp70 & hit15>,,attack:558,force_strike:351,skill_1:733,skill_2:275,skill_3:343,team_buff:309
 2285,_c_Marth,5星,火,剑,2972,!<hp70 & hit15>,,attack:488,force_strike:307,skill_1:640,skill_2:240,skill_3:299,team_buff:309
-2789,Veronica,5星,暗,法,2943,<s1 boost by hp80 & hp70 & hit15>,,attack:796,force_strike:70,skill_1:1148,skill_2:353,skill_3:0,team_buff:133,s1_crisis:287
-2491,_c_Veronica,5星,暗,法,2943,!<s1 boost by hp80 & hp70 & hit15>,,attack:670,force_strike:59,skill_1:967,skill_2:297,skill_3:0,team_buff:133,s1_crisis:362
+2559,Veronica,5星,暗,法,2943,<hit15 & hp=80% & hp70>,,attack:796,force_strike:70,skill_1:1148,skill_2:353,skill_3:0,team_buff:133,s1_crisis:57
+2237,_c_Veronica,5星,暗,法,2943,!<hit15 & hp=80% & hp70>,,attack:670,force_strike:59,skill_1:967,skill_2:297,skill_3:0,team_buff:133,s1_crisis:108
 2098,Fjorm,5星,水,枪,2733,<hp70>,do not calc damage counter; DnT+LC,attack:543,force_strike:76,skill_1:733,skill_2:482,skill_3:0,team_buff:262
 1976,_c_Fjorm,5星,水,枪,2733,!<hp70>,do not calc damage counter; DnT+LC,attack:507,force_strike:71,skill_1:684,skill_2:449,skill_3:0,team_buff:262
 1878,B_Zardin,5星,光,刀,3053,<hp70 & energy>,no s2 & RR+Jewels,attack:860,force_strike:0,skill_1:916,skill_2:0,skill_3:0,team_buff:53,s1_energized:46

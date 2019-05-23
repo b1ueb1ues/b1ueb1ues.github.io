@@ -2,15 +2,15 @@ dps,name,star,element,weapon,str,condition,comment
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2790,Addis,4星,风,刀,3052,<hp70>,2in1,attack:899,force_strike:33,skill_1:847,skill_2:0,skill_3:200,team_buff:0,s1_poison:11,bleed:797
-2444,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:788,force_strike:29,skill_1:742,skill_2:0,skill_3:175,team_buff:0,s1_poison:10,bleed:697
-2620,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:724,force_strike:0,skill_1:756,skill_2:0,skill_3:250,team_buff:0,bleed:888
-2144,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:592,force_strike:0,skill_1:619,skill_2:0,skill_3:203,team_buff:0,bleed:729
+2777,Addis,4星,风,刀,3052,<hp70>,2in1,attack:899,force_strike:33,skill_1:847,skill_2:0,skill_3:200,team_buff:0,s1_poison:11,bleed:785
+2441,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:788,force_strike:29,skill_1:742,skill_2:0,skill_3:175,team_buff:0,s1_poison:10,bleed:695
+2623,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:724,force_strike:0,skill_1:756,skill_2:0,skill_3:250,team_buff:0,bleed:891
+2143,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:592,force_strike:0,skill_1:619,skill_2:0,skill_3:203,team_buff:0,bleed:727
 1922,Sinoa,4星,火,法,2840,<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:798,force_strike:213,skill_1:0,skill_2:441,skill_3:0,team_buff:468
 1612,_c_Sinoa,4星,火,法,2840,!<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:628,force_strike:167,skill_1:0,skill_2:347,skill_3:0,team_buff:468
-1756,Ezelith,5星,火,匕,2887,<hp70 & hit15>,,attack:649,force_strike:77,skill_1:677,skill_2:0,skill_3:238,team_buff:114
+1755,Ezelith,5星,火,匕,2887,<hp70 & hit15>,,attack:649,force_strike:76,skill_1:677,skill_2:0,skill_3:237,team_buff:113
 1396,_c_Ezelith,5星,火,匕,2887,!<hp70 & hit15>,,attack:538,force_strike:63,skill_1:552,skill_2:0,skill_3:195,team_buff:46
 2426,Sazanka,4星,暗,斧,2904,<sleep>,do not use weapon skill,attack:824,force_strike:96,skill_1:761,skill_2:0,skill_3:0,team_buff:0,s2fs:23,bleed:721
 2395,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:810,force_strike:95,skill_1:752,skill_2:0,skill_3:0,team_buff:0,s2fs:23,bleed:714
-2620,Botan,4星,暗,枪,2863,<hp70>,,attack:595,force_strike:73,skill_1:677,skill_2:0,skill_3:253,team_buff:269,bleed:750
-2329,_c_Botan,4星,暗,枪,2863,!<hp70>,,attack:521,force_strike:64,skill_1:593,skill_2:0,skill_3:222,team_buff:269,bleed:658
+2666,Botan,4星,暗,枪,2874,<hp70>,RR+Jewels,attack:544,force_strike:88,skill_1:659,skill_2:0,skill_3:291,team_buff:302,bleed:779
+2410,_c_Botan,4星,暗,枪,2874,!<hp70>,RR+Jewels,attack:485,force_strike:78,skill_1:588,skill_2:0,skill_3:260,team_buff:302,bleed:694
