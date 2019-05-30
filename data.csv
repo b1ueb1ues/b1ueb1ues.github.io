@@ -54,8 +54,8 @@ dps,name,star,element,weapon,str,condition,comment
 1814,_c_D_Xander,4星,水,法,2835,!<hp70 & energy & hit15>,,attack:768,force_strike:0,skill_1:648,skill_2:0,skill_3:245,team_buff:152
 1904,Kleimann,4星,暗,法,2850,<hp70 & hit15>,,attack:706,force_strike:128,skill_1:750,skill_2:319,skill_3:0,team_buff:0
 1604,_c_Kleimann,4星,暗,法,2850,!<hp70 & hit15>,,attack:595,force_strike:107,skill_1:632,skill_2:269,skill_3:0,team_buff:0
-2095,Lily,5星,水,法,2849,<hit15 & hp100 & hp70>,,attack:766,force_strike:0,skill_1:698,skill_2:351,skill_3:279,team_buff:0
-1609,_c_Lily,5星,水,法,2849,!<hit15 & hp100 & hp70>,,attack:588,force_strike:0,skill_1:536,skill_2:269,skill_3:214,team_buff:0
+2030,Lily,5星,水,法,2859,<hp70 & hp100>,RR+LC(RR+EoL>RR+LC>RR+CE at hp100;RR+LC=RR+CE at hp70),attack:742,force_strike:0,skill_1:676,skill_2:340,skill_3:270,team_buff:0
+1661,_c_Lily,5星,水,法,2859,!<hp70 & hp100>,RR+LC(RR+EoL>RR+LC>RR+CE at hp100;RR+LC=RR+CE at hp70),attack:607,force_strike:0,skill_1:553,skill_2:278,skill_3:221,team_buff:0
 2092,Lucretia,5星,光,法,3094,<hp70 & energy & hit15>,,attack:985,force_strike:0,skill_1:588,skill_2:0,skill_3:330,team_buff:0,team_energy:61,s3_energized:126
 1466,_c_Lucretia,5星,光,法,3094,!<hp70 & energy & hit15>,,attack:773,force_strike:0,skill_1:457,skill_2:0,skill_3:235,team_buff:0
 2285,Maribelle,5星,风,法,2953,<hit15 & hp100 & hp70>,,attack:765,force_strike:0,skill_1:930,skill_2:504,skill_3:0,team_buff:85
