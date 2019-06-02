@@ -2,10 +2,10 @@ dps,name,star,element,weapon,str,condition,comment
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2620,Addis,4星,风,刀,3052,<hp70>,2in1,attack:902,force_strike:33,skill_1:780,skill_2:0,skill_3:200,team_buff:0,s1_poison:23,bleed:680
-2289,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:790,force_strike:29,skill_1:683,skill_2:0,skill_3:175,team_buff:0,s1_poison:20,bleed:589
-2488,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:747,force_strike:0,skill_1:746,skill_2:0,skill_3:200,team_buff:0,bleed:794
-2031,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:610,force_strike:0,skill_1:610,skill_2:0,skill_3:162,team_buff:0,bleed:647
+2613,Addis,4星,风,刀,3052,<hp70>,2in1,attack:902,force_strike:33,skill_1:779,skill_2:0,skill_3:200,team_buff:0,s1_poison:23,bleed:674
+2298,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:791,force_strike:29,skill_1:684,skill_2:0,skill_3:175,team_buff:0,s1_poison:20,bleed:597
+2478,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:747,force_strike:0,skill_1:746,skill_2:0,skill_3:200,team_buff:0,bleed:783
+2026,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:610,force_strike:0,skill_1:610,skill_2:0,skill_3:162,team_buff:0,bleed:643
 1865,Sinoa,4星,火,法,2840,<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:798,force_strike:203,skill_1:0,skill_2:440,skill_3:0,team_buff:422
 1558,_c_Sinoa,4星,火,法,2840,!<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:628,force_strike:160,skill_1:0,skill_2:346,skill_3:0,team_buff:422
 1575,Ezelith,5星,火,匕,2887,<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:663,force_strike:81,skill_1:618,skill_2:0,skill_3:172,team_buff:40
@@ -14,8 +14,6 @@ dps,name,star,element,weapon,str,condition,comment
 2288,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:827,force_strike:95,skill_1:708,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:637
 2554,Botan,4星,暗,枪,2874,<hp70>,RR+Jewels,attack:531,force_strike:87,skill_1:684,skill_2:0,skill_3:250,team_buff:263,bleed:737
 2306,_c_Botan,4星,暗,枪,2874,!<hp70>,RR+Jewels,attack:474,force_strike:77,skill_1:610,skill_2:0,skill_3:223,team_buff:263,bleed:658
-2057,Xuanzang,4星,火,枪,2906,<hp70>,,attack:724,force_strike:82,skill_1:672,skill_2:0,skill_3:257,team_buff:241,s1_boost:78
-1775,_c_Xuanzang,4星,火,枪,2906,!<hp70>,,attack:611,force_strike:69,skill_1:567,skill_2:0,skill_3:217,team_buff:242,s1_boost:66
 1743,Berserker,4星,暗,剑,2763,<hp70 & last offense>,,attack:604,force_strike:388,skill_1:749,skill_2:0,skill_3:0,team_buff:0
 1577,_c_Berserker,4星,暗,剑,2763,!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:681,skill_2:0,skill_3:0,team_buff:0
 1949,Euden,4星,火,剑,2915,<hp70>,,attack:480,force_strike:302,skill_1:618,skill_2:257,skill_3:206,team_buff:83
@@ -200,3 +198,5 @@ dps,name,star,element,weapon,str,condition,comment
 1868,_c_Serena,4星,火,剑,2831,!<hp70 & always connect hits>,,attack:484,force_strike:309,skill_1:612,skill_2:268,skill_3:192,team_buff:0
 2327,S_Maribelle,5星,火,法,2931,<hit15 & hp100 & hp70>,,attack:879,force_strike:0,skill_1:906,skill_2:460,skill_3:0,team_buff:81
 1702,_c_S_Maribelle,5星,火,法,2931,!<hit15 & hp100 & hp70>,,attack:741,force_strike:0,skill_1:583,skill_2:296,skill_3:0,team_buff:81
+2077,Xuanzang,4星,火,枪,2906,<hp70>,,attack:724,force_strike:82,skill_1:672,skill_2:0,skill_3:257,team_buff:240,s1_boost:99
+1789,_c_Xuanzang,4星,火,枪,2906,!<hp70>,,attack:610,force_strike:69,skill_1:567,skill_2:0,skill_3:217,team_buff:240,s1_boost:83
