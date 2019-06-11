@@ -104,6 +104,8 @@ var option = {
                 label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
                 stre = '(str: ' + a.stre + ')';
                 condition = ''
+                amulets = a.amulets+' ';
+
                 comment = ''
                 if(a.comment){
                     comment = a.comment;
@@ -112,7 +114,7 @@ var option = {
                 //    condition = a.condition
                 //}
                 //return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
-                return '{value|' + label + stre + condition + comment + '}{' + a.name + '| }';
+                return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
             },
             margin: 5,
             rich: {
@@ -147,9 +149,12 @@ function setData(data) {
         character.element   = character[3];
         character.weapon    = character[4];
         character.stre      = character[5];
-        character.condition = character[6];
-        character.comment   = character[7];
-        var j = 8;
+        character.amulets   = character[6];
+        character.condition = character[7];
+        character.comment   = character[8];
+        console.log(character.amulets)
+        console.log(character.comment)
+        var j = 9;
         character.details = {}
         while(1){
             if(j>=character.length) break;

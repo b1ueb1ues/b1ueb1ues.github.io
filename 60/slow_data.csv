@@ -1,16 +1,16 @@
-dps,name,star,element,weapon,str,condition,comment
+dps,name,star,element,weapon,str,condition,amulets,comment
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2504,Addis,4星,风,刀,3052,<hp70>,2in1,attack:915,force_strike:24,skill_1:864,skill_2:0,skill_3:150,team_buff:0,s1_poison:34,bleed:514
-2209,_c_Addis,4星,风,刀,3052,!<hp70>,2in1,attack:803,force_strike:21,skill_1:757,skill_2:0,skill_3:131,team_buff:0,s1_poison:30,bleed:464
-2402,Ieyasu,5星,暗,刀,3119,<hp70>,RR+Jewels,attack:752,force_strike:0,skill_1:821,skill_2:0,skill_3:150,team_buff:0,bleed:677
-1960,_c_Ieyasu,5星,暗,刀,3119,!<hp70>,RR+Jewels,attack:614,force_strike:0,skill_1:669,skill_2:0,skill_3:122,team_buff:0,bleed:555
-1798,Sinoa,4星,火,法,2840,<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:810,force_strike:201,skill_1:0,skill_2:395,skill_3:0,team_buff:391
-1498,_c_Sinoa,4星,火,法,2840,!<hit15 & hp100 & hp70>,5c+fs; RR+FoG,attack:637,force_strike:158,skill_1:0,skill_2:311,skill_3:0,team_buff:391
-1610,Ezelith,5星,火,匕,2887,<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:680,force_strike:73,skill_1:690,skill_2:0,skill_3:129,team_buff:35
-1362,_c_Ezelith,5星,火,匕,2887,!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:573,force_strike:62,skill_1:582,skill_2:0,skill_3:108,team_buff:36
-2244,Sazanka,4星,暗,斧,2904,<sleep>,do not use weapon skill,attack:853,force_strike:110,skill_1:690,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:569
-2151,_c_Sazanka,4星,暗,斧,2904,!<sleep>,do not use weapon skill,attack:812,force_strike:107,skill_1:664,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:547
-2477,Botan,4星,暗,枪,2874,<hp70>,RR+Jewels,attack:540,force_strike:87,skill_1:659,skill_2:0,skill_3:250,team_buff:262,bleed:676
-2238,_c_Botan,4星,暗,枪,2874,!<hp70>,RR+Jewels,attack:482,force_strike:78,skill_1:588,skill_2:0,skill_3:223,team_buff:262,bleed:603
+2519,Addis,4星,风,刀,3052,[RR+CE],<hp70>,2in1,attack:916,force_strike:24,skill_1:864,skill_2:0,skill_3:150,team_buff:0,s1_poison:34,bleed:528
+2198,_c_Addis,4星,风,刀,3052,[RR+CE],!<hp70>,2in1,attack:802,force_strike:21,skill_1:757,skill_2:0,skill_3:131,team_buff:0,s1_poison:30,bleed:455
+2395,Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],<hp70>,,attack:752,force_strike:0,skill_1:821,skill_2:0,skill_3:150,team_buff:0,bleed:670
+1954,_c_Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],!<hp70>,,attack:614,force_strike:0,skill_1:669,skill_2:0,skill_3:122,team_buff:0,bleed:549
+1798,Sinoa,4星,火,法,2840,[RR+FoG],<hit15 & hp100 & hp70>,5c+fs,attack:810,force_strike:201,skill_1:0,skill_2:395,skill_3:0,team_buff:391
+1498,_c_Sinoa,4星,火,法,2840,[RR+FoG],!<hit15 & hp100 & hp70>,5c+fs,attack:637,force_strike:158,skill_1:0,skill_2:311,skill_3:0,team_buff:391
+1610,Ezelith,5星,火,匕,2887,[RR+FoG],<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:680,force_strike:73,skill_1:691,skill_2:0,skill_3:129,team_buff:36
+1361,_c_Ezelith,5星,火,匕,2887,[RR+FoG],!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:573,force_strike:62,skill_1:582,skill_2:0,skill_3:108,team_buff:35
+2244,Sazanka,4星,暗,斧,2904,[KFM+Flower_in_the_Fray],<sleep>,do not use weapon skill,attack:853,force_strike:110,skill_1:690,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:569
+2151,_c_Sazanka,4星,暗,斧,2904,[KFM+Flower_in_the_Fray],!<sleep>,do not use weapon skill,attack:812,force_strike:107,skill_1:664,skill_2:0,skill_3:0,team_buff:0,s2fs:19,bleed:547
+2477,Botan,4星,暗,枪,2874,[RR+Jewels_of_the_Sun],<hp70>,,attack:540,force_strike:87,skill_1:659,skill_2:0,skill_3:250,team_buff:262,bleed:676
+2238,_c_Botan,4星,暗,枪,2874,[RR+Jewels_of_the_Sun],!<hp70>,,attack:482,force_strike:78,skill_1:588,skill_2:0,skill_3:223,team_buff:262,bleed:603
