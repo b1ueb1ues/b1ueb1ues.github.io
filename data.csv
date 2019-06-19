@@ -2,10 +2,10 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2820,Addis,4星,风,刀,3084,[RR+CE],<hp70>,2in1,attack:909,force_strike:33,skill_1:856,skill_2:0,skill_3:202,team_buff:0,s1_poison:11,bleed:805
-2468,_c_Addis,4星,风,刀,3084,[RR+CE],!<hp70>,2in1,attack:797,force_strike:29,skill_1:750,skill_2:0,skill_3:177,team_buff:0,s1_poison:10,bleed:703
-2621,Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],<hp70>,,attack:724,force_strike:0,skill_1:756,skill_2:0,skill_3:250,team_buff:0,bleed:889
-2149,_c_Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],!<hp70>,,attack:592,force_strike:0,skill_1:619,skill_2:0,skill_3:203,team_buff:0,bleed:733
+2821,Addis,4星,风,刀,3084,[RR+CE],<hp70>,2in1,attack:909,force_strike:33,skill_1:856,skill_2:0,skill_3:202,team_buff:0,s1_poison:11,bleed:806
+2468,_c_Addis,4星,风,刀,3084,[RR+CE],!<hp70>,2in1,attack:796,force_strike:29,skill_1:750,skill_2:0,skill_3:177,team_buff:0,s1_poison:10,bleed:703
+2674,Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],<hp70>,,attack:714,force_strike:0,skill_1:796,skill_2:0,skill_3:256,team_buff:0,bleed:906
+2172,_c_Ieyasu,5星,暗,刀,3119,[RR+Jewels_of_the_Sun],!<hp70>,,attack:583,force_strike:0,skill_1:651,skill_2:0,skill_3:208,team_buff:0,bleed:729
 1922,Sinoa,4星,火,法,2840,[RR+FoG],<hit15 & hp100 & hp70>,5c+fs,attack:798,force_strike:213,skill_1:0,skill_2:441,skill_3:0,team_buff:468
 1612,_c_Sinoa,4星,火,法,2840,[RR+FoG],!<hit15 & hp100 & hp70>,5c+fs,attack:628,force_strike:167,skill_1:0,skill_2:347,skill_3:0,team_buff:468
 1648,Ezelith,5星,火,匕,2887,[RR+FoG],<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:638,force_strike:75,skill_1:656,skill_2:0,skill_3:232,team_buff:46
@@ -166,8 +166,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 1258,_c_Jakob,3星,水,枪,2573,[RR+CE],!<hp70 & bog>,bog 3 times,attack:607,force_strike:90,skill_1:559,skill_2:0,skill_3:0,team_buff:0
 2283,Curran,5星,暗,斧,3040,[KFM+Flower_in_the_Fray],<last offense>,do not use weapon skill and fs,attack:996,force_strike:0,skill_1:825,skill_2:385,skill_3:0,team_buff:75
 2211,_c_Curran,5星,暗,斧,3040,[KFM+Flower_in_the_Fray],!<last offense>,do not use weapon skill and fs,attack:951,force_strike:0,skill_1:799,skill_2:385,skill_3:0,team_buff:75
-2766,G_Ranzal,5星,风,剑,2955,[VC+First_Rate_Hospitality],<hp70>,3FS & first S1 with 1 bar,attack:752,force_strike:202,skill_1:845,skill_2:0,skill_3:0,team_buff:0,fs_alt:312,s1_boost:653
-2634,_c_G_Ranzal,5星,风,剑,2955,[VC+First_Rate_Hospitality],!<hp70>,3FS & first S1 with 1 bar,attack:716,force_strike:193,skill_1:805,skill_2:0,skill_3:0,team_buff:0,fs_alt:297,s1_boost:622
+2821,G_Ranzal,5星,风,剑,2955,[VC+First_Rate_Hospitality],<hp70>,3FS & first S1 with 1 gauge & S2 with >=30% gauge,attack:749,force_strike:201,skill_1:880,skill_2:0,skill_3:0,team_buff:0,fs_alt:309,s1_boost:681
+2687,_c_G_Ranzal,5星,风,剑,2955,[VC+First_Rate_Hospitality],!<hp70>,3FS & first S1 with 1 gauge & S2 with >=30% gauge,attack:713,force_strike:192,skill_1:838,skill_2:0,skill_3:0,team_buff:0,fs_alt:294,s1_boost:648
 1913,Laranoa,5星,水,弓,2634,[RR+FoG],<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:560,force_strike:270,skill_1:984,skill_2:0,skill_3:0,team_buff:97
 1311,_c_Laranoa,5星,水,弓,2634,[RR+FoG],!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:571,force_strike:0,skill_1:740,skill_2:0,skill_3:0,team_buff:0
 1843,Fleur,4星,光,匕,2918,[RR+FoG],<hp70 & hit15 & paralysis 40s (s1 boosted when)>,don't use s2 in s3 nor s3 in s2,attack:876,force_strike:124,skill_1:671,skill_2:0,skill_3:0,team_buff:0,s1hitpara:125,s1_para:44
