@@ -158,8 +158,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 1380,_c_V_Ezelith,4星,火,弓,2791,[RR+FoG],!<c4+fs & hp70 & never lose combos & hit15>,,attack:550,force_strike:0,skill_1:413,skill_2:209,skill_3:0,team_buff:151,s1_burn:55
 1839,V_Orion,3星,火,剑,2915,[The_Shining_Overlord+LC],<hp70>,no s2,attack:600,force_strike:267,skill_1:626,skill_2:0,skill_3:283,team_buff:0,s2_burn:62
 1697,_c_V_Orion,3星,火,剑,2915,[The_Shining_Overlord+LC],!<hp70>,no s2,attack:554,force_strike:247,skill_1:577,skill_2:0,skill_3:261,team_buff:0,s2_burn:57
-2704,Albert,5星,光,剑,3042,[Heralds_of_Hinomoto+The_Chocolatiers],<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:429,force_strike:244,skill_1:741,skill_2:0,skill_3:122,team_buff:0,s1_s2boost:944,s2_paralyze:62,fs_alt:161
-2182,_c_Albert,5星,光,剑,3042,[Heralds_of_Hinomoto+The_Chocolatiers],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:548,force_strike:167,skill_1:599,skill_2:0,skill_3:264,team_buff:0,s1_s2boost:603
+2704,Albert,5星,光,剑,3042,[Heralds_of_Hinomoto+The_Chocolatiers],<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:429,force_strike:244,skill_1:741,skill_2:0,skill_3:122,team_buff:0,s2_paralyze:62,fs_alt:161,s1_s2boost:694,s1_hit5:49,s1_hit4:49,s1_hit6:49,s1_hit3:49,s1_hit2:49
+2182,_c_Albert,5星,光,剑,3042,[Heralds_of_Hinomoto+The_Chocolatiers],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:548,force_strike:167,skill_1:599,skill_2:0,skill_3:264,team_buff:0,s1_hit4:35,s1_s2boost:496,s1_hit3:35,s1_hit2:35
 2602,Odetta,4星,光,剑,2987,[RR+FP],<hp70 & buff all team>,,attack:653,force_strike:421,skill_1:715,skill_2:0,skill_3:341,team_buff:471
 1996,_c_Odetta,4星,光,剑,2987,[RR+FP],!<hp70 & buff all team>,,attack:583,force_strike:375,skill_1:638,skill_2:0,skill_3:304,team_buff:95
 2080,Jakob,3星,水,枪,2573,[RR+CE],<hp70 & bog>,bog 3 times,attack:800,force_strike:117,skill_1:695,skill_2:0,skill_3:0,team_buff:466
@@ -201,5 +201,5 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 1789,_c_Xuanzang,4星,火,枪,2906,[RR+CE],!<hp70>,,attack:610,force_strike:69,skill_1:567,skill_2:0,skill_3:217,team_buff:240,s1_boost:83
 2756,W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],<hp70 & s2 defdown for 10s>,2863 when FRH+tSO,attack:729,force_strike:331,skill_1:1025,skill_2:327,skill_3:0,team_buff:343
 2134,_c_W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],!<hp70 & s2 defdown for 10s>,2863 when FRH+tSO,attack:634,force_strike:289,skill_1:898,skill_2:311,skill_3:0,team_buff:0
-2151,W_Aoi,5星,风,匕,2938,[RR+FoG],<hp70 & hit15 & big hitbox & sleep*3>,,attack:619,force_strike:67,skill_1:874,skill_2:247,skill_3:167,team_buff:174
-1399,_c_W_Aoi,5星,风,匕,2938,[RR+FoG],!<hp70 & hit15 & big hitbox & sleep*3>,,attack:497,force_strike:54,skill_1:505,skill_2:200,skill_3:141,team_buff:0
+2321,W_Aoi,5星,风,匕,2938,[RR+FoG],<hp70 & hit15 & big hitbox & sleep*3>,,attack:619,force_strike:67,skill_1:436,skill_2:417,skill_3:167,team_buff:174,s1_hit4:109,s1_hit1:109,s1_hit3:109,s1_hit2:109
+1315,_c_W_Aoi,5星,风,匕,2938,[RR+FoG],!<hp70 & hit15 & big hitbox & sleep*3>,,attack:497,force_strike:54,skill_1:336,skill_2:200,skill_3:141,team_buff:0,s1_hit1:84
