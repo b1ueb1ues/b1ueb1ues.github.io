@@ -1,6 +1,5 @@
-# README for dl simulation
 
-## dps numbers indicate the neutral element damage. ( x1.5 for on-ele )
+# dps numbers indicate the neutral element damage. ( x1.5 for on-ele )
 
 
 ## simulator in python
@@ -10,7 +9,7 @@
 [github/b1ueb1ues](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
 
 ## 护符对照表
-[link](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/amulet.txt)
+[护符对照表](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/amulet.txt)
 
 
 ## stat
