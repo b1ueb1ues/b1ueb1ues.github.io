@@ -84,4 +84,4 @@ luciferz2012(first version of website),
 Matt(rotation improve)  
 
 ## Acknowledgement
-Totakeke, Shark3143, SanyamBansal, emrysduvent, ZedK, B3GG, 6tennis, qwewqa, CarelessParsley
+Totakeke, Shark3143, SanyamBansal, emrysduvent, ZedK, B3GG, 6tennis, qwewqa, CarelessParsley, haukist
