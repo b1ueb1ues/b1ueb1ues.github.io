@@ -9,7 +9,7 @@
 [github/b1ueb1ues](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
 
 ## 护符对照表
-[护符对照表](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/amulet.txt)
+[护符对照表](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/amulet.csv)
 
 
 ## stat
