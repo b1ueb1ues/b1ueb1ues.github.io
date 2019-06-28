@@ -199,7 +199,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 1702,_c_S_Maribelle,5星,火,法,2931,[RR+FoG],!<hit15 & hp100 & hp70>,,attack:741,force_strike:0,skill_1:583,skill_2:296,skill_3:0,team_buff:81
 2077,Xuanzang,4星,火,枪,2906,[RR+CE],<hp70>,,attack:724,force_strike:82,skill_1:672,skill_2:0,skill_3:257,team_buff:240,s1_boost:99
 1789,_c_Xuanzang,4星,火,枪,2906,[RR+CE],!<hp70>,,attack:610,force_strike:69,skill_1:567,skill_2:0,skill_3:217,team_buff:240,s1_boost:83
-2756,W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],<hp70 & s2 defdown for 10s>,2863 when FRH+tSO,attack:729,force_strike:331,skill_1:1025,skill_2:327,skill_3:0,team_buff:343
-2134,_c_W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],!<hp70 & s2 defdown for 10s>,2863 when FRH+tSO,attack:634,force_strike:289,skill_1:898,skill_2:311,skill_3:0,team_buff:0
+2756,W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],<hp70 & s2 defdown for 10s>,2863 when tSO+JotS,attack:729,force_strike:331,skill_1:1025,skill_2:327,skill_3:0,team_buff:343
+2134,_c_W_Elisanne,5星,风,剑,2898,[First_Rate_Hospitality+The_Shining_Overlord],!<hp70 & s2 defdown for 10s>,2863 when tSO+JotS,attack:634,force_strike:289,skill_1:898,skill_2:311,skill_3:0,team_buff:0
 2321,W_Aoi,5星,风,匕,2938,[RR+FoG],<hp70 & hit15 & big hitbox & sleep*3>,,attack:619,force_strike:67,skill_1:436,skill_2:247,skill_3:167,team_buff:174,s1_hit4:109,s1_hit2:109,s1_hit1:109,s1_hit3:109,s2boost:169
 1315,_c_W_Aoi,5星,风,匕,2938,[RR+FoG],!<hp70 & hit15 & big hitbox & sleep*3>,,attack:497,force_strike:54,skill_1:336,skill_2:200,skill_3:141,team_buff:0,s1_hit1:84
