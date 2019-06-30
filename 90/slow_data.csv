@@ -2,17 +2,17 @@ dps,name,star,element,weapon,str,amulets,condition,comment
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2694,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2015~2941),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:911,force_strike:29,skill_1:788,skill_2:0,skill_3:202,team_buff:0,s1_poison:23,bleed:739
-2358,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1766~2577),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:799,force_strike:25,skill_1:691,skill_2:0,skill_3:177,team_buff:0,s1_poison:20,bleed:644
-2631,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1883~2973),<hp70>,Shinobi,attack:569,force_strike:0,skill_1:883,skill_2:0,skill_3:237,team_buff:0,bleed:941
-2112,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1502~2380),!<hp70>,Shinobi,attack:455,force_strike:0,skill_1:708,skill_2:0,skill_3:188,team_buff:0,bleed:759
+2697,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2082~2941),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:910,force_strike:29,skill_1:788,skill_2:0,skill_3:202,team_buff:0,s1_poison:23,bleed:743
+2374,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1762~2577),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:797,force_strike:25,skill_1:691,skill_2:0,skill_3:177,team_buff:0,s1_poison:20,bleed:662
+2628,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1854~2973),<hp70>,Shinobi,attack:569,force_strike:0,skill_1:883,skill_2:0,skill_3:237,team_buff:0,bleed:938
+2104,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1503~2380),!<hp70>,Shinobi,attack:455,force_strike:0,skill_1:707,skill_2:0,skill_3:188,team_buff:0,bleed:752
 1865,Sinoa,4星,火,法,2840,[RR+FoG];dpsrange:(1292~2720),<hit15 & hp100 & hp70>,5c+fs,attack:798,force_strike:203,skill_1:0,skill_2:440,skill_3:0,team_buff:422
 1558,_c_Sinoa,4星,火,法,2840,[RR+FoG];dpsrange:(1015~2362),!<hit15 & hp100 & hp70>,5c+fs,attack:628,force_strike:160,skill_1:0,skill_2:346,skill_3:0,team_buff:422
-1575,Ezelith,5星,火,匕,2887,[RR+FoG];dpsrange:(1514~1680),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:663,force_strike:81,skill_1:618,skill_2:0,skill_3:172,team_buff:40
-1332,_c_Ezelith,5星,火,匕,2887,[RR+FoG];dpsrange:(1275~1422),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:558,force_strike:68,skill_1:520,skill_2:0,skill_3:144,team_buff:39
+1574,Ezelith,5星,火,匕,2887,[RR+FoG];dpsrange:(1514~1686),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:662,force_strike:81,skill_1:618,skill_2:0,skill_3:172,team_buff:39
+1332,_c_Ezelith,5星,火,匕,2887,[RR+FoG];dpsrange:(1275~1449),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:558,force_strike:68,skill_1:521,skill_2:0,skill_3:144,team_buff:39
 2481,Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(1885~2779),<hp70 & sleep>,Shinobi;,attack:733,force_strike:92,skill_1:861,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:774
 2184,_c_Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(1661~2447),!<hp70 & sleep>,Shinobi;,attack:641,force_strike:81,skill_1:759,skill_2:0,skill_3:0,team_buff:0,s2fs:17,bleed:683
 2724,Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(2171~2872),<hp70>,Shinobi,attack:432,force_strike:58,skill_1:830,skill_2:0,skill_3:270,team_buff:256,bleed:875
 2415,_c_Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(1931~2544),!<hp70>,Shinobi,attack:378,force_strike:51,skill_1:726,skill_2:0,skill_3:236,team_buff:256,bleed:765
-2708,Natalie,5星,暗,刀,2352,[Heralds_of_Hinomoto+Jewels_of_the_Sun];dpsrange:(2673~2755),<hp70 & energy & keep hp20 after first s2>,,attack:718,force_strike:0,skill_1:991,skill_2:0,skill_3:370,team_buff:0,s1_energized:15,s1_crisis:570,s3_energized:0,s1_crisis_energized:41
-1699,_c_Natalie,5星,暗,刀,2352,[Heralds_of_Hinomoto+Jewels_of_the_Sun];dpsrange:(1699~1699),!<hp70 & energy & keep hp20 after first s2>,,attack:582,force_strike:0,skill_1:806,skill_2:0,skill_3:310,team_buff:0
+2686,Natalie,5星,暗,刀,2336,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(2651~2721),<energy & keep hp20 after first s2>,,attack:710,force_strike:0,skill_1:985,skill_2:0,skill_3:368,team_buff:0,s1_energized:12,s1_crisis:567,s3_energized:3,s1_crisis_energized:38
+1806,_c_Natalie,5星,暗,刀,2336,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(1806~1806),!<energy & keep hp20 after first s2>,,attack:616,force_strike:0,skill_1:859,skill_2:0,skill_3:330,team_buff:0
