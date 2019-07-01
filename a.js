@@ -456,6 +456,8 @@ fetch('data.csv').then(response => response.text()).then(text => {
         //header: true,
         skipEmptyLines: true,
         dynamicTyping: true,
+        delimiter: ',',
+        delimitersToGuess: [',']
     });
 
     setData(csv.data);
