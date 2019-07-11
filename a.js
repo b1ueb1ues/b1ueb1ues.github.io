@@ -86,7 +86,7 @@ var option = {
         right: '5%',
         top:'5%',
         yAxisIndex: [0],
-        maxValueSpan: 15,
+        maxValueSpan: 12,
         showDetail: false,
         showDataShadow:false,
     }, ],
@@ -113,8 +113,11 @@ var option = {
                 //if(a.condition){
                 //    condition = a.condition
                 //}
-                //return '{value|' + label + stre + a.condition + '}{' + a.name + '| }\n{value|'+ comment +'}';
-                return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
+                //return '{value|' + label + stre + amulets + '}{' + a.name + '| }\n{value|'+ comment +'}';
+                //return '{value|' + label + stre + amulets + '}\n{value|'+comment+'}{' + a.name + '| }';
+                //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
+                return '{value|' + label + stre + '}{' + a.name + '| }';
+                //return '{value| }{' + a.name + '| }';
             },
             margin: 5,
             rich: {
@@ -251,7 +254,7 @@ function update() {
     var describe = '';
     var rich = {
         value: {
-            lineHeight: 25,
+            lineHeight: 30,
             //align: 'center'
         },
     };
@@ -278,7 +281,7 @@ function update() {
         advIcons[name] = picfolder+name+'.png';
         rich[adv.name] = {
             lineHeight: 0,
-            height: 40,
+            height: 50,
             //align: 'center',
             backgroundColor:{
                 image: advIcons[name]
@@ -335,28 +338,47 @@ function update() {
     }
 
     option.series = [];
-    //s0 = {type:'bar',name:'slider',stack:'slider',encode:{x:'__slider',y:'advdps'}};
-    //s0.show = false;
-    //s0.animation = false;
-    //s0.barWidth = 0.01;
-    //s0.label = {
-    //    normal: {
-    //        show: true,
-    //        position: 'insideLeft',
-    //        formatter: params => {
-    //            a = describe2adv[params.name];
-    //            return a.condition;
-    //        },
-    //    },
-    //}
-    //option.series.push(s0);
-    //option.dataZoom[0].showDataShadow='__slider';
+    /**/
+    s0 = {type:'bar',name:'slider',stack:'slider',encode:{x:'__slider',y:'advdps'}};
+    s0.show = false;
+    s0.animation = false;
+    s0.barWidth = 0.01;
+    s0.label = {
+        normal: {
+            show: true,
+            //position: 'insideLeft',
+            //position: 'top',
+            position: [10,-13],
+            formatter: params => {
+                var a = describe2adv[params.name];
+                var label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
+                var stre = '(str: ' + a.stre + ')';
+                var condition = '';
+                var amulets = a.amulets+' ';
+
+                var comment = '';
+                if(a.comment){
+                    comment = a.comment;
+                }
+
+                var r = '';
+                //r += label + stre ;
+                r += amulets + comment;
+                return r
+            },
+        },
+    }
+    s0.itemStyle = {color: '#2f4554'};
+    option.series.push(s0);
+    option.dataZoom[0].showDataShadow='__slider';
+    /**/
     t1 = {
         type:'bar',
         name:'attack',
         stack:'dps',
         encode:{x:'attack',y:'advdps'},
         animation:false,
+        //barWidth: 15,
         itemStyle:itemStyle,
         label: {
             normal: {
@@ -367,6 +389,18 @@ function update() {
                     return a.condition;
                 },
             },
+            notnormal: {
+                show: true,
+                position: 'top',
+                formatter: params => {
+                    a = describe2adv[params.name];
+                    if(a.comment != null){
+                        return a.amulets + ' ' + a.comment
+                    }else{
+                        return a.amulets 
+                    }
+                },
+        },
         },
     }
     t2 = {
@@ -375,6 +409,7 @@ function update() {
         stack:'c_dps',
         encode:{x:'_c_attack',y:'advdps'},
         animation:false,
+        //barWidth: 15,
         itemStyle:itemStyle,
     }
     option.series.push(t1);
