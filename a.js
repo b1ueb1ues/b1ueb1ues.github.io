@@ -36,16 +36,17 @@ var option = {
         },
         formatter: function(value){
             adv = describe2adv[value.data.advdps];
-            r = adv.name
+            r = adv.name;
+            //r += value.seriesIndex%2;
             if(adv.condition && adv.condition!=' '){
-                if(value.seriesIndex%2==0){
+                if(value.seriesIndex%2==1){
                     r+=' &lt;'+adv.condition.slice(1,-1)+'&gt;';
                 }
             }
             r += '<br>';
 
             sname = value.seriesName;
-            if(value.seriesIndex%2==0){
+            if(value.seriesIndex%2==1){
                 for(var i in value.data){
                     v = value.data[i];
                     if(v){
@@ -59,7 +60,7 @@ var option = {
                     }
                 }
             }
-            if(value.seriesIndex%2==1){
+            if(value.seriesIndex%2==0){
                 for(var i in value.data){
                     v = value.data[i];
                     if(v){
@@ -389,18 +390,18 @@ function update() {
                     return a.condition;
                 },
             },
-            notnormal: {
-                show: true,
-                position: 'top',
-                formatter: params => {
-                    a = describe2adv[params.name];
-                    if(a.comment != null){
-                        return a.amulets + ' ' + a.comment
-                    }else{
-                        return a.amulets 
-                    }
-                },
-        },
+            //notnormal: {
+            //    show: true,
+            //    position: 'top',
+            //    formatter: params => {
+            //        a = describe2adv[params.name];
+            //        if(a.comment != null){
+            //            return a.amulets + ' ' + a.comment
+            //        }else{
+            //            return a.amulets 
+            //        }
+            //    },
+            //},
         },
     }
     t2 = {
