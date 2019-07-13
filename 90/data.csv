@@ -28,10 +28,10 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1906,_c_Raemond,3星,光,剑,2965,[RR+FP],!<hp70>,,attack:523,force_strike:331,skill_1:570,skill_2:287,skill_3:192,team_buff:0
 2131,Rodrigo,3星,暗,剑,2849,[RR+FP],<hp70>,,attack:675,force_strike:362,skill_1:735,skill_2:356,skill_3:0,team_buff:0
 1923,_c_Rodrigo,3星,暗,剑,2849,[RR+FP],!<hp70>,,attack:609,force_strike:327,skill_1:664,skill_2:321,skill_3:0,team_buff:0
-2358,Xander,5星,水,剑,2806,[RR+Stellar_Show],<hp70>,c2+fs,attack:515,force_strike:764,skill_1:699,skill_2:378,skill_3:0,team_buff:0
-2230,_c_Xander,5星,水,剑,2806,[RR+Stellar_Show],!<hp70>,c2+fs,attack:487,force_strike:723,skill_1:661,skill_2:357,skill_3:0,team_buff:0
-2303,Zardin,3星,水,剑,2645,[RR+Stellar_Show],<hp70 & hp100>,,attack:629,force_strike:430,skill_1:699,skill_2:262,skill_3:281,team_buff:0
-2038,_c_Zardin,3星,水,剑,2645,[RR+Stellar_Show],!<hp70 & hp100>,,attack:556,force_strike:381,skill_1:618,skill_2:232,skill_3:249,team_buff:0
+2346,Xander,5星,水,剑,2806,[The_Shining_Overlord+Jewels_of_the_Sun],<hp70>,c2+fs,attack:445,force_strike:489,skill_1:762,skill_2:343,skill_3:305,team_buff:0
+2194,_c_Xander,5星,水,剑,2806,[The_Shining_Overlord+Jewels_of_the_Sun],!<hp70>,c2+fs,attack:416,force_strike:458,skill_1:713,skill_2:321,skill_3:285,team_buff:0
+2354,Zardin,3星,水,剑,2645,[The_Shining_Overlord+LC],<hp70 & hp100>,,attack:656,force_strike:299,skill_1:786,skill_2:294,skill_3:316,team_buff:0
+2055,_c_Zardin,3星,水,剑,2645,[The_Shining_Overlord+LC],!<hp70 & hp100>,,attack:573,force_strike:261,skill_1:686,skill_2:257,skill_3:276,team_buff:0
 1982,Aoi,3星,火,刀,2286,[RR+CE],<hp70>,Sakuya,attack:620,force_strike:0,skill_1:815,skill_2:326,skill_3:219,team_buff:0
 1694,_c_Aoi,3星,火,刀,2286,[RR+CE],!<hp70>,Sakuya,attack:530,force_strike:0,skill_1:697,skill_2:278,skill_3:187,team_buff:0
 1938,Celliera,4星,水,刀,2753,[RR+Jewels_of_the_Sun],<hp70>,,attack:1000,force_strike:0,skill_1:938,skill_2:0,skill_3:0,team_buff:0
@@ -161,8 +161,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1728,_c_V_Orion,3星,火,剑,2968,[The_Shining_Overlord+LC],!<hp70>,no s2,attack:564,force_strike:251,skill_1:588,skill_2:0,skill_3:266,team_buff:0,s2_burn:58
 2733,Albert,5星,光,剑,3044,[The_Shining_Overlord+The_Chocolatiers],<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:470,force_strike:250,skill_1:743,skill_2:0,skill_3:136,team_buff:0,s2_paralyze:68,fs_alt:166,s1_s2boost:660,s1_hit5:47,s1_hit4:47,s1_hit6:47,s1_hit3:47,s1_hit2:47
 2358,_c_Albert,5星,光,剑,3044,[The_Shining_Overlord+The_Chocolatiers],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:567,force_strike:162,skill_1:665,skill_2:0,skill_3:293,team_buff:0,s1_hit4:39,s1_s2boost:550,s1_hit3:39,s1_hit2:39
-2628,Odetta,4星,光,剑,3008,[RR+Stellar_Show],<hp70 & buff all team>,c2+fs,attack:549,force_strike:603,skill_1:633,skill_2:0,skill_3:326,team_buff:515
-1954,_c_Odetta,4星,光,剑,3008,[RR+Stellar_Show],!<hp70 & buff all team>,c2+fs,attack:484,force_strike:531,skill_1:558,skill_2:0,skill_3:288,team_buff:89
+2691,Odetta,4星,光,剑,3008,[RR+Stellar_Show],<hp70 & buff all team>,c2+fs,attack:633,force_strike:704,skill_1:768,skill_2:0,skill_3:0,team_buff:585
+1961,_c_Odetta,4星,光,剑,3008,[RR+Stellar_Show],!<hp70 & buff all team>,c2+fs,attack:559,force_strike:621,skill_1:678,skill_2:0,skill_3:0,team_buff:102
 2080,Jakob,3星,水,枪,2573,[RR+CE],<hp70 & bog<=3>,,attack:800,force_strike:117,skill_1:695,skill_2:0,skill_3:0,team_buff:466
 1295,_c_Jakob,3星,水,枪,2573,[RR+CE],!<hp70 & bog<=3>,,attack:620,force_strike:90,skill_1:584,skill_2:0,skill_3:0,team_buff:0
 2359,Curran,5星,暗,斧,3040,[KFM+Flower_in_the_Fray],<last offense>,no fs,attack:1076,force_strike:0,skill_1:848,skill_2:364,skill_3:0,team_buff:69
@@ -180,8 +180,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1489,_c_Alex,4星,暗,匕,2896,[RR+FoG],!<hit15 & hp100 & hp70>,not consider bk boost of her s2,attack:559,force_strike:31,skill_1:478,skill_2:131,skill_3:213,team_buff:76
 2334,Alfonse,5星,光,剑,2989,[RR+FP],<hp70 & last offense>,,attack:634,force_strike:404,skill_1:627,skill_2:354,skill_3:314,team_buff:0
 2119,_c_Alfonse,5星,光,剑,2989,[RR+FP],!<hp70 & last offense>,,attack:565,force_strike:362,skill_1:576,skill_2:317,skill_3:298,team_buff:0
-2584,Marth,5星,火,剑,3038,[The_Shining_Overlord+FoG],<hit15>,,attack:628,force_strike:284,skill_1:732,skill_2:345,skill_3:348,team_buff:245
-2153,_c_Marth,5星,火,剑,3038,[The_Shining_Overlord+FoG],!<hit15>,,attack:512,force_strike:232,skill_1:597,skill_2:281,skill_3:284,team_buff:245
+2583,Marth,5星,火,剑,3038,[The_Shining_Overlord+FoG],<hit15>,,attack:628,force_strike:283,skill_1:732,skill_2:345,skill_3:348,team_buff:245
+2152,_c_Marth,5星,火,剑,3038,[The_Shining_Overlord+FoG],!<hit15>,,attack:512,force_strike:231,skill_1:597,skill_2:281,skill_3:284,team_buff:245
 2566,Veronica,5星,暗,法,2220,[RR+FoG],<hit15 & hp=80% & hp70>,Shinobi,attack:622,force_strike:64,skill_1:1255,skill_2:472,skill_3:0,team_buff:88,s1_crisis:62
 2165,_c_Veronica,5星,暗,法,2220,[RR+FoG],!<hit15 & hp=80% & hp70>,Shinobi,attack:505,force_strike:52,skill_1:1019,skill_2:383,skill_3:0,team_buff:88,s1_crisis:114
 1988,Fjorm,5星,水,枪,2733,[Dragon_and_Tamer+LC],<hp70>,do not calc damage counter,attack:551,force_strike:80,skill_1:711,skill_2:470,skill_3:0,team_buff:175
