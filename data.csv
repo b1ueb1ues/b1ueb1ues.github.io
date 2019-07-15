@@ -62,8 +62,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1466,_c_Lucretia,5星,光,法,3094,[RR+FoG],!<hp70 & energy & hit15>,,attack:773,force_strike:0,skill_1:457,skill_2:0,skill_3:235,team_buff:0
 2309,Maribelle,5星,风,法,2986,[RR+FoG],<hit15 & hp100 & hp70>,,attack:774,force_strike:0,skill_1:940,skill_2:510,skill_3:0,team_buff:85
 1671,_c_Maribelle,5星,风,法,2986,[RR+FoG],!<hit15 & hp100 & hp70>,,attack:652,force_strike:0,skill_1:605,skill_2:328,skill_3:0,team_buff:85
-1877,Nicolas,3星,风,法,2924,[RR+FoG],<hp70 & hit15>,,attack:850,force_strike:0,skill_1:720,skill_2:306,skill_3:0,team_buff:0
-1581,_c_Nicolas,3星,风,法,2924,[RR+FoG],!<hp70 & hit15>,,attack:716,force_strike:0,skill_1:606,skill_2:258,skill_3:0,team_buff:0
+1884,Nicolas,3星,风,法,2924,[RR+FoG],<hp70 & hit15>,,attack:856,force_strike:0,skill_1:720,skill_2:306,skill_3:0,team_buff:0
+1587,_c_Nicolas,3星,风,法,2924,[RR+FoG],!<hp70 & hit15>,,attack:721,force_strike:0,skill_1:606,skill_2:258,skill_3:0,team_buff:0
 2105,Xania,3星,火,法,2926,[RR+FoG],<hp70 & hit15>,,attack:879,force_strike:0,skill_1:832,skill_2:393,skill_3:0,team_buff:0
 1773,_c_Xania,3星,火,法,2926,[RR+FoG],!<hp70 & hit15>,,attack:740,force_strike:0,skill_1:700,skill_2:331,skill_3:0,team_buff:0
 2130,D_Cleo,5星,水,匕,2670,[RR+FoG],<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:832,force_strike:96,skill_1:485,skill_2:360,skill_3:0,team_buff:203,team_energy:72,s1_energized:46,s2_energized:33
@@ -125,8 +125,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1204,_c_Hawk,5星,风,弓,2919,[RR+FoG],!<c4+fs & hp70 & hit15 & stun 20s(3 s1 boosted)>,,attack:628,force_strike:0,skill_1:575,skill_2:0,skill_3:0,team_buff:0
 1804,Joe,3星,火,弓,2862,[RR+FoG],<c4+fs & hp70 & hit15>,burn 3 times,attack:548,force_strike:320,skill_1:645,skill_2:267,skill_3:0,team_buff:0,s2_burn:22
 1436,_c_Joe,3星,火,弓,2862,[RR+FoG],!<c4+fs & hp70 & hit15>,burn 3 times,attack:651,force_strike:0,skill_1:540,skill_2:225,skill_3:0,team_buff:0,s2_burn:18
-1697,Louise,5星,风,弓,2862,[RR+FoG],<hp70 & hit15>,poison 3 times & no fs,attack:692,force_strike:0,skill_1:612,skill_2:302,skill_3:0,team_buff:0,s2hitpoison:52,s1_poison:37
-1433,_c_Louise,5星,风,弓,2862,[RR+FoG],!<hp70 & hit15>,poison 3 times & no fs,attack:584,force_strike:0,skill_1:516,skill_2:256,skill_3:0,team_buff:0,s2hitpoison:44,s1_poison:31
+1925,Louise,5星,风,弓,2874,[Stellar_Show+Forest_Bonds], ,poison 3 times,attack:0,force_strike:960,skill_1:606,skill_2:275,skill_3:0,team_buff:0,s2hitpoison:47,s1_poison:34
 1777,Luca,4星,光,弓,2843,[RR+FoG],<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:477,force_strike:278,skill_1:544,skill_2:274,skill_3:167,team_buff:0,s1_paralysis:35
 1328,_c_Luca,4星,光,弓,2843,[RR+FoG],!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:525,force_strike:0,skill_1:428,skill_2:215,skill_3:131,team_buff:0,s1_paralysis:27
 1842,Malora,3星,光,弓,2843,[RR+FoG],<spawn c1+fs & hp70 & hit15>,,attack:199,force_strike:569,skill_1:578,skill_2:226,skill_3:204,team_buff:64
@@ -151,8 +150,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2493,_c_Linyou,5星,风,斧,2831,[KFM+Flower_in_the_Fray],!<hp70>,2in1 ; Longlong,attack:942,force_strike:0,skill_1:923,skill_2:0,skill_3:345,team_buff:0,s1_powerup:282
 2243,Kuhai,4星,风,剑,2932,[Stellar_Show+RR],<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:465,force_strike:15,skill_1:715,skill_2:0,skill_3:0,team_buff:0,fs_alt:1047
 1413,_c_Kuhai,4星,风,剑,2932,[Stellar_Show+RR],!<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:308,force_strike:76,skill_1:551,skill_2:0,skill_3:0,team_buff:0,fs_alt:477
-2270,Xiaolei,3星,光,法,2975,[RR+FoG],<hp70 & hit15>,,attack:920,force_strike:0,skill_1:893,skill_2:0,skill_3:301,team_buff:154
-1912,_c_Xiaolei,3星,光,法,2975,[RR+FoG],!<hp70 & hit15>,,attack:765,force_strike:0,skill_1:744,skill_2:0,skill_3:248,team_buff:154
+2277,Xiaolei,3星,光,法,2975,[RR+FoG],<hp70 & hit15>,,attack:927,force_strike:0,skill_1:893,skill_2:0,skill_3:301,team_buff:154
+1918,_c_Xiaolei,3星,光,法,2975,[RR+FoG],!<hp70 & hit15>,,attack:771,force_strike:0,skill_1:744,skill_2:0,skill_3:248,team_buff:154
 1769,Sufang,4星,风,匕,2936,[RR+FoG],<hp70 & hit15>,,attack:742,force_strike:83,skill_1:582,skill_2:0,skill_3:362,team_buff:0
 1490,_c_Sufang,4星,风,匕,2936,[RR+FoG],!<hp70 & hit15>,,attack:625,force_strike:69,skill_1:490,skill_2:0,skill_3:305,team_buff:0
 1745,V_Ezelith,4星,火,弓,2843,[RR+FoG],<c4+fs & hp70 & never lose combos & hit15>,,attack:509,force_strike:212,skill_1:539,skill_2:252,skill_3:0,team_buff:155,s1_energized:42,s1_burn:33

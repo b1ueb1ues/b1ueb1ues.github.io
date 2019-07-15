@@ -109,13 +109,13 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1724,_c_Malka,3星,光,枪,2956,[RR+CE],!<hp70>,,attack:635,force_strike:77,skill_1:610,skill_2:0,skill_3:219,team_buff:181
 1532,Pia,4星,风,枪,2816,[RR+CE],<hp70 & energy>,,attack:626,force_strike:95,skill_1:690,skill_2:0,skill_3:0,team_buff:0,team_energy:83,s1_energized:37
 1274,_c_Pia,4星,风,枪,2816,[RR+CE],!<hp70 & energy>,,attack:669,force_strike:0,skill_1:605,skill_2:0,skill_3:0,team_buff:0
-1427,Ryozen,4星,光,枪,2919,[RR+CE],<hp70>,,attack:702,force_strike:115,skill_1:0,skill_2:378,skill_3:231,team_buff:0
-1251,_c_Ryozen,4星,光,枪,2919,[RR+CE],!<hp70>,,attack:615,force_strike:101,skill_1:0,skill_2:331,skill_3:202,team_buff:0
+1442,Ryozen,4星,光,枪,2919,[RR+CE],<hp70>,,attack:702,force_strike:130,skill_1:0,skill_2:378,skill_3:231,team_buff:0
+1264,_c_Ryozen,4星,光,枪,2919,[RR+CE],!<hp70>,,attack:615,force_strike:114,skill_1:0,skill_2:331,skill_3:202,team_buff:0
 1865,Xainfried,5星,水,枪,2679,[RR+CE],<hp70>,use s1 only to cancel c5 of fs,attack:703,force_strike:79,skill_1:774,skill_2:0,skill_3:0,team_buff:307
 1670,_c_Xainfried,5星,水,枪,2679,[RR+CE],!<hp70>,use s1 only to cancel c5 of fs,attack:616,force_strike:69,skill_1:678,skill_2:0,skill_3:0,team_buff:307
 1872,Zace,3星,暗,枪,2250,[Jewels_of_the_Sun+RR],<hp70>,Shinobi,attack:437,force_strike:54,skill_1:758,skill_2:328,skill_3:293,team_buff:0
 1638,_c_Zace,3星,暗,枪,2250,[Jewels_of_the_Sun+RR],!<hp70>,Shinobi,attack:382,force_strike:47,skill_1:663,skill_2:287,skill_3:257,team_buff:0
-1479,D_Nefaria,4星,水,弓,2625,[RR+FoG],<c4+fs & hp70 & hit15>,,attack:509,force_strike:277,skill_1:691,skill_2:0,skill_3:0,team_buff:0
+1613,D_Nefaria,4星,水,弓,2625,[RR+FoG],<c4+fs & hp70 & hit15>,,attack:509,force_strike:277,skill_1:826,skill_2:0,skill_3:0,team_buff:0
 1180,_c_D_Nefaria,4星,水,弓,2625,[RR+FoG],!<c4+fs & hp70 & hit15>,,attack:599,force_strike:0,skill_1:580,skill_2:0,skill_3:0,team_buff:0
 1766,Eleonora,4星,风,弓,2881,[RR+FoG],<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:490,force_strike:290,skill_1:595,skill_2:290,skill_3:0,team_buff:0,s1_poison:99
 1332,_c_Eleonora,4星,风,弓,2881,[RR+FoG],!<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:581,force_strike:0,skill_1:434,skill_2:232,skill_3:0,team_buff:0,s1_poison:83
@@ -125,8 +125,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1180,_c_Hawk,5星,风,弓,2919,[RR+FoG],!<c4+fs & hp70 & hit15 & stun 20s(3 s1 boosted)>,,attack:605,force_strike:0,skill_1:575,skill_2:0,skill_3:0,team_buff:0
 1790,Joe,3星,火,弓,2862,[RR+FoG],<c4+fs & hp70 & hit15>,burn 3 times,attack:542,force_strike:316,skill_1:602,skill_2:262,skill_3:0,team_buff:0,s2_burn:67
 1434,_c_Joe,3星,火,弓,2862,[RR+FoG],!<c4+fs & hp70 & hit15>,burn 3 times,attack:647,force_strike:0,skill_1:508,skill_2:221,skill_3:0,team_buff:0,s2_burn:56
-1775,Louise,5星,风,弓,2862,[RR+FoG],<hp70 & hit15>,poison 3 times & no fs,attack:707,force_strike:0,skill_1:569,skill_2:227,skill_3:0,team_buff:0,s2hitpoison:157,s1_poison:113
-1498,_c_Louise,5星,风,弓,2862,[RR+FoG],!<hp70 & hit15>,poison 3 times & no fs,attack:597,force_strike:0,skill_1:480,skill_2:192,skill_3:0,team_buff:0,s2hitpoison:132,s1_poison:95
+2069,Louise,5星,风,弓,2874,[Stellar_Show+Forest_Bonds], ,poison 3 times,attack:0,force_strike:968,skill_1:525,skill_2:327,skill_3:0,team_buff:0,s2hitpoison:143,s1_poison:103
 1731,Luca,4星,光,弓,2843,[RR+FoG],<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:505,force_strike:278,skill_1:510,skill_2:205,skill_3:125,team_buff:0,s1_paralysis:105
 1295,_c_Luca,4星,光,弓,2843,[RR+FoG],!<c4+fs & hit15 & hp100 & hp70>,paralysis 3 times,attack:551,force_strike:0,skill_1:401,skill_2:161,skill_3:98,team_buff:0,s1_paralysis:82
 1646,Malora,3星,光,弓,2843,[RR+FoG],<spawn c1+fs & hp70 & hit15>,,attack:207,force_strike:590,skill_1:508,skill_2:169,skill_3:120,team_buff:49
