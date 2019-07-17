@@ -1,8 +1,10 @@
 dps,name,star,element,weapon,str,amulets,condition,comment,
-3920,Addis,4星,风,刀,2617,[Evening_of_Luxury+RR];dpsrange:(3138~4399),<hp70 & hp100>,with max co-abilities of wand+self; v534 against HMC; (still WITHOUT on-ele*1.5),attack:1213,force_strike:49,skill_1:1241,skill_2:0,skill_3:0,team_buff:0,s1_poison:16,bleed:1399
-3371,_c_Addis,4星,风,刀,2617,[Evening_of_Luxury+RR];dpsrange:(2782~3770),!<hp70 & hp100>,with max co-abilities of wand+self; v534 against HMC; (still WITHOUT on-ele*1.5),attack:1040,force_strike:42,skill_1:1062,skill_2:0,skill_3:0,team_buff:0,s1_poison:14,bleed:1211
-3632,Natalie,5星,暗,刀,2344,[Heralds_of_Hinomoto+FoG];dpsrange:(3561~3664),<energy & hit15 & hp1>,1hp; Shinobi;,attack:751,force_strike:16,skill_1:1143,skill_2:0,skill_3:403,team_buff:0,s1_energized:35,s1_crisis:1143,s3_energized:44,s1_crisis_energized:93
+3922,Addis,4星,风,刀,2617,[Evening_of_Luxury+RR];dpsrange:(3165~4399),<hp70 & hp100>,with max co-abilities of wand+self; v534 against HMC; (still WITHOUT on-ele*1.5),attack:1213,force_strike:49,skill_1:1243,skill_2:0,skill_3:0,team_buff:0,s1_poison:16,bleed:1399
+3367,_c_Addis,4星,风,刀,2617,[Evening_of_Luxury+RR];dpsrange:(2696~3770),!<hp70 & hp100>,with max co-abilities of wand+self; v534 against HMC; (still WITHOUT on-ele*1.5),attack:1039,force_strike:42,skill_1:1064,skill_2:0,skill_3:0,team_buff:0,s1_poison:14,bleed:1206
+3631,Natalie,5星,暗,刀,2344,[Heralds_of_Hinomoto+FoG];dpsrange:(3576~3664),<energy & hit15 & hp1>,1hp; Shinobi;,attack:751,force_strike:16,skill_1:1143,skill_2:0,skill_3:403,team_buff:0,s1_energized:35,s1_crisis:1143,s3_energized:44,s1_crisis_energized:92
 1735,_c_Natalie,5星,暗,刀,2344,[Heralds_of_Hinomoto+FoG];dpsrange:(1735~1735),!<energy & hit15 & hp1>,1hp; Shinobi;,attack:563,force_strike:12,skill_1:857,skill_2:0,skill_3:302,team_buff:0
+2959,Natalie,5星,暗,刀,2351,[TL+The_Chocolatiers];dpsrange:(2925~2982),<energy & hp20 & last offense>,20hp; Shinobi; 120s; can't maintain comboes,attack:703,force_strike:0,skill_1:1032,skill_2:0,skill_3:465,team_buff:0,s1_energized:8,s1_crisis:660,s3_energized:53,s1_crisis_energized:35
+1755,_c_Natalie,5星,暗,刀,2351,[TL+The_Chocolatiers];dpsrange:(1755~1755),!<energy & hp20 & last offense>,20hp; Shinobi; 120s; can't maintain comboes,attack:574,force_strike:0,skill_1:816,skill_2:0,skill_3:364,team_buff:0
 3955,Xander,5星,水,剑,2787,[Together_We_Stand+RR],<hp70>,10 stacks striker's strength,attack:771,force_strike:734,skill_1:1844,skill_2:604,skill_3:0,team_buff:0
 3772,_c_Xander,5星,水,剑,2787,[Together_We_Stand+RR],!<hp70>,10 stacks striker's strength,attack:735,force_strike:700,skill_1:1759,skill_2:576,skill_3:0,team_buff:0
 1880,Xander,5星,水,剑,2806,[Stellar_Show+LC],<hp70>,only 2+1,attack:758,force_strike:1122,skill_1:0,skill_2:0,skill_3:0,team_buff:0
@@ -13,7 +15,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1413,_c_Heinwald,5星,暗,奶,2816,[RR+Jewels_of_the_Sun],!<hp70 & buff all teammates>,,attack:661,force_strike:0,skill_1:560,skill_2:0,skill_3:191,team_buff:0
 2721,Linyou,5星,风,斧,3124,[KFM+Flower_in_the_Fray],<hp70>,2in1 ; Zephyr,attack:1028,force_strike:0,skill_1:1007,skill_2:0,skill_3:377,team_buff:0,s1_powerup:307
 2534,_c_Linyou,5星,风,斧,3124,[KFM+Flower_in_the_Fray],!<hp70>,2in1 ; Zephyr,attack:958,force_strike:0,skill_1:938,skill_2:0,skill_3:351,team_buff:0,s1_powerup:286
-2384,Louise,5星,风,弓,2874,[Stellar_Show+Forest_Bonds], ,poison 3 times & roll fs & g_ranzal+lowen,attack:0,force_strike:1214,skill_1:764,skill_2:322,skill_3:0,team_buff:0,s2hitpoison:47,s1_poison:34
+2384,Louise,5星,风,弓,2874,[Forest_Bonds+Stellar_Show],<rollfs>,poison 3 times & roll fs & g_ranzal+lowen,attack:0,force_strike:1214,skill_1:764,skill_2:322,skill_3:0,team_buff:0,s2hitpoison:47,s1_poison:34
+2384,_c_Louise,5星,风,弓,2874,[Forest_Bonds+Stellar_Show],!<rollfs>,poison 3 times & roll fs & g_ranzal+lowen,attack:0,force_strike:1214,skill_1:764,skill_2:322,skill_3:0,team_buff:0,s2hitpoison:47,s1_poison:34
 3480,Veronica,5星,暗,法,2220,[FoG+Heralds_of_Hinomoto],<hp1 & hit15>,1hp; only c5 & s1; Shinobi;,attack:674,force_strike:0,skill_1:1227,skill_2:0,skill_3:0,team_buff:44,s1_crisis:1534
 1674,_c_Veronica,5星,暗,法,2220,[FoG+Heralds_of_Hinomoto],!<hp1 & hit15>,1hp; only c5 & s1; Shinobi;,attack:578,force_strike:0,skill_1:1052,skill_2:0,skill_3:0,team_buff:44
 2545,Marth,5星,火,剑,3038,[The_Shining_Overlord+FoG],<hit15>,dodge*2 to miss s2p3 then dodge*2 back to attack,attack:594,force_strike:271,skill_1:755,skill_2:75,skill_3:271,team_buff:577
