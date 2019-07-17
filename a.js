@@ -372,6 +372,8 @@ function update() {
     s0.itemStyle = {color: '#2f4554'};
     option.series.push(s0);
     option.dataZoom[0].showDataShadow='__slider';
+
+    var conditionshowed = [];
     /**/
     t1 = {
         type:'bar',
@@ -387,21 +389,15 @@ function update() {
                 position: 'insideLeft',
                 formatter: params => {
                     a = describe2adv[params.name];
-                    return a.condition;
+                    console.log(a.name+':'+a.details.attack);
+                    if (a.details.attack) {
+                        conditionshowed.push(params.name);
+                        return a.condition;
+                    } else {
+                        return '';
+                    }
                 },
             },
-            //notnormal: {
-            //    show: true,
-            //    position: 'top',
-            //    formatter: params => {
-            //        a = describe2adv[params.name];
-            //        if(a.comment != null){
-            //            return a.amulets + ' ' + a.comment
-            //        }else{
-            //            return a.amulets 
-            //        }
-            //    },
-            //},
         },
     }
     t2 = {
@@ -430,6 +426,24 @@ function update() {
         s2.itemStyle = itemStyle;
         s2.barGap = -0.05;
         //s2.barWidth = 30;
+        s1.label= {
+            normal: {
+                show: true,
+                position: 'insideLeft',
+                formatter: params => {
+                    if (conditionshowed.includes(params.name)) {
+                        return '';
+                    }
+                    a = describe2adv[params.name];
+                    if (a.details[params.seriesName]) {
+                        conditionshowed.push(params.name);
+                        return a.condition;
+                    } else {
+                        return '';
+                    }
+                },
+            },
+        }
         option.series.push(s1);
         option.series.push(s2);
     }
