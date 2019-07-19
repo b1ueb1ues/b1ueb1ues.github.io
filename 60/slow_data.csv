@@ -2,17 +2,17 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2479,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1870~2676),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:905,force_strike:24,skill_1:854,skill_2:0,skill_3:148,team_buff:0,s1_poison:34,bleed:511
-2178,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1639~2345),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:793,force_strike:21,skill_1:748,skill_2:0,skill_3:130,team_buff:0,s1_poison:30,bleed:454
-2602,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1670~2944),<hp70>,Shinobi,attack:563,force_strike:0,skill_1:979,skill_2:0,skill_3:176,team_buff:0,bleed:882
-2093,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1330~2356),!<hp70>,Shinobi,attack:450,force_strike:0,skill_1:784,skill_2:0,skill_3:140,team_buff:0,bleed:717
+2486,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1870~2676),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:905,force_strike:24,skill_1:854,skill_2:0,skill_3:148,team_buff:0,s1_poison:34,bleed:518
+2178,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(1698~2345),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:793,force_strike:21,skill_1:749,skill_2:0,skill_3:130,team_buff:0,s1_poison:30,bleed:453
+2619,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1742~2946),<hp70>,Shinobi,attack:564,force_strike:0,skill_1:980,skill_2:0,skill_3:176,team_buff:0,bleed:898
+2103,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1446~2356),!<hp70>,Shinobi,attack:451,force_strike:0,skill_1:784,skill_2:0,skill_3:140,team_buff:0,bleed:726
 1821,Sinoa,4星,火,法,2893,[RR+FoG];dpsrange:(1289~2739),<hit15 & hp100 & hp70>,5c+fs,attack:823,force_strike:204,skill_1:0,skill_2:401,skill_3:0,team_buff:391
 1516,_c_Sinoa,4星,火,法,2893,[RR+FoG];dpsrange:(1012~2380),!<hit15 & hp100 & hp70>,5c+fs,attack:647,force_strike:161,skill_1:0,skill_2:315,skill_3:0,team_buff:391
-1627,Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1573~1765),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:688,force_strike:74,skill_1:698,skill_2:0,skill_3:130,team_buff:34
-1379,_c_Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1325~1511),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:580,force_strike:63,skill_1:589,skill_2:0,skill_3:110,team_buff:36
+1629,Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1573~1800),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:688,force_strike:74,skill_1:699,skill_2:0,skill_3:130,team_buff:35
+1377,_c_Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1325~1510),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:580,force_strike:63,skill_1:589,skill_2:0,skill_3:110,team_buff:35
 2310,Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(1646~2563),<hp70 & sleep>,Shinobi;,attack:732,force_strike:91,skill_1:805,skill_2:0,skill_3:0,team_buff:0,s2fs:16,bleed:664
 2004,_c_Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(1426~2223),!<hp70 & sleep>,Shinobi;,attack:631,force_strike:80,skill_1:700,skill_2:0,skill_3:0,team_buff:0,s2fs:15,bleed:577
 2510,Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(1787~2669),<hp70>,Shinobi,attack:422,force_strike:65,skill_1:777,skill_2:0,skill_3:256,team_buff:210,bleed:778
 2222,_c_Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(1590~2361),!<hp70>,Shinobi,attack:369,force_strike:57,skill_1:679,skill_2:0,skill_3:224,team_buff:210,bleed:680
-3083,Natalie,5星,暗,刀,2351,[TL+The_Chocolatiers];dpsrange:(3046~3098),<energy & last offense & hp20 & s2 without str buff>,Shinobi,attack:641,force_strike:0,skill_1:1103,skill_2:0,skill_3:553,team_buff:0,s1_energized:4,s1_crisis:706,s3_energized:35,s1_crisis_energized:37
+3083,Natalie,5星,暗,刀,2351,[TL+The_Chocolatiers];dpsrange:(3046~3098),<energy & last offense & hp20 & s2 without str buff>,Shinobi,attack:641,force_strike:0,skill_1:1103,skill_2:0,skill_3:553,team_buff:0,s1_energized:4,s1_crisis:706,s3_energized:36,s1_crisis_energized:37
 1713,_c_Natalie,5星,暗,刀,2351,[TL+The_Chocolatiers];dpsrange:(1713~1713),!<energy & last offense & hp20 & s2 without str buff>,Shinobi,attack:495,force_strike:0,skill_1:810,skill_2:0,skill_3:406,team_buff:0
