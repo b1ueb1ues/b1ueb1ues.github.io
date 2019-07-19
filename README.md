@@ -37,7 +37,7 @@
 ## commen combo chain the simulation use:
 - sword: c3+fs, c2+fs(for Xander and Albert)
 - blade: c5+fs(failed) (that kind of technique introduced by me) [reference](https://www.bilibili.com/video/av38956687/)
-- dagger: c5+fs(3hits) (you can hold FS reverse to change your direct in the c5 jump)
+- dagger: use c5+skill as more as possible, c4+fs when no skill can active.
 - axe: c5+fs / plain c5 (if mentioned that unit don't use fs)
 - lance: c5+fs / c5+fs(failed) (if mentioned that unit don't use fs)
 - bow: plain c5 or c4+fs or c1+fs

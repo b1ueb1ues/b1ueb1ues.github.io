@@ -2,19 +2,19 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 350,ex_dagger,co,-,ability, , ,crit,ex1:35,ex2:35,ex3:35,ex4:35,ex5:35,ex6:35,ex7:35,ex8:35,ex10:70
 500,ex_blade,co,-,ability, , ,strength,ex1:50,ex2:50,ex3:50,ex4:50,ex5:50,ex6:50,ex7:50,ex8:50,ex10:100
 450,ex_wand,co,-,ability, , ,skilldamage,ex2:60,ex3:30,ex5:60,ex6:30,ex8:60,ex9:30,ex11:60,ex12:30,ex15:90
-2911,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2406~3194),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:920,force_strike:32,skill_1:828,skill_2:0,skill_3:216,team_buff:0,s1_poison:11,bleed:902
-2548,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2026~2799),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:807,force_strike:28,skill_1:726,skill_2:0,skill_3:188,team_buff:0,s1_poison:10,bleed:788
-2851,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(2176~3249),<hp70>,Shinobi,attack:548,force_strike:0,skill_1:941,skill_2:0,skill_3:303,team_buff:0,bleed:1058
-2289,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1792~2603),!<hp70>,Shinobi,attack:439,force_strike:0,skill_1:754,skill_2:0,skill_3:242,team_buff:0,bleed:852
+2912,Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2479~3194),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:921,force_strike:32,skill_1:828,skill_2:0,skill_3:214,team_buff:0,s1_poison:11,bleed:903
+2543,_c_Addis,4星,风,刀,3084,[RR+CE];dpsrange:(2078~2800),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:806,force_strike:28,skill_1:726,skill_2:0,skill_3:189,team_buff:0,s1_poison:10,bleed:782
+2858,Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(2125~3249),<hp70>,Shinobi,attack:548,force_strike:0,skill_1:941,skill_2:0,skill_3:303,team_buff:0,bleed:1065
+2288,_c_Ieyasu,5星,暗,刀,2352,[RR+Jewels_of_the_Sun];dpsrange:(1791~2603),!<hp70>,Shinobi,attack:439,force_strike:0,skill_1:754,skill_2:0,skill_3:242,team_buff:0,bleed:851
 1945,Sinoa,4星,火,法,2893,[RR+FoG];dpsrange:(1367~2539),<hit15 & hp100 & hp70>,5c+fs,attack:811,force_strike:216,skill_1:0,skill_2:448,skill_3:0,team_buff:468
 1630,_c_Sinoa,4星,火,法,2893,[RR+FoG];dpsrange:(1083~2189),!<hit15 & hp100 & hp70>,5c+fs,attack:638,force_strike:170,skill_1:0,skill_2:353,skill_3:0,team_buff:468
-1666,Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1607~1759),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:645,force_strike:76,skill_1:663,skill_2:0,skill_3:234,team_buff:46
-1411,_c_Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1341~1479),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:544,force_strike:64,skill_1:559,skill_2:0,skill_3:197,team_buff:46
+1666,Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1608~1758),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:645,force_strike:76,skill_1:663,skill_2:0,skill_3:234,team_buff:46
+1412,_c_Ezelith,5星,火,匕,2941,[RR+FoG];dpsrange:(1349~1496),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:544,force_strike:64,skill_1:559,skill_2:0,skill_3:197,team_buff:46
 2606,Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(2077~2928),<hp70 & sleep>,Shinobi;,attack:719,force_strike:86,skill_1:907,skill_2:0,skill_3:0,team_buff:0,s2fs:20,bleed:872
 2324,_c_Sazanka,4星,暗,斧,2196,[KFM+CE];dpsrange:(1854~2611),!<hp70 & sleep>,Shinobi;,attack:638,force_strike:77,skill_1:809,skill_2:0,skill_3:0,team_buff:0,s2fs:18,bleed:779
 2881,Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(2436~3103),<hp70>,Shinobi,attack:417,force_strike:61,skill_1:830,skill_2:0,skill_3:326,team_buff:261,bleed:984
 2553,_c_Botan,4星,暗,枪,2168,[RR+Jewels_of_the_Sun];dpsrange:(2164~2747),!<hp70>,Shinobi,attack:365,force_strike:53,skill_1:726,skill_2:0,skill_3:285,team_buff:261,bleed:861
-2705,Natalie,5星,暗,刀,2336,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(2662~2723),<energy & hp20 & s2 without str buff>,Shinobi,attack:645,force_strike:22,skill_1:976,skill_2:0,skill_3:348,team_buff:0,s1_energized:30,s1_crisis:593,s3_energized:37,s1_crisis_energized:51
+2706,Natalie,5星,暗,刀,2336,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(2662~2723),<energy & hp20 & s2 without str buff>,Shinobi,attack:645,force_strike:22,skill_1:976,skill_2:0,skill_3:348,team_buff:0,s1_energized:30,s1_crisis:593,s3_energized:38,s1_crisis_energized:51
 1724,_c_Natalie,5星,暗,刀,2336,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(1724~1724),!<energy & hp20 & s2 without str buff>,Shinobi,attack:562,force_strike:19,skill_1:843,skill_2:0,skill_3:298,team_buff:0
 1677,Berserker,4星,暗,剑,2763,[RR+FP],<hp70 & last offense>,,attack:589,force_strike:379,skill_1:708,skill_2:0,skill_3:0,team_buff:0
 1552,_c_Berserker,4星,暗,剑,2763,[RR+FP],!<hp70 & last offense>,,attack:544,force_strike:350,skill_1:656,skill_2:0,skill_3:0,team_buff:0
@@ -68,20 +68,20 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 1773,_c_Xania,3星,火,法,2926,[RR+FoG],!<hp70 & hit15>,,attack:740,force_strike:0,skill_1:700,skill_2:331,skill_3:0,team_buff:0
 2128,D_Cleo,5星,水,匕,2670,[RR+FoG],<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:831,force_strike:96,skill_1:485,skill_2:360,skill_3:0,team_buff:203,team_energy:72,s1_energized:45,s2_energized:33
 1581,_c_D_Cleo,5星,水,匕,2670,[RR+FoG],!<hp70 & energy & hit15 & always connect hits>,cy; can you give us the true cleo?,attack:646,force_strike:74,skill_1:376,skill_2:279,skill_3:0,team_buff:203
-1695,Francesca,3星,风,匕,2881,[RR+FoG],<hp70 & hit15>,,attack:630,force_strike:88,skill_1:510,skill_2:191,skill_3:249,team_buff:24
-1432,_c_Francesca,3星,风,匕,2881,[RR+FoG],!<hp70 & hit15>,,attack:530,force_strike:74,skill_1:430,skill_2:161,skill_3:210,team_buff:24
+1720,Francesca,3星,风,匕,2881,[RR+FoG],<hp70 & hit15>,,attack:564,force_strike:153,skill_1:511,skill_2:216,skill_3:248,team_buff:26
+1453,_c_Francesca,3星,风,匕,2881,[RR+FoG],!<hp70 & hit15>,,attack:475,force_strike:129,skill_1:430,skill_2:182,skill_3:209,team_buff:26
 1594,Irfan,3星,光,匕,2843,[RR+FoG],<hp70 & hit15>,,attack:702,force_strike:81,skill_1:596,skill_2:213,skill_3:0,team_buff:0
 1342,_c_Irfan,3星,光,匕,2843,[RR+FoG],!<hp70 & hit15>,,attack:592,force_strike:68,skill_1:502,skill_2:179,skill_3:0,team_buff:0
 1801,Luther,4星,水,匕,2636,[RR+FoG],<hp70 & hit15>,,attack:751,force_strike:81,skill_1:704,skill_2:238,skill_3:0,team_buff:25
 1432,_c_Luther,4星,水,匕,2636,[RR+FoG],!<hp70 & hit15>,,attack:595,force_strike:64,skill_1:558,skill_2:189,skill_3:0,team_buff:25
-1757,Melsa,4星,火,匕,2883,[RR+FoG],<hp70 & hit15>,,attack:640,force_strike:66,skill_1:555,skill_2:234,skill_3:259,team_buff:0
-1406,_c_Melsa,4星,火,匕,2883,[RR+FoG],!<hp70 & hit15>,,attack:512,force_strike:53,skill_1:444,skill_2:187,skill_3:207,team_buff:0
+1768,Melsa,4星,火,匕,2883,[RR+FoG],<hp70 & hit15>,,attack:579,force_strike:113,skill_1:553,skill_2:263,skill_3:258,team_buff:0
+1415,_c_Melsa,4星,火,匕,2883,[RR+FoG],!<hp70 & hit15>,,attack:464,force_strike:91,skill_1:443,skill_2:210,skill_3:206,team_buff:0
 1719,Orion,4星,暗,匕,2863,[RR+FoG],<hp70 & hit15>,,attack:603,force_strike:110,skill_1:479,skill_2:265,skill_3:260,team_buff:0
 1359,_c_Orion,4星,暗,匕,2863,[RR+FoG],!<hp70 & hit15>,,attack:476,force_strike:87,skill_1:379,skill_2:209,skill_3:206,team_buff:0
-1854,Orsem,4星,水,匕,2688,[RR+FoG],<hp70 & hit15>,,attack:783,force_strike:85,skill_1:737,skill_2:247,skill_3:0,team_buff:0
-1422,_c_Orsem,4星,水,匕,2688,[RR+FoG],!<hp70 & hit15>,,attack:601,force_strike:65,skill_1:566,skill_2:189,skill_3:0,team_buff:0
-1810,Renelle,3星,火,匕,2883,[RR+FoG],<hp70 & hit15>,,attack:681,force_strike:71,skill_1:540,skill_2:227,skill_3:263,team_buff:25
-1454,_c_Renelle,3星,火,匕,2883,[RR+FoG],!<hp70 & hit15>,,attack:545,force_strike:57,skill_1:432,skill_2:182,skill_3:211,team_buff:25
+1869,Orsem,4星,水,匕,2688,[RR+FoG],<hp70 & hit15>,,attack:684,force_strike:131,skill_1:737,skill_2:315,skill_3:0,team_buff:0
+1434,_c_Orsem,4星,水,匕,2688,[RR+FoG],!<hp70 & hit15>,,attack:525,force_strike:101,skill_1:566,skill_2:241,skill_3:0,team_buff:0
+1825,Renelle,3星,火,匕,2883,[RR+FoG],<hp70 & hit15>,,attack:612,force_strike:124,skill_1:570,skill_2:227,skill_3:261,team_buff:27
+1466,_c_Renelle,3星,火,匕,2883,[RR+FoG],!<hp70 & hit15>,,attack:490,force_strike:99,skill_1:456,skill_2:182,skill_3:209,team_buff:27
 1585,Vida,3星,暗,匕,2842,[RR+FoG],<hp70 & hit15>,,attack:683,force_strike:92,skill_1:529,skill_2:0,skill_3:242,team_buff:0,s2fs:36
 1335,_c_Vida,3星,暗,匕,2842,[RR+FoG],!<hp70 & hit15>,,attack:576,force_strike:78,skill_1:446,skill_2:0,skill_3:204,team_buff:0,s2fs:30
 1703,Vice,3星,暗,匕,2842,[RR+FoG],<hp70 & hit15>,,attack:648,force_strike:68,skill_1:515,skill_2:219,skill_3:250,team_buff:0
