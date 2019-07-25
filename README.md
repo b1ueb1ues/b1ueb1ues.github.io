@@ -14,7 +14,7 @@
 
 ## stat
 - Level 80, circle node(50/50) adventurer.
-- Dojo(30/30) altar(30/30) 
+- Dojo(31/31) altar(35/35) 
 - Have all facilities (include limited) (include dracolith, except fafnir) in level 30.
 - Equiped level100 str 60% dragon except water unit, which use "Dragonyule Jeanne". if you don't have "Dragonyule Jeanne", water unit will lose about 4% DPS.
 - Equiped MUB 5star element weapon
@@ -62,17 +62,17 @@
 - Trigger Last Offense at simulation start
 
 ## special mechanics
-- Consider other teammember have a total of 3500 dps.
-- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 2500 damage for each into team dps.
+- Consider other teammember have a total of 7000 dps.
+- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 4700 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. 
 - Consider only dragon once at middle of fight for dragon claw.
 - Consider break punisher to have 15% efficiency
 - Consider od punisher to have 35% efficiency
 
-## why 3500 team?
+## why 7000 team?
 - The underestimate of team dps is intend.
 - This chart is not always for people who aimming at HDT, someone just want to know who can deal more damage to decide who to invest. I don't think eli/melody is good for investment outside HDT, their most power need no equip to archieve.
-- It's pretty easy for those who only care about HDT preformance to do teamdps / 3500 * whateverYouWant
+- It's pretty easy for those who only care about HDT preformance to do teamdps / 7000 * whateverYouWant
 - Buff decrease more after reduce active action time. (btw so does bleed). Unlike Xania will lose 50% damage if you take off her 50% damage time to dodge. Buff is likely to lose 75% damage when you take off 50% active action time, because buff loss 50% uptime by the mean time the action buffed by this buff lose 50%.
 
 

@@ -1,3 +1,7 @@
+var h = document.getElementById('header');
+h.innerHTML += '<br>on-ele, co-abilities: self+wand+blade';
+
+
 let chart = echarts.init(document.getElementById('container'));
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
