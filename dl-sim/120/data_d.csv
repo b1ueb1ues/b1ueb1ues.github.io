@@ -194,5 +194,19 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2992,_c_Rena,5星,火,刀,2288,[RR+First_Rate_Hospitality],!<hp70 & burn*3 s1@burn*1>,Sakuya,attack:829,force_strike:106,skill_1:1627,skill_2:0,skill_3:429,team_buff:0
 3386,Renee,4星,水,匕,2689,[RR+FoG],<hp70 & bog<=3 & hit15>,,attack:1230,force_strike:163,skill_1:975,skill_2:318,skill_3:0,team_buff:699
 2136,_c_Renee,4星,水,匕,2689,[RR+FoG],!<hp70 & bog<=3 & hit15>,,attack:951,force_strike:127,skill_1:820,skill_2:237,skill_3:0,team_buff:0
-5837,G_Cleo,5星,暗,法,2979,[RR+FoG],<hp70 & always in a1 & hit15>,the true cleo is here,attack:1414,force_strike:0,skill_1:2103,skill_2:341,skill_3:0,team_buff:1978,fs_alt:0
-5240,_c_G_Cleo,5星,暗,法,2979,[RR+FoG],!<hp70 & always in a1 & hit15>,the true cleo is here,attack:1195,force_strike:0,skill_1:1777,skill_2:288,skill_3:0,team_buff:1978,fs_alt:0
+5802,G_Cleo,5星,暗,法,2979,[RR+CE],<hp70 & always in a1>,Shinobi; (the true cleo is here),attack:1045,force_strike:0,skill_1:2390,skill_2:387,skill_3:0,team_buff:1978,fs_alt:0
+5259,_c_G_Cleo,5星,暗,法,2979,[RR+CE],!<hp70 & always in a1>,Shinobi; (the true cleo is here),attack:896,force_strike:0,skill_1:2051,skill_2:332,skill_3:0,team_buff:1978,fs_alt:0
+5071,Addis,4星,风,刀,3149,[RR+CE];dpsrange:(3945~5524),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1624,force_strike:56,skill_1:1475,skill_2:0,skill_3:408,team_buff:0,s1_poison:31,bleed:1474
+4464,_c_Addis,4星,风,刀,3149,[RR+CE];dpsrange:(3214~4858),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1429,force_strike:49,skill_1:1297,skill_2:0,skill_3:359,team_buff:0,s1_poison:27,bleed:1300
+4998,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun];dpsrange:(3711~5690),<hp70>,Shinobi,attack:999,force_strike:0,skill_1:1661,skill_2:0,skill_3:488,team_buff:0,bleed:1848
+4026,_c_Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun];dpsrange:(2775~4605),!<hp70>,Shinobi,attack:807,force_strike:0,skill_1:1344,skill_2:0,skill_3:393,team_buff:0,bleed:1480
+3455,Sinoa,4星,火,法,2953,[RR+FoG];dpsrange:(2276~4803),<hit15 & hp100 & hp70>,5c+fs,attack:1324,force_strike:353,skill_1:0,skill_2:875,skill_3:0,team_buff:902
+2918,_c_Sinoa,4星,火,法,2953,[RR+FoG];dpsrange:(1794~4196),!<hit15 & hp100 & hp70>,5c+fs,attack:1045,force_strike:279,skill_1:0,skill_2:691,skill_3:0,team_buff:902
+2630,Ezelith,5星,火,匕,3002,[RR+FoG];dpsrange:(2523~2804),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:1057,force_strike:124,skill_1:1054,skill_2:0,skill_3:320,team_buff:72
+2233,_c_Ezelith,5星,火,匕,3002,[RR+FoG];dpsrange:(2133~2397),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:893,force_strike:105,skill_1:891,skill_2:0,skill_3:270,team_buff:71
+4264,Sazanka,4星,暗,斧,2262,[KFM+CE];dpsrange:(3272~4767),<hp70 & sleep>,Shinobi;,attack:1226,force_strike:140,skill_1:1492,skill_2:0,skill_3:0,team_buff:0,s2fs:28,bleed:1375
+3780,_c_Sazanka,4星,暗,斧,2262,[KFM+CE];dpsrange:(2904~4227),!<hp70 & sleep>,Shinobi;,attack:1082,force_strike:124,skill_1:1325,skill_2:0,skill_3:0,team_buff:0,s2fs:25,bleed:1222
+4656,Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun];dpsrange:(3758~4981),<hp70>,Shinobi,attack:682,force_strike:108,skill_1:1393,skill_2:0,skill_3:438,team_buff:497,bleed:1535
+4147,_c_Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun];dpsrange:(3359~4432),!<hp70>,Shinobi,attack:598,force_strike:95,skill_1:1223,skill_2:0,skill_3:385,team_buff:497,bleed:1348
+4783,Natalie,5星,暗,刀,2411,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(4673~4814),<energy & hp20 & s2 without str buff>,Shinobi,attack:1161,force_strike:40,skill_1:1718,skill_2:0,skill_3:635,team_buff:0,s1_energized:71,s1_crisis:1013,s3_energized:42,s1_crisis_energized:100
+3091,_c_Natalie,5星,暗,刀,2411,[Heralds_of_Hinomoto+One_with_the_Shadows];dpsrange:(3091~3091),!<energy & hp20 & s2 without str buff>,Shinobi,attack:1019,force_strike:35,skill_1:1492,skill_2:0,skill_3:544,team_buff:0
