@@ -1,7 +1,3 @@
-var h = document.getElementById('header');
-h.innerHTML += '<br>on-ele, co-abilities: self+wand+blade';
-
-
 let chart = echarts.init(document.getElementById('container'));
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
@@ -531,8 +527,11 @@ function ex_change() {
     }
 
     var affix = '';
-    for (var i in checked) {
-        document.getElementsByName(checked[i])[0].checked = true;
+    console.log('////////////////////');
+    console.log(checked)
+    for (var idx in checked) {
+        var i = checked[idx]
+        document.getElementsByName(i)[0].checked = true;
         if (i == 'ex-kat'){
             affix += 'k';
         } else if (i == 'ex-rod'){
@@ -543,6 +542,8 @@ function ex_change() {
             affix += 'b';
         }
     }
+    console.log(affix);
+    dataload('data_'+affix+'.csv');
 }
 
 function dataload(name){
@@ -559,7 +560,7 @@ function dataload(name){
         update();
     });
 }
-dataload('data.csv')
+dataload('data_kr.csv')
 
 chart.on('legendselectchanged', function () {
     sortData();
