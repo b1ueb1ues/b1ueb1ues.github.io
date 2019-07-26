@@ -32,7 +32,7 @@ var itemStyle = {
 var describe2adv = {};
 var option = {
     legend: {
-        data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff'],
+        data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
         //data:[],
         selectedMode:true,
         top: '0%',
