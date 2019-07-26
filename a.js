@@ -9,6 +9,10 @@ let weaponFilter = document.getElementById('weapon');
 document.querySelectorAll('select').forEach(select => {
     select.addEventListener('change', update);
 });
+
+document.querySelectorAll('input').forEach(input => {
+    input.addEventListener('change', ex_change);
+});
 //var advIcons = {
 //    'default': '/pic/1.png',
 //};
@@ -142,6 +146,7 @@ var option = {
 }
 let characters = [];
 
+
 function setData(data) {
     var tmpdata = [];
     var sp_slash = '\\'.charCodeAt()+128;
@@ -160,8 +165,8 @@ function setData(data) {
         character.amulets   = character[6];
         character.condition = character[7];
         character.comment   = character[8];
-        console.log(character.amulets)
-        console.log(character.comment)
+        //console.log(character.amulets)
+        //console.log(character.comment)
         var j = 9;
         character.details = {}
         while(1){
@@ -197,10 +202,10 @@ function setData(data) {
 }
 
 function sortData(data) {
-    console.log('sort');
+    //console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
-    console.log(lg);
+    //console.log(lg);
     var filtered = {};
     for(var i in lg){
         filtered[i] = !lg[i]
@@ -265,7 +270,7 @@ function update() {
     };
     sp_slash = String.fromCharCode(sp_slash);
     sp_cap = String.fromCharCode(sp_cap);
-    console.log(o_data);
+    //console.log(o_data);
     for(var i in o_data){
         var adv = o_data[i];
         lines[i] = {};
@@ -393,7 +398,7 @@ function update() {
                 position: 'insideLeft',
                 formatter: params => {
                     a = describe2adv[params.name];
-                    console.log(a.name+':'+a.details.attack);
+                    //console.log(a.name+':'+a.details.attack);
                     if (a.details.attack) {
                         conditionshowed.push(params.name);
                         return a.condition;
@@ -501,22 +506,60 @@ function update() {
     slider.endValue = len - 1;
     slider.startValue = Math.max(slider.endValue - slider.maxValueSpan, 0);
 
-    console.log(option);
+    //console.log(option);
     chart.setOption(option);
 }
 
-fetch('data.csv').then(response => response.text()).then(text => {
-    let csv = Papa.parse(text, {
-        //header: true,
-        skipEmptyLines: true,
-        dynamicTyping: true,
-        delimiter: ',',
-        delimitersToGuess: [',']
-    });
+var checked = ['ex-kat','ex-rod'];
+function ex_change() {
+    console.log('ex_change');
+    var newchecked = []
+    var exs = document.querySelectorAll('input');
+    console.log(exs);
+    for (var idx in exs){
+        ex = exs[idx]
+        console.log(ex.name);
+        console.log(ex.checked);
+        if (ex.checked) {
+            console.log(ex.name);
+            newchecked.push(ex.name);
+            ex.checked = false;
+        }
+    }
+    if (newchecked.length <= 4) {
+        checked = newchecked;
+    }
 
-    setData(csv.data);
-    update();
-});
+    var affix = '';
+    for (var i in checked) {
+        document.getElementsByName(checked[i])[0].checked = true;
+        if (i == 'ex-kat'){
+            affix += 'k';
+        } else if (i == 'ex-rod'){
+            affix += 'r';
+        } else if (i == 'ex-dag'){
+            affix += 'd';
+        } else if (i == 'ex-bow'){
+            affix += 'b';
+        }
+    }
+}
+
+function dataload(name){
+    fetch(name).then(response => response.text()).then(text => {
+        let csv = Papa.parse(text, {
+            //header: true,
+            skipEmptyLines: true,
+            dynamicTyping: true,
+            delimiter: ',',
+            delimitersToGuess: [',']
+        });
+
+        setData(csv.data);
+        update();
+    });
+}
+dataload('data.csv')
 
 chart.on('legendselectchanged', function () {
     sortData();
