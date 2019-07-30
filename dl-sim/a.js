@@ -569,3 +569,4 @@ chart.on('legendselectchanged', function () {
     sortData();
     update();
 });
+
