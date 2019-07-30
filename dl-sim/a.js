@@ -198,7 +198,7 @@ function setData(data) {
 }
 
 function sortData() {
-    console.log('sort');
+    //console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
     var filtered = {};
@@ -223,7 +223,7 @@ function sortData() {
             return -1;
         }
     });
-    console.log(characters);
+    //console.log(characters);
 }
 
 
@@ -238,8 +238,8 @@ var datasrc = {};
 var o_data = [];
 var c_data = [];
 function update() {
-    console.log('update');
-    console.log(characters);
+    //console.log('update');
+    //console.log(characters);
     let filtered = characters.filter(character => {
         if (starFilter.value && starFilter.value != character.star) {
             return false;

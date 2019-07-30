@@ -16,7 +16,7 @@
 - Level 80, circle node(50/50) adventurer.
 - Dojo(31/31) altar(35/35) 
 - Have all facilities (include limited) (include dracolith, except fafnir) in level 30.
-- Equiped level100 str 60% dragon except water unit, which use "Dragonyule Jeanne". if you don't have "Dragonyule Jeanne", water unit will lose about 4% DPS.
+- Equiped level100 skill damage dragon if exist. Otherwise 60% str dragon.
 - Equiped MUB 5star element weapon
 
 ## WP
