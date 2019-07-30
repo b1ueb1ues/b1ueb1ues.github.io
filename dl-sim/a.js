@@ -1,4 +1,4 @@
-let chart = echarts.init(document.getElementById('container'));
+var chart = echarts.init(document.getElementById('container'));
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
 let weaponFilter = document.getElementById('weapon');
@@ -197,11 +197,10 @@ function setData(data) {
     characters = tmpdata;
 }
 
-function sortData(data) {
-    //console.log('sort');
+function sortData() {
+    console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
-    //console.log(lg);
     var filtered = {};
     for(var i in lg){
         filtered[i] = !lg[i]
@@ -224,6 +223,7 @@ function sortData(data) {
             return -1;
         }
     });
+    console.log(characters);
 }
 
 
@@ -231,12 +231,15 @@ function create_describe(name, adv){
     return name + '(' + adv.star + adv.element + adv.weapon + ')' + adv.comment;
 }
 
+
 //var _dimensions = {__1:1,__2:2};
 var _dimensions = {};
 var datasrc = {};
 var o_data = [];
 var c_data = [];
 function update() {
+    console.log('update');
+    console.log(characters);
     let filtered = characters.filter(character => {
         if (starFilter.value && starFilter.value != character.star) {
             return false;
@@ -252,6 +255,7 @@ function update() {
     o_data = filtered;
     datasrc = {};
     c_data = {};
+    var name = '';
     var a = [];
     var lines = {};
     var line = {};
@@ -508,16 +512,16 @@ function update() {
 
 var checked = ['ex-kat','ex-rod'];
 function ex_change() {
-    console.log('ex_change');
+    //console.log('ex_change');
     var newchecked = []
     var exs = document.querySelectorAll('input');
-    console.log(exs);
+    //console.log(exs);
     for (var idx in exs){
         ex = exs[idx]
-        console.log(ex.name);
-        console.log(ex.checked);
+        //console.log(ex.name);
+        //console.log(ex.checked);
         if (ex.checked) {
-            console.log(ex.name);
+            //console.log(ex.name);
             newchecked.push(ex.name);
             ex.checked = false;
         }
@@ -527,8 +531,8 @@ function ex_change() {
     }
 
     var affix = '';
-    console.log('////////////////////');
-    console.log(checked)
+    //console.log('////////////////////');
+    //console.log(checked)
     for (var idx in checked) {
         var i = checked[idx]
         document.getElementsByName(i)[0].checked = true;
@@ -545,7 +549,7 @@ function ex_change() {
     if (affix == ''){
         affix = '_'
     }
-    console.log(affix);
+    //console.log(affix);
     dataload('data_'+affix+'.csv');
 }
 
@@ -558,12 +562,15 @@ function dataload(name){
             delimiter: ',',
             delimitersToGuess: [',']
         });
-
         setData(csv.data);
+        update();
+        sortData();
         update();
     });
 }
+
 dataload('data_kr.csv')
+
 
 chart.on('legendselectchanged', function () {
     sortData();
