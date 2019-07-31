@@ -196,6 +196,12 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2338,_c_Renee,4星,水,匕,2225,[RR+FoG][Siren],!<hp70 & bog<=3 & hit15>,,attack:689,force_strike:93,skill_1:1219,skill_2:336,skill_3:0,team_buff:0
 8050,G_Cleo,5星,暗,法,2247,[RR+CE][Shinobi],<hp70 & always in a1>,(the true cleo is here),attack:1255,force_strike:0,skill_1:3787,skill_2:502,skill_3:0,team_buff:2504,fs_alt:0
 4723,_c_G_Cleo,5星,暗,法,2247,[RR+CE][Shinobi],!<hp70 & always in a1>,(the true cleo is here),attack:972,force_strike:0,skill_1:2512,skill_2:432,skill_3:0,team_buff:806
+4664,S_Estelle,4星,水,法,2328,[RR+FoG][Siren],<hit15 & buff all team & hp70>,,attack:1187,force_strike:0,skill_1:1988,skill_2:0,skill_3:823,team_buff:664
+3308,_c_S_Estelle,4星,水,法,2328,[RR+FoG][Siren],!<hit15 & buff all team & hp70>,,attack:968,force_strike:0,skill_1:1620,skill_2:0,skill_3:671,team_buff:48
+3718,S_Ranzal,4星,水,刀,2707,[RR+First_Rate_Hospitality][DJ],<bog resist 60 & last offense & buff all team & hp70>,,attack:1531,force_strike:0,skill_1:1534,skill_2:0,skill_3:0,team_buff:652
+2661,_c_S_Ranzal,4星,水,刀,2707,[RR+First_Rate_Hospitality][DJ],!<bog resist 60 & last offense & buff all team & hp70>,,attack:1297,force_strike:0,skill_1:1364,skill_2:0,skill_3:0,team_buff:0
+5630,S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],<bog resist 60 & buff all team & hp70>,no fs,attack:1513,force_strike:0,skill_1:2242,skill_2:0,skill_3:854,team_buff:1019
+4062,_c_S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],!<bog resist 60 & buff all team & hp70>,no fs,attack:1320,force_strike:0,skill_1:2023,skill_2:0,skill_3:718,team_buff:0
 5732,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(4649~6339),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1651,force_strike:58,skill_1:1710,skill_2:0,skill_3:445,team_buff:0,s1_poison:24,bleed:1842
 5041,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(4088~5575),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1452,force_strike:51,skill_1:1504,skill_2:0,skill_3:392,team_buff:0,s1_poison:21,bleed:1620
 6343,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4920~7243),<hp70>,,attack:1002,force_strike:0,skill_1:2174,skill_2:0,skill_3:701,team_buff:0,bleed:2465
