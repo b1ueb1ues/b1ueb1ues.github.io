@@ -74,7 +74,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3503,Julietta,5星,光,斧,3024,[KFM+Flower_in_the_Fray][Cupid], ,no fs & no s2,attack:1623,force_strike:0,skill_1:1879,skill_2:0,skill_3:0,team_buff:0
 4377,Karina,4星,水,斧,2304,[KFM+Flower_in_the_Fray][Siren], ,,attack:1027,force_strike:85,skill_1:1852,skill_2:876,skill_3:534,team_buff:0
 3522,Linus,3星,光,斧,2963,[KFM+Flower_in_the_Fray][Cupid], ,do not use weapon skill,attack:1346,force_strike:160,skill_1:1390,skill_2:625,skill_3:0,team_buff:0
-3808,Pietro,3星,水,斧,2287,[KFM+Flower_in_the_Fray][Siren], ,,attack:1083,force_strike:133,skill_1:1910,skill_2:0,skill_3:680,team_buff:0
+3939,Pietro,3星,水,斧,2763,[KFM+Flower_in_the_Fray][DJ], ,,attack:1527,force_strike:188,skill_1:1639,skill_2:0,skill_3:583,team_buff:0
 3571,Ranzal,4星,风,斧,3007,[KFM+Flower_in_the_Fray][Zephyr], ,do not use fs,attack:1487,force_strike:0,skill_1:1550,skill_2:0,skill_3:533,team_buff:0
 4395,Rex,3星,水,斧,2379,[KFM+Flower_in_the_Fray][Siren], ,,attack:1031,force_strike:120,skill_1:1722,skill_2:827,skill_3:694,team_buff:0
 4525,Vanessa,4星,火,斧,2332,[KFM+Flower_in_the_Fray][Sakuya],<last offense>,,attack:1127,force_strike:195,skill_1:2151,skill_2:899,skill_3:0,team_buff:151
@@ -83,9 +83,9 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2483,_c_Aeleen,4星,风,枪,2934,[RR+CE][Zephyr],!<hp70>,,attack:1018,force_strike:156,skill_1:1307,skill_2:0,skill_3:0,team_buff:0
 3691,Alain,3星,火,枪,2219,[RR+CE][Sakuya],<hp70>,,attack:804,force_strike:90,skill_1:1542,skill_2:694,skill_3:559,team_buff:0
 3156,_c_Alain,3星,火,枪,2219,[RR+CE][Sakuya],!<hp70>,,attack:687,force_strike:76,skill_1:1318,skill_2:593,skill_3:478,team_buff:0
-2151,Cibella,3星,水,枪,2171,[RR+CE][Siren],<hp70>,,attack:957,force_strike:176,skill_1:0,skill_2:1018,skill_3:0,team_buff:0
-1839,_c_Cibella,3星,水,枪,2171,[RR+CE][Siren],!<hp70>,,attack:818,force_strike:150,skill_1:0,skill_2:870,skill_3:0,team_buff:0
-5533,Elisanne,4星,水,枪,2194,[Halidom_Grooms+Indelible_Summer][Siren], ,,attack:1142,force_strike:164,skill_1:0,skill_2:870,skill_3:0,team_buff:3355
+2331,Cibella,3星,水,枪,2624,[RR+CE][DJ],<hp70>,,attack:1286,force_strike:236,skill_1:0,skill_2:808,skill_3:0,team_buff:0
+2040,_c_Cibella,3星,水,枪,2624,[RR+CE][DJ],!<hp70>,,attack:1125,force_strike:206,skill_1:0,skill_2:707,skill_3:0,team_buff:0
+5783,Elisanne,4星,水,枪,2651,[Halidom_Grooms+Indelible_Summer][DJ], ,,attack:1571,force_strike:226,skill_1:0,skill_2:630,skill_3:0,team_buff:3355
 4515,H_Elisanne,5星,光,枪,3076,[RR+CE][Cupid],<hp70>,,attack:841,force_strike:149,skill_1:1526,skill_2:832,skill_3:539,team_buff:626
 4035,_c_H_Elisanne,5星,光,枪,3076,[RR+CE][Cupid],!<hp70>,,attack:737,force_strike:131,skill_1:1337,skill_2:729,skill_3:473,team_buff:626
 3830,Malka,3星,光,枪,3015,[RR+CE][Cupid],<hp70>,,attack:1187,force_strike:177,skill_1:1432,skill_2:0,skill_3:558,team_buff:475
@@ -98,8 +98,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3273,_c_Xainfried,5星,水,枪,2264,[RR+CE][Siren],!<hp70>,use s1 only to cancel c5 of fs,attack:777,force_strike:82,skill_1:1628,skill_2:0,skill_3:0,team_buff:785
 3894,Zace,3星,暗,枪,2320,[Jewels_of_the_Sun+RR][Shinobi],<hp70>,,attack:727,force_strike:85,skill_1:1684,skill_2:773,skill_3:622,team_buff:0
 3407,_c_Zace,3星,暗,枪,2320,[Jewels_of_the_Sun+RR][Shinobi],!<hp70>,,attack:636,force_strike:74,skill_1:1473,skill_2:676,skill_3:544,team_buff:0
-2827,D_Nefaria,4星,水,弓,2217,[RR+FoG][Siren],<c4+fs & hp70 & hit15>,,attack:624,force_strike:372,skill_1:1830,skill_2:0,skill_3:0,team_buff:0
-2214,_c_D_Nefaria,4星,水,弓,2217,[RR+FoG][Siren],!<c4+fs & hp70 & hit15>,,attack:721,force_strike:0,skill_1:1493,skill_2:0,skill_3:0,team_buff:0
+2857,D_Nefaria,4星,水,弓,2679,[RR+FoG][DJ],<c4+fs & hp70 & hit15>,,attack:828,force_strike:494,skill_1:1534,skill_2:0,skill_3:0,team_buff:0
+2278,_c_D_Nefaria,4星,水,弓,2679,[RR+FoG][DJ],!<c4+fs & hp70 & hit15>,,attack:987,force_strike:0,skill_1:1291,skill_2:0,skill_3:0,team_buff:0
 3020,Eleonora,4星,风,弓,2942,[RR+FoG][Zephyr],<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:806,force_strike:484,skill_1:1094,skill_2:570,skill_3:0,team_buff:0,s1_poison:63
 2392,_c_Eleonora,4星,风,弓,2942,[RR+FoG][Zephyr],!<c4+fs & hp70 & hit15>,poison by s1 3 times,attack:960,force_strike:0,skill_1:928,skill_2:449,skill_3:0,team_buff:0,s1_poison:54
 2948,Elias,4星,光,弓,2843,[RR+FoG][Cupid],<hp70 & energy & hit15 & last offense & c4+fs & no s2>,,attack:813,force_strike:481,skill_1:1282,skill_2:0,skill_3:370,team_buff:0
@@ -146,14 +146,14 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3938,_c_Albert,5星,光,剑,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:900,force_strike:464,skill_1:1308,skill_2:0,skill_3:490,team_buff:0,s1_hit4:45,s1_s2boost:637,s1_hit3:45,s1_hit2:45
 5125,Odetta,4星,光,剑,3070,[RR+Stellar_Show][Cupid],<hp70 & buff all team>,c2+fs,attack:1068,force_strike:1186,skill_1:1563,skill_2:0,skill_3:0,team_buff:1305
 3587,_c_Odetta,4星,光,剑,3070,[RR+Stellar_Show][Cupid],!<hp70 & buff all team>,c2+fs,attack:942,force_strike:1047,skill_1:1379,skill_2:0,skill_3:0,team_buff:218
-2771,Jakob,3星,水,枪,2171,[RR+CE][Siren],<hp70 & 60 bog resist>,,attack:888,force_strike:132,skill_1:1592,skill_2:0,skill_3:0,team_buff:158
-2392,_c_Jakob,3星,水,枪,2171,[RR+CE][Siren],!<hp70 & 60 bog resist>,,attack:759,force_strike:113,skill_1:1361,skill_2:0,skill_3:0,team_buff:158
+2793,Jakob,3星,水,枪,2624,[RR+CE][DJ],<hp70 & 60 bog resist>,,attack:1193,force_strike:178,skill_1:1263,skill_2:0,skill_3:0,team_buff:158
+2464,_c_Jakob,3星,水,枪,2624,[RR+CE][DJ],!<hp70 & 60 bog resist>,,attack:1044,force_strike:156,skill_1:1106,skill_2:0,skill_3:0,team_buff:158
 4613,Curran,5星,暗,斧,2367,[KFM+Flower_in_the_Fray][Shinobi],<last offense>,no fs,attack:1315,force_strike:0,skill_1:2129,skill_2:1021,skill_3:0,team_buff:146
 4491,_c_Curran,5星,暗,斧,2367,[KFM+Flower_in_the_Fray][Shinobi],!<last offense>,no fs,attack:1257,force_strike:0,skill_1:2065,skill_2:1021,skill_3:0,team_buff:146
 4487,G_Ranzal,5星,风,剑,3020,[VC+First_Rate_Hospitality][Zephyr],<hp70>,3FS & first S1 with 1 gauge & S2 with >=30% gauge,attack:1141,force_strike:304,skill_1:1454,skill_2:0,skill_3:0,team_buff:0,fs_alt:467,s1_boost:1118
 4273,_c_G_Ranzal,5星,风,剑,3020,[VC+First_Rate_Hospitality][Zephyr],!<hp70>,3FS & first S1 with 1 gauge & S2 with >=30% gauge,attack:1087,force_strike:290,skill_1:1385,skill_2:0,skill_3:0,team_buff:0,fs_alt:445,s1_boost:1065
-3583,Laranoa,5星,水,弓,2225,[RR+FoG][Siren],<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:755,force_strike:221,skill_1:2399,skill_2:0,skill_3:0,team_buff:207
-2626,_c_Laranoa,5星,水,弓,2225,[RR+FoG][Siren],!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:693,force_strike:0,skill_1:1933,skill_2:0,skill_3:0,team_buff:0
+3704,Laranoa,5星,水,弓,2689,[RR+FoG][DJ],<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:1055,force_strike:307,skill_1:2133,skill_2:0,skill_3:0,team_buff:207
+2639,_c_Laranoa,5星,水,弓,2689,[RR+FoG][DJ],!<c4+fs & hit15 & buff all team & never lose comboes & hp70>,doesn't count spbuff for teammates,attack:948,force_strike:0,skill_1:1691,skill_2:0,skill_3:0,team_buff:0
 3038,Fleur,4星,光,匕,2980,[RR+FoG][Cupid],<hp70 & hit15>,don't use s2 in s3 nor s3 in s2,attack:1500,force_strike:213,skill_1:1325,skill_2:0,skill_3:0,team_buff:0
 2567,_c_Fleur,4星,光,匕,2980,[RR+FoG][Cupid],!<hp70 & hit15>,don't use s2 in s3 nor s3 in s2,attack:1267,force_strike:180,skill_1:1119,skill_2:0,skill_3:0,team_buff:0
 3690,Yue,4星,火,斧,2698,[KFM+Flower_in_the_Fray][Arctos], ,Arctos,attack:1741,force_strike:167,skill_1:1780,skill_2:0,skill_3:0,team_buff:0
