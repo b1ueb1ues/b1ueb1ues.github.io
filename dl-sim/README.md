@@ -15,8 +15,9 @@
 ## stat
 - Level 80, circle node(50/50) adventurer.
 - Dojo(31/31) altar(35/35) 
-- Have all facilities (include limited) (include dracolith, except fafnir) in level 30.
-- Equiped level100 skill damage dragon if exist. Otherwise 60% str dragon.
+- Have all limited facilities in level 30.
+- Including dracolith for g\_mym , except fafnir.
+- Equiped skill damage dragon if exist. Otherwise 60% str dragon. Unless mentioned. Both in max level.
 - Equiped MUB 5star element weapon
 
 ## WP
@@ -46,7 +47,6 @@
 
 ## Not take into consideration: 
 #### (means that you should add some score yourself to unit have that kind of abilities)
-- Ex-skills(Co-abilities)
 - Shapeshift
 - Phraeganoth/Physian/Demon Bane
 - Slayer's Strength/Striker's Strength except for special page
@@ -58,7 +58,7 @@
 - Flurry Strength/Crit
 - Flurry Debilitator
 - 30 Hits = Energy Level Up
-- Affliction and damage boost from affliction. One type of Affliction can proc 3 times in one simulation. (You can't proc any affliction to HBH, at most 5 poison to HMC, at most 3 burn to HMS)
+- Affliction and damage boost from affliction.
 - Trigger Last Offense at simulation start
 
 ## special mechanics
