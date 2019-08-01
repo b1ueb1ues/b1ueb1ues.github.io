@@ -198,13 +198,14 @@ function setData(data) {
 }
 
 function sortData() {
-    //console.log('sort');
+    console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
     var filtered = {};
     for(var i in lg){
         filtered[i] = !lg[i]
     }
+    //console.log(filtered);
     for(var a in characters){
         var dps = 0;
         for(var i in characters[a].details){
@@ -223,7 +224,7 @@ function sortData() {
             return -1;
         }
     });
-    //console.log(characters);
+    console.log(characters);
 }
 
 
@@ -569,6 +570,7 @@ function dataload(name){
     });
 }
 
+console.log('!');
 dataload('data_kr.csv')
 
 
