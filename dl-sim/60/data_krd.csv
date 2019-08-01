@@ -205,8 +205,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2614,_c_S_Ranzal,4星,水,刀,2240,[RR+First_Rate_Hospitality][Siren],!<hp70 & last offense & buff all team>,no bog,attack:938,force_strike:0,skill_1:1676,skill_2:0,skill_3:0,team_buff:0
 4958,S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],<hp70 & buff all team>,no fs; no bog,attack:1599,force_strike:0,skill_1:2234,skill_2:0,skill_3:551,team_buff:573
 3956,_c_S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1443,force_strike:0,skill_1:2015,skill_2:0,skill_3:497,team_buff:0
-4967,S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],<hp70>,no bog,attack:875,force_strike:399,skill_1:2170,skill_2:447,skill_3:909,team_buff:164
-4598,_c_S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],!<hp70>,no bog,attack:807,force_strike:369,skill_1:2003,skill_2:413,skill_3:839,team_buff:164
+4812,S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],<hp70>,no bog; don't s3,attack:985,force_strike:448,skill_1:2478,skill_2:669,skill_3:0,team_buff:229
+4459,_c_S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],!<hp70>,no bog; don't s3,attack:909,force_strike:414,skill_1:2287,skill_2:618,skill_3:0,team_buff:229
 4863,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3622~5271),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1625,force_strike:44,skill_1:1763,skill_2:0,skill_3:306,team_buff:0,s1_poison:71,bleed:1053
 4276,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3185~4635),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1429,force_strike:38,skill_1:1550,skill_2:0,skill_3:269,team_buff:0,s1_poison:62,bleed:926
 5767,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3605~6536),<hp70>,,attack:1031,force_strike:0,skill_1:2264,skill_2:0,skill_3:408,team_buff:0,bleed:2062
