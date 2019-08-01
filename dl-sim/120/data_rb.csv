@@ -192,8 +192,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4948,Yaten,5星,暗,剑,2281,[The_Shining_Overlord+LC][Shinobi],<hp70 & energy>,,attack:840,force_strike:386,skill_1:2486,skill_2:0,skill_3:0,team_buff:0,team_energy:229,s1_energized:188,s1_boost_energized:145,s1_boost:670
 2822,_c_Yaten,5星,暗,剑,2281,[The_Shining_Overlord+LC][Shinobi],!<hp70 & energy>,,attack:671,force_strike:308,skill_1:1842,skill_2:0,skill_3:0,team_buff:0
 5519,Ramona,5星,火,斧,2379,[KFM+VC][Sakuya], ,no fs;TL>EoL>VC>CE if trigger,attack:856,force_strike:0,skill_1:4663,skill_2:0,skill_3:0,team_buff:0
-4182,Rena,5星,火,刀,2287,[RR+Elegant_Escort][Sakuya];dpsrange:(4045~4318),<hp70 & 0 burn resist>,,attack:880,force_strike:0,skill_1:2061,skill_2:0,skill_3:742,team_buff:0,s1_boost:278,s1_burn:218
-3737,_c_Rena,5星,火,刀,2287,[RR+Elegant_Escort][Sakuya];dpsrange:(3559~3934),!<hp70 & 0 burn resist>,,attack:820,force_strike:0,skill_1:1923,skill_2:0,skill_3:689,team_buff:0,s1_boost:184,s1_burn:119
+4177,Rena,5星,火,刀,2287,[RR+Elegant_Escort][Sakuya];dpsrange:(4045~4318),<hp70 & 0 burn resist>,,attack:880,force_strike:0,skill_1:2061,skill_2:0,skill_3:742,team_buff:0,s1_boost:273,s1_burn:218
+3734,_c_Rena,5星,火,刀,2287,[RR+Elegant_Escort][Sakuya];dpsrange:(3472~3939),!<hp70 & 0 burn resist>,,attack:820,force_strike:0,skill_1:1923,skill_2:0,skill_3:689,team_buff:0,s1_boost:183,s1_burn:116
 2911,Renee,4星,水,匕,2225,[RR+FoG][Siren],<hp70 & hit15>,no bog,attack:898,force_strike:52,skill_1:1544,skill_2:416,skill_3:0,team_buff:0
 2374,_c_Renee,4星,水,匕,2225,[RR+FoG][Siren],!<hp70 & hit15>,no bog,attack:732,force_strike:42,skill_1:1259,skill_2:339,skill_3:0,team_buff:0
 7962,G_Cleo,5星,暗,法,2255,[RR+Jewels_of_the_Sun][Shinobi],<hp70 & always in a1>,(the true cleo is here),attack:1130,force_strike:0,skill_1:3664,skill_2:589,skill_3:0,team_buff:2576,fs_alt:0
@@ -204,6 +204,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2465,_c_S_Ranzal,4星,水,刀,2240,[RR+First_Rate_Hospitality][Siren],!<hp70 & last offense & buff all team>,no bog,attack:886,force_strike:0,skill_1:1579,skill_2:0,skill_3:0,team_buff:0
 5241,S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],<hp70 & buff all team>,no fs; no bog,attack:1338,force_strike:0,skill_1:2343,skill_2:0,skill_3:944,team_buff:614
 4174,_c_S_Julietta,5星,水,斧,2436,[KFM+CE][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1207,force_strike:0,skill_1:2114,skill_2:0,skill_3:852,team_buff:0
+4587,S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],<hp70>,no bog,attack:731,force_strike:334,skill_1:1867,skill_2:476,skill_3:794,team_buff:382
+4264,_c_S_Celliera,5星,水,剑,2323,[The_Shining_Overlord+Jewels_of_the_Sun][Siren],!<hp70>,no bog,attack:675,force_strike:308,skill_1:1723,skill_2:440,skill_3:733,team_buff:382
 5188,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3980~5760),<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1543,force_strike:17,skill_1:1592,skill_2:0,skill_3:439,team_buff:0,s1_poison:46,bleed:1548
 4547,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3488~5048),!<hp70>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1353,force_strike:15,skill_1:1395,skill_2:0,skill_3:385,team_buff:0,s1_poison:40,bleed:1357
 5955,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4442~6777),<hp70>,,attack:914,force_strike:0,skill_1:1990,skill_2:0,skill_3:764,team_buff:0,bleed:2286
