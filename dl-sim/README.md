@@ -80,7 +80,9 @@
 b1ueb1ues,  
 tiara (proofreading),  
 luciferz2012(first version of website),  
-Matt(rotation improve)  
+Matt(rotation improve),
+qwewqa,
+haukist
 
 ## Acknowledgement
-Totakeke, Shark3143, SanyamBansal, emrysduvent, ZedK, B3GG, 6tennis, qwewqa, CarelessParsley, haukist
+Totakeke, Shark3143, SanyamBansal, emrysduvent, ZedK, B3GG, 6tennis, CarelessParsley
