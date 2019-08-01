@@ -62,17 +62,17 @@
 - Trigger Last Offense at simulation start
 
 ## special mechanics
-- Consider other teammember have a total of 7000 dps.
-- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 4700 damage for each into team dps.
+- Consider other teammember have a total of 6000 (affect by co-abs, bladex1.1, wandx1.08, daggerx1.07, bowx1.05) dps.
+- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 7500x0.5 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. 
-- Consider only dragon once at middle of fight for dragon claw.
-- Consider break punisher to have 15% efficiency
-- Consider od punisher to have 35% efficiency
+- Get dragon claw once at middle of fight.
+- Consider break punisher to have 15% efficiency.
+- Consider od punisher to have 35% efficiency.
 
-## why 7000 team?
+## why 6000 team?
 - The underestimate of team dps is intend.
 - This chart is not always for people who aimming at HDT, someone just want to know who can deal more damage to decide who to invest. I don't think eli/melody is good for investment outside HDT, their most power need no equip to archieve.
-- It's pretty easy for those who only care about HDT preformance to do teamdps / 7000 * whateverYouWant
+- It's pretty easy for those who only care about HDT preformance to do teamdps / 6000 * whateverYouWant
 - Buff decrease more after reduce active action time. (btw so does bleed). Unlike Xania will lose 50% damage if you take off her 50% damage time to dodge. Buff is likely to lose 75% damage when you take off 50% active action time, because buff loss 50% uptime by the mean time the action buffed by this buff lose 50%.
 
 
