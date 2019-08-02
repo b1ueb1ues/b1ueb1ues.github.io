@@ -11,7 +11,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2274,_c_Heinwald,5星,暗,奶,2192,[RR+Jewels_of_the_Sun][Shinobi],!<hp70 & buff all teammates>,,attack:825,force_strike:0,skill_1:1080,skill_2:0,skill_3:368,team_buff:0
 4432,Linyou,5星,风,斧,3190,[KFM+Flower_in_the_Fray][Zephyr],<hp70>,2in1 ; Zephyr,attack:1675,force_strike:0,skill_1:1640,skill_2:0,skill_3:614,team_buff:0,s1_powerup:501
 4148,_c_Linyou,5星,风,斧,3190,[KFM+Flower_in_the_Fray][Zephyr],!<hp70>,2in1 ; Zephyr,attack:1568,force_strike:0,skill_1:1535,skill_2:0,skill_3:575,team_buff:0,s1_powerup:469
-3615,Louise,5星,风,弓,2935,[Stellar_Show+Forest_Bonds][Zephyr], ,poison 3 times & roll fs & g_ranzal+lowen,attack:0,force_strike:1835,skill_1:1120,skill_2:522,skill_3:0,team_buff:0,s2hitpoison:79,s1_poison:57
+3806,Louise,5星,风,弓,2749,[Stellar_Show+Forest_Bonds][Pazuzu],<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1846,skill_1:1117,skill_2:534,skill_3:0,team_buff:0,s1_poison:172,s2_boost:136
+3257,_c_Louise,5星,风,弓,2749,[Stellar_Show+Forest_Bonds][Pazuzu],!<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1719,skill_1:1048,skill_2:489,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
 6993,Veronica,5星,暗,法,2294,[FoG+Heralds_of_Hinomoto][Shinobi],<hp1 & hit15>,1hp; only c5 & s1; ,attack:1120,force_strike:0,skill_1:2570,skill_2:0,skill_3:0,team_buff:87,s1_crisis:3213
 3252,_c_Veronica,5星,暗,法,2294,[FoG+Heralds_of_Hinomoto][Shinobi],!<hp1 & hit15>,1hp; only c5 & s1; ,attack:960,force_strike:0,skill_1:2203,skill_2:0,skill_3:0,team_buff:87
 4446,Marth,5星,火,剑,2327,[The_Shining_Overlord+FoG][Sakuya],<hit15>,dodge*2 to miss s2p3 then dodge*2 back to attack,attack:751,force_strike:342,skill_1:1568,skill_2:157,skill_3:563,team_buff:1062
@@ -26,11 +27,11 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2860,_c_G_Sarisse,5星,火,弓,2229,[Forest_Bonds+Stellar_Show][Sakuya],!<rollfs & never lose combos>,,attack:755,force_strike:0,skill_1:1814,skill_2:0,skill_3:0,team_buff:290
 3843,Laranoa,5星,水,弓,2700,[Forest_Bonds+Stellar_Show][DJ],<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:0,force_strike:1920,skill_1:1723,skill_2:0,skill_3:0,team_buff:199
 2537,_c_Laranoa,5星,水,弓,2700,[Forest_Bonds+Stellar_Show][DJ],!<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:957,force_strike:0,skill_1:1579,skill_2:0,skill_3:0,team_buff:0
-3353,Louise,5星,风,弓,2935,[Forest_Bonds+Stellar_Show][Zephyr],<rollfs>,poison*3,attack:0,force_strike:1621,skill_1:1017,skill_2:578,skill_3:0,team_buff:0,s2hitpoison:79,s1_poison:57
-2685,_c_Louise,5星,风,弓,2935,[Forest_Bonds+Stellar_Show][Zephyr],!<rollfs>,poison*3,attack:891,force_strike:0,skill_1:1076,skill_2:580,skill_3:0,team_buff:0,s2hitpoison:79,s1_poison:57
-5919,Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4895~6603),<hp70 & hp100>,v534 against HMC; ,attack:2007,force_strike:82,skill_1:1785,skill_2:0,skill_3:0,team_buff:0,s1_poison:24,bleed:2020
-5097,_c_Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4242~5686),!<hp70 & hp100>,v534 against HMC; ,attack:1728,force_strike:71,skill_1:1537,skill_2:0,skill_3:0,team_buff:0,s1_poison:20,bleed:1739
-7084,Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(6982~7141),<energy & hit15 & hp1>,1hp;,attack:1364,force_strike:29,skill_1:2284,skill_2:0,skill_3:805,team_buff:0,s1_energized:65,s1_crisis:2284,s3_energized:80,s1_crisis_energized:171
+3436,Louise,5星,风,弓,2749,[Forest_Bonds+Stellar_Show][Pazuzu],<rollfs & 0 resist>,,attack:0,force_strike:1614,skill_1:1006,skill_2:582,skill_3:0,team_buff:0,s1_poison:110,s2_boost:122
+2386,_c_Louise,5星,风,弓,2749,[Forest_Bonds+Stellar_Show][Pazuzu],!<rollfs & 0 resist>,,attack:835,force_strike:0,skill_1:1008,skill_2:543,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
+5938,Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4807~6602),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:2007,force_strike:82,skill_1:1783,skill_2:0,skill_3:0,team_buff:0,s1_poison:24,bleed:2040
+5075,_c_Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4003~5665),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1728,force_strike:70,skill_1:1540,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:1735
+7081,Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(6954~7141),<energy & hit15 & hp1>,1hp;,attack:1364,force_strike:29,skill_1:2284,skill_2:0,skill_3:805,team_buff:0,s1_energized:64,s1_crisis:2284,s3_energized:81,s1_crisis_energized:168
 3362,_c_Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(3362~3362),!<energy & hit15 & hp1>,1hp;,attack:1023,force_strike:22,skill_1:1713,skill_2:0,skill_3:603,team_buff:0
-5783,Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(5724~5826),<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1278,force_strike:0,skill_1:2069,skill_2:0,skill_3:933,team_buff:0,s1_energized:15,s1_crisis:1324,s3_energized:98,s1_crisis_energized:63
+5784,Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(5724~5826),<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1278,force_strike:0,skill_1:2069,skill_2:0,skill_3:933,team_buff:0,s1_energized:15,s1_crisis:1324,s3_energized:98,s1_crisis_energized:64
 3413,_c_Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(3413~3413),!<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1045,force_strike:0,skill_1:1636,skill_2:0,skill_3:730,team_buff:0
