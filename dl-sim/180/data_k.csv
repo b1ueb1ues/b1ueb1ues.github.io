@@ -25,8 +25,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2625,_c_Jurota,3星,水,刀,2317,[RR+CE][Siren],!<hp70>,,attack:1020,force_strike:0,skill_1:1604,skill_2:0,skill_3:0,team_buff:0
 4481,Melody,3星,风,刀,3040,[Halidom_Grooms+RR][Zephyr],<hp70 & hp100>,no s2,attack:1854,force_strike:0,skill_1:0,skill_2:0,skill_3:652,team_buff:1974
 4231,_c_Melody,3星,风,刀,3040,[Halidom_Grooms+RR][Zephyr],!<hp70 & hp100>,no s2,attack:1669,force_strike:0,skill_1:0,skill_2:0,skill_3:587,team_buff:1974
-4315,Mikoto,5星,火,刀,2876,[LC+RR][Arctos],<connect s1 & hp70>,,attack:2053,force_strike:0,skill_1:1571,skill_2:0,skill_3:689,team_buff:0
-3246,_c_Mikoto,5星,火,刀,2876,[LC+RR][Arctos],!<connect s1 & hp70>,,attack:1677,force_strike:0,skill_1:1037,skill_2:0,skill_3:531,team_buff:0
+4333,Mikoto,5星,火,刀,2383,[RR+CE][Sakuya],<connect s1 & hp70>,,attack:1513,force_strike:0,skill_1:1959,skill_2:0,skill_3:860,team_buff:0
+3368,_c_Mikoto,5星,火,刀,2383,[RR+CE][Sakuya],!<connect s1 & hp70>,,attack:1304,force_strike:0,skill_1:1365,skill_2:0,skill_3:699,team_buff:0
 3453,Musashi,4星,风,刀,2936,[RR+CE][Pazuzu],<hp70 & last offense & 0 resist>,,attack:1486,force_strike:0,skill_1:1313,skill_2:0,skill_3:519,team_buff:0,s1_poison:133
 2657,_c_Musashi,4星,风,刀,2936,[RR+CE][Pazuzu],!<hp70 & last offense & 0 resist>,,attack:1176,force_strike:0,skill_1:1062,skill_2:0,skill_3:418,team_buff:0,s1_poison:0
 3314,Taro,3星,暗,刀,2370,[RR+CE][Shinobi],<hp70>,,attack:894,force_strike:0,skill_1:1324,skill_2:595,skill_3:501,team_buff:0
@@ -205,8 +205,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2265,_c_S_Ranzal,4星,水,刀,2240,[RR+First_Rate_Hospitality][Siren],!<hp70 & last offense & buff all team>,no bog,attack:889,force_strike:0,skill_1:1376,skill_2:0,skill_3:0,team_buff:0
 4960,S_Julietta,5星,水,斧,2445,[KFM+Jewels_of_the_Sun][Siren],<hp70 & buff all team>,no fs; no bog,attack:1443,force_strike:0,skill_1:1969,skill_2:0,skill_3:840,team_buff:707
 3926,_c_S_Julietta,5星,水,斧,2445,[KFM+Jewels_of_the_Sun][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1332,force_strike:0,skill_1:1818,skill_2:0,skill_3:775,team_buff:0
-5145,S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],<hp70>,no bog; don't s3,attack:1214,force_strike:897,skill_1:1887,skill_2:546,skill_3:0,team_buff:599
-4852,_c_S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],!<hp70>,no bog; don't s3,attack:1136,force_strike:839,skill_1:1765,skill_2:511,skill_3:0,team_buff:599
+5145,S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],<hp70>,no bog; don't s3; c2fs,attack:1214,force_strike:897,skill_1:1887,skill_2:546,skill_3:0,team_buff:599
+4852,_c_S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],!<hp70>,no bog; don't s3; c2fs,attack:1136,force_strike:839,skill_1:1765,skill_2:511,skill_3:0,team_buff:599
 4897,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3928~5380),<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1550,force_strike:54,skill_1:1396,skill_2:0,skill_3:362,team_buff:0,s1_poison:19,bleed:1513
 4273,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3413~4698),!<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1358,force_strike:47,skill_1:1223,skill_2:0,skill_3:318,team_buff:0,s1_poison:0,bleed:1324
 5249,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4108~5989),<hp70>,,attack:933,force_strike:0,skill_1:1761,skill_2:0,skill_3:567,team_buff:0,bleed:1986
