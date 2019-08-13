@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#header,
+#filter {
+  text-align: center;
+}
+#ex {
+  text-align: center;
+  padding: 5px;
+}
+
+select {
+  width: 50px;
+}
+
+#container {
+  flex: auto;
+}
