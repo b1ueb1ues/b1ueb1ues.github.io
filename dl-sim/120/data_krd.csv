@@ -207,10 +207,10 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4475,_c_S_Julietta,5星,水,斧,2445,[KFM+Jewels_of_the_Sun][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1405,force_strike:0,skill_1:2099,skill_2:0,skill_3:970,team_buff:0
 5973,S_Celliera,5星,水,剑,2323,[VC+Jewels_of_the_Sun][Siren],<hp70>,no bog; don't s3; c2fs,attack:955,force_strike:706,skill_1:2883,skill_2:739,skill_3:0,team_buff:687
 5566,_c_S_Celliera,5星,水,剑,2323,[VC+Jewels_of_the_Sun][Siren],!<hp70>,no bog; don't s3; c2fs,attack:882,force_strike:652,skill_1:2662,skill_2:682,skill_3:0,team_buff:687
-4722,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],<hit15 & buff all team & hp70>,nofs,attack:1264,force_strike:0,skill_1:1834,skill_2:0,skill_3:568,team_buff:191,s1_paralysis:158,s1_boost:703
-3830,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],!<hit15 & buff all team & hp70>,nofs,attack:1069,force_strike:0,skill_1:1551,skill_2:0,skill_3:480,team_buff:0,s1_paralysis:134,s1_boost:595
-3881,S_Luca,4星,光,斧,2856,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3497~3565),<hp70 & energy>,,attack:1835,force_strike:0,skill_1:1949,skill_2:0,skill_3:0,team_buff:0,s1_energized:97
-3562,_c_S_Luca,4星,光,斧,2856,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3238~3238),!<hp70 & energy>,,attack:1727,force_strike:0,skill_1:1834,skill_2:0,skill_3:0,team_buff:0
+4722,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1264,force_strike:0,skill_1:1834,skill_2:0,skill_3:568,team_buff:191,s1_paralysis:158,s1_boost:703
+2723,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],!<hit15 & buff all team & 0 resist & hp70>,nofs,attack:981,force_strike:0,skill_1:1088,skill_2:0,skill_3:434,team_buff:0,s1_paralysis:0,s1_boost:218
+4139,S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3755~3817),<hp70 & energy>,,attack:1837,force_strike:174,skill_1:2051,skill_2:0,skill_3:0,team_buff:0,s1_energized:75
+3824,_c_S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3476~3476),!<hp70 & energy>,,attack:1729,force_strike:164,skill_1:1930,skill_2:0,skill_3:0,team_buff:0
 5589,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(4396~6100),<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1625,force_strike:56,skill_1:1697,skill_2:0,skill_3:470,team_buff:0,s1_poison:36,bleed:1704
 4876,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3711~5332),!<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1429,force_strike:49,skill_1:1492,skill_2:0,skill_3:413,team_buff:0,s1_poison:0,bleed:1492
 6062,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4209~6933),<hp70>,,attack:999,force_strike:0,skill_1:2101,skill_2:0,skill_3:618,team_buff:0,bleed:2343
