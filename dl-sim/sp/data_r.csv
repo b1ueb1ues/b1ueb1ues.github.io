@@ -5,8 +5,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 6496,_c_Xander,5星,水,剑,2354,[Together_We_Stand+RR][Siren],!<hp70>,10 stacks striker's strength,attack:816,force_strike:778,skill_1:2460,skill_2:1210,skill_3:0,team_buff:0,s1_boost:1230
 2876,Xander,5星,水,剑,2864,[Stellar_Show+LC][DJ],<hp70>,only 2+1,attack:1160,force_strike:1716,skill_1:0,skill_2:0,skill_3:0,team_buff:0
 2667,_c_Xander,5星,水,剑,2864,[Stellar_Show+LC][DJ],!<hp70>,only 2+1,attack:1076,force_strike:1591,skill_1:0,skill_2:0,skill_3:0,team_buff:0
-4163,Vanessa,4星,火,斧,1995,[KFM+Flower_in_the_Fray][Sakuya],<last offense>,void weapon vs HMS,attack:1089,force_strike:81,skill_1:2032,skill_2:809,skill_3:0,team_buff:150
-4071,_c_Vanessa,4星,火,斧,1995,[KFM+Flower_in_the_Fray][Sakuya],!<last offense>,void weapon vs HMS,attack:1061,force_strike:81,skill_1:1997,skill_2:780,skill_3:0,team_buff:150
+3494,Vanessa,4星,火,斧,1995,[KFM+Flower_in_the_Fray][Sakuya],<last offense>,void weapon vs HMS,attack:907,force_strike:68,skill_1:1693,skill_2:674,skill_3:0,team_buff:150
+3417,_c_Vanessa,4星,火,斧,1995,[KFM+Flower_in_the_Fray][Sakuya],!<last offense>,void weapon vs HMS,attack:884,force_strike:68,skill_1:1664,skill_2:650,skill_3:0,team_buff:150
 3255,Heinwald,5星,暗,奶,2192,[RR+Jewels_of_the_Sun][Shinobi],<hp70 & buff all teammates>,,attack:882,force_strike:0,skill_1:1329,skill_2:0,skill_3:453,team_buff:590
 2330,_c_Heinwald,5星,暗,奶,2192,[RR+Jewels_of_the_Sun][Shinobi],!<hp70 & buff all teammates>,,attack:771,force_strike:0,skill_1:1162,skill_2:0,skill_3:396,team_buff:0
 4535,Linyou,5星,风,斧,3190,[KFM+Flower_in_the_Fray][Zephyr],<hp70>,2in1 ; Zephyr,attack:1568,force_strike:0,skill_1:1765,skill_2:0,skill_3:661,team_buff:0,s1_powerup:539
@@ -29,9 +29,9 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2597,_c_Laranoa,5星,水,弓,2700,[Forest_Bonds+Stellar_Show][DJ],!<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:896,force_strike:0,skill_1:1701,skill_2:0,skill_3:0,team_buff:0
 3446,Louise,5星,风,弓,2749,[Forest_Bonds+Stellar_Show][Pazuzu],<rollfs & 0 resist>,,attack:0,force_strike:1499,skill_1:1074,skill_2:622,skill_3:0,team_buff:0,s1_poison:117,s2_boost:130
 2432,_c_Louise,5星,风,弓,2749,[Forest_Bonds+Stellar_Show][Pazuzu],!<rollfs & 0 resist>,,attack:774,force_strike:0,skill_1:1076,skill_2:581,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
-6032,Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4886~6750),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1861,force_strike:76,skill_1:1903,skill_2:0,skill_3:0,team_buff:0,s1_poison:25,bleed:2164
-5132,_c_Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(4010~5762),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1595,force_strike:65,skill_1:1631,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:1839
-7422,Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(7285~7486),<energy & hit15 & hp1>,1hp;,attack:1276,force_strike:27,skill_1:2457,skill_2:0,skill_3:866,team_buff:0,s1_energized:69,s1_crisis:2457,s3_energized:86,s1_crisis_energized:181
+4705,Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(3713~5275),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1454,force_strike:59,skill_1:1486,skill_2:0,skill_3:0,team_buff:0,s1_poison:19,bleed:1685
+4016,_c_Addis,4星,风,刀,2682,[Evening_of_Luxury+RR][Zephyr];dpsrange:(3059~4503),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1246,force_strike:51,skill_1:1273,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:1445
+7996,Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(7880~8046),<energy & hit15 & hp1>,1hp;,attack:1414,force_strike:32,skill_1:2589,skill_2:0,skill_3:1019,team_buff:0,s1_energized:71,s1_crisis:2589,s3_energized:93,s1_crisis_energized:186
 3470,_c_Natalie,5星,暗,刀,2419,[Heralds_of_Hinomoto+FoG][Shinobi];dpsrange:(3470~3470),!<energy & hit15 & hp1>,1hp;,attack:957,force_strike:20,skill_1:1842,skill_2:0,skill_3:649,team_buff:0
-6043,Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(5978~6088),<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1196,force_strike:0,skill_1:2226,skill_2:0,skill_3:1003,team_buff:0,s1_energized:15,s1_crisis:1424,s3_energized:107,s1_crisis_energized:69
+6454,Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(6376~6490),<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1288,force_strike:0,skill_1:2382,skill_2:0,skill_3:1048,team_buff:0,s1_energized:15,s1_crisis:1524,s3_energized:112,s1_crisis_energized:82
 3524,_c_Natalie,5星,暗,刀,2426,[TL+The_Chocolatiers][Shinobi];dpsrange:(3524~3524),!<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:978,force_strike:0,skill_1:1760,skill_2:0,skill_3:786,team_buff:0
