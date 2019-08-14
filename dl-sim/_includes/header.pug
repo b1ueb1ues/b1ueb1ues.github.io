@@ -1,0 +1,64 @@
+#header.dpfc
+  img.logo(src="../logo.png")
+  h1.ml2.mr4 DPS Simulation
+    
+  .tabs.dpfc
+    if page == "Special"
+      a.selected Special
+    else
+      a(href="../sp/index.html") Special
+    
+    if page == "60s"
+      a.selected 60s
+    else
+      a(href="../60/index.html") 60s
+    
+    if page == "120s"
+      a.selected 120s
+    else
+      a(href="../120/index.html") 120s
+      
+    if page == "180s"
+      a.selected 180s
+    else
+      a(href="../180/index.html") 180s
+  
+  #filter.dpfc
+    p.mr1 Rarity:
+    select#star.mr3(name="星级")
+      option(value="All") All
+      option(value="5星") 5 Stars
+      option(value="4星") 4 Stars
+      option(value="3星") 3 Stars
+      
+    p.mr1 Element:
+    select#element.mr3(name="属性")
+      option(value="All") All
+      option(value="火") Flame
+      option(value="水") Water
+      option(value="风") Wind
+      option(value="光") Light
+      option(value="暗") Shadow
+      
+    p.mr1 Class:
+    select#weapon(name="武器")
+      option(value="All") All
+      option(value="剑") Sword
+      option(value="刀") Blade
+      option(value="匕") Dagger
+      option(value="斧") Axe
+      option(value="枪") Lance
+      option(value="弓") Bow
+      option(value="法") Wand
+  
+  .v-sep
+  #ex.dpfc
+    p.mr3 Co-abilities:
+    input(type="checkbox", name="ex-kat", value="kat", checked).mr1
+    p.mr3 Blade
+    input(type="checkbox", name="ex-rod", value="rod", checked).mr1
+    p.mr3 Wand
+    input(type="checkbox", name="ex-dag", value="dag").mr1
+    p.mr3 Dagger
+    input(type="checkbox", name="ex-bow", value="bow").mr1
+    p.mr3 Bow

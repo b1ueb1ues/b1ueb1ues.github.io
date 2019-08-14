@@ -95,7 +95,7 @@ var option = {
         showDetail: false,
         showDataShadow:false,
     }, ],
-    xAxis: { 
+    xAxis: {
     },
     yAxis: {
         type:'category',
@@ -242,13 +242,13 @@ function update() {
     //console.log('update');
     //console.log(characters);
     let filtered = characters.filter(character => {
-        if (starFilter.value && starFilter.value != character.star) {
+        if (starFilter.value != "All" && starFilter.value != character.star) {
             return false;
         }
-        if (elementFilter.value && elementFilter.value != character.element) {
+        if (elementFilter.value != "All" && elementFilter.value != character.element) {
             return false;
         }
-        if (weaponFilter.value && weaponFilter.value != character.weapon) {
+        if (weaponFilter.value != "All" && weaponFilter.value != character.weapon) {
             return false;
         }
         return true;
@@ -310,7 +310,7 @@ function update() {
         name = adv.name.slice(3);
         describe = create_describe(name, adv);
 
-        // clean _c_ 
+        // clean _c_
         for(var i in datasrc[describe]){
             if(i.slice(0,3) == '_c_'){
                 datasrc[describe][i] = 0;
@@ -457,7 +457,7 @@ function update() {
         option.series.push(s1);
         option.series.push(s2);
     }
-    
+
     t1 = {
         type:'bar',
         name:'_rightlabel',
@@ -578,4 +578,3 @@ chart.on('legendselectchanged', function () {
     sortData();
     update();
 });
-

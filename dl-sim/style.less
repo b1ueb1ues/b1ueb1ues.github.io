@@ -1,0 +1,159 @@
+@import "destyle";
+
+@sp-base: 5px;
+@brand-color: #1c7ed6;
+@border-color: #ddd;
+@border-hover-color: fade(#000,10%);
+@bg-color: #f4f4f4;
+@radius: 4px;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  color: #333;
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dpfc {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex-grow: 2;
+}
+
+.v-sep {
+  width: 1px;
+  height: 20px;
+  background-color: @border-color;
+}
+
+select {
+  border-radius: @radius;
+  color: @brand-color;
+  font-weight: 700;
+  padding: 10px;
+  background-color: @bg-color;
+  cursor: pointer;
+}
+
+#header,
+#footer,
+#filter,
+#ex {
+  text-align: center;
+}
+
+#container {
+  flex: auto;
+  padding: 20px 0;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 2px 4px @border-hover-color;
+  justify-content: center;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .tabs {
+    a {
+      padding: 10px;
+      position: relative;
+      color: #fff;
+      font-weight: 700;
+      background-color: @bg-color;
+      color: @brand-color;
+
+      &:first-child {
+        border-top-left-radius: @radius;
+        border-bottom-left-radius: @radius;
+      }
+
+      &:last-child {
+        border-top-right-radius: @radius;
+        border-bottom-right-radius: @radius;
+      }
+
+      &:not(.selected) {
+        &:hover, &:active {
+        }
+      }
+
+      &.selected {
+        font-weight: 700;
+        background-color: @brand-color;
+        color: #fff;
+        cursor: default;
+      }
+    }
+  }
+}
+
+#filter,
+#ex {
+  padding: 0 20px;
+}
+
+#footer {
+  justify-content: center;
+
+  a {
+    padding: 20px 10px;
+    color: #999;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.m(12);
+.ml(12);
+.mr(12);
+.mt(12);
+.mb(12);
+
+.m(@n, @i: 0) when (@i =< @n) {
+    .m@{i} { margin: @sp-base * @i !important; }
+  .m(@n, (@i + 1));
+}
+
+.ml(@n, @i: 0) when (@i =< @n) {
+  .ml@{i} { margin-left: @sp-base * @i !important; }
+  .ml(@n, (@i + 1));
+}
+
+.mr(@n, @i: 0) when (@i =< @n) {
+  .mr@{i} { margin-right: @sp-base * @i !important; }
+  .mr(@n, (@i + 1));
+}
+
+.mt(@n, @i: 0) when (@i =< @n) {
+  .mt@{i} { margin-top: @sp-base * @i !important; }
+  .mt(@n, (@i + 1));
+}
+
+.mb(@n, @i: 0) when (@i =< @n) {
+  .mb@{i} { margin-bottom: @sp-base * @i !important; }
+  .mb(@n, (@i + 1));
+}
