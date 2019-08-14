@@ -207,8 +207,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4518,_c_S_Julietta,5星,水,斧,2445,[KFM+Jewels_of_the_Sun][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1284,force_strike:0,skill_1:2325,skill_2:0,skill_3:908,team_buff:0
 5149,S_Celliera,5星,水,剑,2323,[VC+Jewels_of_the_Sun][Siren],<hp70>,no bog; don't s3; c2fs,attack:857,force_strike:478,skill_1:2654,skill_2:644,skill_3:0,team_buff:514
 4793,_c_S_Celliera,5星,水,剑,2323,[VC+Jewels_of_the_Sun][Siren],!<hp70>,no bog; don't s3; c2fs,attack:791,force_strike:441,skill_1:2450,skill_2:595,skill_3:0,team_buff:514
-4512,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],<hit15 & buff all team & hp70>,nofs,attack:1228,force_strike:0,skill_1:1643,skill_2:0,skill_3:568,team_buff:150,s1_paralysis:383,s1_boost:538
-3687,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid],!<hit15 & buff all team & hp70>,nofs,attack:1038,force_strike:0,skill_1:1389,skill_2:0,skill_3:480,team_buff:0,s1_paralysis:323,s1_boost:455
+4444,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(4207~4514),<hit15 & buff all team & hp70>,nofs,attack:1230,force_strike:0,skill_1:1633,skill_2:0,skill_3:568,team_buff:146,s1_paralysis:379,s1_boost:485
+3629,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(3451~3689),!<hit15 & buff all team & hp70>,nofs,attack:1040,force_strike:0,skill_1:1381,skill_2:0,skill_3:480,team_buff:0,s1_paralysis:321,s1_boost:405
 3733,S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3691~3814),<hp70 & energy>,,attack:1588,force_strike:104,skill_1:1997,skill_2:0,skill_3:0,team_buff:0,s1_energized:41
 3474,_c_S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3474~3474),!<hp70 & energy>,,attack:1495,force_strike:98,skill_1:1880,skill_2:0,skill_3:0,team_buff:0
 4965,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3770~5299),<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1626,force_strike:11,skill_1:1795,skill_2:0,skill_3:311,team_buff:0,s1_poison:72,bleed:1148
