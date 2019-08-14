@@ -39,12 +39,18 @@ var option = {
     legend: {
         itemWidth: 10,
         itemHeight: 10,
-        itemGap: 10,
+        itemGap: 20,
         padding: 0,
         data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
         //data:[],
         selectedMode:true,
         top: '0%',
+        formatter: function(name){
+          return name.replace("skill_", "S")
+                     .replace("team_buff", "Team Buff")
+                     .replace("force_strike", "FS")
+                     .replace("attack", "Basic Atk");
+        }
     },
     tooltip: {
         //trigger: 'axis',
@@ -65,7 +71,7 @@ var option = {
                     r+=' ('+adv.condition.slice(1,-1)+')';
                 }
             }
-            r += '<br>';
+            r = '<strong>' + r + '</strong><br>';
 
             sname = value.seriesName;
             if(value.seriesIndex%2==1){
