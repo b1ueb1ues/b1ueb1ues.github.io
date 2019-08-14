@@ -1,5 +1,10 @@
-var chart = echarts.init(document.getElementById('container'));
+var chart = echarts.init(document.getElementById('container'), 'vintage');
+function rebuildChart() {
+  chart.resize();
+}
+window.onresize = rebuildChart;
 var screenWidth = window.innerWidth;
+var diagramHeight = document.getElementById('container').offsetHeight;
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
 let weaponFilter = document.getElementById('weapon');
@@ -27,11 +32,15 @@ var itemStyle = {
 };
 
 var describe2adv = {};
+var countAvgPerPage = 12;
+maxValueSpan = diagramHeight / 70;
 var option = {
+    backgroundColor: "#ffffff",
     legend: {
         itemWidth: 10,
         itemHeight: 10,
         itemGap: 10,
+        padding: 0,
         data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
         //data:[],
         selectedMode:true,
@@ -100,7 +109,7 @@ var option = {
         right: '5%',
         top:'5%',
         yAxisIndex: [0],
-        maxValueSpan: 12,
+        maxValueSpan: maxValueSpan,
         showDetail: false,
         showDataShadow:false,
     }, ],
@@ -135,7 +144,7 @@ var option = {
                 if (screenWidth > 640) {
                   return '{value|' + label + '}{' + a.name + '| }';
                 } else {
-                  return '{value|' + '    ' + '}{' + a.name + '| }';
+                  return '{value|' + '        ' + '}{' + a.name + '| }';
                 }
                 //return '{value| }{' + a.name + '| }';
             },
@@ -153,7 +162,11 @@ var option = {
         ],
     },
     series: [
-    ]
+    ],
+    itemStyle: {
+      // borderWidth: 2
+      // barBorderRadius: 2
+    }
 }
 let characters = [];
 
@@ -310,7 +323,7 @@ function update() {
             height: 40,
             //align: 'center',
             backgroundColor:{
-                image: advIcons[name]
+              image: advIcons[name]
             }
         };
     }
