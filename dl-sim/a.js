@@ -19,16 +19,19 @@ var itemStyle = {
     },
     emphasis: {
         barBorderWidth: 1,
-        shadowBlur: 10,
+        shadowBlur: 6,
         shadowOffsetX: 0,
-        shadowOffsetY: 0,
-        shadowColor: 'rgba(0,0,0,0.5)'
+        shadowOffsetY: 2,
+        shadowColor: 'rgba(0,0,0,0.25)'
     }
 };
 
 var describe2adv = {};
 var option = {
     legend: {
+        itemWidth: 10,
+        itemHeight: 10,
+        itemGap: 10,
         data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
         //data:[],
         selectedMode:true,
@@ -37,15 +40,20 @@ var option = {
     tooltip: {
         //trigger: 'axis',
         axisPointer: {
-            type: 'shadow',
+          type: 'shadow',
         },
+        textStyle: {
+          fontSize: 12
+        },
+        backgroundColor: 'rgba(51,51,51,0.95)',
+        padding: 10,
         formatter: function(value){
             adv = describe2adv[value.data.advdps];
-            r = adv.name;
+            r = adv.name.replace("_","!");
             //r += value.seriesIndex%2;
             if(adv.condition && adv.condition!=' '){
                 if(value.seriesIndex%2==1){
-                    r+=' &lt;'+adv.condition.slice(1,-1)+'&gt;';
+                    r+=' ('+adv.condition.slice(1,-1)+')';
                 }
             }
             r += '<br>';
@@ -60,7 +68,7 @@ var option = {
                         if(i == 'advdps')continue;
                         if(i == '_rightlabel')continue;
                         if(i == '__slider')continue;
-                        if(i == sname)r+='->';
+                        if(i == sname)r+='> ';
                         r += i+': '+v+'<br>';
                     }
                 }
@@ -71,7 +79,7 @@ var option = {
                     if(v){
                         if(v==0)continue;
                         if(i.slice(0,3)!='_c_')continue;
-                        if(i == '_c_'+sname)r+='->';
+                        if(i == '_c_'+sname)r+='> ';
                         r += i.slice(3) +': '+v+'<br>';
                     }
                 }
@@ -107,7 +115,8 @@ var option = {
             interval: 0,
             formatter: function(value){
                 a = describe2adv[value];
-                label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
+                // label = a.name + '(' + a.star + a.element + a.weapon + ')' ;
+                label = a.name.replace("_","!") + " ";
                 stre = '(str: ' + a.stre + ')';
                 condition = ''
                 amulets = a.amulets+' ';
