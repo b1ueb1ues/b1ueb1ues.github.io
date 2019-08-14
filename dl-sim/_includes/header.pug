@@ -1,27 +1,28 @@
-#header.dpfc
-  img.logo(src="../logo.png")
-  h1.ml2.mr4 DPS Simulation
+#header
+  #title.dpfc
+    img.logo(src="../logo.png")
+    h1.ml2.mr4 DPS Simulation
     
-  .tabs.dpfc
-    if page == "Special"
-      a.selected Special
-    else
-      a(href="../sp/index.html") Special
-    
-    if page == "60s"
-      a.selected 60s
-    else
-      a(href="../60/index.html") 60s
-    
-    if page == "120s"
-      a.selected 120s
-    else
-      a(href="../120/index.html") 120s
+    .tabs.dpfc
+      if page == "Special"
+        a.selected Special
+      else
+        a(href="../sp/index.html") Special
       
-    if page == "180s"
-      a.selected 180s
-    else
-      a(href="../180/index.html") 180s
+      if page == "60s"
+        a.selected 60s
+      else
+        a(href="../60/index.html") 60s
+      
+      if page == "120s"
+        a.selected 120s
+      else
+        a(href="../120/index.html") 120s
+        
+      if page == "180s"
+        a.selected 180s
+      else
+        a(href="../180/index.html") 180s
   
   #filter.dpfc
     p.mr1 Rarity:

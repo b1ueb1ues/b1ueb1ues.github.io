@@ -1,4 +1,5 @@
 var chart = echarts.init(document.getElementById('container'));
+var screenWidth = window.innerWidth;
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
 let weaponFilter = document.getElementById('weapon');
@@ -121,7 +122,12 @@ var option = {
                 //return '{value|' + label + stre + amulets + '}{' + a.name + '| }\n{value|'+ comment +'}';
                 //return '{value|' + label + stre + amulets + '}\n{value|'+comment+'}{' + a.name + '| }';
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
-                return '{value|' + label + stre + '}{' + a.name + '| }';
+                // return '{value|' + label + stre + '}{' + a.name + '| }';
+                if (screenWidth > 640) {
+                  return '{value|' + label + '}{' + a.name + '| }';
+                } else {
+                  return '{value|' + '    ' + '}{' + a.name + '| }';
+                }
                 //return '{value| }{' + a.name + '| }';
             },
             margin: 5,
@@ -292,7 +298,7 @@ function update() {
         advIcons[name] = picfolder+name+'.png';
         rich[adv.name] = {
             lineHeight: 0,
-            height: 50,
+            height: 40,
             //align: 'center',
             backgroundColor:{
                 image: advIcons[name]

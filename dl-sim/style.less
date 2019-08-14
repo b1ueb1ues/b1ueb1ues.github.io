@@ -7,7 +7,11 @@
 @bg-color: #f4f4f4;
 @radius: 4px;
 
-html,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +20,7 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   color: #333;
   font-size: 12px;
+  overflow: hidden;
 }
 
 body {
@@ -70,6 +75,8 @@ select {
   width: 100%;
   box-shadow: 0 2px 4px @border-hover-color;
   justify-content: center;
+  display: flex;
+  align-items: center;
 
   h1 {
     font-weight: 700;
@@ -115,6 +122,8 @@ select {
 }
 
 #footer {
+  display: flex;
+  align-items: center;
   justify-content: center;
 
   a {
@@ -156,4 +165,30 @@ select {
 .mb(@n, @i: 0) when (@i =< @n) {
   .mb@{i} { margin-bottom: @sp-base * @i !important; }
   .mb(@n, (@i + 1));
+}
+
+@media (max-width: 640px) {
+  #header {
+    flex-wrap: wrap;
+    height: auto;
+
+    > .v-sep {
+      display: none;
+    }
+
+    > * {
+      width: 100%;
+      justify-content: center;
+    }
+
+    > #title {
+      padding: 10px;
+    }
+
+    > #ex {
+      padding: 20px;
+    }
+  }
+
+
 }
