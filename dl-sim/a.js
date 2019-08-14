@@ -39,7 +39,7 @@ var option = {
     legend: {
         itemWidth: 10,
         itemHeight: 10,
-        itemGap: 20,
+        itemGap: 15,
         padding: 0,
         data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
         //data:[],
@@ -232,7 +232,7 @@ function setData(data) {
 }
 
 function sortData() {
-    console.log('sort');
+    // console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
     var filtered = {};
@@ -258,7 +258,7 @@ function sortData() {
             return -1;
         }
     });
-    console.log(characters);
+    // console.log(characters);
 }
 
 
@@ -409,6 +409,7 @@ function update() {
                 var r = '';
                 //r += label + stre ;
                 r += amulets + comment;
+                // console.log(amulets.toString());
                 return r
             },
         },
@@ -604,7 +605,7 @@ function dataload(name){
     });
 }
 
-console.log('!');
+// console.log('!');
 dataload('data_kr.csv')
 
 

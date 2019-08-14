@@ -81,6 +81,7 @@ select {
 
   h1 {
     font-weight: 700;
+    text-align: left!important;
   }
 
   .tabs {
@@ -168,10 +169,22 @@ select {
   .mb(@n, (@i + 1));
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
+  #filter {
+    border-top: 1px solid @border-color;
+    padding-top: 15px;
+    box-shadow: inset 0 2px 4px @border-hover-color;
+  }
+  select {
+    background: none;
+    padding: 0;
+  }
+
   #header {
     flex-wrap: wrap;
     height: auto;
+    // box-shadow: none;
+    // border-bottom: 1px solid @border-color;
 
     > .v-sep {
       display: none;
@@ -187,7 +200,7 @@ select {
     }
 
     > #ex {
-      padding: 20px;
+      padding: 15px;
     }
   }
 
