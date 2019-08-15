@@ -561,7 +561,7 @@ function update() {
 
 
     option.yAxis.axisLabel.rich = rich;
-    console.log(rich);
+    //console.log(rich);
 
     var slider = option.dataZoom[0];
     len = Object.keys(datasrc).length;
