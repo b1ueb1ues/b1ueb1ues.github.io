@@ -149,9 +149,9 @@ var option = {
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
                 // return '{value|' + label + stre + '}{' + a.name + '| }';
                 if (screenWidth > 640) {
-                  return '{value|' + label + '}{' + a.name + '| }';
+                  return '{value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
-                  return '{value|' + '        ' + '}{' + a.name + '| }';
+                  return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 }
                 //return '{value| }{' + a.name + '| }';
             },
@@ -198,6 +198,12 @@ function setData(data) {
         character.comment   = character[8];
         //console.log(character.amulets)
         //console.log(character.comment)
+        var tmp = character.amulets.slice('1','-1').split('][');
+        var amulets = tmp[0].split('+');
+        character.a1 = amulets[0];
+        character.a2 = amulets[1];
+
+
         var j = 9;
         character.details = {}
         while(1){
@@ -268,6 +274,7 @@ function create_describe(name, adv){
 }
 
 
+
 //var _dimensions = {__1:1,__2:2};
 var _dimensions = {};
 var datasrc = {};
@@ -327,10 +334,26 @@ function update() {
         advIcons[name] = picfolder+name+'.png';
         rich[adv.name] = {
             lineHeight: 0,
-            height: 40,
-            //align: 'center',
+            height: 50,
+            verticalAlign: 'top',
             backgroundColor:{
               image: advIcons[name]
+            }
+        };
+        rich['a1_'+adv.name] = {
+            lineHeight: 20,
+            height: 25,
+            verticalAlign: 'top',
+            backgroundColor:{
+              image: picfolder+'amulet/'+adv.a1+'.png'
+            }
+        };
+        rich['a2_'+adv.name] = {
+            lineHeight: 20,
+            height: 25,
+            verticalAlign: 'bottom',
+            backgroundColor:{
+              image: picfolder+'amulet/'+adv.a2+'.png'
             }
         };
     }
@@ -537,6 +560,7 @@ function update() {
 
 
     option.yAxis.axisLabel.rich = rich;
+    console.log(rich);
 
     var slider = option.dataZoom[0];
     len = Object.keys(datasrc).length;
