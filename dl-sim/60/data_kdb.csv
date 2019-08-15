@@ -125,8 +125,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2287,_c_Rawn,4星,光,弓,2923,[RR+FoG][Cupid],!<hp70 & c1+fs & hit15>,,attack:974,force_strike:0,skill_1:722,skill_2:412,skill_3:177,team_buff:0
 2894,Waike,3星,水,弓,2180,[RR+FoG][Siren],<c4+fs & hp70 & hit15>,no bog,attack:670,force_strike:402,skill_1:1404,skill_2:417,skill_3:0,team_buff:0
 2206,_c_Waike,3星,水,弓,2180,[RR+FoG][Siren],!<c4+fs & hp70 & hit15>,no bog,attack:764,force_strike:0,skill_1:965,skill_2:476,skill_3:0,team_buff:0
-4193,G_Sarisse,5星,火,弓,2219,[RR+FoG][Sakuya],<c4+fs & hp70 & never lose combos & hit15>,,attack:799,force_strike:377,skill_1:2695,skill_2:0,skill_3:0,team_buff:320
-2788,_c_G_Sarisse,5星,火,弓,2219,[RR+FoG][Sakuya],!<c4+fs & hp70 & never lose combos & hit15>,,attack:812,force_strike:0,skill_1:1656,skill_2:0,skill_3:0,team_buff:319
+4537,G_Sarisse,5星,火,弓,2219,[Forest_Bonds+FoG][Sakuya],<c4+fs & never lose combos & hit15>,,attack:824,force_strike:214,skill_1:3180,skill_2:0,skill_3:0,team_buff:317
+2863,_c_G_Sarisse,5星,火,弓,2219,[Forest_Bonds+FoG][Sakuya],!<c4+fs & never lose combos & hit15>,,attack:812,force_strike:0,skill_1:1731,skill_2:0,skill_3:0,team_buff:319
 4309,Annelie,5星,光,枪,3076,[RR+CE][Cupid],<hp70 & energy>,1121,attack:1090,force_strike:134,skill_1:1740,skill_2:473,skill_3:525,team_buff:0,team_energy:117,s1_p3_energized:226
 2817,_c_Annelie,5星,光,枪,3076,[RR+CE][Cupid],!<hp70 & energy>,1121,attack:924,force_strike:114,skill_1:1086,skill_2:327,skill_3:364,team_buff:0
 3430,Marty,3星,火,剑,2186,[RR+FP][Sakuya],<hp70>,,attack:738,force_strike:475,skill_1:1568,skill_2:0,skill_3:647,team_buff:0
@@ -145,8 +145,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2874,_c_V_Ezelith,4星,火,弓,2176,[RR+FoG][Sakuya],!<c4+fs & hp70 & never lose combos & hit15 & 0 resist>,,attack:741,force_strike:0,skill_1:1239,skill_2:550,skill_3:0,team_buff:344,s1_burn:0
 3689,V_Orion,3星,火,剑,2271,[The_Shining_Overlord+LC][Sakuya],<hp70 & 0 resist>,no s2,attack:846,force_strike:260,skill_1:1582,skill_2:0,skill_3:715,team_buff:0,s1_burn:284
 3160,_c_V_Orion,3星,火,剑,2271,[The_Shining_Overlord+LC][Sakuya],!<hp70 & 0 resist>,no s2,attack:785,force_strike:241,skill_1:1468,skill_2:0,skill_3:664,team_buff:0,s1_burn:0
-5432,Albert,5星,光,剑,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:850,force_strike:797,skill_1:1584,skill_2:0,skill_3:0,team_buff:0,s2_fs_paralysis:296,fs_alt:285,s1_s2boost:1190,s1_hit5:85,s1_hit4:85,s1_hit6:85,s1_hit3:85,s1_hit2:85
-4429,_c_Albert,5星,光,剑,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:921,force_strike:484,skill_1:1366,skill_2:0,skill_3:577,team_buff:0,s1_hit4:63,s1_s2boost:888,s1_hit3:63,s1_hit2:63
+5867,Albert,5星,光,剑,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:823,force_strike:691,skill_1:1793,skill_2:0,skill_3:0,team_buff:0,s2_fs_paralysis:292,fs_alt:248,s1_s2boost:1484,s1_hit5:106,s1_hit4:106,s1_hit6:106,s1_hit3:106,s1_hit2:106
+4345,_c_Albert,5星,光,剑,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<4s1 in on s2 & big hitbox>,suitable skill prep; ,attack:927,force_strike:382,skill_1:1371,skill_2:0,skill_3:579,team_buff:0,s1_hit4:64,s1_s2boost:892,s1_hit3:64,s1_hit2:64
 5114,Odetta,4星,光,剑,3070,[RR+Stellar_Show][Cupid],<hp70 & buff all team>,c2+fs,attack:1136,force_strike:1262,skill_1:1437,skill_2:0,skill_3:0,team_buff:1278
 3609,_c_Odetta,4星,光,剑,3070,[RR+Stellar_Show][Cupid],!<hp70 & buff all team>,c2+fs,attack:1007,force_strike:1118,skill_1:1274,skill_2:0,skill_3:0,team_buff:209
 2617,Jakob,3星,水,枪,2624,[RR+CE][DJ],<hp70>,no bog,attack:1082,force_strike:200,skill_1:1334,skill_2:0,skill_3:0,team_buff:0
