@@ -151,7 +151,8 @@ var option = {
                 if (screenWidth > 640) {
                   return '{value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
-                  return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  return '{value|' + '        ' + '}{' + a.name + '| }'
+                  //return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 }
                 //return '{value| }{' + a.name + '| }';
             },
