@@ -207,21 +207,21 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3833,_c_S_Julietta,5星,水,斧,2445,[KFM+Jewels_of_the_Sun][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1186,force_strike:0,skill_1:1909,skill_2:0,skill_3:737,team_buff:0
 4458,S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],<hp70>,no bog; don't s3; c2fs,attack:1102,force_strike:607,skill_1:1657,skill_2:518,skill_3:0,team_buff:572
 4207,_c_S_Celliera,5星,水,剑,2807,[VC+Jewels_of_the_Sun][DJ],!<hp70>,no bog; don't s3; c2fs,attack:1030,force_strike:568,skill_1:1550,skill_2:484,skill_3:0,team_buff:572
-3408,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(3287~3593),<hit15 & buff all team & hp70>,nofs,attack:1095,force_strike:0,skill_1:1230,skill_2:0,skill_3:424,team_buff:140,s1_paralysis:186,s1_boost:331
-2745,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(2659~2833),!<hit15 & buff all team & hp70>,nofs,attack:922,force_strike:0,skill_1:1034,skill_2:0,skill_3:357,team_buff:0,s1_paralysis:156,s1_boost:273
-3003,S_Luca,4星,光,斧,2856,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(2982~3027),<hp70 & energy>,,attack:1384,force_strike:73,skill_1:1479,skill_2:0,skill_3:0,team_buff:0,s1_energized:65
-2765,_c_S_Luca,4星,光,斧,2856,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(2765~2765),!<hp70 & energy>,,attack:1303,force_strike:69,skill_1:1392,skill_2:0,skill_3:0,team_buff:0
-4730,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3776~5213),<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1544,force_strike:18,skill_1:1383,skill_2:0,skill_3:382,team_buff:0,s1_poison:36,bleed:1365
-4124,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3276~4541),!<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1353,force_strike:15,skill_1:1216,skill_2:0,skill_3:335,team_buff:0,s1_poison:0,bleed:1204
-5294,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3658~6012),<hp70>,,attack:914,force_strike:0,skill_1:1730,skill_2:0,skill_3:665,team_buff:0,bleed:1984
-4211,_c_Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(2944~4824),!<hp70>,,attack:733,force_strike:0,skill_1:1390,skill_2:0,skill_3:529,team_buff:0,bleed:1559
-3264,Sinoa,4星,火,法,2215,[RR+FoG][Sakuya];dpsrange:(2060~4599),<hit15 & hp100 & hp70>,5c+fs,attack:1069,force_strike:141,skill_1:0,skill_2:1122,skill_3:0,team_buff:932
-2681,_c_Sinoa,4星,火,法,2215,[RR+FoG][Sakuya];dpsrange:(1531~4074),!<hit15 & hp100 & hp70>,5c+fs,attack:797,force_strike:105,skill_1:0,skill_2:835,skill_3:0,team_buff:942
-2955,Ezelith,5星,火,匕,2251,[RR+FoG][Sakuya];dpsrange:(2824~3175),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:824,force_strike:66,skill_1:1531,skill_2:0,skill_3:450,team_buff:81
-2421,_c_Ezelith,5星,火,匕,2251,[RR+FoG][Sakuya];dpsrange:(2302~2609),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:672,force_strike:53,skill_1:1247,skill_2:0,skill_3:367,team_buff:80
-3972,Sazanka,4星,暗,斧,2262,[KFM+CE][Shinobi];dpsrange:(3320~4197),<hp70 & 80 resist>,,attack:1004,force_strike:141,skill_1:1620,skill_2:0,skill_3:0,team_buff:0,s2fs:34,bleed:1170
-3580,_c_Sazanka,4星,暗,斧,2262,[KFM+CE][Shinobi];dpsrange:(2965~3786),!<hp70 & 80 resist>,,attack:906,force_strike:127,skill_1:1462,skill_2:0,skill_3:0,team_buff:0,s2fs:30,bleed:1052
-5050,Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4327~5405),<hp70>,,attack:615,force_strike:91,skill_1:1462,skill_2:0,skill_3:626,team_buff:588,bleed:1665
-4486,_c_Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3587~4802),!<hp70>,,attack:538,force_strike:79,skill_1:1279,skill_2:0,skill_3:548,team_buff:588,bleed:1451
-5157,Natalie,5星,暗,刀,2411,[Heralds_of_Hinomoto+One_with_the_Shadows][Shinobi];dpsrange:(5078~5186),<energy & hp20 & s2 without str buff>,,attack:1211,force_strike:0,skill_1:1938,skill_2:0,skill_3:655,team_buff:0,s1_energized:67,s1_crisis:1150,s3_energized:39,s1_crisis_energized:94
+3395,S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(3283~3495),<hit15 & buff all team & hp70>,nofs,attack:1095,force_strike:0,skill_1:1226,skill_2:0,skill_3:424,team_buff:140,s1_paralysis:186,s1_boost:323
+2740,_c_S_Cleo,5星,光,弓,2961,[RR+FoG][Cupid];dpsrange:(2654~2831),!<hit15 & buff all team & hp70>,nofs,attack:922,force_strike:0,skill_1:1033,skill_2:0,skill_3:357,team_buff:0,s1_paralysis:156,s1_boost:269
+3268,S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3243~3291),<hp70 & energy>,,attack:1505,force_strike:80,skill_1:1609,skill_2:0,skill_3:0,team_buff:0,s1_energized:73
+3007,_c_S_Luca,4星,光,斧,3106,[KFM+Flower_in_the_Fray][Cupid];dpsrange:(3007~3007),!<hp70 & energy>,,attack:1416,force_strike:75,skill_1:1514,skill_2:0,skill_3:0,team_buff:0
+4751,Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3554~5212),<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1542,force_strike:18,skill_1:1384,skill_2:0,skill_3:382,team_buff:0,s1_poison:36,bleed:1387
+4114,_c_Addis,4星,风,刀,3149,[RR+CE][Zephyr];dpsrange:(3415~4542),!<hp70 & 0 resist>,s2 c2 s1 c5fsf c4fs s1; hold s2s1 until bleed under 3,attack:1353,force_strike:15,skill_1:1215,skill_2:0,skill_3:335,team_buff:0,s1_poison:0,bleed:1194
+5274,Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3882~6012),<hp70>,,attack:914,force_strike:0,skill_1:1730,skill_2:0,skill_3:664,team_buff:0,bleed:1965
+4193,_c_Ieyasu,5星,暗,刀,2427,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3037~4824),!<hp70>,,attack:732,force_strike:0,skill_1:1389,skill_2:0,skill_3:529,team_buff:0,bleed:1541
+3269,Sinoa,4星,火,法,2215,[RR+FoG][Sakuya];dpsrange:(2190~4641),<hit15 & hp100 & hp70>,5c+fs,attack:1069,force_strike:141,skill_1:0,skill_2:1121,skill_3:0,team_buff:936
+2666,_c_Sinoa,4星,火,法,2215,[RR+FoG][Sakuya];dpsrange:(1679~4092),!<hit15 & hp100 & hp70>,5c+fs,attack:795,force_strike:105,skill_1:0,skill_2:835,skill_3:0,team_buff:929
+2949,Ezelith,5星,火,匕,2251,[RR+FoG][Sakuya];dpsrange:(2824~3192),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:824,force_strike:66,skill_1:1529,skill_2:0,skill_3:450,team_buff:78
+2418,_c_Ezelith,5星,火,匕,2251,[RR+FoG][Sakuya];dpsrange:(2302~2646),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:671,force_strike:53,skill_1:1246,skill_2:0,skill_3:367,team_buff:78
+3980,Sazanka,4星,暗,斧,2262,[KFM+CE][Shinobi];dpsrange:(3250~4197),<hp70 & 80 resist>,,attack:1004,force_strike:141,skill_1:1620,skill_2:0,skill_3:0,team_buff:0,s2fs:34,bleed:1179
+3586,_c_Sazanka,4星,暗,斧,2262,[KFM+CE][Shinobi];dpsrange:(2870~3786),!<hp70 & 80 resist>,,attack:906,force_strike:127,skill_1:1462,skill_2:0,skill_3:0,team_buff:0,s2fs:30,bleed:1058
+5062,Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(4170~5405),<hp70>,,attack:615,force_strike:91,skill_1:1462,skill_2:0,skill_3:626,team_buff:588,bleed:1678
+4499,_c_Botan,4星,暗,枪,2231,[RR+Jewels_of_the_Sun][Shinobi];dpsrange:(3743~4802),!<hp70>,,attack:538,force_strike:79,skill_1:1279,skill_2:0,skill_3:548,team_buff:588,bleed:1464
+5158,Natalie,5星,暗,刀,2411,[Heralds_of_Hinomoto+One_with_the_Shadows][Shinobi];dpsrange:(5078~5186),<energy & hp20 & s2 without str buff>,,attack:1211,force_strike:0,skill_1:1938,skill_2:0,skill_3:655,team_buff:0,s1_energized:67,s1_crisis:1150,s3_energized:39,s1_crisis_energized:95
 3085,_c_Natalie,5星,暗,刀,2411,[Heralds_of_Hinomoto+One_with_the_Shadows][Shinobi];dpsrange:(3085~3085),!<energy & hp20 & s2 without str buff>,,attack:983,force_strike:0,skill_1:1540,skill_2:0,skill_3:561,team_buff:0

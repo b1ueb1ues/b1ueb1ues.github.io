@@ -77,11 +77,12 @@
 
 
 ## Author
-b1ueb1ues,  
-tiara (proofreading),  
-luciferz2012(first version of website),  
-Matt(rotation improve),
-qwewqa,
+b1ueb1ues
+tiara (proofreading)
+luciferz2012 (first version of website)
+kenchendesign (new UI contributer)
+Matt(rotation improve)
+qwewqa
 haukist
 
 ## Acknowledgement

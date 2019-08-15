@@ -118,6 +118,7 @@ var option = {
         maxValueSpan: maxValueSpan,
         showDetail: false,
         showDataShadow:false,
+        zoomLock: true,
     }, ],
     xAxis: {
     },
