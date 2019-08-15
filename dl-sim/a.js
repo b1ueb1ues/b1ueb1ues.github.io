@@ -33,7 +33,7 @@ var itemStyle = {
 
 var describe2adv = {};
 var countAvgPerPage = 12;
-maxValueSpan = diagramHeight / 70;
+maxValueSpan = diagramHeight / 75;
 var option = {
     backgroundColor: "#ffffff",
     legend: {
@@ -561,6 +561,8 @@ function update() {
 
 
     option.yAxis.axisLabel.rich = rich;
+    //option.yAxis.boundaryGap= false;
+
     //console.log(rich);
 
     var slider = option.dataZoom[0];
