@@ -36,22 +36,34 @@ var countAvgPerPage = 12;
 maxValueSpan = diagramHeight / 75;
 var option = {
     backgroundColor: "#ffffff",
-    legend: {
-        itemWidth: 10,
-        itemHeight: 10,
-        itemGap: 15,
-        padding: 0,
-        data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff','ex_wand'],
-        //data:[],
-        selectedMode:true,
-        top: '0%',
-        formatter: function(name){
-          return name.replace("skill_", "S")
-                     .replace("team_buff", "Team Buff")
-                     .replace("force_strike", "FS")
-                     .replace("attack", "Basic Atk");
+    legend: [
+        {
+            itemWidth: 10,
+            itemHeight: 10,
+            itemGap: 15,
+            padding: 0,
+            data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff', 'bleed'],
+            //data:[],
+            selectedMode:true,
+            top: '0%',
+            formatter: function(name){
+              return name.replace("skill_", "S")
+                         .replace("team_buff", "Team Buff")
+                         .replace("force_strike", "FS")
+                         .replace("attack", "Basic Atk")
+                         .replace("bleed", "Others");
+            }
+        },
+        {
+            itemWidth: 10,
+            itemHeight: 10,
+            itemGap: 15,
+            padding: 0,
+            data: [],
+            selectedMode:true,
+            top: '-50%', // hide it
         }
-    },
+    ],
     tooltip: {
         //trigger: 'axis',
         axisPointer: {
@@ -240,13 +252,45 @@ function setData(data) {
 }
 
 function sortData() {
-    // console.log('sort');
+    //console.log('sort');
     op = chart.getOption();
     lg = op.legend[0].selected;
     var filtered = {};
     for(var i in lg){
-        filtered[i] = !lg[i]
+        filtered[i] = !lg[i];
     }
+    if (filtered['bleed']) {
+        //console.log('!');
+        //console.log(filtered['bleed']);
+        for (var i in _dimensions) {
+            if (i=='team_buff')continue;
+            if (i=='attack')continue;
+            if (i=='force_strike')continue;
+            if (i=='skill_1')continue;
+            if (i=='skill_2')continue;
+            if (i=='skill_3')continue;
+            op.legend[1].selected[i] = false;
+        }
+        chart.setOption(op);
+    }else if (!op.legend[1].selected['attack']){
+        //console.log('?');
+        for (var i in _dimensions) {
+            if (i=='team_buff')continue;
+            if (i=='attack')continue;
+            if (i=='force_strike')continue;
+            if (i=='skill_1')continue;
+            if (i=='skill_2')continue;
+            if (i=='skill_3')continue;
+            op.legend[1].selected[i] = true;
+        }
+        chart.setOption(op);
+    }
+
+    lg = op.legend[1].selected;
+    for(var i in lg){
+        filtered[i] = !lg[i];
+    }
+
     //console.log(filtered);
     for(var a in characters){
         var dps = 0;
@@ -266,7 +310,7 @@ function sortData() {
             return -1;
         }
     });
-    // console.log(characters);
+    //console.log(characters);
 }
 
 
@@ -389,9 +433,9 @@ function update() {
     }
 
     for(var i in _dimensions){
-        //if(i.slice(0,2)!='__'){
-        //    option.legend.data.push(i);
-        //}
+        if(i.slice(0,2)!='__'){
+            option.legend[1].data.push(i);
+        }
         for(var l in datasrc){
             if(!datasrc[l][i]){
                 datasrc[l][i] = null;
@@ -434,7 +478,7 @@ function update() {
                 var r = '';
                 //r += label + stre ;
                 r += amulets + comment;
-                // console.log(amulets.toString());
+                //console.log(amulets.toString());
                 return r
             },
         },
@@ -633,7 +677,7 @@ function dataload(name){
     });
 }
 
-// console.log('!');
+//console.log('!');
 dataload('data_kr.csv')
 
 
