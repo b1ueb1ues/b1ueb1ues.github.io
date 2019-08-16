@@ -1,3 +1,7 @@
+// Set container haight based on the amount of characters
+// document.getElementById('container').style.height = 50 * 150 + "px";
+
+// Generate chart
 var chart = echarts.init(document.getElementById('container'), 'vintage');
 function rebuildChart() {
   chart.resize();
@@ -35,6 +39,10 @@ var describe2adv = {};
 var countAvgPerPage = 12;
 maxValueSpan = diagramHeight / 75;
 var option = {
+    loadingOption: {
+      text: "Loading...",
+      y: 0
+    },
     backgroundColor: "#ffffff",
     legend: [
         {
@@ -48,9 +56,9 @@ var option = {
             top: '0%',
             formatter: function(name){
               return name.replace("skill_", "S")
-                         .replace("team_buff", "Team Buff")
+                         .replace("team_buff", "Buff")
                          .replace("force_strike", "FS")
-                         .replace("attack", "Basic Atk")
+                         .replace("attack", "Atk")
                          .replace("bleed", "Others");
             }
         },
@@ -123,8 +131,9 @@ var option = {
         bottom: '5%',
     },
     dataZoom: [{
+        // show: false,
         type: 'slider',
-        right: '5%',
+        right: '0',
         top:'5%',
         yAxisIndex: [0],
         maxValueSpan: maxValueSpan,
@@ -133,10 +142,13 @@ var option = {
         zoomLock: true,
     }, ],
     xAxis: {
+      show: false,
+      // axisLine: "hide"
     },
     yAxis: {
         type:'category',
         axisTick : {
+            show: false,
             alignWithLabel: true,
         },
         axisLabel: {
@@ -160,8 +172,9 @@ var option = {
                 //return '{value|' + label + stre + amulets + '}\n{value|'+comment+'}{' + a.name + '| }';
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
                 // return '{value|' + label + stre + '}{' + a.name + '| }';
-                if (screenWidth > 640) {
-                  return '{value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                if (screenWidth > 720) {
+                  return '{value|}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
                   return '{value|' + '        ' + '}{' + a.name + '| }'
                   //return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
@@ -313,12 +326,9 @@ function sortData() {
     //console.log(characters);
 }
 
-
 function create_describe(name, adv){
     return name + '(' + adv.star + adv.element + adv.weapon + ')' + adv.comment;
 }
-
-
 
 //var _dimensions = {__1:1,__2:2};
 var _dimensions = {};
