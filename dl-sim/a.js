@@ -22,13 +22,16 @@ document.querySelectorAll('input').forEach(input => {
 
 var itemStyle = {
     normal: {
+      barBorderRadius: 0.1
     },
     emphasis: {
-        barBorderWidth: 1,
+        // barBorderWidth: 1,
+        // barBorderRadius: 4,
+        // borderColor: "#fff",
         shadowBlur: 6,
         shadowOffsetX: 0,
         shadowOffsetY: 2,
-        shadowColor: 'rgba(0,0,0,0.25)'
+        shadowColor: 'rgba(0,0,0,0.2)'
     }
 };
 
@@ -244,9 +247,10 @@ function setData(data) {
         //console.log(character.comment)
         var tmp = character.amulets.slice('1','-1').split('][');
         var amulets = tmp[0].split('+');
+        var dragon = character.amulets.split(']')[1].split('[').join("");
         character.a1 = amulets[0];
         character.a2 = amulets[1];
-
+        character.dragon = dragon;
 
         var j = 9;
         character.details = {}
@@ -429,6 +433,14 @@ function update() {
               image: picfolder+'amulet/'+adv.a2+'.png'
             }
         };
+        rich['dragon_'+adv.name] = {
+            lineHeight: 0,
+            height: 50,
+            verticalAlign: 'top',
+            backgroundColor:{
+              image: picfolder+'amulet/'+adv.a2+'.png'
+            }
+        };
     }
 
     for(var i in c_data){
@@ -505,16 +517,16 @@ function update() {
                 var stre = '(str: ' + a.stre + ')';
                 var condition = '';
                 var amulets = a.amulets+' ';
-                var dragon = amulets.split("[")[2].replace(";"," - ").replace("dpsrange:","DPS Range: ");
+                var description = amulets.split("[")[2].replace(";"," - ").replace("dpsrange:","DPS Range: ");
                 var comment = '';
                 var r = '';
 
                 if(a.comment){
                     comment = a.comment;
-                    r += "[" + dragon + "- " + comment;
+                    r += "[" + description + "- " + comment;
                     return r
                 } else {
-                    r += "[" + dragon;
+                    r += "[" + description;
                     return r
                 }
             },
