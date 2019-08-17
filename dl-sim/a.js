@@ -197,7 +197,7 @@ var option = {
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
                 // return '{value|' + label + stre + '}{' + a.name + '| }';
                 if (screenWidth > 720) {
-                  return '{value|}   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  return '{value|}                       {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                   // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
                   return '{value|}                   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
