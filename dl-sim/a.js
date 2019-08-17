@@ -569,7 +569,7 @@ function update() {
             }
         },
     }
-    s0.itemStyle = {color: '#333'};
+    s0.itemStyle = {color: '#fff'};
     option.series.push(s0);
     option.dataZoom[0].showDataShadow='__slider';
 
