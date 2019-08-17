@@ -22,7 +22,6 @@ document.querySelectorAll('input').forEach(input => {
 
 var itemStyle = {
     normal: {
-      barBorderRadius: 0.1
     },
     emphasis: {
         // barBorderWidth: 1,
@@ -42,7 +41,7 @@ var globalBarWidth = 15;
 var option = {
     textStyle: {
       color: "#333",
-      fontSize: 12,
+      fontSize: 10,
       fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif'
     },
     animation: false,
@@ -61,6 +60,10 @@ var option = {
             //data:[],
             selectedMode: true,
             top: '0%',
+            textStyle: {
+              fontSize: 12,
+              color: "#333"
+            },
             formatter: function(name){
               return name.replace("skill_", "S")
                          .replace("team_buff", "Buff")
@@ -135,7 +138,7 @@ var option = {
         left: '5%',
         right: '5%',
         top: '5%',
-        bottom: '5%',
+        bottom: '0',
     },
     dataZoom: [{
         // show: false,
@@ -197,7 +200,8 @@ var option = {
                   return '{value|}   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                   // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
-                  return '{value|' + '        ' + '}{' + a.name + '| }'
+                  return '{value|}               {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  // return '{value|' + '        ' + '}{' + a.name + '| }'
                   //return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 }
                 //return '{value| }{' + a.name + '| }';
@@ -409,30 +413,59 @@ function update() {
         datasrc[describe].__slider = adv.dps;
         describe2adv[describe] = adv;
         advIcons[name] = picfolder+'character/'+name+'.png';
-        rich[adv.name] = {
-            lineHeight: 0,
-            height: 50,
-            verticalAlign: 'top',
-            backgroundColor:{
-              image: advIcons[name]
-            }
-        };
-        rich['a1_'+adv.name] = {
-            lineHeight: 20,
-            height: 24,
-            verticalAlign: 'top',
-            backgroundColor:{
-              image: picfolder+'amulet/'+adv.a1+'.png'
-            }
-        };
-        rich['a2_'+adv.name] = {
-            lineHeight: 20,
-            height: 24,
-            verticalAlign: 'bottom',
-            backgroundColor:{
-              image: picfolder+'amulet/'+adv.a2+'.png'
-            }
-        };
+        if (screenWidth > 720) {
+          rich[adv.name] = {
+              lineHeight: 0,
+              height: 50,
+              verticalAlign: 'top',
+              backgroundColor:{
+                image: advIcons[name]
+              }
+          };
+          rich['a1_'+adv.name] = {
+              lineHeight: 20,
+              height: 24,
+              verticalAlign: 'top',
+              backgroundColor:{
+                image: picfolder+'amulet/'+adv.a1+'.png'
+              }
+          };
+          rich['a2_'+adv.name] = {
+              lineHeight: 20,
+              height: 24,
+              verticalAlign: 'bottom',
+              backgroundColor:{
+                image: picfolder+'amulet/'+adv.a2+'.png'
+              }
+          };
+        } else {
+          rich[adv.name] = {
+              lineHeight: 10,
+              height: 40,
+              verticalAlign: 'top',
+              backgroundColor:{
+                image: advIcons[name]
+              }
+          };
+          rich['a1_'+adv.name] = {
+              lineHeight: 0,
+              height: 20,
+              verticalAlign: 'top',
+              backgroundColor:{
+                image: picfolder+'amulet/'+adv.a1+'.png'
+              }
+          };
+          rich['a2_'+adv.name] = {
+              lineHeight: 0,
+              height: 20,
+              verticalAlign: 'center',
+              backgroundColor:{
+                image: picfolder+'amulet/'+adv.a2+'.png'
+              }
+          };
+        }
+
+
         // rich['dragon_'+adv.name] = {
         //     lineHeight: 20,
         //     height: 50,
@@ -530,6 +563,10 @@ function update() {
                     return r
                 }
             },
+            textStyle: {
+              fontSize: 10,
+              color: "#666"
+            }
         },
     }
     s0.itemStyle = {color: '#333'};
