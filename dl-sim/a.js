@@ -488,17 +488,18 @@ function update() {
                 var stre = '(str: ' + a.stre + ')';
                 var condition = '';
                 var amulets = a.amulets+' ';
-
+                var dragon = amulets.split("[")[2].replace(";"," - ").replace("dpsrange:","DPS Range: ");
                 var comment = '';
+                var r = '';
+
                 if(a.comment){
                     comment = a.comment;
+                    r += "[" + dragon + "- " + comment;
+                    return r
+                } else {
+                    r += "[" + dragon;
+                    return r
                 }
-
-                var r = '';
-                //r += label + stre ;
-                r += amulets + comment;
-                //console.log(amulets.toString());
-                return r
             },
         },
     }
