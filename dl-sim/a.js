@@ -53,7 +53,7 @@ var option = {
             padding: 0,
             data: ['attack','force_strike','skill_1','skill_2','skill_3','team_buff', 'bleed'],
             //data:[],
-            selectedMode:true,
+            selectedMode: true,
             top: '0%',
             formatter: function(name){
               return name.replace("skill_", "S")
@@ -69,8 +69,8 @@ var option = {
             itemGap: 15,
             padding: 0,
             data: [],
-            selectedMode:true,
-            top: '-50%', // hide it
+            selectedMode: true,
+            top: '-200%', // hide it
         }
     ],
     tooltip: {
@@ -287,7 +287,7 @@ function sortData() {
             op.legend[1].selected[i] = false;
         }
         chart.setOption(op);
-    }else if (!op.legend[1].selected['attack']){
+    } else if (!op.legend[1].selected['attack']){
         //console.log('?');
         for (var i in _dimensions) {
             if (i=='team_buff')continue;
