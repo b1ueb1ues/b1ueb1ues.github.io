@@ -1,6 +1,3 @@
-// Set container haight based on the amount of characters
-// document.getElementById('container').style.height = 50 * 150 + "px";
-
 // Generate chart
 var chart = echarts.init(document.getElementById('container'), 'vintage');
 function rebuildChart() {
@@ -156,7 +153,13 @@ var option = {
     },
     yAxis: {
         type:'category',
-        axisTick : {
+        axisLine: {
+          lineStyle: {
+            color: "#ddd",
+            width: 2,
+          }
+        },
+        axisTick: {
             show: false,
             alignWithLabel: true,
         },
@@ -406,7 +409,7 @@ function update() {
         };
         rich['a1_'+adv.name] = {
             lineHeight: 20,
-            height: 25,
+            height: 24,
             verticalAlign: 'top',
             backgroundColor:{
               image: picfolder+'amulet/'+adv.a1+'.png'
@@ -414,7 +417,7 @@ function update() {
         };
         rich['a2_'+adv.name] = {
             lineHeight: 20,
-            height: 25,
+            height: 24,
             verticalAlign: 'bottom',
             backgroundColor:{
               image: picfolder+'amulet/'+adv.a2+'.png'
@@ -472,7 +475,15 @@ function update() {
 
     option.series = [];
     /**/
-    s0 = {type:'bar',name:'slider',stack:'slider',encode:{x:'__slider',y:'advdps'}};
+    s0 = {
+      type:'bar',
+      name:'slider',
+      stack:'slider',
+      encode: {
+        x:'__slider',
+        y:'advdps'
+      }
+    };
     s0.show = false;
     s0.animation = false;
     s0.barWidth = 0.01;
@@ -524,12 +535,14 @@ function update() {
                 formatter: params => {
                     a = describe2adv[params.name];
                     //console.log(a.name+':'+a.details.attack);
-                    if (a.details.attack) {
-                        conditionshowed.push(params.name);
-                        return a.condition;
-                    } else {
-                        return '';
-                    }
+                    // if (a.details.attack) {
+                    //     conditionshowed.push(params.name);
+                    //     return a.condition;
+                    // } else {
+                    //     return '';
+                    // }
+                    conditionshowed.push(params.name);
+                    return '';
                 },
             },
         },
