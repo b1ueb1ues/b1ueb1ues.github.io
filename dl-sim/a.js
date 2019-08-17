@@ -39,6 +39,7 @@ var describe2adv = {};
 var countAvgPerPage = 12;
 maxValueSpan = diagramHeight / 75;
 var option = {
+    animation: false,
     loadingOption: {
       text: "Loading...",
       y: 0
@@ -143,6 +144,7 @@ var option = {
     }, ],
     xAxis: {
       show: false,
+      max: 9600,
       // axisLine: "hide"
     },
     yAxis: {
