@@ -35,7 +35,13 @@ var itemStyle = {
 var describe2adv = {};
 var countAvgPerPage = 12;
 maxValueSpan = diagramHeight / 75;
+var globalBarWidth = 15;
 var option = {
+    textStyle: {
+      color: "#333",
+      fontSize: 12,
+      fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif'
+    },
     animation: false,
     loadingOption: {
       text: "Loading...",
@@ -486,7 +492,7 @@ function update() {
     };
     s0.show = false;
     s0.animation = false;
-    s0.barWidth = 0.01;
+    s0.barWidth = 0.001;
     s0.label = {
         normal: {
             show: true,
@@ -514,7 +520,7 @@ function update() {
             },
         },
     }
-    s0.itemStyle = {color: '#2f4554'};
+    s0.itemStyle = {color: '#333'};
     option.series.push(s0);
     option.dataZoom[0].showDataShadow='__slider';
 
@@ -525,9 +531,9 @@ function update() {
         name:'attack',
         stack:'dps',
         encode:{x:'attack',y:'advdps'},
-        animation:false,
-        //barWidth: 15,
-        itemStyle:itemStyle,
+        animation: false,
+        barWidth: globalBarWidth,
+        itemStyle: itemStyle,
         label: {
             normal: {
                 show: true,
@@ -553,7 +559,7 @@ function update() {
         stack:'c_dps',
         encode:{x:'_c_attack',y:'advdps'},
         animation:false,
-        //barWidth: 15,
+        barWidth: globalBarWidth,
         itemStyle:itemStyle,
     }
     option.series.push(t1);
