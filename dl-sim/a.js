@@ -388,7 +388,7 @@ function update() {
         datasrc[describe] = line;
         datasrc[describe].__slider = adv.dps;
         describe2adv[describe] = adv;
-        advIcons[name] = picfolder+name+'.png';
+        advIcons[name] = picfolder+'character/'+name+'.png';
         rich[adv.name] = {
             lineHeight: 0,
             height: 50,
