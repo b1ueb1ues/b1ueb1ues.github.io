@@ -433,14 +433,14 @@ function update() {
               image: picfolder+'amulet/'+adv.a2+'.png'
             }
         };
-        rich['dragon_'+adv.name] = {
-            lineHeight: 0,
-            height: 50,
-            verticalAlign: 'top',
-            backgroundColor:{
-              image: picfolder+'amulet/'+adv.a2+'.png'
-            }
-        };
+        // rich['dragon_'+adv.name] = {
+        //     lineHeight: 20,
+        //     height: 50,
+        //     verticalAlign: 'top',
+        //     backgroundColor:{
+        //       image: picfolder+'dragon/'+adv.dragon+'.png'
+        //     }
+        // };
     }
 
     for(var i in c_data){
