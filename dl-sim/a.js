@@ -135,9 +135,9 @@ var option = {
     },
     grid: {
         containLabel: true,
-        left: '5%',
-        right: '5%',
-        top: '5%',
+        left: '0',
+        right: '0',
+        top: '30px',
         bottom: '0',
     },
     dataZoom: [{
@@ -200,7 +200,7 @@ var option = {
                   return '{value|}   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                   // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
-                  return '{value|}               {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  return '{value|}                   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                   // return '{value|' + '        ' + '}{' + a.name + '| }'
                   //return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 }
@@ -440,7 +440,7 @@ function update() {
           };
         } else {
           rich[adv.name] = {
-              lineHeight: 10,
+              lineHeight: 00,
               height: 40,
               verticalAlign: 'top',
               backgroundColor:{
