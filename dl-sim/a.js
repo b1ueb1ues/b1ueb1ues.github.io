@@ -5,6 +5,12 @@ function rebuildChart() {
 }
 window.onresize = rebuildChart;
 var screenWidth = window.innerWidth;
+var handleWidth;
+if (screenWidth > 720) {
+  handleWidth = 15;
+} else {
+  handleWidth = 30;
+}
 var diagramHeight = document.getElementById('container').offsetHeight;
 let starFilter = document.getElementById('star');
 let elementFilter = document.getElementById('element');
@@ -150,10 +156,10 @@ var option = {
         showDetail: false,
         showDataShadow: false,
         zoomLock: true,
-        fillerColor: "#d87c7c",
+        fillerColor: "rgba(216, 124, 124, .5)",
         showDetail: false,
         // realtime: false,
-        width: 15,
+        width: handleWidth,
         // height: 60,
         // handleColor: "#999",
         handleSize: 0
