@@ -7,6 +7,7 @@
 @border-hover-color: fade(#000,10%);
 @bg-color: #f4f4f4;
 @radius: 4px;
+@mobileThreshold: 1024px;
 
 html {
   width: 100%;
@@ -241,7 +242,7 @@ select {
   .mb(@n, (@i + 1));
 }
 
-@media (max-width: 720px) {
+@media (max-width: @mobileThreshold) {
   #filter {
     border-top: 1px solid @border-color;
     padding-top: 15px;

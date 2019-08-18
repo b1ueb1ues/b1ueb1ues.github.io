@@ -1,4 +1,5 @@
 // Generate chart
+var mobileThreshold = 1024;
 var chart = echarts.init(document.getElementById('container'), 'vintage');
 function rebuildChart() {
   chart.resize();
@@ -6,7 +7,7 @@ function rebuildChart() {
 window.onresize = rebuildChart;
 var screenWidth = window.innerWidth;
 var handleWidth;
-if (screenWidth > 720) {
+if (screenWidth > mobileThreshold) {
   handleWidth = 15;
 } else {
   handleWidth = 30;
@@ -202,7 +203,7 @@ var option = {
                 //return '{value|' + label + stre + amulets + '}\n{value|'+comment+'}{' + a.name + '| }';
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
                 // return '{value|' + label + stre + '}{' + a.name + '| }';
-                if (screenWidth > 720) {
+                if (screenWidth > mobileThreshold) {
                   return '{value|}                       {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                   // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
@@ -419,7 +420,7 @@ function update() {
         datasrc[describe].__slider = adv.dps;
         describe2adv[describe] = adv;
         advIcons[name] = picfolder+'character/'+name+'.png';
-        if (screenWidth > 720) {
+        if (screenWidth > mobileThreshold) {
           rich[adv.name] = {
               lineHeight: 0,
               height: 50,
