@@ -143,7 +143,7 @@ var option = {
     grid: {
         containLabel: true,
         left: '0',
-        right: '0',
+        right: '5%',
         top: '30px',
         bottom: '0',
     },
