@@ -109,6 +109,7 @@ var option = {
                 }
             }
             r = '<strong>' + r + '</strong><br>';
+            r += '[' + adv.a1.replace('_',' ') + ' + ' +adv.a2.replace('_',' ') +']' + '<br>';
 
             sname = value.seriesName;
             if(value.seriesIndex%2==1){
