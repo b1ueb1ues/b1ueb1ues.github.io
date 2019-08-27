@@ -135,8 +135,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2817,_c_Fritz,4*,light,dagger,2960,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15>,,attack:1231,force_strike:105,skill_1:1160,skill_2:0,skill_3:0,team_buff:186,s2fs:134
 5150,Linyou,5*,wind,axe,2891,[Kung_Fu_Masters+Flower_in_the_Fray][Longlong],<hp70>,2in1 ,attack:2009,force_strike:0,skill_1:2185,skill_2:0,skill_3:409,team_buff:0,s1_powerup:546
 4679,_c_Linyou,5*,wind,axe,2891,[Kung_Fu_Masters+Flower_in_the_Fray][Longlong],!<hp70>,2in1 ,attack:1826,force_strike:0,skill_1:1985,skill_2:0,skill_3:371,team_buff:0,s1_powerup:496
-3954,Kuhai,4*,wind,sword,2994,[Stellar_Show+Resounding_Rendition][Zephyr],<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:892,force_strike:57,skill_1:1633,skill_2:0,skill_3:0,team_buff:0,fs_alt:1371
-2795,_c_Kuhai,4*,wind,sword,2994,[Stellar_Show+Resounding_Rendition][Zephyr],!<huge hitbox eneny & hp70>,c2+fs during s2 & stellar show + RR,attack:536,force_strike:105,skill_1:1281,skill_2:0,skill_3:0,team_buff:0,fs_alt:871
+3954,Kuhai,4*,wind,sword,2994,[Stellar_Show+Resounding_Rendition][Zephyr],<huge hitbox eneny & hp70>,c2+fs during s2,attack:892,force_strike:57,skill_1:1633,skill_2:0,skill_3:0,team_buff:0,fs_alt:0,fs_alt_hit2:457,fs_alt_hit3:457,fs_alt_hit1:457
+2795,_c_Kuhai,4*,wind,sword,2994,[Stellar_Show+Resounding_Rendition][Zephyr],!<huge hitbox eneny & hp70>,c2+fs during s2,attack:536,force_strike:105,skill_1:1281,skill_2:0,skill_3:0,team_buff:0,fs_alt:0,fs_alt_hit2:435,fs_alt_hit1:435
 4529,Xiaolei,3*,light,wand,3034,[Resounding_Rendition+Flash_of_Genius][Cupid],<hp70 & hit15>,,attack:1659,force_strike:0,skill_1:1760,skill_2:0,skill_3:759,team_buff:349
 3841,_c_Xiaolei,3*,light,wand,3034,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15>,,attack:1388,force_strike:0,skill_1:1473,skill_2:0,skill_3:629,team_buff:349
 3563,Sufang,4*,wind,dagger,3035,[Resounding_Rendition+Flash_of_Genius][Zephyr],<hp70 & hit15>,,attack:1439,force_strike:80,skill_1:1303,skill_2:0,skill_3:741,team_buff:0
