@@ -217,8 +217,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4596,_c_Ieyasu,5*,shadow,blade,2427,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi];dpsrange:(3222~5227),!<hp70>,,attack:795,force_strike:0,skill_1:1505,skill_2:0,skill_3:576,team_buff:0,bleed:1720
 3495,Sinoa,4*,flame,wand,2215,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(2221~5094),<hit15 & hp100 & hp70>,5c+fs,attack:1138,force_strike:150,skill_1:0,skill_2:1193,skill_3:0,team_buff:1012
 2833,_c_Sinoa,4*,flame,wand,2215,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(1771~4154),!<hit15 & hp100 & hp70>,5c+fs,attack:847,force_strike:112,skill_1:0,skill_2:889,skill_3:0,team_buff:984
-2989,Ezelith,5*,flame,dagger,2280,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(2860~3244),<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:835,force_strike:66,skill_1:1550,skill_2:0,skill_3:456,team_buff:80
-2449,_c_Ezelith,5*,flame,dagger,2280,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(2331~2619),!<hp70 & hit15>,Flurry Debilitator won't work in the game,attack:680,force_strike:54,skill_1:1263,skill_2:0,skill_3:372,team_buff:78
+3173,Ezelith,5*,flame,dagger,2280,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(2954~3490),<hp70 & hit15>,,attack:846,force_strike:67,skill_1:1598,skill_2:0,skill_3:466,team_buff:194
+2451,_c_Ezelith,5*,flame,dagger,2280,[Resounding_Rendition+Flash_of_Genius][Sakuya];dpsrange:(2331~2670),!<hp70 & hit15>,,attack:680,force_strike:54,skill_1:1263,skill_2:0,skill_3:372,team_buff:80
 4338,Sazanka,4*,shadow,axe,2262,[Kung_Fu_Masters+Crystalian_Envoy][Shinobi];dpsrange:(3549~4594),<hp70 & 80 resist>,,attack:1099,force_strike:153,skill_1:1776,skill_2:0,skill_3:0,team_buff:0,s2fs:37,bleed:1272
 3934,_c_Sazanka,4*,shadow,axe,2262,[Kung_Fu_Masters+Crystalian_Envoy][Shinobi];dpsrange:(3185~4145),!<hp70 & 80 resist>,,attack:991,force_strike:138,skill_1:1602,skill_2:0,skill_3:0,team_buff:0,s2fs:33,bleed:1167
 5398,Botan,4*,shadow,lance,2231,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi];dpsrange:(4487~5761),<hp70>,,attack:656,force_strike:97,skill_1:1558,skill_2:0,skill_3:667,team_buff:630,bleed:1790
