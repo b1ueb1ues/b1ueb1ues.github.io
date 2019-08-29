@@ -141,8 +141,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3269,_c_Xiaolei,3*,light,wand,3034,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15>,,attack:1312,force_strike:0,skill_1:1359,skill_2:0,skill_3:286,team_buff:311
 3340,Sufang,4*,wind,dagger,3035,[Resounding_Rendition+Flash_of_Genius][Zephyr],<hp70 & hit15>,,attack:1341,force_strike:131,skill_1:1112,skill_2:0,skill_3:754,team_buff:0
 2823,_c_Sufang,4*,wind,dagger,3035,[Resounding_Rendition+Flash_of_Genius][Zephyr],!<hp70 & hit15>,,attack:1134,force_strike:111,skill_1:940,skill_2:0,skill_3:637,team_buff:0
-3961,V_Ezelith,4*,flame,bow,2204,[Resounding_Rendition+Flash_of_Genius][Sakuya],<c4+fs & hp70 & never lose combos & hit15 & 0 resist>,,attack:699,force_strike:197,skill_1:1549,skill_2:698,skill_3:0,team_buff:299,s1_energized:56,s1_burn:459
-3006,_c_V_Ezelith,4*,flame,bow,2204,[Resounding_Rendition+Flash_of_Genius][Sakuya],!<c4+fs & hp70 & never lose combos & hit15 & 0 resist>,,attack:703,force_strike:0,skill_1:1354,skill_2:601,skill_3:0,team_buff:347,s1_burn:0
+4254,V_Ezelith,4*,flame,bow,2200,[Resounding_Rendition+Elegant_Escort][Sakuya],<c4+fs & hp70 & never lose combos & 0 resist>,,attack:745,force_strike:210,skill_1:1649,skill_2:776,skill_3:0,team_buff:299,s1_energized:61,s1_burn:510
+3002,_c_V_Ezelith,4*,flame,bow,2200,[Resounding_Rendition+Elegant_Escort][Sakuya],!<c4+fs & hp70 & never lose combos & 0 resist>,,attack:702,force_strike:0,skill_1:1352,skill_2:600,skill_3:0,team_buff:347,s1_burn:0
 4365,V_Orion,3*,flame,sword,2259,[The_Shining_Overlord+Elegant_Escort][Sakuya],<0 resist>,no s2,attack:899,force_strike:412,skill_1:1896,skill_2:0,skill_3:603,team_buff:0,s1_burn:552
 3071,_c_V_Orion,3*,flame,sword,2259,[The_Shining_Overlord+Elegant_Escort][Sakuya],!<0 resist>,no s2,attack:722,force_strike:332,skill_1:1549,skill_2:0,skill_3:467,team_buff:0,s1_burn:0
 5921,Albert,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<4s1 in on s2 & 0 resist & big hitbox>,suitable skill prep; ,attack:793,force_strike:743,skill_1:1700,skill_2:0,skill_3:0,team_buff:0,fs_alt:266,s1_s2boost:1277,s2_paralysis:682,s1_hit5:91,s1_hit4:91,s1_hit6:91,s1_hit3:91,s1_hit2:91

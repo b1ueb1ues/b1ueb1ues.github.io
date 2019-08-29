@@ -103,7 +103,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3331,_c_Zace,3*,shadow,lance,2320,[Jewels_of_the_Sun+Resounding_Rendition][Shinobi],!<hp70>,,attack:553,force_strike:66,skill_1:1562,skill_2:650,skill_3:498,team_buff:0
 2588,D_Nefaria,4*,water,bow,2713,[Resounding_Rendition+Flash_of_Genius][DJ],<c4+fs & hp70 & hit15>,,attack:763,force_strike:461,skill_1:1363,skill_2:0,skill_3:0,team_buff:0
 2056,_c_D_Nefaria,4*,water,bow,2713,[Resounding_Rendition+Flash_of_Genius][DJ],!<c4+fs & hp70 & hit15>,,attack:909,force_strike:0,skill_1:1147,skill_2:0,skill_3:0,team_buff:0
-3489,Eleonora,4*,wind,bow,2792,[Resounding_Rendition+Flash_of_Genius][Pazuzu],<c4+fs & hp70 & hit15 & fullhp=poison & 0 resist>,,attack:836,force_strike:495,skill_1:1101,skill_2:584,skill_3:0,team_buff:0,s1_poison:342,s2_poison:129
+3529,Eleonora,4*,wind,bow,2792,[Resounding_Rendition+Flash_of_Genius][Pazuzu],<c4+fs & hp70 & hit15 & fullhp=poison & 0 resist>,,attack:839,force_strike:499,skill_1:1101,skill_2:599,skill_3:0,team_buff:0,s1_poison:356,s2_poison:133
 2070,_c_Eleonora,4*,wind,bow,2792,[Resounding_Rendition+Flash_of_Genius][Pazuzu],!<c4+fs & hp70 & hit15 & fullhp=poison & 0 resist>,,attack:832,force_strike:0,skill_1:850,skill_2:387,skill_3:0,team_buff:0,s1_poison:0,s2_poison:0
 2716,Elias,4*,light,bow,2877,[Resounding_Rendition+Flash_of_Genius][Cupid],<hp70 & energy & hit15 & last offense & c4+fs & no s2>,,attack:766,force_strike:450,skill_1:1193,skill_2:0,skill_3:306,team_buff:0
 1992,_c_Elias,4*,light,bow,2877,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & energy & hit15 & last offense & c4+fs & no s2>,,attack:844,force_strike:0,skill_1:889,skill_2:0,skill_3:257,team_buff:0
@@ -141,8 +141,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3194,_c_Xiaolei,3*,light,wand,3034,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15>,,attack:1168,force_strike:0,skill_1:1336,skill_2:0,skill_3:391,team_buff:297
 3101,Sufang,4*,wind,dagger,3035,[Resounding_Rendition+Flash_of_Genius][Zephyr],<hp70 & hit15>,,attack:1312,force_strike:65,skill_1:1207,skill_2:0,skill_3:515,team_buff:0
 2621,_c_Sufang,4*,wind,dagger,3035,[Resounding_Rendition+Flash_of_Genius][Zephyr],!<hp70 & hit15>,,attack:1109,force_strike:55,skill_1:1020,skill_2:0,skill_3:435,team_buff:0
-3663,V_Ezelith,4*,flame,bow,2204,[Resounding_Rendition+Flash_of_Genius][Sakuya],<c4+fs & hp70 & never lose combos & hit15 & 0 resist>,,attack:635,force_strike:182,skill_1:1431,skill_2:640,skill_3:0,team_buff:315,s1_energized:54,s1_burn:403
-2738,_c_V_Ezelith,4*,flame,bow,2204,[Resounding_Rendition+Flash_of_Genius][Sakuya],!<c4+fs & hp70 & never lose combos & hit15 & 0 resist>,,attack:647,force_strike:0,skill_1:1212,skill_2:543,skill_3:0,team_buff:335,s1_burn:0
+3902,V_Ezelith,4*,flame,bow,2200,[Resounding_Rendition+Elegant_Escort][Sakuya],<c4+fs & hp70 & never lose combos & 0 resist>,,attack:670,force_strike:193,skill_1:1513,skill_2:705,skill_3:0,team_buff:315,s1_energized:57,s1_burn:446
+2734,_c_V_Ezelith,4*,flame,bow,2200,[Resounding_Rendition+Elegant_Escort][Sakuya],!<c4+fs & hp70 & never lose combos & 0 resist>,,attack:646,force_strike:0,skill_1:1210,skill_2:542,skill_3:0,team_buff:335,s1_burn:0
 3946,V_Orion,3*,flame,sword,2259,[The_Shining_Overlord+Elegant_Escort][Sakuya],<0 resist>,no s2,attack:800,force_strike:246,skill_1:1691,skill_2:0,skill_3:781,team_buff:0,s1_burn:426
 2903,_c_V_Orion,3*,flame,sword,2259,[The_Shining_Overlord+Elegant_Escort][Sakuya],!<0 resist>,no s2,attack:656,force_strike:201,skill_1:1408,skill_2:0,skill_3:637,team_buff:0,s1_burn:0
 5555,Albert,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<4s1 in on s2 & 0 resist & big hitbox>,suitable skill prep; ,attack:700,force_strike:588,skill_1:1754,skill_2:0,skill_3:0,team_buff:0,fs_alt:211,s1_s2boost:1452,s2_paralysis:325,s1_hit5:104,s1_hit4:104,s1_hit6:104,s1_hit3:104,s1_hit2:104
@@ -160,7 +160,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4571,Fleur,4*,light,dagger,3018,[Resounding_Rendition+Flash_of_Genius][Cupid],<hp70 & hit15 & 0 resist>,don't use s2 in s3 nor s3 in s2,attack:1609,force_strike:224,skill_1:1349,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:519,s1_boost:868
 2319,_c_Fleur,4*,light,dagger,3018,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15 & 0 resist>,don't use s2 in s3 nor s3 in s2,attack:1169,force_strike:162,skill_1:987,skill_2:0,skill_3:0,team_buff:0,s1_paralysis:0,s1_boost:0
 3385,Yue,4*,flame,axe,2698,[Kung_Fu_Masters+Flower_in_the_Fray][Arctos], ,Arctos,attack:1601,force_strike:78,skill_1:1705,skill_2:0,skill_3:0,team_buff:0
-4087,Sylas,5*,wind,lance,2783,[Resounding_Rendition+Crystalian_Envoy][Pazuzu],<hp70 & 0 resist>,not consider skill haste for team,attack:1308,force_strike:211,skill_1:1838,skill_2:0,skill_3:0,team_buff:237,s1_poison:491
+4117,Sylas,5*,wind,lance,2783,[Resounding_Rendition+Crystalian_Envoy][Pazuzu],<hp70 & 0 resist>,not consider skill haste for team,attack:1316,force_strike:212,skill_1:1842,skill_2:0,skill_3:0,team_buff:237,s1_poison:508
 2550,_c_Sylas,5*,wind,lance,2783,[Resounding_Rendition+Crystalian_Envoy][Pazuzu],!<hp70 & 0 resist>,not consider skill haste for team,attack:902,force_strike:145,skill_1:1265,skill_2:0,skill_3:0,team_buff:237,s1_poison:0
 3943,Alex,4*,shadow,dagger,2281,[Resounding_Rendition+Flash_of_Genius][Shinobi],<hit15 & hp100 & hp70>,not consider bk boost of her s2,attack:816,force_strike:90,skill_1:1627,skill_2:686,skill_3:558,team_buff:164
 2923,_c_Alex,4*,shadow,dagger,2281,[Resounding_Rendition+Flash_of_Genius][Shinobi],!<hit15 & hp100 & hp70>,not consider bk boost of her s2,attack:665,force_strike:73,skill_1:1144,skill_2:482,skill_3:392,team_buff:164
@@ -207,7 +207,7 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4230,_c_S_Julietta,5*,water,axe,2445,[Kung_Fu_Masters+Jewels_of_the_Sun][Siren],!<hp70 & buff all team>,no fs; no bog,attack:1186,force_strike:0,skill_1:2195,skill_2:0,skill_3:847,team_buff:0
 4998,S_Celliera,5*,water,sword,2323,[Valiant_Crown+Jewels_of_the_Sun][Siren],<hp70>,no bog; don't s3; c2fs,attack:812,force_strike:447,skill_1:2377,skill_2:743,skill_3:0,team_buff:618
 4661,_c_S_Celliera,5*,water,sword,2323,[Valiant_Crown+Jewels_of_the_Sun][Siren],!<hp70>,no bog; don't s3; c2fs,attack:749,force_strike:413,skill_1:2194,skill_2:685,skill_3:0,team_buff:618
-4626,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4488~4711),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1226,force_strike:0,skill_1:1622,skill_2:0,skill_3:620,team_buff:203,s1_paralysis:467,s1_boost:485
+4632,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4492~4711),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1227,force_strike:0,skill_1:1627,skill_2:0,skill_3:620,team_buff:203,s1_paralysis:467,s1_boost:486
 2358,_c_S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(2358~2358),!<hit15 & buff all team & 0 resist & hp70>,nofs,attack:842,force_strike:0,skill_1:937,skill_2:0,skill_3:390,team_buff:0,s1_paralysis:0,s1_boost:188
 3519,S_Luca,4*,light,axe,3106,[Kung_Fu_Masters+Flower_in_the_Fray][Cupid];dpsrange:(3492~3547),<hp70 & energy>,,attack:1505,force_strike:80,skill_1:1850,skill_2:0,skill_3:0,team_buff:0,s1_energized:83
 3234,_c_S_Luca,4*,light,axe,3106,[Kung_Fu_Masters+Flower_in_the_Fray][Cupid];dpsrange:(3234~3234),!<hp70 & energy>,,attack:1416,force_strike:75,skill_1:1741,skill_2:0,skill_3:0,team_buff:0
