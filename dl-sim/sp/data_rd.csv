@@ -5,12 +5,10 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 6945,_c_Xander,5*,water,sword,2354,[Together_We_Stand+Resounding_Rendition][Siren],!<hp70>,10 stacks striker's strength,attack:872,force_strike:831,skill_1:2630,skill_2:1294,skill_3:0,team_buff:0,s1_boost:1315
 3086,Xander,5*,water,sword,2864,[Stellar_Show+Levins_Champion][DJ],<hp70>,only 2+1,attack:1245,force_strike:1841,skill_1:0,skill_2:0,skill_3:0,team_buff:0
 2876,_c_Xander,5*,water,sword,2864,[Stellar_Show+Levins_Champion][DJ],!<hp70>,only 2+1,attack:1160,force_strike:1716,skill_1:0,skill_2:0,skill_3:0,team_buff:0
-3751,Vanessa,4*,flame,axe,1995,[Kung_Fu_Masters+Flower_in_the_Fray][Sakuya],<last offense>,void weapon vs HMS,attack:974,force_strike:73,skill_1:1818,skill_2:724,skill_3:0,team_buff:160
-3669,_c_Vanessa,4*,flame,axe,1995,[Kung_Fu_Masters+Flower_in_the_Fray][Sakuya],!<last offense>,void weapon vs HMS,attack:949,force_strike:73,skill_1:1787,skill_2:698,skill_3:0,team_buff:160
 3470,Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],<hp70 & buff all teammates>,,attack:940,force_strike:0,skill_1:1415,skill_2:0,skill_3:482,team_buff:631
 2491,_c_Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],!<hp70 & buff all teammates>,,attack:825,force_strike:0,skill_1:1242,skill_2:0,skill_3:423,team_buff:0
-4846,Linyou,5*,wind,axe,3190,[Kung_Fu_Masters+Flower_in_the_Fray][Zephyr],<hp70>,2in1 ; Zephyr,attack:1675,force_strike:0,skill_1:1887,skill_2:0,skill_3:706,team_buff:0,s1_powerup:576
-4535,_c_Linyou,5*,wind,axe,3190,[Kung_Fu_Masters+Flower_in_the_Fray][Zephyr],!<hp70>,2in1 ; Zephyr,attack:1568,force_strike:0,skill_1:1765,skill_2:0,skill_3:661,team_buff:0,s1_powerup:539
+5163,Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],<hp70>,2in1 ; Zephyr,attack:1256,force_strike:0,skill_1:2325,skill_2:0,skill_3:870,team_buff:0,s1_powerup:710
+4831,_c_Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],!<hp70>,2in1 ; Zephyr,attack:1176,force_strike:0,skill_1:2175,skill_2:0,skill_3:814,team_buff:0,s1_powerup:664
 4768,Louise,5*,wind,bow,2784,[Stellar_Show+Forest_Bonds][Pazuzu],<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1998,skill_1:1397,skill_2:668,skill_3:0,team_buff:0,s1_poison:402,s2_boost:302
 3534,_c_Louise,5*,wind,bow,2784,[Stellar_Show+Forest_Bonds][Pazuzu],!<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1741,skill_1:1222,skill_2:570,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
 6993,Veronica,5*,shadow,wand,2294,[Flash_of_Genius+Heralds_of_Hinomoto][Shinobi],<hp1 & hit15>,1hp; only c5 & s1; ,attack:1120,force_strike:0,skill_1:2570,skill_2:0,skill_3:0,team_buff:87,s1_crisis:3213
@@ -19,8 +17,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4095,_c_Marth,5*,flame,sword,2327,[The_Shining_Overlord+Flash_of_Genius][Sakuya],!<hit15>,dodge*2 to miss s2p3 then dodge*2 back to attack,attack:594,force_strike:271,skill_1:1426,skill_2:143,skill_3:512,team_buff:1147
 7959,Elisanne,4*,water,lance,2668,[Beach_Battle+Jewels_of_the_Sun][DJ],<hp70>,10000 team dps; no s2,attack:1630,force_strike:234,skill_1:0,skill_2:653,skill_3:0,team_buff:5439
 7796,_c_Elisanne,4*,water,lance,2668,[Beach_Battle+Jewels_of_the_Sun][DJ],!<hp70>,10000 team dps; no s2,attack:1525,force_strike:219,skill_1:0,skill_2:611,skill_3:0,team_buff:5439
-6569,Melody,3*,wind,blade,3040,[Halidom_Grooms+Resounding_Rendition][Zephyr],<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1969,force_strike:0,skill_1:0,skill_2:0,skill_3:797,team_buff:3802
-6310,_c_Melody,3*,wind,blade,3040,[Halidom_Grooms+Resounding_Rendition][Zephyr],!<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1785,force_strike:0,skill_1:0,skill_2:0,skill_3:722,team_buff:3802
+6291,Melody,3*,wind,blade,2280,[Halidom_Grooms+Resounding_Rendition][Vayu],<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1477,force_strike:0,skill_1:0,skill_2:0,skill_3:1011,team_buff:3802
+6058,_c_Melody,3*,wind,blade,2280,[Halidom_Grooms+Resounding_Rendition][Vayu],!<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1338,force_strike:0,skill_1:0,skill_2:0,skill_3:916,team_buff:3802
 4966,G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:666,force_strike:101,skill_1:1572,skill_2:670,skill_3:317,team_buff:0,d_ss:29,d_atk:822,s2_boost:249,d_skl:536
 4261,_c_G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],!<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:571,force_strike:86,skill_1:1348,skill_2:574,skill_3:272,team_buff:0,d_ss:25,d_atk:705,s2_boost:214,d_skl:460
 5257,G_Sarisse,5*,flame,bow,2258,[Forest_Bonds+Stellar_Show][Sakuya],<rollfs & never lose combos>,,attack:0,force_strike:1533,skill_1:3408,skill_2:0,skill_3:0,team_buff:314
@@ -29,8 +27,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2810,_c_Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],!<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:970,force_strike:0,skill_1:1839,skill_2:0,skill_3:0,team_buff:0
 4483,Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],<rollfs & 0 resist>,,attack:0,force_strike:1780,skill_1:1275,skill_2:741,skill_3:0,team_buff:0,s1_poison:347,s2_boost:338
 2653,_c_Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],!<rollfs & 0 resist>,,attack:846,force_strike:0,skill_1:1174,skill_2:633,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
-5076,Addis,4*,wind,blade,2682,[Evening_of_Luxury+Resounding_Rendition][Zephyr];dpsrange:(3967~5689),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1568,force_strike:64,skill_1:1601,skill_2:0,skill_3:0,team_buff:0,s1_poison:21,bleed:1820
-4354,_c_Addis,4*,wind,blade,2682,[Evening_of_Luxury+Resounding_Rendition][Zephyr];dpsrange:(3482~4880),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1350,force_strike:55,skill_1:1380,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:1568
+7428,Addis,4*,wind,blade,2011,[Seaside_Princess+Resounding_Rendition][Vayu];dpsrange:(5846~8481),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1566,force_strike:64,skill_1:2716,skill_2:0,skill_3:0,team_buff:0,s1_poison:36,bleed:3044
+6020,_c_Addis,4*,wind,blade,2011,[Seaside_Princess+Resounding_Rendition][Vayu];dpsrange:(4409~6872),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1274,force_strike:52,skill_1:2209,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:2483
 8549,Natalie,5*,shadow,blade,2419,[Heralds_of_Hinomoto+Flash_of_Genius][Shinobi];dpsrange:(8420~8602),<energy & hit15 & hp1>,1hp;,attack:1512,force_strike:34,skill_1:2768,skill_2:0,skill_3:1090,team_buff:0,s1_energized:77,s1_crisis:2768,s3_energized:98,s1_crisis_energized:200
 3710,_c_Natalie,5*,shadow,blade,2419,[Heralds_of_Hinomoto+Flash_of_Genius][Shinobi];dpsrange:(3710~3710),!<energy & hit15 & hp1>,1hp;,attack:1023,force_strike:22,skill_1:1970,skill_2:0,skill_3:694,team_buff:0
 6898,Natalie,5*,shadow,blade,2426,[Tough_Love+The_Chocolatiers][Shinobi];dpsrange:(6816~6938),<energy & hp20 & last offense>,20hp; 120s; can't maintain comboes,attack:1377,force_strike:0,skill_1:2547,skill_2:0,skill_3:1121,team_buff:0,s1_energized:17,s1_crisis:1630,s3_energized:117,s1_crisis_energized:87
