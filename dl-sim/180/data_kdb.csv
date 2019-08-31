@@ -209,6 +209,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4956,_c_S_Celliera,5*,water,sword,2807,[Valiant_Crown+Jewels_of_the_Sun][DJ],!<hp70>,no bog; don't s3; c2fs,attack:1210,force_strike:675,skill_1:1854,skill_2:542,skill_3:0,team_buff:673
 7145,Noelle,4*,wind,wand,2940,[Heralds_of_Hinomoto+Halidom_Grooms][Zephyr],<buff all team>,,attack:1880,force_strike:126,skill_1:0,skill_2:948,skill_3:0,team_buff:4189
 2956,_c_Noelle,4*,wind,wand,2940,[Heralds_of_Hinomoto+Halidom_Grooms][Zephyr],!<buff all team>,,attack:1880,force_strike:126,skill_1:0,skill_2:948,skill_3:0,team_buff:0
+6118,Victor,5*,wind,blade,2334,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4866~6855),<hp70>,,attack:1105,force_strike:0,skill_1:1745,skill_2:620,skill_3:573,team_buff:0,bleed:2072
+4761,_c_Victor,5*,wind,blade,2334,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(3852~5357),!<hp70>,,attack:864,force_strike:0,skill_1:1364,skill_2:485,skill_3:448,team_buff:0,bleed:1599
 4894,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4779~4988),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1387,force_strike:0,skill_1:1626,skill_2:0,skill_3:715,team_buff:237,s1_paralysis:426,s1_boost:502
 2609,_c_S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(2371~2371),!<hit15 & buff all team & 0 resist & hp70>,nofs,attack:988,force_strike:0,skill_1:996,skill_2:0,skill_3:399,team_buff:0,s1_paralysis:0,s1_boost:225
 4020,S_Luca,4*,light,axe,3106,[Kung_Fu_Masters+Flower_in_the_Fray][Cupid];dpsrange:(3996~4035),<hp70 & energy>,,attack:1854,force_strike:91,skill_1:1970,skill_2:0,skill_3:0,team_buff:0,s1_energized:103
