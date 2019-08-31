@@ -133,8 +133,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 3577,_c_Marty,3*,flame,sword,2186,[Resounding_Rendition+Fresh_Perspective][Sakuya],!<hp70>,,attack:702,force_strike:452,skill_1:1715,skill_2:0,skill_3:707,team_buff:0
 3299,Fritz,4*,light,dagger,2960,[Resounding_Rendition+Flash_of_Genius][Cupid],<hp70 & hit15>,,attack:1456,force_strike:124,skill_1:1373,skill_2:0,skill_3:0,team_buff:186,s2fs:158
 2817,_c_Fritz,4*,light,dagger,2960,[Resounding_Rendition+Flash_of_Genius][Cupid],!<hp70 & hit15>,,attack:1231,force_strike:105,skill_1:1160,skill_2:0,skill_3:0,team_buff:186,s2fs:134
-5123,Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],<hp70>,2in1 ,attack:1436,force_strike:0,skill_1:2565,skill_2:0,skill_3:480,team_buff:0,s1_powerup:641
-4794,_c_Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],!<hp70>,2in1 ,attack:1344,force_strike:0,skill_1:2400,skill_2:0,skill_3:449,team_buff:0,s1_powerup:600
+5101,Linyou,5*,wind,axe,2397,[Crystalian_Envoy+Kung_Fu_Masters][Vayu],<hp70>,2in1 ,attack:1525,force_strike:0,skill_1:2488,skill_2:0,skill_3:465,team_buff:0,s1_powerup:622
+4348,_c_Linyou,5*,wind,axe,2397,[Crystalian_Envoy+Kung_Fu_Masters][Vayu],!<hp70>,2in1 ,attack:1300,force_strike:0,skill_1:2120,skill_2:0,skill_3:397,team_buff:0,s1_powerup:530
 3814,Kuhai,4*,wind,sword,2245,[Stellar_Show+Resounding_Rendition][Vayu],<huge hitbox eneny & hp70>,c2+fs during s2,attack:669,force_strike:43,skill_1:2073,skill_2:0,skill_3:0,team_buff:0,fs_alt:0,fs_alt_hit2:342,fs_alt_hit3:342,fs_alt_hit1:342
 2761,_c_Kuhai,4*,wind,sword,2245,[Stellar_Show+Resounding_Rendition][Vayu],!<huge hitbox eneny & hp70>,c2+fs during s2,attack:402,force_strike:79,skill_1:1626,skill_2:0,skill_3:0,team_buff:0,fs_alt:0,fs_alt_hit2:326,fs_alt_hit1:326
 4529,Xiaolei,3*,light,wand,3034,[Resounding_Rendition+Flash_of_Genius][Cupid],<hp70 & hit15>,,attack:1659,force_strike:0,skill_1:1760,skill_2:0,skill_3:759,team_buff:349
@@ -209,8 +209,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 5115,_c_S_Celliera,5*,water,sword,2323,[Valiant_Crown+Jewels_of_the_Sun][Siren],!<hp70>,no bog; don't s3; c2fs,attack:842,force_strike:468,skill_1:2582,skill_2:654,skill_3:0,team_buff:566
 6242,Noelle,4*,wind,wand,2940,[Heralds_of_Hinomoto+Halidom_Grooms][Zephyr],<buff all team>,,attack:1761,force_strike:104,skill_1:0,skill_2:907,skill_3:0,team_buff:3469
 2773,_c_Noelle,4*,wind,wand,2940,[Heralds_of_Hinomoto+Halidom_Grooms][Zephyr],!<buff all team>,,attack:1761,force_strike:104,skill_1:0,skill_2:907,skill_3:0,team_buff:0
-6078,Victor,5*,wind,blade,2334,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4578~6697),<hp70>,,attack:1134,force_strike:0,skill_1:2120,skill_2:711,skill_3:395,team_buff:0,bleed:1716
-4756,_c_Victor,5*,wind,blade,2334,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(3578~5233),!<hp70>,,attack:886,force_strike:0,skill_1:1657,skill_2:556,skill_3:308,team_buff:0,bleed:1347
+6092,Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4574~6690),<hp70>,,attack:1133,force_strike:0,skill_1:2118,skill_2:711,skill_3:394,team_buff:0,bleed:1735
+4733,_c_Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(3405~5228),!<hp70>,,attack:885,force_strike:0,skill_1:1655,skill_2:555,skill_3:308,team_buff:0,bleed:1327
 5059,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4599~4599),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1431,force_strike:0,skill_1:1736,skill_2:0,skill_3:743,team_buff:203,s1_paralysis:532,s1_boost:413
 2918,_c_S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(2653~2653),!<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1003,force_strike:0,skill_1:1197,skill_2:0,skill_3:496,team_buff:0,s1_paralysis:0,s1_boost:221
 4111,S_Luca,4*,light,axe,3106,[Kung_Fu_Masters+Flower_in_the_Fray][Cupid];dpsrange:(4060~4195),<hp70 & energy>,,attack:1747,force_strike:114,skill_1:2197,skill_2:0,skill_3:0,team_buff:0,s1_energized:51
