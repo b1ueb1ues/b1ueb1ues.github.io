@@ -5,10 +5,10 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 6796,_c_Xander,5*,water,sword,2354,[Together_We_Stand+Resounding_Rendition][Siren],!<hp70>,10 stacks striker's strength,attack:764,force_strike:850,skill_1:2578,skill_2:1314,skill_3:0,team_buff:0,s1_boost:1289
 2876,Xander,5*,water,sword,2864,[Stellar_Show+Levins_Champion][DJ],<hp70>,only 2+1,attack:1160,force_strike:1716,skill_1:0,skill_2:0,skill_3:0,team_buff:0
 2667,_c_Xander,5*,water,sword,2864,[Stellar_Show+Levins_Champion][DJ],!<hp70>,only 2+1,attack:1076,force_strike:1591,skill_1:0,skill_2:0,skill_3:0,team_buff:0
-3366,Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],<hp70 & buff all teammates>,,attack:888,force_strike:0,skill_1:1327,skill_2:0,skill_3:546,team_buff:605
-2415,_c_Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],!<hp70 & buff all teammates>,,attack:777,force_strike:0,skill_1:1161,skill_2:0,skill_3:477,team_buff:0
-4924,Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],<hp70>,2in1 ; Zephyr,attack:1209,force_strike:0,skill_1:2305,skill_2:0,skill_3:681,team_buff:0,s1_powerup:727
-4586,_c_Linyou,5*,wind,axe,2393,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],!<hp70>,2in1 ; Zephyr,attack:1126,force_strike:0,skill_1:2146,skill_2:0,skill_3:634,team_buff:0,s1_powerup:677
+3366,Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],<buff all teammates & hp70>,,attack:888,force_strike:0,skill_1:1327,skill_2:0,skill_3:546,team_buff:605
+2415,_c_Heinwald,5*,shadow,staff,2192,[Resounding_Rendition+Jewels_of_the_Sun][Shinobi],!<buff all teammates & hp70>,,attack:777,force_strike:0,skill_1:1161,skill_2:0,skill_3:477,team_buff:0
+4919,Linyou,5*,wind,axe,2391,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],<hp70>,2in1 ; Zephyr,attack:1208,force_strike:0,skill_1:2302,skill_2:0,skill_3:680,team_buff:0,s1_powerup:727
+4582,_c_Linyou,5*,wind,axe,2391,[Kung_Fu_Masters+Flower_in_the_Fray][Vayu],!<hp70>,2in1 ; Zephyr,attack:1125,force_strike:0,skill_1:2144,skill_2:0,skill_3:634,team_buff:0,s1_powerup:677
 4418,Louise,5*,wind,bow,2784,[Stellar_Show+Forest_Bonds][Pazuzu],<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1850,skill_1:1295,skill_2:619,skill_3:0,team_buff:0,s1_poison:372,s2_boost:279
 3274,_c_Louise,5*,wind,bow,2784,[Stellar_Show+Forest_Bonds][Pazuzu],!<0 resist>,roll fs & g_ranzal+lowen,attack:0,force_strike:1612,skill_1:1133,skill_2:528,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
 6545,Veronica,5*,shadow,wand,2294,[Flash_of_Genius+Heralds_of_Hinomoto][Shinobi],<hp1 & hit15>,1hp; only c5 & s1; ,attack:1048,force_strike:0,skill_1:2404,skill_2:0,skill_3:0,team_buff:86,s1_crisis:3006
@@ -17,14 +17,14 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 4130,_c_Marth,5*,flame,sword,2327,[The_Shining_Overlord+Flash_of_Genius][Sakuya],!<hit15>,dodge*2 to miss s2p3 then dodge*2 back to attack,attack:521,force_strike:230,skill_1:1557,skill_2:134,skill_3:511,team_buff:1175
 8385,Elisanne,4*,water,lance,2668,[Beach_Battle+Jewels_of_the_Sun][DJ],<hp70>,10000 team dps; no s2,attack:1959,force_strike:0,skill_1:0,skill_2:0,skill_3:0,team_buff:6426
 8259,_c_Elisanne,4*,water,lance,2668,[Beach_Battle+Jewels_of_the_Sun][DJ],!<hp70>,10000 team dps; no s2,attack:1832,force_strike:0,skill_1:0,skill_2:0,skill_3:0,team_buff:6426
-6043,Melody,3*,wind,blade,2280,[Halidom_Grooms+Resounding_Rendition][Vayu],<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1378,force_strike:0,skill_1:0,skill_2:0,skill_3:956,team_buff:3708
-5811,_c_Melody,3*,wind,blade,2280,[Halidom_Grooms+Resounding_Rendition][Vayu],!<hp70 & hp100>,RR+Bellathorna & no s2 & 10000 team dps,attack:1241,force_strike:0,skill_1:0,skill_2:0,skill_3:861,team_buff:3708
-4660,G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:623,force_strike:95,skill_1:1476,skill_2:629,skill_3:298,team_buff:0,d_ss:28,d_atk:772,s2_boost:234,d_skl:503
-3984,_c_G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],!<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:532,force_strike:81,skill_1:1262,skill_2:537,skill_3:255,team_buff:0,d_ss:24,d_atk:660,s2_boost:200,d_skl:430
-4902,G_Sarisse,5*,flame,bow,2258,[Forest_Bonds+Stellar_Show][Sakuya],<rollfs & never lose combos>,,attack:0,force_strike:1426,skill_1:3181,skill_2:0,skill_3:0,team_buff:294
-2974,_c_G_Sarisse,5*,flame,bow,2258,[Forest_Bonds+Stellar_Show][Sakuya],!<rollfs & never lose combos>,,attack:710,force_strike:0,skill_1:1970,skill_2:0,skill_3:0,team_buff:293
-3810,Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:0,force_strike:1774,skill_1:1834,skill_2:0,skill_3:0,team_buff:201
-2631,_c_Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],!<rollfs & buff all team & never lose comboes>,doesn't count spbuff for teammates,attack:908,force_strike:0,skill_1:1722,skill_2:0,skill_3:0,team_buff:0
+6041,Melody,3*,wind,blade,2278,[Halidom_Grooms+Resounding_Rendition][Vayu],<hp100 & hp70>,RR+Bellathorna & no s2 & 10000 team dps,attack:1377,force_strike:0,skill_1:0,skill_2:0,skill_3:955,team_buff:3708
+5809,_c_Melody,3*,wind,blade,2278,[Halidom_Grooms+Resounding_Rendition][Vayu],!<hp100 & hp70>,RR+Bellathorna & no s2 & 10000 team dps,attack:1240,force_strike:0,skill_1:0,skill_2:0,skill_3:860,team_buff:3708
+4660,G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:623,force_strike:95,skill_1:1476,skill_2:629,skill_3:298,team_buff:0,d_ss:28,d_atk:772,d_skl:503,s2_boost:234
+3984,_c_G_Mym,5*,flame,lance,2355,[Resounding_Rendition+Crystalian_Envoy][Sakuya],!<hp70>,c5 fs; get 10% dp from enemy every 18s;,attack:532,force_strike:81,skill_1:1262,skill_2:537,skill_3:255,team_buff:0,d_ss:24,d_atk:660,d_skl:430,s2_boost:200
+4902,G_Sarisse,5*,flame,bow,2258,[Forest_Bonds+Stellar_Show][Sakuya],<never lose combos & rollfs>,,attack:0,force_strike:1426,skill_1:3181,skill_2:0,skill_3:0,team_buff:294
+2974,_c_G_Sarisse,5*,flame,bow,2258,[Forest_Bonds+Stellar_Show][Sakuya],!<never lose combos & rollfs>,,attack:710,force_strike:0,skill_1:1970,skill_2:0,skill_3:0,team_buff:293
+3810,Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],<buff all team & never lose comboes & rollfs>,doesn't count spbuff for teammates,attack:0,force_strike:1774,skill_1:1834,skill_2:0,skill_3:0,team_buff:201
+2631,_c_Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],!<buff all team & never lose comboes & rollfs>,doesn't count spbuff for teammates,attack:908,force_strike:0,skill_1:1722,skill_2:0,skill_3:0,team_buff:0
 4164,Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],<rollfs & 0 resist>,,attack:0,force_strike:1654,skill_1:1184,skill_2:688,skill_3:0,team_buff:0,s1_poison:322,s2_boost:314
 2463,_c_Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],!<rollfs & 0 resist>,,attack:784,force_strike:0,skill_1:1090,skill_2:588,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
 9725,Noelle,4*,wind,wand,1813,[Beach_Battle+Halidom_Grooms][Freyja],<buff all team>,,attack:1157,force_strike:0,skill_1:0,skill_2:590,skill_3:0,team_buff:7926,s2_energized:50
