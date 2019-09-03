@@ -205,10 +205,10 @@ var option = {
                 //return '{value|' + label + stre + amulets + comment + '}{' + a.name + '| }';
                 // return '{value|' + label + stre + '}{' + a.name + '| }';
                 if (screenWidth > mobileThreshold) {
-                  return '{value|}                       {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  return '{value|}                       {' + a.name + '| }{_a1_'+a.a1+'|}\n{_a2_'+a.a2+'|}';
                   // return '     {value|' + label + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 } else {
-                  return '{value|}                   {' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
+                  return '{value|}                   {' + a.name + '| }{_a1_'+a.a1+'|}\n{_a2_'+a.a2+'|}';
                   // return '{value|' + '        ' + '}{' + a.name + '| }'
                   //return '{value|' + '        ' + '}{' + a.name + '| }{a1_'+a.name+'|}\n{a2_'+a.name+'|}';
                 }
@@ -422,55 +422,77 @@ function update() {
         describe2adv[describe] = adv;
         advIcons[name] = picfolder+'character/'+name+'.png';
         if (screenWidth > mobileThreshold) {
-          rich[adv.name] = {
-              lineHeight: 0,
-              height: 50,
-              verticalAlign: 'top',
-              backgroundColor:{
-                image: advIcons[name]
-              }
-          };
-          rich['a1_'+adv.name] = {
-              lineHeight: 20,
-              height: 24,
-              verticalAlign: 'top',
-              backgroundColor:{
-                image: picfolder+'amulet/'+adv.a1+'.png'
-              }
-          };
-          rich['a2_'+adv.name] = {
-              lineHeight: 20,
-              height: 24,
-              verticalAlign: 'bottom',
-              backgroundColor:{
-                image: picfolder+'amulet/'+adv.a2+'.png'
-              }
-          };
+            rich[adv.name] = {
+                lineHeight: 0,
+                height: 50,
+                verticalAlign: 'top',
+                backgroundColor:{
+                  image: advIcons[name]
+                }
+            };
+            //console.log(adv);
+            if ('_a1_'+adv.a1 in rich) {
+                //console.log('--'+ adv.a1);
+            } else {
+                //console.log('else--'+ adv.a1);
+                rich['_a1_'+adv.a1] = {
+                    lineHeight: 20,
+                    height: 24,
+                    verticalAlign: 'top',
+                    backgroundColor:{
+                        image: picfolder+'amulet/'+adv.a1+'.png'
+                    }
+                }
+            }
+            if ('_a2_'+adv.a2 in rich) {
+                //console.log('--'+ adv.a2);
+            } else {
+                //console.log('else--'+ adv.a2);
+                rich['_a2_'+adv.a2] = {
+                    lineHeight: 20,
+                    height: 24,
+                    verticalAlign: 'bottom',
+                    backgroundColor:{
+                        image: picfolder+'amulet/'+adv.a2+'.png'
+                    }
+                }
+            }
         } else {
-          rich[adv.name] = {
-              lineHeight: 00,
-              height: 40,
-              verticalAlign: 'top',
-              backgroundColor:{
-                image: advIcons[name]
-              }
-          };
-          rich['a1_'+adv.name] = {
-              lineHeight: 0,
-              height: 20,
-              verticalAlign: 'top',
-              backgroundColor:{
-                image: picfolder+'amulet/'+adv.a1+'.png'
-              }
-          };
-          rich['a2_'+adv.name] = {
-              lineHeight: 0,
-              height: 20,
-              verticalAlign: 'center',
-              backgroundColor:{
-                image: picfolder+'amulet/'+adv.a2+'.png'
-              }
-          };
+            rich[adv.name] = {
+                lineHeight: 00,
+                height: 40,
+                verticalAlign: 'top',
+                backgroundColor:{
+                  image: advIcons[name]
+                }
+            };
+            //console.log(adv);
+            if ('_a1_'+adv.a1 in rich) {
+                //console.log('--'+ adv.a1);
+            } else {
+                //console.log('else--'+ adv.a1);
+                rich['_a1_'+adv.a1] = {
+                    lineHeight: 0,
+                    height: 20,
+                    verticalAlign: 'top',
+                    backgroundColor:{
+                        image: picfolder+'amulet/'+adv.a1+'.png'
+                    }
+                }
+            }
+            if ('_a2_'+adv.a2 in rich) {
+                //console.log('--'+ adv.a2);
+            } else {
+                //console.log('else--'+ adv.a2);
+                rich['_a2_'+adv.a2] = {
+                    lineHeight: 0,
+                    height: 20,
+                    verticalAlign: 'center',
+                    backgroundColor:{
+                        image: picfolder+'amulet/'+adv.a2+'.png'
+                    }
+                }
+            }
         }
 
 
