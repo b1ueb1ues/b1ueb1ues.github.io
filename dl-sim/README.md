@@ -62,7 +62,7 @@
 - Trigger Last Offense at simulation start
 
 ## special mechanics
-- Consider other teammember have a total of 6000 (affect by co-abs, bladex1.1, wandx1.08, daggerx1.07, bowx1.05) dps.
+- Consider other teammember have a total of 6000 (affected by co-abs, blade:x1.1, wand:x1.08, dagger:x1.07, bow:x1.05) dps.
 - Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 7500x0.5 damage for each into team dps.
 - Simulate unit that have bleed 1000 times, and show the average DPS. 
 - Get dragon claw once at middle of fight.
