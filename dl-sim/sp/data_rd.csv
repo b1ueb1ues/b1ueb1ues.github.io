@@ -27,8 +27,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2810,_c_Laranoa,5*,water,bow,2734,[Forest_Bonds+Stellar_Show][DJ],!<buff all team & never lose comboes & rollfs>,doesn't count spbuff for teammates,attack:970,force_strike:0,skill_1:1839,skill_2:0,skill_3:0,team_buff:0
 4483,Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],<rollfs & 0 resist>,,attack:0,force_strike:1780,skill_1:1275,skill_2:741,skill_3:0,team_buff:0,s1_poison:347,s2_boost:338
 2653,_c_Louise,5*,wind,bow,2784,[Forest_Bonds+Stellar_Show][Pazuzu],!<rollfs & 0 resist>,,attack:846,force_strike:0,skill_1:1174,skill_2:633,skill_3:0,team_buff:0,s1_poison:0,s2_boost:0
-8851,Noelle,4*,wind,wand,1813,[Beach_Battle+Halidom_Grooms][Freyja],<buff all team>,,attack:1208,force_strike:0,skill_1:0,skill_2:523,skill_3:0,team_buff:7065,s2_energized:53
-1785,_c_Noelle,4*,wind,wand,1813,[Beach_Battle+Halidom_Grooms][Freyja],!<buff all team>,,attack:1208,force_strike:0,skill_1:0,skill_2:523,skill_3:0,team_buff:0,s2_energized:53
+8851,Noelle,4*,wind,wand,1813,[Beach_Battle+Halidom_Grooms][Freyja],<buff all team>,10000 team dps,attack:1208,force_strike:0,skill_1:0,skill_2:523,skill_3:0,team_buff:7065,s2_energized:53
+1785,_c_Noelle,4*,wind,wand,1813,[Beach_Battle+Halidom_Grooms][Freyja],!<buff all team>,10000 team dps,attack:1208,force_strike:0,skill_1:0,skill_2:523,skill_3:0,team_buff:0,s2_energized:53
 7428,Addis,4*,wind,blade,2011,[Seaside_Princess+Resounding_Rendition][Vayu];dpsrange:(5846~8481),<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1566,force_strike:64,skill_1:2716,skill_2:0,skill_3:0,team_buff:0,s1_poison:36,bleed:3044
 6020,_c_Addis,4*,wind,blade,2011,[Seaside_Princess+Resounding_Rendition][Vayu];dpsrange:(4409~6872),!<hp70 & hp100 & 0 resist>,v534 against HMC; ,attack:1274,force_strike:52,skill_1:2209,skill_2:0,skill_3:0,team_buff:0,s1_poison:0,bleed:2483
 8549,Natalie,5*,shadow,blade,2419,[Heralds_of_Hinomoto+Flash_of_Genius][Shinobi];dpsrange:(8420~8602),<energy & hit15 & hp1>,1hp;,attack:1512,force_strike:34,skill_1:2768,skill_2:0,skill_3:1090,team_buff:0,s1_energized:77,s1_crisis:2768,s3_energized:98,s1_crisis_energized:200
