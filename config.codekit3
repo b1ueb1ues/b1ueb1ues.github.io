@@ -7,7 +7,7 @@
 		"uuidString": "9EF28F56-8626-439F-B109-D27B3B3C68B5"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31491",
 "files": {
 	"/dl-sim/120/data__.csv": {
 		"cB": 0,
@@ -135,6 +135,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dl-sim/120/data_rdb.csv",
+		"oF": 0
+		},
+	"/dl-sim/120/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/120/index.html",
 		"oF": 0
 		},
 	"/dl-sim/120/index.pug": {
@@ -275,6 +283,14 @@
 		"oAP": "/dl-sim/180/data_rdb.csv",
 		"oF": 0
 		},
+	"/dl-sim/180/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/180/index.html",
+		"oF": 0
+		},
 	"/dl-sim/180/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -411,6 +427,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dl-sim/60/data_rdb.csv",
+		"oF": 0
+		},
+	"/dl-sim/60/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/60/index.html",
 		"oF": 0
 		},
 	"/dl-sim/60/index.pug": {
@@ -1141,6 +1165,22 @@
 		"oAP": "/dl-sim/chara/nicolas.py.csv",
 		"oF": 0
 		},
+	"/dl-sim/chara/noelle.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/noelle.py.csv",
+		"oF": 0
+		},
+	"/dl-sim/chara/noelle.py.goodteam.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/noelle.py.goodteam.py.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/norwin.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1405,14 +1445,6 @@
 		"oAP": "/dl-sim/chara/vanessa.py.csv",
 		"oF": 0
 		},
-	"/dl-sim/chara/vanessa.py.void.py.csv": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dl-sim/chara/vanessa.py.void.py.csv",
-		"oF": 0
-		},
 	"/dl-sim/chara/veronica.py.1hp.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1435,6 +1467,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dl-sim/chara/vice.py.csv",
+		"oF": 0
+		},
+	"/dl-sim/chara/victor.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/victor.py.csv",
 		"oF": 0
 		},
 	"/dl-sim/chara/vida.py.csv": {
@@ -2082,6 +2122,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/amulet/Twinfold_Bonds.png": {
+		"ft": 32768,
+		"iS": 13184,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/amulet/Twinfold_Bonds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2877,6 +2928,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/character/Noelle.png": {
+		"ft": 32768,
+		"iS": 30592,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Noelle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/character/Norwin.png": {
 		"ft": 32768,
 		"iS": 13660,
@@ -3231,7 +3293,7 @@
 		},
 	"/dl-sim/pic/character/Vanessa.png": {
 		"ft": 32768,
-		"iS": 13801,
+		"iS": 30995,
 		"oA": 0,
 		"oAP": "/dl-sim/pic/character/Vanessa.png",
 		"oF": 0,
@@ -3256,6 +3318,17 @@
 		"iS": 12878,
 		"oA": 0,
 		"oAP": "/dl-sim/pic/character/Vice.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/character/Victor.png": {
+		"ft": 32768,
+		"iS": 26402,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Victor.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3545,6 +3618,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/dragon/Vayu.png": {
+		"ft": 32768,
+		"iS": 29007,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/dragon/Vayu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3882,6 +3966,14 @@
 		"oAP": "/dl-sim/sp/data_rdb.csv",
 		"oF": 0
 		},
+	"/dl-sim/sp/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/sp/index.html",
+		"oF": 0
+		},
 	"/dl-sim/sp/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -3963,6 +4055,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -3974,6 +4067,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -4113,6 +4207,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -4144,6 +4241,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -4238,11 +4338,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -5247,6 +5346,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -6000,6 +6103,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
