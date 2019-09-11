@@ -80,7 +80,8 @@
 b1ueb1ues  
 tiara (proofreading)  
 luciferz2012 (first version of website)  
-kenchendesign (new UI contributer)  
+solofandy (front-end engineering)  
+kenchendesign (UI design)  
 Matt(rotation improve)  
 qwewqa  
 haukist  
