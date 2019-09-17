@@ -17,36 +17,93 @@
 		"oAP": "/archives/index.html",
 		"oF": 0
 		},
-	"/brand.png": {
+	"/dl-sim-vue/brand.png": {
 		"ft": 32768,
 		"iS": 25039,
 		"oA": 0,
-		"oAP": "/brand.png",
+		"oAP": "/dl-sim-vue/brand.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/css/app.8d3ee118.css": {
+	"/dl-sim-vue/css/app.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/app.8d3ee118-min.css",
+		"oAP": "/dl-sim-vue/css/app-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/chunk-vendors.5b483b25.css": {
+	"/dl-sim-vue/css/chunk-vendors.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/chunk-vendors.5b483b25-min.css",
+		"oAP": "/dl-sim-vue/css/chunk-vendors-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/dl-sim-vue/fonts/element-icons.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/fonts/element-icons.ttf",
+		"oF": 0
+		},
+	"/dl-sim-vue/fonts/element-icons.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/fonts/element-icons.woff",
+		"oF": 0
+		},
+	"/dl-sim-vue/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/index.html",
+		"oF": 0
+		},
+	"/dl-sim-vue/js/about.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/js/about-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dl-sim-vue/js/app.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/js/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dl-sim-vue/js/chunk-vendors.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dl-sim-vue/js/chunk-vendors-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dl-sim/120/data__.csv": {
 		"cB": 0,
@@ -748,6 +805,14 @@
 		"oAP": "/dl-sim/chara/elisanne.py.goodteam.py.csv",
 		"oF": 0
 		},
+	"/dl-sim/chara/emma.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/emma.py.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/erik.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -986,6 +1051,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dl-sim/chara/laranoa.py.rollfs.py.csv",
+		"oF": 0
+		},
+	"/dl-sim/chara/lea.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/lea.py.csv",
 		"oF": 0
 		},
 	"/dl-sim/chara/lily.py.csv": {
@@ -1746,6 +1819,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/amulet/Beautiful_Nothingness.png": {
+		"ft": 32768,
+		"iS": 14101,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/amulet/Beautiful_Nothingness.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/amulet/Bellathorna.png": {
 		"ft": 32768,
 		"iS": 13927,
@@ -2461,6 +2545,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/character/Emma.png": {
+		"ft": 32768,
+		"iS": 12990,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Emma.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/character/Erik.png": {
 		"ft": 32768,
 		"iS": 13076,
@@ -2755,6 +2850,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/character/Lea.png": {
+		"ft": 32768,
+		"iS": 13181,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Lea.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3539,6 +3645,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/dragon/Apollo.png": {
+		"ft": 32768,
+		"iS": 13235,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/dragon/Apollo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/dragon/Arctos.png": {
 		"ft": 32768,
 		"iS": 12882,
@@ -3880,6 +3997,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/README.html",
+		"oF": 0
+		},
 	"/dl-sim/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -4094,85 +4219,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/fonts/element-icons.535877f5.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/element-icons.535877f5.woff",
-		"oF": 0
-		},
-	"/fonts/element-icons.732389de.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/element-icons.732389de.ttf",
-		"oF": 0
-		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/js/about.baebd197.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/about.baebd197-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/about.baebd197.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/js/about.baebd197.js.map",
-		"oF": 0
-		},
-	"/js/app.f48bd762.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/app.f48bd762-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/app.f48bd762.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/js/app.f48bd762.js.map",
-		"oF": 0
-		},
-	"/js/chunk-vendors.7ed8a4bd.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/chunk-vendors.7ed8a4bd-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/chunk-vendors.7ed8a4bd.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/js/chunk-vendors.7ed8a4bd.js.map",
 		"oF": 0
 		}
 	},
