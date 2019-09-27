@@ -216,8 +216,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2551,_c_Lea,5*,flame,sword,2902,[The_Shining_Overlord+Elegant_Escort][Apollo],!<0 resist>,c2+fs; no s2,attack:525,force_strike:584,skill_1:996,skill_2:0,skill_3:444,team_buff:0,s1_burn:0
 5579,Emma,4*,flame,lance,3006,[Halidom_Grooms+Beach_Battle][Cerberus],<buff all team>,,attack:1290,force_strike:342,skill_1:0,skill_2:0,skill_3:403,team_buff:3543
 2036,_c_Emma,4*,flame,lance,3006,[Halidom_Grooms+Beach_Battle][Cerberus],!<buff all team>,,attack:1290,force_strike:342,skill_1:0,skill_2:0,skill_3:403,team_buff:0
-4805,G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<get DC at start & 0 resist & s1 buff for 10s>,c2+fs,attack:1024,force_strike:1061,skill_1:707,skill_2:586,skill_3:0,team_buff:1345,s2_paralysis:81
-2666,_c_G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<get DC at start & 0 resist & s1 buff for 10s>,c2+fs,attack:804,force_strike:835,skill_1:569,skill_2:457,skill_3:0,team_buff:0,s2_paralysis:0
+4477,G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<0 resist & s1 buff for 10s & get DC at start>,c2+fs,attack:932,force_strike:964,skill_1:668,skill_2:586,skill_3:0,team_buff:1245,s2_paralysis:81
+2496,_c_G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<0 resist & s1 buff for 10s & get DC at start>,c2+fs,attack:737,force_strike:762,skill_1:539,skill_2:457,skill_3:0,team_buff:0,s2_paralysis:0
 6412,Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(5194~7236),<hp70>,,attack:1036,force_strike:0,skill_1:1882,skill_2:669,skill_3:618,team_buff:0,bleed:2204
 4989,_c_Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4006~5637),!<hp70>,,attack:807,force_strike:0,skill_1:1466,skill_2:521,skill_3:482,team_buff:0,bleed:1712
 4615,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4440~4705),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1183,force_strike:0,skill_1:1599,skill_2:0,skill_3:702,team_buff:217,s1_paralysis:418,s1_boost:493

@@ -216,8 +216,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2871,_c_Lea,5*,flame,sword,2902,[The_Shining_Overlord+Elegant_Escort][Apollo],!<0 resist>,c2+fs; no s2,attack:519,force_strike:572,skill_1:1318,skill_2:0,skill_3:459,team_buff:0,s1_burn:0
 6912,Emma,4*,flame,lance,3028,[Halidom_Grooms+Jewels_of_the_Sun][Cerberus],<buff all team & hp70>,,attack:1835,force_strike:0,skill_1:0,skill_2:0,skill_3:672,team_buff:4404
 2360,_c_Emma,4*,flame,lance,3028,[Halidom_Grooms+Jewels_of_the_Sun][Cerberus],!<buff all team & hp70>,,attack:1727,force_strike:0,skill_1:0,skill_2:0,skill_3:632,team_buff:0
-5336,G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<get DC at start & 0 resist & s1 buff for 10s>,c2+fs,attack:1118,force_strike:1152,skill_1:793,skill_2:643,skill_3:0,team_buff:1539,s2_paralysis:89
-2932,_c_G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<get DC at start & 0 resist & s1 buff for 10s>,c2+fs,attack:880,force_strike:908,skill_1:641,skill_2:502,skill_3:0,team_buff:0,s2_paralysis:0
+4967,G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<0 resist & s1 buff for 10s & get DC at start>,c2+fs,attack:1024,force_strike:1056,skill_1:730,skill_2:643,skill_3:0,team_buff:1423,s2_paralysis:89
+2743,_c_G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<0 resist & s1 buff for 10s & get DC at start>,c2+fs,attack:811,force_strike:837,skill_1:592,skill_2:502,skill_3:0,team_buff:0,s2_paralysis:0
 6182,Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4752~6984),<hp70>,,attack:1040,force_strike:0,skill_1:1836,skill_2:672,skill_3:559,team_buff:0,bleed:2072
 4839,_c_Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(3641~5440),!<hp70>,,attack:810,force_strike:0,skill_1:1430,skill_2:524,skill_3:436,team_buff:0,bleed:1637
 5095,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4941~5182),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1349,force_strike:0,skill_1:1789,skill_2:0,skill_3:682,team_buff:224,s1_paralysis:513,s1_boost:534
