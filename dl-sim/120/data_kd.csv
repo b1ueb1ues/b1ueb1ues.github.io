@@ -216,6 +216,8 @@ dps,name,star,element,weapon,str,amulets,condition,comment,
 2764,_c_Lea,5*,flame,sword,2902,[The_Shining_Overlord+Elegant_Escort][Apollo],!<0 resist>,c2+fs; no s2,attack:632,force_strike:703,skill_1:999,skill_2:0,skill_3:428,team_buff:0,s1_burn:0
 6001,Emma,4*,flame,lance,3006,[Halidom_Grooms+Beach_Battle][Cerberus],<buff all team>,,attack:1499,force_strike:385,skill_1:0,skill_2:0,skill_3:412,team_buff:3704
 2297,_c_Emma,4*,flame,lance,3006,[Halidom_Grooms+Beach_Battle][Cerberus],!<buff all team>,,attack:1499,force_strike:385,skill_1:0,skill_2:0,skill_3:412,team_buff:0
+5216,G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],<get DC at start & s1 buff for 10s>,c2+fs,attack:1196,force_strike:1232,skill_1:737,skill_2:598,skill_3:0,team_buff:1452
+2975,_c_G_Euden,5*,light,sword,3111,[The_Shining_Overlord+Sisters_Day_Out][Cupid],!<get DC at start & s1 buff for 10s>,c2+fs,attack:940,force_strike:971,skill_1:596,skill_2:466,skill_3:0,team_buff:0
 5893,Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(4547~6615),<hp70>,,attack:1109,force_strike:0,skill_1:1701,skill_2:623,skill_3:518,team_buff:0,bleed:1940
 4599,_c_Victor,5*,wind,blade,2332,[Resounding_Rendition+Crystalian_Envoy][Vayu];dpsrange:(3423~5170),!<hp70>,,attack:866,force_strike:0,skill_1:1329,skill_2:487,skill_3:405,team_buff:0,bleed:1509
 4914,S_Cleo,5*,light,bow,2998,[Resounding_Rendition+Flash_of_Genius][Cupid];dpsrange:(4742~5000),<hit15 & buff all team & 0 resist & hp70>,nofs,attack:1437,force_strike:0,skill_1:1654,skill_2:0,skill_3:632,team_buff:222,s1_paralysis:475,s1_boost:493
