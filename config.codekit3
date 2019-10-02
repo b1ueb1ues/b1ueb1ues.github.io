@@ -613,6 +613,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dl-sim/chara/0.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/0.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/addis.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1349,6 +1357,14 @@
 		"oAP": "/dl-sim/chara/pietro.py.csv",
 		"oF": 0
 		},
+	"/dl-sim/chara/quick.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/quick.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/raemond.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1509,6 +1525,14 @@
 		"oAP": "/dl-sim/chara/sinoa.py.csv",
 		"oF": 0
 		},
+	"/dl-sim/chara/slow.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/slow.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/sufang.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1627,6 +1651,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dl-sim/chara/xainfried.py.csv",
+		"oF": 0
+		},
+	"/dl-sim/chara/xander.py.2fs.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/xander.py.2fs.py.csv",
 		"oF": 0
 		},
 	"/dl-sim/chara/xander.py.best.py.csv": {
@@ -2641,6 +2673,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/character/G_Euden.png": {
+		"ft": 32768,
+		"iS": 30154,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/G_Euden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
