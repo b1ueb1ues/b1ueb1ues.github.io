@@ -5,101 +5,70 @@
 </head>
 <body>
 
-<h1 id="dpsnumbersshownindicateneutralelementaldamage">DPS numbers shown indicate neutral elemental damage</h1>
+<h1 id="dpssimulatorfordragalialost">DPS simulator for Dragalia Lost</h1>
 
-<p>(Multiplied by 1.5 to get on-element damage).</p>
-
-<h2 id="thesimulatorinpython">The simulator in python</h2>
-
-<p><a href="https://github.com/b1ueb1ues/dl">github/b1ueb1ues</a></p>
-
-<h2 id="skillframes">Skill frames</h2>
-
-<p><a href="https://github.com/b1ueb1ues/dl/tree/master/framedata/skills">github/b1ueb1ues</a></p>
-
-<h2 id="护符对照表formandarinusers">护符对照表 (For Mandarin users)</h2>
-
-<p><a href="https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/dl-sim/amulet.csv">护符对照表</a></p>
-
-<h2 id="templates">Templates</h2>
+<h2 id="usefullinks">Useful links</h2>
 
 <ul>
-<li>Level 80 with 50 mana circles for adventurers</li>
-<li>Level 31 dojos and level 35 altars</li>
-<li>Having all of the limited event facilities at level 30</li>
-<li>Level 20 dracolith for Gala Mym, all fafnir statues are EXCLUDED</li>
-<li>Max unbind level 100 skill damage dragons are used if available, if not then pure strength dragons are used unless otherwise mentioned</li>
-<li>MUB level 100 5 star elemental weapons</li>
+<li><a href="https://github.com/b1ueb1ues/dl">Python simulator</a></li>
+<li><a href="https://github.com/b1ueb1ues/dl/tree/master/framedata/skills">github/b1ueb1ues</a></li>
+<li><a href="https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/dl-sim/amulet.csv">护符对照表 (For Mandarin users)</a></li>
 </ul>
 
-<h3 id="firstwp">First WP</h3>
+<h2 id="setup">Setup</h2>
 
 <ul>
-<li>MUB level 100 Resounding rendition (wrymprint bonuses are calculated additively with dragon bonuses, so 15% str provides less than 10% damage, and for most characters skill damage is more than half of all damage)</li>
+<li>Level 80 adventurers</li>
+<li>50 mana circles</li>
+<li>Level 31 dojos</li>
+<li>level 35 altars</li>
+<li>All limited event facilities at level 30</li>
+<li>Level 20 dracolith for Gala Mym</li>
+<li>No fafnir statues</li>
+<li>MUB level 100 dragons</li>
+<li>MUB level 100 5-star elemental weapons</li>
+<li>See the chart for dragon and wrymprint choices</li>
 </ul>
 
-<h3 id="secondwp">second WP</h3>
+<h2 id="defaultcombos">Default combos</h2>
 
 <ul>
-<li>MUB level 80 “Fresh Perspective” for sword users.</li>
-<li>MUB level 100 “Crystalian Envoy” for blade users.</li>
-<li>MUB level 80 “Kung Fu Masters”+”Flower in the Fray” for axe users.</li>
-<li>Equipped MUB level100 &#8220;Crystalian Envoy&#8221; for lancer.</li>
-<li>MUB level 100 “Crystalian Envoy” for lance users.</li>
-<li>MUB level 80 “Flash of Genius” for bow/wand/dagger users.</li>
-<li>Removed the resistance WP setup for 3 stars(everyone has a full offense build now)</li>
-</ul>
-
-<h2 id="commoncombochainsthesimulationuses">Common combo chains the simulation uses</h2>
-
-<ul>
-<li>Sword: C3+FS, C2+FS (for Xander and Albert)</li>
-<li>Blade: C5+FS(failed) (a technique discovered by me)</li>
-<li>Dagger: Use C5+skill as much as possible, C4+FS when no skills are available</li>
-<li>Axe: C5+FS / plain C5 (If mentioned that this unit doesn’t use FS)</li>
-<li>Lance: C5+FS / C5+FS(failed) (If mentioned that this unit doesn’t use FS)</li>
-<li>Bow: plain C5 or C4+FS or C1+FS</li>
-<li>Wand: C5+FS(failed)</li>
-<li>Staff: C5 (there is no frame difference between C5 and C5+FS(failed))</li>
+<li>Sword: C3+FS (C2+FS for Xander and Albert)</li>
+<li>Blade: C5+FFS (Failed Force Strike, a technique discovered by me, which means holding FS while C5 is out but release before FS is activated)</li>
+<li>Dagger: C5 (C4+FS when no skills available)</li>
+<li>Axe: C5+FS</li>
+<li>Lance: C5+FFS</li>
+<li>Bow: C5 or C4+FS or C1+FS or roll FS (really depends on adventurer)</li>
+<li>Wand: C5+FFS</li>
+<li>Staff: C5</li>
 </ul>
 
 <h2 id="nottakeintoconsideration">Not take into consideration</h2>
 
-<p>(This means that you should add some extra damage yourself if your unit has these abilities)</p>
+<p>(This means that you should increase the DPS yourself if the adventurer has any of these abilities)</p>
 
 <ul>
 <li>Shapeshifting</li>
 <li>Bane skills (Phraeganoth/Physian/Demon/Dragon/etc.)</li>
-<li>Slayer&#8217;s Strength/Striker&#8217;s Strength (except for the special page)</li>
-</ul>
-
-<h2 id="conditionaldpsisreferenceto">Conditional DPS is reference to</h2>
-
-<p>(This means that you should reduce this part accordingly if you think that your unit may not meet the requirements)</p>
-
-<ul>
-<li>HP X% = Strength/Crit</li>
-<li>X Hits = Strength/Crit/Energy Level Up</li>
-<li>Affliction and damage boost from affliction</li>
-<li>Last Offense</li>
+<li>Slayer&#8217;s Strength/Striker&#8217;s Strength (unless indicated on the special page)</li>
 </ul>
 
 <h2 id="specialmechanics">Special mechanics</h2>
 
 <ul>
-<li>Considers other team members to have a total of 6000 DPS (affected by co-abs, blade:x1.1, wand:x1.08, dagger:x1.07, bow:x1.05)</li>
-<li>Considers every 5 team energy stacks to provide 2 skills from the other 2 DPS that boosts 7500x0.5 damage each into team DPS</li>
-<li>Bleed is calculated by averaging 1000 times of simulation</li>
+<li>Considers other team members to have a total of 6000 DPS (See the section below for reasoning)</li>
+<li>Considers every 5 team energy stacks to provide 2 skills from the other 2 DPS that boosts 7500*0.5 damage each into team DPS</li>
+<li>Bleed is calculated by averaging 1000 runs of simulation</li>
 <li>Gets dragon claw once during the middle of the fight</li>
-<li>Considers break punisher to have 15% efficiency (30% break punisher is 0.30.15=4.5% more overall damage)</li>
-<li>Consider OD punisher to have 35% efficiency.</li>
+<li>Considers break punisher to have 15% efficiency (e.g. 30% break punisher is 0.3 * 0.15 = 4.5% overall DPS bonus)</li>
+<li>Consider OD punisher to have 35% efficiency (e.g. 30% OD punisher is 0.3 * 0.35 = 10.5% overall DPS bonus)</li>
 </ul>
 
-<h2 id="whycalculatingteambuffbasedon6000teamdps">Why calculating team buff based on 6000 team DPS</h2>
+<h2 id="why6000teamdps">Why 6000 team DPS?</h2>
 
 <ul>
-<li>This underestimation of the team DPS is intended since this simulator is assuming perfect rotation, which, in reality is hard to achieve especially if the boss is moving constantly.</li>
-<li>In MG though, you should assume the team buff DPS contribution will be at 2&#8211;3 times higher.</li>
+<li>The underestimation of the team DPS is intended since this simulator is assuming perfect rotation, which, in reality is hard to achieve especially if the boss is moving constantly.</li>
+<li>In MG though, you should assume the team buff DPS contribution to be 2 - 3 times higher.</li>
 </ul>
 
 <h2 id="author">Author</h2>
