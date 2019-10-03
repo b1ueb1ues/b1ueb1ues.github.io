@@ -1,79 +1,71 @@
 
-# dps numbers indicate the neutral element damage. ( x1.5 for on-ele )
+# DPS numbers shown indicate neutral elemental damage
+(Multiplied by 1.5 to get on-element damage).
 
-
-## simulator in python
+## The simulator in python
 [github/b1ueb1ues](https://github.com/b1ueb1ues/dl)
 
-## skill frame
+## Skill frames
 [github/b1ueb1ues](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
 
-## 护符对照表
+## 护符对照表 (For Mandarin users)
 [护符对照表](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/dl-sim/amulet.csv)
 
 
-## stat
-- Level 80, circle node(50/50) adventurer.
-- Dojo(31/31) altar(35/35) 
-- Have all limited facilities in level 30.
-- Including dracolith for g\_mym , except fafnir.
-- Equiped skill damage dragon if exist. Otherwise 60% str dragon. Unless mentioned. Both in max level.
-- Equiped MUB 5star element weapon
+## Templates
+- Level 80 with 50 mana circles for adventurers
+- Level 31 dojos and level 35 altars
+- Having all of the limited event facilities at level 30
+- Level 20 dracolith for Gala Mym, all fafnir statues are EXCLUDED
+- Max unbind level 100 skill damage dragons are used if available, if not then pure strength dragons are used unless otherwise mentioned
+- MUB level 100 5 star elemental weapons
 
-## WP
-- Most common used WP is RR
-
-### first WP
-- Equiped MUB level100 "Resounding Rendition". (Since WP is additive with Dragon, 15% str provide less than 10% damage. And for most character, skill damage is more than half of all damage.)
+### First WP
+- MUB level 100 Resounding rendition (wrymprint bonuses are calculated additively with dragon bonuses, so 15% str provides less than 10% damage, and for most characters skill damage is more than half of all damage)
 
 ### second WP
-- Equiped MUB level80 "Fresh Perspective" for sword user.
-- Equiped MUB level100 "Crystalian Envoy" for blade user.
-- Equiped MUB level100 "Kung Fu Masters"+ MUB level80 "Flower in the Fray" for axe user.
-- Equiped MUB level100 "Crystalian Envoy" for lancer.
-- Equiped MUB level100 "Flash of Genius" for wand/bow/dagger characters.
-- remove resist WP select for 3\*. (all offense setup now)
+- MUB level 80 “Fresh Perspective” for sword users.
+- MUB level 100 “Crystalian Envoy” for blade users.
+- MUB level 80 “Kung Fu Masters”+”Flower in the Fray” for axe users.
+- Equipped MUB level100 "Crystalian Envoy" for lancer.
+- MUB level 100 “Crystalian Envoy” for lance users.
+- MUB level 80 “Flash of Genius” for bow/wand/dagger users.
+- Removed the resistance WP setup for 3 stars(everyone has a full offense build now)
 
+## Common combo chains the simulation uses
+- Sword: C3+FS, C2+FS (for Xander and Albert)
+- Blade: C5+FS(failed) (a technique discovered by me)
+- Dagger: Use C5+skill as much as possible, C4+FS when no skills are available
+- Axe: C5+FS / plain C5 (If mentioned that this unit doesn’t use FS)
+- Lance: C5+FS / C5+FS(failed) (If mentioned that this unit doesn’t use FS)
+- Bow: plain C5 or C4+FS or C1+FS
+- Wand: C5+FS(failed)
+- Staff: C5 (there is no frame difference between C5 and C5+FS(failed))
 
-## commen combo chain the simulation use:
-- sword: c3+fs, c2+fs(for Xander and Albert)
-- blade: c5+fs(failed) (that kind of technique introduced by me) [reference](https://www.bilibili.com/video/av38956687/)
-- dagger: use c5+skill as more as possible, c4+fs when no skill can active.
-- axe: c5+fs / plain c5 (if mentioned that unit don't use fs)
-- lance: c5+fs / c5+fs(failed) (if mentioned that unit don't use fs)
-- bow: plain c5 or c4+fs or c1+fs
-- wand: c5+fs(failed)
-- staff: c5 (no frame difference between c5 and c5fsf)
+## Not take into consideration
+(This means that you should add some extra damage yourself if your unit has these abilities)
+- Shapeshifting
+- Bane skills (Phraeganoth/Physian/Demon/Dragon/etc.)
+- Slayer's Strength/Striker's Strength (except for the special page)
 
-## Not take into consideration: 
-#### (means that you should add some score yourself to unit have that kind of abilities)
-- Shapeshift
-- Phraeganoth/Physian/Demon Bane
-- Slayer's Strength/Striker's Strength except for special page
+## Conditional DPS is reference to
+(This means that you should reduce this part accordingly if you think that your unit may not meet the requirements)
+- HP X% = Strength/Crit
+- X Hits = Strength/Crit/Energy Level Up
+- Affliction and damage boost from affliction
+- Last Offense
 
-## Conditional dps is reference to :
-#### (means that you should reduce this part of dps to unit have that kind of abilities by your own opinion)
-- Full HP = Strength/Crit
-- HP 70% = Strength/Crit
-- Flurry Strength/Crit
-- Flurry Debilitator
-- 30 Hits = Energy Level Up
-- Affliction and damage boost from affliction.
-- Trigger Last Offense at simulation start
+## Special mechanics
+- Considers other team members to have a total of 6000 DPS (affected by co-abs, blade:x1.1, wand:x1.08, dagger:x1.07, bow:x1.05)
+- Considers every 5 team energy stacks to provide 2 skills from the other 2 DPS that boosts 7500x0.5 damage each into team DPS
+- Bleed is calculated by averaging 1000 times of simulation
+- Gets dragon claw once during the middle of the fight
+- Considers break punisher to have 15% efficiency (30% break punisher is 0.30.15=4.5% more overall damage)
+- Consider OD punisher to have 35% efficiency.
 
-## special mechanics
-- Consider other teammember have a total of 6000 (affected by co-abs, blade:x1.1, wand:x1.08, dagger:x1.07, bow:x1.05) dps.
-- Consider every 5 team energy stacks to provide 2 skills(other 2 dps) that boost 7500x0.5 damage for each into team dps.
-- Simulate unit that have bleed 1000 times, and show the average DPS. 
-- Get dragon claw once at middle of fight.
-- Consider break punisher to have 15% efficiency.
-- Consider od punisher to have 35% efficiency.
-
-## why 6000 team?
-- The underestimate of team dps is intend.
-- This chart is not always for people who aimming at HDT, someone just want to know who can deal more damage to decide who to invest. I don't think eli/melody is good for investment outside HDT, their most power need no equip to archieve.
-- It's pretty easy for those who only care about HDT preformance to do teamdps / 6000 * whateverYouWant
-- Buff decrease more after reduce active action time. (btw so does bleed). Unlike Xania will lose 50% damage if you take off her 50% damage time to dodge. Buff is likely to lose 75% damage when you take off 50% active action time, because buff loss 50% uptime by the mean time the action buffed by this buff lose 50%.
+## Why calculating team buff based on 6000 team DPS
+- This underestimation of the team DPS is intended since this simulator is assuming perfect rotation, which, in reality is hard to achieve especially if the boss is moving constantly.
+- In MG though, you should assume the team buff DPS contribution will be at 2-3 times higher.
 
 
 ## Author
@@ -82,7 +74,7 @@ tiara (proofreading)
 luciferz2012 (first version of website)  
 solofandy (front-end engineering)  
 kenchendesign (UI design)  
-Matt(rotation improve)  
+Matt (rotation improve)  
 qwewqa  
 haukist  
 
