@@ -3,7 +3,7 @@
 
 ## Useful links
 - [Python simulator](https://github.com/b1ueb1ues/dl)
-- [github/b1ueb1ues](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
+- [Skill frame data](https://github.com/b1ueb1ues/dl/tree/master/framedata/skills)
 - [护符对照表 (For Mandarin users)](https://github.com/b1ueb1ues/b1ueb1ues.github.io/blob/master/dl-sim/amulet.csv)
 
 ## Setup
@@ -28,7 +28,7 @@
 - Wand: C5+FFS
 - Staff: C5
 
-## Not take into consideration
+## Not taken into consideration
 (This means that you should increase the DPS yourself if the adventurer has any of these abilities)
 - Shapeshifting
 - Bane skills (Phraeganoth/Physian/Demon/Dragon/etc.)
@@ -45,6 +45,7 @@
 ## Why 6000 team DPS?
 - The underestimation of the team DPS is intended since this simulator is assuming perfect rotation, which, in reality is hard to achieve especially if the boss is moving constantly.
 - In MG though, you should assume the team buff DPS contribution to be 2 - 3 times higher.
+- We might build a UI to adjust the team DPS. Feel free to create an issue if you'd like to contribute to this project.
 
 ## Author
 b1ueb1ues  
