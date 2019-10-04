@@ -885,6 +885,14 @@
 		"oAP": "/dl-sim/chara/g_cleo.py.csv",
 		"oF": 0
 		},
+	"/dl-sim/chara/g_euden.py.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dl-sim/chara/g_euden.py.csv",
+		"oF": 0
+		},
 	"/dl-sim/chara/g_mym.py.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -1840,6 +1848,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/amulet/An_Ancient_Oath.png": {
+		"ft": 32768,
+		"iS": 29989,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/amulet/An_Ancient_Oath.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/amulet/Beach_Battle.png": {
 		"ft": 32768,
 		"iS": 13420,
@@ -1922,6 +1941,17 @@
 		"iS": 13140,
 		"oA": 0,
 		"oAP": "/dl-sim/pic/amulet/Elegant_Escort.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/amulet/Endless_Waltz.png": {
+		"ft": 32768,
+		"iS": 27755,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/amulet/Endless_Waltz.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2123,6 +2153,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/amulet/Odd_Sparrows.png": {
+		"ft": 32768,
+		"iS": 32727,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/amulet/Odd_Sparrows.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2467,6 +2508,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/character/Audric.png": {
+		"ft": 32768,
+		"iS": 13504,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Audric.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/character/B_Zardin.png": {
 		"ft": 32768,
 		"iS": 13447,
@@ -2494,6 +2546,17 @@
 		"iS": 13592,
 		"oA": 0,
 		"oAP": "/dl-sim/pic/character/Botan.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/character/Cassandra.png": {
+		"ft": 32768,
+		"iS": 13276,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Cassandra.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -2563,6 +2626,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/character/Delphi.png": {
+		"ft": 32768,
+		"iS": 28181,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Delphi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3204,6 +3278,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dl-sim/pic/character/Patia.png": {
+		"ft": 32768,
+		"iS": 13149,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/character/Patia.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/dl-sim/pic/character/Philia.png": {
 		"ft": 32768,
 		"iS": 13238,
@@ -3737,6 +3822,17 @@
 		"iS": 13112,
 		"oA": 0,
 		"oAP": "/dl-sim/pic/dragon/Cerberus.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dl-sim/pic/dragon/Chthonius.png": {
+		"ft": 32768,
+		"iS": 12995,
+		"oA": 0,
+		"oAP": "/dl-sim/pic/dragon/Chthonius.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
