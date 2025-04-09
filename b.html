@@ -26,6 +26,7 @@
 
 <input onchange="click_1()" type="checkbox" id="c1">强击套</input>
 <input onchange="click_1()" type="checkbox" id="c2">枪术buff</input>
+(假设这俩加算)
 
 <br/><br/>
 
@@ -43,81 +44,143 @@
 </body>
 
 <script>
+
     function calc(cc, cd, mcd) {
         if (cc > 1) {
             cc = 1;
         }
-        let cb = cd * (1 + mcd) - 1;
-        return cc*cb + 1
+        let total_cd = cd * mcd
+        console.log(`最终爆伤= ${cd.toFixed(2)}*${mcd.toFixed(2)} = ${total_cd.toFixed(2)}`);
+        let result = cc*(total_cd-1) + 1;
+        console.log(`暴击增伤期望= ${cc.toFixed(2)} * (${total_cd.toFixed(2)}-1) + 1 = ${result.toFixed(4)}`);
+        return result;
     }
 
     function click_1() {
-        console.log("> <.");
+        console.log("\n> <.");
+
         let cc = 0.01 * document.getElementById("t1").value;
         let cd = 0.01 * document.getElementById("t2").value;
-        let mcd = 0;
         let mcd12 = document.getElementById("c1").checked;
         let mcd8 = document.getElementById("c2").checked;
         let edmg = 0.01 * document.getElementById("t3").value;
         let edmg14 = document.getElementById("c3").checked;
         let keenlv2 = document.getElementById("r_2").checked;
         
-        if (mcd12 == true) {
-            mcd += 0.12;
-        }
-        if (mcd8 == true) {
-            mcd += 0.08;
-        }
         if (edmg14 == true) {
             edmg += 0.14;
         }
         
+        let mcd = 1;
+        let mcd1 = 1;
+        let mcd2 = 1;
+        if (mcd12 == true) {
+            mcd1 = 1.12;
+        }
+        if (mcd8 == true) {
+            mcd2 = 1.08;
+        }
+        mcd = mcd1 * mcd2;
         
-        let keen = 0
-        if (keenlv2==true) {
-            keen += 0.15
-        } else {
-            keen += 0.075
-        }
-        if (cc > 0.8) {
-            if (keenlv2==true) {
-                keen += (cc-0.8) * 1.4
-                if (keen > 0.7) {
-                    keen = 0.7
-                }
-            } else {
-                keen += (cc-0.8) * 1.2
-                if (keen > 0.5) {
-                    keen = 0.5
-                }
-            }
-        }
-
+        console.log(`= 基线伤害 ===========`);
+        console.log(`爆率: ${cc.toFixed(4)}  爆伤: ${cd.toFixed(4)}  乘算爆伤: ${mcd1.toFixed(2)}*${mcd2.toFixed(2)} = ${mcd.toFixed(4)}`);
+        console.log(`基础进化: ${edmg.toFixed(2)}`);
+        
         let crit_coef = calc(cc, cd, mcd)
         let dmg_base = crit_coef * (1+edmg);
-        let dmg_keen = 1;
-        let dmg_debuff = 0;
-        let dmg_e10 = crit_coef * (1+edmg+0.1);
-        if (cc > 0.8) {
-            let crit_limit = calc(0.8, cd, mcd)
-            dmg_keen = crit_limit * (1+edmg+keen);
-            dmg_debuff = (1-crit_limit/crit_coef)*100;
+        console.log(`总伤: ${crit_coef.toFixed(4)} * (1 + ${edmg.toFixed(2)}) = ${dmg_base.toFixed(4)}`);
+        
+
+        let keen = 0
+        let keen_base = 0
+        let keen_lv = 0;
+        if (keenlv2==true) {
+            keen_lv = 2;
+            keen_base = 0.15
         } else {
-            dmg_keen = crit_coef * (1+edmg+keen);
+            keen_lv = 1;
+            keen_base = 0.075
         }
+
+        console.log(`------------------`);
+        console.log(`= 钝锤 ===========`);
+        console.log(`钝锤等级: ${keen_lv} 钝锤基础进化: ${keen_base.toFixed(3)}`);
+        let real_cc = cc;
+        if (cc > 0.8) {
+            real_cc = 0.8;
+            console.log(`暴率上限: ${real_cc}`);
+        } else {
+            console.log(`暴率: ${real_cc}`);
+        }
+        let crit_limit_coef = calc(real_cc, cd, mcd);
         
-        let keen_edmg = keen * 100;
-        let keen_boost = dmg_keen/dmg_base*100 - 100;
-        let edmg10_boost = dmg_e10/dmg_base*100 - 100;
+        if (cc > 0.8) {
+            if (keenlv2==true) {
+                let extern_cc = cc-0.8;
+                console.log(`钝锤降低暴率: ${extern_cc.toFixed(4)}`);
+                keen = keen_base + extern_cc * 1.4
+                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.4 = ${keen.toFixed(4)}`);
+                if (keen > 0.7) {
+                    keen = 0.7;
+                    console.log(`钝锤上限!: ${keen}`);
+                }
+            } else {
+                let extern_cc = cc-0.8;
+                console.log(`钝锤降低暴率: ${extern_cc.toFixed(4)}`);
+                keen = keen_base + extern_cc * 1.2
+                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.2 = ${keen.toFixed(4)}`);
+                if (keen > 0.5) {
+                    keen = 0.5;
+                    console.log(`钝锤上限!: ${keen}`);
+                }
+            }
+        } else {
+            keen = keen_base;
+            console.log(`钝锤进化: ${keen}`);
+        }
+
+        let total_edmg = edmg + keen;
+        console.log(`总进化: ${edmg.toFixed(2)} + ${keen.toFixed(2)} = ${total_edmg.toFixed(2)}`);
+        let dmg_keen = crit_limit_coef * (1+total_edmg);
+        console.log(`钝总伤: ${crit_limit_coef.toFixed(4)} * (1 + ${total_edmg.toFixed(2)}) = ${dmg_keen.toFixed(4)}`);
         
-        let e_edmg = (dmg_keen/dmg_base-1) * (1+edmg) * 100;
+        console.log(`------------------`);
+        console.log(`crit_coef: ${crit_coef.toFixed(4)}`);
+        console.log(`limit_crit_coef: ${crit_limit_coef.toFixed(4)}`);
+        console.log(`base: ${dmg_base.toFixed(4)}`);
+        console.log(`keen: ${dmg_keen.toFixed(4)}`);
+
+        
+        let keen_boost = dmg_keen/dmg_base - 1;
+        console.log(`钝等效增伤: ${dmg_keen.toFixed(4)}/${dmg_base.toFixed(4)} - 1 = ${keen_boost}`);
+
+        let dmg_e10 = crit_coef * (1+edmg+0.1);
+        console.log(`+10进化总伤: ${crit_coef.toFixed(4)} * (1+${edmg.toFixed(2)}+0.1) = ${dmg_e10.toFixed(4)}`);
+        let edmg10_boost = dmg_e10/dmg_base - 1;
+        console.log(`10进化等效增伤: ${dmg_e10.toFixed(4)}/${dmg_base.toFixed(4)} = ${edmg10_boost.toFixed(4)}`);
+        
+        console.log("钝总伤/基线 = (钝等效进化+基础进化+1)/(基础进化+1)");
+        console.log("钝总伤/基线 = (钝等效进化+基础进化+1)/(基础进化+1)");
+        console.log("dmg_keen/dmg_base = (钝等效进化+edmg+1)/(edmg+1)");
+        console.log("钝等效进化 = dmg_keen/dmg_base*(edmg+1) - edmg - 1");
+        let tmp = dmg_keen/dmg_base*(edmg+1) - edmg - 1;
+        let e_edmg = (dmg_keen/dmg_base-1) * (1+edmg);
+        console.log(tmp);
+        console.log(edmg);
+
+        return;
+        
+        e_edmg *= 100;
         
         console.log("进化:", edmg);
         console.log("暴击增伤:", calc(cc, cd, mcd));
         if (cc>0.8) {
             console.log("80暴击增伤:", calc(0.8, cd, mcd));
         }
-        
+
+        keen *= 100;
+        keen_boost *= 100;
+        edmg10_boost *= 100;
         let out = document.getElementById("out");
         out.innerText = "- result ----------------------------------\n";
         out.innerText += "钝锤等效总增伤: "+keen_boost.toFixed(2)+"%\n";
@@ -125,7 +188,7 @@
         out.innerText += "钝锤等效进化:"+e_edmg.toFixed(1)+"\n";
         out.innerText += "10进化等效增伤: "+edmg10_boost.toFixed(2)+"%\n";
         out.innerText += "\n- verbose ------------------------------\n";
-        out.innerText += "钝锤转化"+keen_edmg.toFixed(1)+"进化伤\n";
+        out.innerText += "钝锤转化"+keen.toFixed(1)+"进化伤\n";
         out.innerText += "钝锤暴击损失伤害: "+dmg_debuff.toFixed(2)+"%\n";
         if (cc > 1) {
             let s = (cc-1)*2800

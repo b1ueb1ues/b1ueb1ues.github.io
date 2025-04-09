@@ -36,6 +36,7 @@
 
 <input onchange="click_1()" type="checkbox" id="c1">强击套</input>
 <input onchange="click_1()" type="checkbox" id="c2">枪术buff</input>
+(假设这俩乘算)
 
 <br/><br/>
 
@@ -49,40 +50,84 @@
         if (cc > 1) {
             cc = 1;
         }
-        let cb = cd * (1 + mcd) - 1;
-        return cc*cb + 1
+        let total_cd = cd * mcd
+        console.log(`最终爆伤= ${cd.toFixed(2)}*${mcd.toFixed(2)} = ${total_cd.toFixed(2)}`);
+        let result = cc*(total_cd-1) + 1;
+        console.log(`暴击增伤期望= ${cc.toFixed(2)} * (${total_cd.toFixed(2)}-1) + 1 = ${result.toFixed(4)}`);
+        return result;
     }
 
     function click_1() {
-        console.log("> <.");
+        console.log("\n> <.");
+
         let cc = 0.01 * document.getElementById("t1").value;
         let cd = 0.01 * document.getElementById("t2").value;
         let mcd12 = document.getElementById("c1").checked;
         let mcd8 = document.getElementById("c2").checked;
         let stone = 0.01 * document.querySelector('input[name="stone"]:checked').value;
         
-        let mcd = 0;
+        let mcd = 1;
+        let mcd1 = 1;
+        let mcd2 = 1;
         if (mcd12 == true) {
-            mcd += 0.12
+            mcd1 = 1.12
         }
         if (mcd8 == true) {
-            mcd += 0.08
+            mcd2 = 1.08
         }
+        mcd = mcd1 * mcd2
+        
+        console.log(`= 基线伤害 ===========`);
+        console.log(`爆率: ${cc.toFixed(4)}  爆伤: ${cd.toFixed(4)}  乘算爆伤: ${mcd1.toFixed(2)}*${mcd2.toFixed(2)} = ${mcd.toFixed(4)}`);
         
         let dmg_base = calc(cc, cd, mcd);
-        let dmg_keen = calc(cc, cd+0.44, mcd) * 0.98;
-        let dmg_keen_stone = calc(cc, cd+0.44+stone, mcd) * 0.98;
+        console.log(`基线伤害: ${dmg_base.toFixed(4)}`);
+
+        console.log(`---------------------`);
+        console.log(`= 尖刺无石 ===========`);
+        let keen = 0.44;
+        console.log(`尖刺爆伤: ${keen}`);
+        let cd_keen = cd + keen;
+        console.log(`爆率: ${cc.toFixed(4)} 爆伤: ${cd.toFixed(4)}+${keen.toFixed(3)}=${cd_keen.toFixed(4)} 乘算爆伤 ${mcd1.toFixed(2)}*${mcd2.toFixed(2)} = ${mcd.toFixed(4)}`);
+        let dmg_keen_no_debuff = calc(cc, cd_keen, mcd);
+        let dmg_keen = dmg_keen_no_debuff * 0.98;
+        console.log(`计算尖刺负面 ${dmg_keen_no_debuff.toFixed(4)} * 0.98 = ${dmg_keen.toFixed(4)}`);
         
+        console.log(`------------------------`);
+        console.log(`= 尖刺+能力石 ===========`);
+        let keen_stone = 0.44 + stone;
+        console.log(`尖刺爆伤: 0.44 + ${stone.toFixed(3)} = ${keen_stone.toFixed(3)}`);
+        let cd_keen_stone = cd + keen_stone;
+        console.log(`爆率: ${cc.toFixed(4)} 爆伤: ${cd.toFixed(4)}+${keen_stone.toFixed(3)}=${cd_keen_stone.toFixed(4)} 乘算爆伤 ${mcd1.toFixed(2)}*${mcd2.toFixed(2)} = ${mcd.toFixed(4)}`);
+        let dmg_keen_stone_no_debuff = calc(cc, cd_keen_stone, mcd);
+        let dmg_keen_stone = dmg_keen_stone_no_debuff * 0.98;
+        console.log(`计算尖刺负面 ${dmg_keen_stone_no_debuff.toFixed(4)} * 0.98 = ${dmg_keen_stone.toFixed(4)}`);
+        
+        console.log(`------------------------`);
         console.log("no keen:", dmg_base);
         console.log("keen:", dmg_keen);
         console.log("keen+stone:", dmg_keen_stone);
 
-        let kbw_boost = (dmg_keen_stone/dmg_base-1)*100
+        let kbw_boost = (dmg_keen_stone/dmg_base-1);
+        console.log(`尖刺总提升(等效增伤): ${dmg_keen_stone.toFixed(4)}/${dmg_base.toFixed(4)} - 1 = ${kbw_boost.toFixed(4)}`);
+        
+        let base_boost = (dmg_keen/dmg_base-1);
+        console.log(`尖刺无石提升(等效增伤): ${dmg_keen.toFixed(4)}/${dmg_base.toFixed(4)} - 1 = ${base_boost.toFixed(4)}`);
 
-        let base_boost = (dmg_keen/dmg_base-1)*100;
+        let stone_boost = (dmg_keen_stone/dmg_keen-1);
+        console.log(`能力石提升(最终乘算): ${dmg_keen_stone.toFixed(4)}/${dmg_keen.toFixed(4)} - 1 = ${stone_boost.toFixed(4)}`);
+
         let stone_additive = kbw_boost - base_boost;
+        console.log(`能力石提升(加算): ${kbw_boost.toFixed(4)} - ${base_boost.toFixed(4)} = ${stone_additive.toFixed(4)}`);
 
-        let stone_boost = (dmg_keen_stone/dmg_keen-1)*100
+        kbw_boost *= 100
+        base_boost *= 100
+        stone_boost *= 100
+        stone_additive *= 100
+
+
+
+
        
 
         let out = document.getElementById("out");
