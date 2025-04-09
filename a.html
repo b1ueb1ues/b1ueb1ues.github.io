@@ -76,11 +76,20 @@
         console.log(dmg1, dmg2, dmg3)
 
         let kbw_boost = (dmg2/dmg1-1)*100
+
+        let base_boost = (dmg3/dmg1-1)*100;
+        let stone_additive = kbw_boost - base_boost;
+
         let stone_boost = (dmg2/dmg3-1)*100
-        
+       
+
         let out = document.getElementById("out");
         out.innerText = "- result ----------------------------------\n";
         out.innerText += "尖刺总提升(等效增伤): "+kbw_boost.toFixed(2)+"%\n";
+        out.innerText += "\n";
+
+        out.innerText += "- verbose ----------------------------------\n";
+        out.innerText += "等效增伤刻印: "+base_boost.toFixed(2)+"%+" + stone_additive.toFixed(2) + "%\n";
         out.innerText += "能力石提升(最终乘算): "+stone_boost.toFixed(2)+"%\n";
     }
     
