@@ -1,0 +1,87 @@
+<body>
+
+尖刺重锤计算器:
+<br/><br/>
+
+
+暴击率:<br/>
+<input type="text" id="t1" value="80" size="3"></input>%
+
+<br/><br/>
+
+暴击伤害(点锤子之前):<br/>
+<input type="text" id="t2" value="200" size="3"></input>%
+
+<br/><br/>
+
+
+尖刺能力石lv:<br/>
+<input type="radio" id="r_0" name="stone" value="0" checked />
+<label for="r_0">0</label>
+<br/>
+<input type="radio" id="r_1" name="stone" value="7.5" />
+<label for="r_1">1</label>
+<br/>
+<input type="radio" id="r_2" name="stone" value="9.4" />
+<label for="r_2">2</label>
+<br/>
+<input type="radio" id="r_3" name="stone" value="13.2" />
+<label for="r_3">3</label>
+<br/>
+<input type="radio" id="r_4" name="stone" value="15" />
+<label for="r_4">4</label>
+
+<br/><br/>
+
+<input type="checkbox" id="c1">强击套</input>
+<input type="checkbox" id="c2">枪术buff</input>
+
+<br/><br/>
+
+<button type="button" onclick="click_1()"> calc! </button>
+
+<br/><br/>
+
+<div id="out"> ___ </div>
+
+</body>
+
+<script>
+    function calc(cc, cd, mcd) {
+        if (cc > 100) {
+            cc = 100;
+        }
+        let cb = cd * (1 + mcd) - 1;
+        return cc*cb + 1
+    }
+
+    function click_1() {
+        console.log("> <.");
+        let cc = 0.01 * document.getElementById("t1").value;
+        let cd = 0.01 * document.getElementById("t2").value;
+        let mcd12 = document.getElementById("c1").checked;
+        let mcd8 = document.getElementById("c2").checked;
+        let stone = 0.01 * document.querySelector('input[name="stone"]:checked').value;
+        
+        let mcd = 0;
+        if (mcd12 == true) {
+            mcd += 0.12
+        }
+        if (mcd8 == true) {
+            mcd += 0.08
+        }
+        
+        let dmg1 = calc(cc, cd, mcd);
+        let dmg2 = calc(cc, cd+0.44+stone, mcd) * 0.98;
+        let dmg3 = calc(cc, cd+0.44, mcd) * 0.98;
+        
+        console.log(dmg1, dmg2, dmg3)
+
+        let kbw_boost = (dmg2/dmg1-1)*100
+        let stone_boost = (dmg2/dmg3-1)*100
+        
+        let out = document.getElementById("out");
+        out.innerText = "尖刺总提升: "+kbw_boost.toFixed(2)+"%\n";
+        out.innerText += "能力石提升: "+stone_boost.toFixed(2)+"%\n";
+    }
+</script>

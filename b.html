@@ -1,0 +1,128 @@
+<body>
+
+钝锤计算器<br/>
+=========
+<br/><br/>
+
+钝锤lv:<br/>
+<input type="radio" id="r_1" name="keen" value="1" checked />
+<label for="r_0">1</label>
+&nbsp;
+<input type="radio" id="r_2" name="keen" value="2" />
+<label for="r_1">2</label>
+
+<br/><br/>
+
+
+暴击率(最终):<br/>
+<input type="text" id="t1" value="115" size="3"></input>%
+
+<br/><br/>
+
+暴击伤害:<br/>
+<input type="text" id="t2" value="200" size="3"></input>%
+
+<br/><br/>
+
+<input type="checkbox" id="c1">强击套</input>
+<input type="checkbox" id="c2">枪术buff</input>
+
+<br/><br/>
+
+进化伤(不点钝):<br/>
+<input type="text" id="t3" value="20" size="3"></input>
+
+<br/><br/>
+
+<input type="checkbox" id="c3" checked>奶光环(14进化伤)</input>
+
+<br/><br/>
+
+
+<button type="button" onclick="click_1()"> calc! </button>
+
+<br/><br/>
+
+<div id="out"> ___ </div>
+
+</body>
+
+<script>
+    function calc(cc, cd, mcd) {
+        if (cc > 100) {
+            cc = 100;
+        }
+        let cb = cd * (1 + mcd) - 1;
+        return cc*cb + 1
+    }
+
+    function click_1() {
+        console.log("> <.");
+        let cc = 0.01 * document.getElementById("t1").value;
+        let cd = 0.01 * document.getElementById("t2").value;
+        let mcd = 0;
+        let mcd12 = document.getElementById("c1").checked;
+        let mcd8 = document.getElementById("c2").checked;
+        let edmg = 0.01 * document.getElementById("t3").value;
+        let edmg14 = document.getElementById("c3").checked;
+        let keenlv2 = document.getElementById("r_2").checked;
+        
+        if (mcd12 == true) {
+            mcd += 0.12;
+        }
+        if (mcd8 == true) {
+            mcd += 0.08;
+        }
+        if (edmg14 == true) {
+            edmg += 0.14;
+        }
+        
+        
+        let keen = 0
+        if (keenlv2==true) {
+            keen += 0.15
+        } else {
+            keen += 0.075
+        }
+        if (cc > 0.8) {
+            if (keenlv2==true) {
+                keen += (cc-0.8) * 1.4
+                if (keen > 0.7) {
+                    keen = 0.7
+                }
+            } else {
+                keen += (cc-0.8) * 1.2
+                if (keen > 0.5) {
+                    keen = 0.5
+                }
+            }
+        }
+
+        let dmg0 = calc(cc, cd, mcd) * (1+edmg);
+        let dmg1 = 1;
+        let dmg_debuff = 0;
+        let dmg2 = calc(cc, cd, mcd) * (1+edmg+0.1);
+        if (cc > 0.8) {
+            dmg1 = calc(0.8, cd, mcd) * (1+edmg+keen)
+            dmg_tmp = calc(0.8, cd, mcd) * (1+edmg)
+            dmg_debuff = (dmg_tmp/dmg0) *100 - 100
+        } else {
+            dmg1 = calc(cc, cd, mcd) * (1+edmg+keen)
+        }
+        
+        let keen_edmg = keen * 100
+        let keen_boost = dmg1/dmg0*100 - 100
+        let edmg10_boost = dmg2/dmg0*100 - 100
+        
+        let e_edmg = (dmg1/dmg0-1) * (1+edmg) * 100
+        
+        let out = document.getElementById("out");
+        out.innerText = "钝锤等效总增伤: "+keen_boost.toFixed(2)+"%\n"
+        out.innerText += "\n";
+        out.innerText += "钝锤转化"+keen_edmg.toFixed(1)+"进化伤\n";
+        out.innerText += "钝锤暴击损失伤害: "+dmg_debuff.toFixed(2)+"%\n";
+        out.innerText += "\n";
+        out.innerText += "钝锤等效进化:"+e_edmg.toFixed(1)+"\n";
+        out.innerText += "10进化等效增伤: "+edmg10_boost.toFixed(2)+"%\n";
+    }
+</script>
