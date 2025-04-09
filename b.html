@@ -1,7 +1,7 @@
 <body>
 
-钝锤计算器<br/>
-=========
+厚钝荆棘计算器<br/>
+=============
 <br/><br/>
 
 钝锤lv:<br/>
@@ -14,7 +14,7 @@
 <br/><br/>
 
 
-暴击率(最终):<br/>
+暴击率:<br/>
 <input onchange="click_1()" type="text" id="t1" value="115" size="3"></input>%
 
 <br/><br/>
@@ -94,23 +94,23 @@
         }
 
         let crit_coef = calc(cc, cd, mcd)
-        let dmg0 = crit_coef * (1+edmg);
-        let dmg1 = 1;
+        let dmg_base = crit_coef * (1+edmg);
+        let dmg_keen = 1;
         let dmg_debuff = 0;
-        let dmg2 = crit_coef * (1+edmg+0.1);
+        let dmg_e10 = crit_coef * (1+edmg+0.1);
         if (cc > 0.8) {
             let crit_limit = calc(0.8, cd, mcd)
-            dmg1 = crit_limit * (1+edmg+keen);
+            dmg_keen = crit_limit * (1+edmg+keen);
             dmg_debuff = (1-crit_limit/crit_coef)*100;
         } else {
-            dmg1 = crit_coef * (1+edmg+keen);
+            dmg_keen = crit_coef * (1+edmg+keen);
         }
         
         let keen_edmg = keen * 100;
-        let keen_boost = dmg1/dmg0*100 - 100;
-        let edmg10_boost = dmg2/dmg0*100 - 100;
+        let keen_boost = dmg_keen/dmg_base*100 - 100;
+        let edmg10_boost = dmg_e10/dmg_base*100 - 100;
         
-        let e_edmg = (dmg1/dmg0-1) * (1+edmg) * 100;
+        let e_edmg = (dmg_keen/dmg_base-1) * (1+edmg) * 100;
         
         console.log("进化:", edmg);
         console.log("暴击增伤:", calc(cc, cd, mcd));

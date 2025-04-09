@@ -69,18 +69,20 @@
             mcd += 0.08
         }
         
-        let dmg1 = calc(cc, cd, mcd);
-        let dmg2 = calc(cc, cd+0.44+stone, mcd) * 0.98;
-        let dmg3 = calc(cc, cd+0.44, mcd) * 0.98;
+        let dmg_base = calc(cc, cd, mcd);
+        let dmg_keen = calc(cc, cd+0.44, mcd) * 0.98;
+        let dmg_keen_stone = calc(cc, cd+0.44+stone, mcd) * 0.98;
         
-        console.log(dmg1, dmg2, dmg3)
+        console.log("no keen:", dmg_base);
+        console.log("keen:", dmg_keen);
+        console.log("keen+stone:", dmg_keen_stone);
 
-        let kbw_boost = (dmg2/dmg1-1)*100
+        let kbw_boost = (dmg_keen_stone/dmg_base-1)*100
 
-        let base_boost = (dmg3/dmg1-1)*100;
+        let base_boost = (dmg_keen/dmg_base-1)*100;
         let stone_additive = kbw_boost - base_boost;
 
-        let stone_boost = (dmg2/dmg3-1)*100
+        let stone_boost = (dmg_keen_stone/dmg_keen-1)*100
        
 
         let out = document.getElementById("out");
