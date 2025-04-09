@@ -5,41 +5,36 @@
 <br/><br/>
 
 钝锤lv:<br/>
-<input type="radio" id="r_1" name="keen" value="1" checked />
+<input onchange="click_1()" type="radio" id="r_1" name="keen" value="1" checked />
 <label for="r_0">1</label>
 &nbsp;
-<input type="radio" id="r_2" name="keen" value="2" />
+<input onchange="click_1()" type="radio" id="r_2" name="keen" value="2" />
 <label for="r_1">2</label>
 
 <br/><br/>
 
 
 暴击率(最终):<br/>
-<input type="text" id="t1" value="115" size="3"></input>%
+<input onchange="click_1()" type="text" id="t1" value="115" size="3"></input>%
 
 <br/><br/>
 
 暴击伤害:<br/>
-<input type="text" id="t2" value="200" size="3"></input>%
+<input onchange="click_1()" type="text" id="t2" value="200" size="3"></input>%
 
 <br/><br/>
 
-<input type="checkbox" id="c1">强击套</input>
-<input type="checkbox" id="c2">枪术buff</input>
+<input onchange="click_1()" type="checkbox" id="c1">强击套</input>
+<input onchange="click_1()" type="checkbox" id="c2">枪术buff</input>
 
 <br/><br/>
 
 进化伤(不点钝):<br/>
-<input type="text" id="t3" value="20" size="3"></input>
+<input onchange="click_1()" type="text" id="t3" value="20" size="3"></input>
 
 <br/><br/>
 
-<input type="checkbox" id="c3" checked>奶光环(14进化伤)</input>
-
-<br/><br/>
-
-
-<button type="button" onclick="click_1()"> calc! </button>
+<input onchange="click_1()" type="checkbox" id="c3" checked>奶光环(14进化伤)</input>
 
 <br/><br/>
 
@@ -49,8 +44,8 @@
 
 <script>
     function calc(cc, cd, mcd) {
-        if (cc > 100) {
-            cc = 100;
+        if (cc > 1) {
+            cc = 1;
         }
         let cb = cd * (1 + mcd) - 1;
         return cc*cb + 1
@@ -98,31 +93,45 @@
             }
         }
 
-        let dmg0 = calc(cc, cd, mcd) * (1+edmg);
+        let crit_coef = calc(cc, cd, mcd)
+        let dmg0 = crit_coef * (1+edmg);
         let dmg1 = 1;
         let dmg_debuff = 0;
-        let dmg2 = calc(cc, cd, mcd) * (1+edmg+0.1);
+        let dmg2 = crit_coef * (1+edmg+0.1);
         if (cc > 0.8) {
-            dmg1 = calc(0.8, cd, mcd) * (1+edmg+keen)
-            dmg_tmp = calc(0.8, cd, mcd) * (1+edmg)
-            dmg_debuff = (dmg_tmp/dmg0) *100 - 100
+            let crit_limit = calc(0.8, cd, mcd)
+            dmg1 = crit_limit * (1+edmg+keen);
+            dmg_debuff = (1-crit_limit/crit_coef)*100;
         } else {
-            dmg1 = calc(cc, cd, mcd) * (1+edmg+keen)
+            dmg1 = crit_coef * (1+edmg+keen);
         }
         
-        let keen_edmg = keen * 100
-        let keen_boost = dmg1/dmg0*100 - 100
-        let edmg10_boost = dmg2/dmg0*100 - 100
+        let keen_edmg = keen * 100;
+        let keen_boost = dmg1/dmg0*100 - 100;
+        let edmg10_boost = dmg2/dmg0*100 - 100;
         
-        let e_edmg = (dmg1/dmg0-1) * (1+edmg) * 100
+        let e_edmg = (dmg1/dmg0-1) * (1+edmg) * 100;
+        
+        console.log("进化:", edmg);
+        console.log("暴击增伤:", calc(cc, cd, mcd));
+        if (cc>0.8) {
+            console.log("80暴击增伤:", calc(0.8, cd, mcd));
+        }
         
         let out = document.getElementById("out");
-        out.innerText = "钝锤等效总增伤: "+keen_boost.toFixed(2)+"%\n"
-        out.innerText += "\n";
-        out.innerText += "钝锤转化"+keen_edmg.toFixed(1)+"进化伤\n";
-        out.innerText += "钝锤暴击损失伤害: "+dmg_debuff.toFixed(2)+"%\n";
+        out.innerText = "- result ----------------------------------\n";
+        out.innerText += "钝锤等效总增伤: "+keen_boost.toFixed(2)+"%\n";
         out.innerText += "\n";
         out.innerText += "钝锤等效进化:"+e_edmg.toFixed(1)+"\n";
         out.innerText += "10进化等效增伤: "+edmg10_boost.toFixed(2)+"%\n";
+        out.innerText += "\n- verbose ------------------------------\n";
+        out.innerText += "钝锤转化"+keen_edmg.toFixed(1)+"进化伤\n";
+        out.innerText += "钝锤暴击损失伤害: "+dmg_debuff.toFixed(2)+"%\n";
+        if (cc > 1) {
+            let s = (cc-1)*2800
+            out.innerText += "暴击率超过100%的部分等效属性: "+ s.toFixed(0)+"点\n";
+        }
     }
+    
+    click_1();
 </script>

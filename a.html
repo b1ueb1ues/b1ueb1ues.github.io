@@ -1,46 +1,44 @@
 <body>
 
-尖刺重锤计算器:
+尖刺重锤计算器<br/>
+=============
 <br/><br/>
 
 
 暴击率:<br/>
-<input type="text" id="t1" value="80" size="3"></input>%
+<input onchange="click_1()" ="text" id="t1" value="80" size="3"></input>%
 
 <br/><br/>
 
 暴击伤害(点锤子之前):<br/>
-<input type="text" id="t2" value="200" size="3"></input>%
+<input onchange="click_1()" type="text" id="t2" value="200" size="3"></input>%
 
 <br/><br/>
 
 
 尖刺能力石lv:<br/>
-<input type="radio" id="r_0" name="stone" value="0" checked />
+<input onchange="click_1()" type="radio" id="r_0" name="stone" value="0" checked />
 <label for="r_0">0</label>
 <br/>
-<input type="radio" id="r_1" name="stone" value="7.5" />
+<input onchange="click_1()" type="radio" id="r_1" name="stone" value="7.5" />
 <label for="r_1">1</label>
 <br/>
-<input type="radio" id="r_2" name="stone" value="9.4" />
+<input onchange="click_1()" type="radio" id="r_2" name="stone" value="9.4" />
 <label for="r_2">2</label>
 <br/>
-<input type="radio" id="r_3" name="stone" value="13.2" />
+<input onchange="click_1()" type="radio" id="r_3" name="stone" value="13.2" />
 <label for="r_3">3</label>
 <br/>
-<input type="radio" id="r_4" name="stone" value="15" />
+<input onchange="click_1()" type="radio" id="r_4" name="stone" value="15" />
 <label for="r_4">4</label>
 
 <br/><br/>
 
-<input type="checkbox" id="c1">强击套</input>
-<input type="checkbox" id="c2">枪术buff</input>
+<input onchange="click_1()" type="checkbox" id="c1">强击套</input>
+<input onchange="click_1()" type="checkbox" id="c2">枪术buff</input>
 
 <br/><br/>
 
-<button type="button" onclick="click_1()"> calc! </button>
-
-<br/><br/>
 
 <div id="out"> ___ </div>
 
@@ -48,8 +46,8 @@
 
 <script>
     function calc(cc, cd, mcd) {
-        if (cc > 100) {
-            cc = 100;
+        if (cc > 1) {
+            cc = 1;
         }
         let cb = cd * (1 + mcd) - 1;
         return cc*cb + 1
@@ -81,7 +79,10 @@
         let stone_boost = (dmg2/dmg3-1)*100
         
         let out = document.getElementById("out");
-        out.innerText = "尖刺总提升: "+kbw_boost.toFixed(2)+"%\n";
+        out.innerText = "- result ----------------------------------\n";
+        out.innerText += "尖刺总提升: "+kbw_boost.toFixed(2)+"%\n";
         out.innerText += "能力石提升: "+stone_boost.toFixed(2)+"%\n";
     }
+    
+    click_1();
 </script>
