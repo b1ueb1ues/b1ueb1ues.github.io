@@ -51,14 +51,18 @@
             cc = 1;
         }
         let total_cd = cd * mcd
-        console.log(`最终爆伤= ${cd.toFixed(2)}*${mcd.toFixed(2)} = ${total_cd.toFixed(2)}`);
+        console.log(`最终爆伤 = ${cd.toFixed(2)}*${mcd.toFixed(2)} = ${total_cd.toFixed(2)}`);
         let result = cc*(total_cd-1) + 1;
-        console.log(`暴击增伤期望= ${cc.toFixed(2)} * (${total_cd.toFixed(2)}-1) + 1 = ${result.toFixed(4)}`);
+        console.log(`暴击增伤期望 = ${cc.toFixed(2)} * (${total_cd.toFixed(2)}-1) + 1 = ${result.toFixed(4)}`);
         return result;
     }
 
     function click_1() {
-        console.log("\n> <.");
+        console.log("\n\n");
+        console.log("> <.  > <.  > <.");
+        console.log("> <.  > <.  > <.");
+        console.log("> <.  > <.  > <.");
+        console.log("\n> <. 启动!");
 
         let cc = 0.01 * document.getElementById("t1").value;
         let cd = 0.01 * document.getElementById("t2").value;
@@ -104,9 +108,9 @@
         console.log(`计算尖刺负面 ${dmg_keen_stone_no_debuff.toFixed(4)} * 0.98 = ${dmg_keen_stone.toFixed(4)}`);
         
         console.log(`------------------------`);
-        console.log("no keen:", dmg_base);
-        console.log("keen:", dmg_keen);
-        console.log("keen+stone:", dmg_keen_stone);
+        console.log("无尖刺:", dmg_base.toFixed(4));
+        console.log("尖刺无石:", dmg_keen.toFixed(4));
+        console.log("尖刺+石:", dmg_keen_stone.toFixed(4));
 
         let kbw_boost = (dmg_keen_stone/dmg_base-1);
         console.log(`尖刺总提升(等效增伤): ${dmg_keen_stone.toFixed(4)}/${dmg_base.toFixed(4)} - 1 = ${kbw_boost.toFixed(4)}`);
