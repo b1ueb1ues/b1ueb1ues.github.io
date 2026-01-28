@@ -128,19 +128,19 @@
             if (keenlv2==true) {
                 let extern_cc = cc-0.8;
                 console.log(`钝锤降低暴率: ${extern_cc.toFixed(4)}`);
-                keen = keen_base + extern_cc * 1.4
-                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.4 = ${keen.toFixed(4)}`);
-                if (keen > 0.7) {
-                    keen = 0.7;
+                keen = keen_base + extern_cc * 1.5
+                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.5 = ${keen.toFixed(4)}`);
+                if (keen > 0.75) {
+                    keen = 0.75;
                     console.log(`钝锤上限!: ${keen}`);
                 }
             } else {
                 let extern_cc = cc-0.8;
                 console.log(`钝锤降低暴率: ${cc.toFixed(4)} - 0.8 = ${extern_cc.toFixed(4)}`);
-                keen = keen_base + extern_cc * 1.2
-                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.2 = ${keen.toFixed(4)}`);
-                if (keen > 0.5) {
-                    keen = 0.5;
+                keen = keen_base + extern_cc * 1.25
+                console.log(`钝锤暴率转进化: ${keen_base} + ${extern_cc.toFixed(4)} * 1.25 = ${keen.toFixed(4)}`);
+                if (keen > 0.525) {
+                    keen = 0.525;
                     console.log(`钝锤上限!: ${keen}`);
                 }
             }
@@ -206,5 +206,6 @@
     
     click_1();
 </script>
+
 
 
